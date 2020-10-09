@@ -28,9 +28,9 @@
 /* COLORS */
 
 :root {
-  --clr-logo: rgb(58, 58, 58);
-  --clr-headline: rgb(58, 58, 58);
-  --clr-body: rgb(58, 58, 58);
+  --clr-logo: #282828;
+  --clr-headline: #0A0A0A;
+  --clr-body: #AOAOAO;
   --clr-email: rgb(58, 58, 58);
   --clr-link: rgb(58, 58, 58);
   --clr-br-light: #fff;
