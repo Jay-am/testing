@@ -1,9 +1,173 @@
+/* FONT FAMILIES */
+
+:root {
+  --ff-logo: "Roboto", sans-serif;
+  --ff-headlines: "Roboto", sans-serif;
+  --ff-body: "Roboto", sans-serif;
+}
+
+/* FONT SIZE */
+
+:root {
+  --fs-logo: 2rem;
+  --fs-headlines: 2rem;
+  --fs-body: 1.25rem;
+}
+
+/* FONT WEIGHTS */
+
+:root {
+  --fw-logo: 200;
+  --fw-headlines: 200;
+  --fw-body: 300;
+}
+
+/* COLORS */
+
+:root {
+  --clr-logo: rgb(58, 58, 58);
+  --clr-headline: rgb(58, 58, 58);
+  --clr-body: rgb(58, 58, 58);
+  --clr-email: rgb(58, 58, 58);
+  --clr-link: rgb(58, 58, 58);
+  --clr-br-light: #fff;
+  --clr-gradient: rgb(58, 58, 58);
+}
+
+/* GRADIENTS */
+
+:root {
+  --linear-gradient: rgb(58, 58, 58);
+  --glow-gradient: rgb(58, 58, 58);
+}
+
+/* LINEHIGHTS */
+
+:root {
+  --lh-headline: 1;
+  --lh-body: 1.5;
+}
+
+/* PADDINGS */
+
+:root {
+  --pd-1: 1em;
+  --pd-2: 1.5em;
+}
+
+/* MARGINS */
+
+:root {
+  --mg-1: 1em;
+  --mg-2: 1.5em;
+}
+
+/* GENERAL */
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* *,
+html {
+  padding: 0;
+  margin: 0;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--clr-br-light);
+  padding: 0;
+  margin: 0;
+  font-family: var(--ff-body);
+  font-weight: var(--fw-body);
+  line-height: var(--lh-body);
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  display: inline-block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(58, 58, 58);
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(3rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
+}
+
+h4,
+p,
+div,
+ul,
+li,
+article {
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
+  color: #94979b;
+  letter-spacing: 0.05rem;
+  margin: 0;
+}
+
+p {
+  line-height: 160%;
+}
+
+/* LAYOUT */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* GENERAL LINKS */
 
 .email {
-  /* color: blue; */
+  /* color: var(--clr-email); */
 }
 
 .link {
-  /* color: blue; */
+  /* color: var(--clr-link); */
 }
