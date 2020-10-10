@@ -13,6 +13,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap");
 /* font-family: "Bai Jamjuree", sans-serif; */
 
+/* VARIABLE FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+/* font-family: "Jura", sans-serif; */
+
 :root {
   --ff-logo: "Roboto", sans-serif;
   --ff-headlines: "Roboto", sans-serif;
