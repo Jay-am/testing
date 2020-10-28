@@ -64,9 +64,9 @@
 --clr-br-nav: rgb(255,255,255);
 
 --clr-br-footer: #79CDB9;
---clr-br-footer: hsl(166, 46%, 64%);
+/* --clr-br-footer: hsl(166, 46%, 64%);
 --clr-br-footer: rgb(121,205,185);
---clr-br-footer: rgb(97,165,149);
+--clr-br-footer: rgb(97,165,149); */
 
 }
 
@@ -272,7 +272,7 @@ p {
   background: var(--clr-br-light);
 }
 
-.footer__list {
+.footer__list li {
   margin: 0;
   padding: 0;
   list-style: none;
