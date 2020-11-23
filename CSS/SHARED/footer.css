@@ -9,8 +9,6 @@
 }
 
 .footer__list {
-  margin: 0;
-  padding: 0;
   list-style: none;
   font-size: var(--fs-footer);
 }
@@ -20,12 +18,12 @@
   font-weight: var(--fw-semi-bold);
 }
 
-.footer__link {
+.footer__list a {
   color: var(--clr-footer-link);
-  font-weight: var(--fw-regular);
+  font-weight: var(--fw-light);
 }
 
-.footer__link:hover {
+.footer__list a:hover {
   color: var(--clr-footer-link-hover);
   transition: ease-in-out 600ms;
 }
