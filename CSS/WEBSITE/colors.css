@@ -1,0 +1,91 @@
+/* FONTS */
+
+:root {
+
+  --clr-logo: var(--clr-neutral-800);
+  --clr-headline: var(--clr-neutral-800);
+  --clr-body: var(--clr-neutral-500);
+  --clr-number: var(--clr-neutral-0);
+
+  --clr-nav: var(--clr-neutral-500);
+  --clr-nav-hover: var(--clr-green-500);
+  --clr-nav-active: var(--clr-green-500);
+
+  --clr-footer: var(--clr-green-900);
+  --clr-footer-link: var(--clr-neutral-0);
+  --clr-footer-link-hover: var(--clr-yellow-500);
+  --clr-footer-link-active: var(--clr-yellow-500);
+  
+  --clr-email: var(--clr-yellow-500);
+  --clr-email-hover: var(--clr-yellow-900);
+
+  --clr-code: var(--clr-yellow-500);
+  --clr-code-hover: var(--clr-yellow-900);
+
+  --clr-link: var(--clr-blue-500);
+  --clr-link-hover: var(--clr-blue-800);
+  --clr-link-focus: var(--clr-blue-800);
+  --clr-link-active: var(--clr-blue-800);
+  --clr-link-visited: var(--clr-purple-800);
+ 
+}
+
+
+/* GRADIENTS */
+
+:root { 
+  --clr-horizontal-gradient: rgb(58, 58, 58);
+  --clr-vertical-gradient: rgb(58, 58, 58);
+  --clr-glow-gradient: rgb(58, 58, 58);
+}
+
+
+/* BUTTONS */
+
+:root {
+
+  --clr-fg-button-primary: var(--clr-neutral-0);
+
+  --clr-bg-button-primary-yellow: var(--clr-yellow-500);
+  --clr-bg-button-primary-purple: var(--clr-purple-500);
+  --clr-bg-button-primary-green: var(--clr-green-500);
+
+  --clr-br-button-primary: none;
+
+  
+  --clr-fg-button-secondary-yellow: var(--clr-yellow-500);
+  --clr-fg-button-secondary-purple: var(--clr-purple-500);
+  --clr-fg-button-secondary-green: var(--clr-green-500);
+  --clr-fg-button-secondary-red: var(--clr-red-500);
+
+  --clr-bg-button-secondary: none;
+
+  --clr-br-button-secondary-yellow: var(--clr-yellow-500);
+  --clr-br-button-secondary-purple: var(--clr-purple-500);
+  --clr-br-button-secondary-green: var(--clr-green-500);
+
+
+  --clr-fg-button-tertiary: var(--clr-red-500);
+
+  --clr-bg-button-tertiary: none;
+
+  --clr-br-button-tertiary: var(--clr-red-500);
+
+ 
+}
+
+
+/* BACKGROUNDS */
+
+:root {
+
+  --clr-bg-nav: var(--clr-neutral-0);
+  --clr-bg-footer: var(--clr-green-600);
+
+  --clr-bg-accent-purple: var(--clr-purple-500);
+  --clr-bg-accent-green: var(--clr-green-500);
+  --clr-bg-accent-turquoise: var(--clr-turquoise-500);
+  --clr-bg-accent-pink: var(--clr-pink-500);
+  --clr-bg-accent-blue: var(--clr-blue-500);
+  
+}
