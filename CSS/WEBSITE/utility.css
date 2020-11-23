@@ -1,9 +1,8 @@
 /* GENERAL LAYOUT */
 
 .container {
-  width: 90%;
-  max-width: 1200px;
-  max-width: 75em;
+  width: 98%;
+  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }

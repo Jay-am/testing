@@ -31,6 +31,10 @@ h6,
   text-transform: uppercase;
 }
 
+section {
+  margin-top: 5em;
+}
+
 
 /* NUMBERS */
 
@@ -82,4 +86,20 @@ a:visited {
 .code {
   color: var(--clr-code);
   font-weight: var(--fw-code);
+}
+
+.small {
+  font-size: var(--fs-small);
+}
+
+.legal {
+  font-size: var(--fs-legal);
+}
+
+.social {
+  font-size: var(--fs-social);
+}
+
+.copywright {
+  font-size: var(--fs-copywright);
 }
