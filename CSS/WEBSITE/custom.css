@@ -1,0 +1,36 @@
+.body {
+background-color: #dde1e7;
+font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1 {
+  font-size: 192px;
+  color: #636363;
+}
+
+h2 {
+  font-size: 64px;
+  color: #636363;
+}
+
+h3 {
+  font-size: 24px;
+  color: #636363;
+}
+
+h4 {
+  font-size: 20px;
+  color: #636363;
+}
+
+p {
+  font-size: 18px;
+  color: #AAAAAA;
+}
+
+
+.ampersand {
+  color: #dde1e7;
+  font-size: 650px;
+  box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}

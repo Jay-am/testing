@@ -52,8 +52,7 @@
     -.75rem -.75rem 1.75rem rgba(#fff,.07),
     .75rem .75rem 1.75rem rgba(#000,.12),
     inset 8rem 8rem 8rem rgba(#000,.05),
-    inset -8rem -8rem 8rem rgba(#fff,.05)
-  ;
+    inset -8rem -8rem 8rem rgba(#fff,.05);
 
   /* background: #dde1e7; */
   --shadow-button-neumorphism-6: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
