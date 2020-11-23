@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* *,
+html {
+  padding: var(--pd-0);
+  margin: var(--mg-0);
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+dl,
+dt,
+dd,
+article,
+figure,
+body {
+  margin: var(--mg-0);
+  padding: var(--pd-0);
+}
+
+ul [class],
+ol [class] {
+  margin: var(--mg-0);
+  padding: var(--mg-0);
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
