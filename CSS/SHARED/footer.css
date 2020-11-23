@@ -11,6 +11,7 @@
 .footer__list {
   list-style: none;
   font-size: var(--fs-footer);
+  display: flex;
 }
 
 .footer__header {
