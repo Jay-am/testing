@@ -1,0 +1,97 @@
+/* GENERAL LAYOUT */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  max-width: 75em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+section {
+  padding: var(--pd-section);
+}
+
+@media (min-width: 40em) {
+  section {
+    padding: calc(var(--pd-section) * 2);
+  }
+}
+
+
+/* CONTENT SPACER */
+
+.content-spacer > * + * {
+  margin-top: var(--content-space, var(--spacer));
+}
+
+.content-spacer--large {
+  --content-space: 3rem;
+}
+
+
+/* FLEX */
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  /* gap: var(--spacer); */
+}
+
+.flex > * {
+  flex-basis: 100%;
+}
+
+.col-16 {
+  flex-basis: 16.66%;
+}
+
+.col-20 {
+  flex-basis: 20%;
+}
+
+.col-25 {
+  flex-basis: 25%;
+}
+
+.col-33 {
+  flex-basis: 33.33%;
+}
+
+/* As long as gap is not working in every browser this is a good way around */
+.flex > * + * {
+  margin: calc(var(--spacer) * 2) 0 0 0;
+}
+
+@media (min-width: 40em) {
+  .flex {
+    flex-direction: row;
+  }
+
+  /* As long as gap is not working in every browser this is a good way around */
+  .flex > * + *  {
+    margin: 0 0 0 var(--spacer);
+  }
+}
+
+
+/* BACKGROUNDS */
+
+[class*="bg-"] {
+  color: var(--fg, rgb(85, 255, 0));
+  background: var(--bg, rgb(85, 255, 0));
+}
+
+.bg-dark {
+  --fg: var(--clr-light);
+  --bg: var(--clr-bg-dark);
+}
+
+.bg-accent {
+  --fg: var(--clr-light);
+  --bg: var(--clr-bg-accent);
+}
