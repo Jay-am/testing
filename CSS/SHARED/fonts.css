@@ -76,7 +76,7 @@
   --fs-nav: 1rem;
 
   --fs-footer: 1rem;
-  --fs-social: 6rem;
+  --fs-social: 5rem;
   --fs-legal: 0.75rem;
   --fs-copywright: 0.5rem;
 }
@@ -111,13 +111,13 @@
 
   --fs-nav: 1rem;
   --fs-footer: 1rem;
-  --fs-social: 6rem;
+  --fs-social: 4rem;
   --fs-legal: 0.75rem;
   --fs-copywright: 0.5rem;
 }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 830px) {
   /* FONT SIZE */
 
 :root {
@@ -143,7 +143,7 @@
 
   --fs-nav: 1rem;
   --fs-footer: 1rem;
-  --fs-social: 6rem;
+  --fs-social: 5rem;
   --fs-legal: 0.75rem;
   --fs-copywright: 0.5rem;
 }
@@ -176,7 +176,7 @@
 
   --fs-nav: 1.125rem;
   --fs-footer: 1.125rem;
-  --fs-social: 3rem;
+  --fs-social: 6rem;
   --fs-legal: 0.85rem;
   --fs-copywright: 0.75rem;
 }
