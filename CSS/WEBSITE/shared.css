@@ -38,7 +38,6 @@ h6,
   font-family: var(--ff-number);
   font-weight: var(--fw-regular);
   font-size: var( --fs-number);
-  /* font-size: var( --fs-number-desktop); */
   color: var(--clr-number);
 }
 
