@@ -3,7 +3,8 @@
 .footer {
   flex-shrink: 0;
   display: flex;
-  background: var(--clr-bg-light);
+  background: var(--clr-bg-footer);
+  padding-top: 5rem;
 }
 
 .footer__list {
@@ -53,9 +54,13 @@
 
 /* SUB-FOOTER */
 
-.sub-footer {}
+.sub-footer {
+  
+}
 
-.sub-footer__list {}
+.sub-footer__list {
+  padding-bottom: 5rem;
+}
 
 .legal {
   font-size: var(--fs-legal);
@@ -76,8 +81,7 @@
 @media (min-width: 900px) {
 
   .container {
-    width: 95%;
-    margin: 0 auto;
+    width: 98%;
   }
 
   .row {
@@ -95,15 +99,10 @@
 @media (min-width: 1200px) {
 
   .container {
-    width: 95%;
-    margin: 0 auto;
+    width: 98%;
   }
 }
 
 @media (min-width: 1800px) {
 
-  .container {
-    width: 70%;
-    margin: 0 auto;
-  }
 }

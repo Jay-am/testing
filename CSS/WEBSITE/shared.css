@@ -48,10 +48,10 @@ section {
 
 /* GENERAL LINKS */
 
-a {
+/* a {
   display: inline-block;
   text-decoration: none;
-  /* color: var(--clr-link); */
+  color: var(--clr-link);
 }
 
 a:hover {
@@ -68,7 +68,7 @@ a:active {
 
 a:visited {
   color: var(--clr-link-visited);
-}
+} */
 
 
 /* SPECIFIC LINKS */
@@ -102,4 +102,8 @@ a:visited {
 
 .copywright {
   font-size: var(--fs-copywright);
+}
+
+.right {
+  text-align: right;
 }
