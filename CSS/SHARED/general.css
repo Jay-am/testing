@@ -83,7 +83,3 @@ a:visited {
   color: var(--clr-code);
   font-weight: var(--fw-code);
 }
-
-.small {
-  font-size: var(--fs-small);
-}
