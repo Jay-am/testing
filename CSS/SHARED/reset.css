@@ -26,8 +26,8 @@ dd,
 article,
 figure,
 body {
-  margin: var(--mg-0);
-  padding: var(--pd-0);
+  margin: 0;
+  padding: 0;
 }
 
 ul [class],

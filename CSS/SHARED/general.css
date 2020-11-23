@@ -31,10 +31,6 @@ h6,
   text-transform: uppercase;
 }
 
-section {
-  margin-top: 5em;
-}
-
 
 /* NUMBERS */
 
@@ -48,10 +44,10 @@ section {
 
 /* GENERAL LINKS */
 
-/* a {
+a {
   display: inline-block;
   text-decoration: none;
-  color: var(--clr-link);
+  /* color: var(--clr-link); */
 }
 
 a:hover {
@@ -68,7 +64,7 @@ a:active {
 
 a:visited {
   color: var(--clr-link-visited);
-} */
+}
 
 
 /* SPECIFIC LINKS */
@@ -90,20 +86,4 @@ a:visited {
 
 .small {
   font-size: var(--fs-small);
-}
-
-.legal {
-  font-size: var(--fs-legal);
-}
-
-.social {
-  font-size: var(--fs-social);
-}
-
-.copywright {
-  font-size: var(--fs-copywright);
-}
-
-.right {
-  text-align: right;
 }

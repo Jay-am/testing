@@ -1,7 +1,6 @@
 /* GENERAL LAYOUT */
 
 .container {
-  width: 98%;
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
@@ -15,7 +14,7 @@ section {
   padding: var(--pd-section);
 }
 
-@media (min-width: 40em) {
+@media (min-width: 600px) {
   section {
     padding: calc(var(--pd-section) * 2);
   }
@@ -31,6 +30,14 @@ section {
 .content-spacer--large {
   --content-space: 3rem;
 }
+
+
+/* SETTINGS */
+
+.right {
+  text-align: right;
+}
+
 
 
 /* FLEX */

@@ -1,6 +1,4 @@
-.flex {
-  justify-content: space-around;
-}
+
 .ampersand {
   /* position: relative; */
   /* box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692); */
@@ -10,8 +8,8 @@
 .ampersand:before {
   content: '&';
   /* position: absolute; */
-  right: 0;
-  top: 0;
+  /* right: 0;
+  top: 0; */
   color: #dde1e7;
   font-size: 650px;
   text-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
