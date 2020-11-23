@@ -6,13 +6,16 @@ body {
 h1 {
   font-size: 2.5rem;
   text-transform: uppercase;
-  color: #00a1ab;
   font-weight: 900;
   margin-top: 3em;
   margin-bottom: 0;
 }
 
-.subhead {
+.text-accent {
+  color: #00a1ab;
+}
+
+.fs-500 {
   font-size: 1.3125rem;
   margin-top: 0;
 }
@@ -23,15 +26,18 @@ h1 {
 }
 
 .plan {
-  color: #4E4E4E;
-  background: #E5E3E8;
   width: 200px;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
 }
 
-.plan-super {
+.plan--light {
+  color: #4e4e4e;
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+}
+
+.plan--accent {
   color: #fff;
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
 }
@@ -42,25 +48,16 @@ h1 {
 }
 
 .plan__price {
-  color: #00a1ab;
   font-size: 3rem;
+  line-height: 1;
   font-weight: 900;
   margin: 0;
 }
 
 .plan__price span {
-  color: #00a1ab;
   display: block;
   font-size: 1.5625rem;
   font-weight: 300;
-}
-
-.plan__price-super {
-  color: #fff;
-}
-
-.plan__price-super span {
-  color: #fff;
 }
 
 .plan__description {
@@ -68,9 +65,7 @@ h1 {
   line-height: 1.5;
 }
 
-.plan__button {
-  background:#4e4e4e;
-  color: white;
+.button {
   text-decoration: none;
   padding: 0.5em 0.75em;
   border-radius: 0.25em;
@@ -78,8 +73,13 @@ h1 {
   font-weight: 700;
 }
 
-.plan__button-super {
+.button--light {
   background: white;
   color: #4e4e4e;
+}
+
+.button--dark {
+  color: white;
+  background: #4e4e4e;
 }
 

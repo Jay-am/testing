@@ -1,0 +1,131 @@
+/* BUTTON OUTER SHADOW */
+
+:root {
+
+  --shadow-button-xl: 0 4px 6px rgba(0,0,0,0.7), 0 5px 15px rgba(0,0,0,0.1);
+  --shadow-button-l: 0 4px 6px rgba(0,0,0,0.7), 0 5px 15px rgba(0,0,0,0.1);
+  --shadow-button-m: 0 4px 6px rgba(0,0,0,0.7), 0 5px 15px rgba(0,0,0,0.1);
+  --shadow-button-s: 0 4px 6px rgba(0,0,0,0.7), 0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+/* BUTTON PUSHED */
+
+:root {
+
+  --shadow-button-pushed: 0 1px 3px rgba(0,0,0,0.2);
+
+}
+
+
+/* BUTTON INNER SHADOW */
+
+:root {
+
+  --shadow-button-inset: inset 0 -2px 0 rgba(0,0,0,0.2), inset 0 2px 2px rgba(0,0,0,0.2);
+
+}
+
+
+/* NEUMORPHISM */
+
+:root {
+
+   /* background: #EOE5EC; */
+  --shadow-button-neumorphism-s: 5px 5px 10px rgba(163, 177, 198, 0.6), -5px -5px 10px rgba(255, 255, 255, 0.5);
+  --shadow-button-neumorphism-m: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+
+  /* background: #dde1e7; */
+  --shadow-button-neumorphism-1: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
+  --shadow-button-neumorphism-2: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+  
+  /* background-color: #e0e5ec; */
+  --shadow-button-neumorphism-3: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  --shadow-button-neumorphism-4: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+
+  /* backdrop-filter: blur(1.5rem);
+  border: 1px solid rgba(#fff,.2); */
+  --shadow-button-neumorphism-5:
+    -.25rem -.25rem .5rem rgba(#fff,.07),
+    .25rem .25rem .5rem rgba(#000,.12),
+    -.75rem -.75rem 1.75rem rgba(#fff,.07),
+    .75rem .75rem 1.75rem rgba(#000,.12),
+    inset 8rem 8rem 8rem rgba(#000,.05),
+    inset -8rem -8rem 8rem rgba(#fff,.05)
+  ;
+
+  /* background: #dde1e7; */
+  --shadow-button-neumorphism-6: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+  --shadow-button-neumorphism-7: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+  --shadow-button-neumorphism-8: inset 2px 2px 5px #babecc, inset -1px -1px 2px #ffffff73;
+
+  /* background: #eeeeee; */
+  --rounded: 10px;
+  --shadow-outer: 2px 2px 2px rgba(0,0,0,0.2), -2px -2px 2px rgba(255,255,255,.75);
+  --shadow-inner: inset 2px 2px 2px rgba(0,0,0,0.2), inset -2px -2px 2px rgba(255,255,255,.75);
+
+  --background: #e0e5ec;
+  --shadow-button-neumorphism-9: 8px 8px 16px rgba(165, 177, 198, 0.8), -8px -8px 16px rgba(255, 255, 255, 0.8);
+
+  /* $light-grey: #fafbff;
+  $middle-grey: #ecedf1;
+  $strong-grey: #a6abbd;
+  $dark-grey: #616062;
+  background-color: $middle-grey;
+  color: $dark-grey; */
+  --shadow-button-neumorphism-10: -0.5em -0.5em 1em $light-grey, 0.5em 0.5em 1em $strong-grey;
+
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
+
+  background-color: #cdd6d8;
+  box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.25),
+  -6px -6px 12px 0 rgba(255, 255, 255, 0.55);
+  background: #eaeaea;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+    $main-color:#ddd;
+    background:$main-color;
+    box-shadow:
+    -2px -2px 6px  rgba(255,255,255,1),
+    2px 2px 6px  rgba(0,0,0,.5) ;
+    box-shadow:
+    2px 2px 6px  rgba(255,255,255,1) inset ,
+    2px 2px 6px  rgba(0,0,0,.5) inset ;
+
+    background: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+
+
+    /* $main_color: #DEE8F2
+$text_color: #354148
+$dark_shadow: #CFDBE8
+$light_shadow: #edf2f8
+background: $main_color
+box-shadow: 4px 4px 4px $dark_shadow, 8px 8px 8px $dark_shadow, -4px -4px 4px $light_shadow, -8px -8px 15px $light_shadow
+	padding: 20px
+  box-shadow: 4px 4px 4px $dark_shadow, 8px 8px 8px $dark_shadow, -2px -2px 2px $light_shadow, -6px -6px 8px $light_shadow
+  box-shadow: 4px 4px 4px $dark_shadow, 8px 8px 8px $dark_shadow, -4px -4px 4px $light_shadow, -8px -8px 15px $light_shadow,  4px 4px 8px rgba(0,0,0,.02) inset,  -4px -4px 8px rgba(0,0,0,.02) inset */
+}
+
+
+/* SHADOW SIZES */
+
+:root {
+
+  --shadow-xs: 0 1px 3px rgba(0,0,0,0.2);
+  --shadow-s: 0 4px 6px rgba(0,0,0,0.2);
+  --shadow-m: 0 5px 15px rgba(0,0,0,0.2);
+  --shadow-l: 0 10px 24px rgba(0,0,0,0.2);
+  --shadow-xl: 0 15px 35px rgba(0,0,0,0.2);
+
+  --shadow-xs: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  --shadow-s: 0 3px 6px rgba(0,0,0,0.15), 0 2px 4px rgba(0,0,0,0.12);
+  --shadow-m: 0 10px 20px rgba(0,0,0,0.15), 0 3px 6px rgba(0,0,0,0.1);
+  --shadow-l: 0 15px 25px rgba(0,0,0,0.15), 0 5px 10px rgba(0,0,0,0.5);
+  --shadow-xl: 0 20px 40px rgba(0,0,0,0.2);
+
+}
