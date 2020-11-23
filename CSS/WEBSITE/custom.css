@@ -1,6 +1,15 @@
-
+.flex {
+  justify-content: space-around;
+}
 .ampersand {
   color: #dde1e7;
   font-size: 650px;
   box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
+
+.steps:before {
+background: pink;
+width: 560px;
+height:560px;
+border-radius: 50%;
 }
