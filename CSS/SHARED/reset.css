@@ -30,11 +30,12 @@ body {
   padding: 0;
 }
 
-ul [class],
-ol [class] {
+ul,
+ol {
   margin: var(--mg-0);
   padding: var(--mg-0);
   list-style: none;
+  font-size: var(--fs-body);
 }
 
 input,

@@ -4,16 +4,6 @@ h2 {
   display: none;
 }
 
-.marketing__list {
-  list-style: none;
-  padding: 0;
-  font-size: var(--fs-body);
-}
-
-.marketing__item {
-  padding-top: 2rem;
-}
-
 
 /* GRID */
 

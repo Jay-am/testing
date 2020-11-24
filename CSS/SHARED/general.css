@@ -22,6 +22,14 @@ h4,
   font-weight: var(--fw-headline);
   line-height: var(--lh-headline);
   letter-spacing: var(--ls-headline);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
   text-transform: uppercase;
 }
 
@@ -130,4 +138,8 @@ header p {
   margin-left: auto;
   margin-top: 2rem;
   color: var(--clr-green-500);
+}
+
+address {
+  font-style: normal;
 }

@@ -1,0 +1,29 @@
+/* GENERAL */
+
+h2 {
+  display: none;
+}
+
+.terms-and-conditions__copy h4 {
+  margin-top: 2rem;
+}
+
+.address {
+  padding-top: 0.75rem;
+  padding-bottom: 1rem;
+}
+
+
+/* GRID */
+
+.terms-and-conditions {
+  margin-top: 16rem;
+  display: grid;
+  grid-template-columns: 6 repeat(1fr);
+  grid-template-rows: 6 repeat(auto);
+  column-gap: 1.5625rem;
+}
+
+.terms-and-conditions__content {
+  grid-column: 1 / 3;
+}
