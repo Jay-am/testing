@@ -4,42 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legal Notice</title>
-    <link rel="stylesheet" href="../CSS/legal-notice.css" />
-    <link rel="stylesheet" href="../CSS/shared.css" />
+    <link rel="stylesheet" href="../../CSS/WEBSITE/legal-notice.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/colors.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/fonts.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/distance.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/reset.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/utility.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/navigation.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
+    <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
   <body>
-    <header class="container">
-      <h1>Legal Notice</h1>
-    </header>
-
-    <section class="legal-notice">
-      <div class="container legal-notice__content">
-        <h3>HEAD OFFICE</h3>
-        <address>COVER GmbH</address>
-        <address>xxx</address>
-        <address>xxx</address>
-        <address>Germany</address>
-        <address><span class="strong">Phone</span> +49 151 720 11 400</address>
-        <address>
-          <span class="strong">Email</span> hello@cover.international
-        </address>
-        <p><span class="strong">Represented by</span> Julia Mackamul</p>
-        <p><span class="strong">Court register number</span> xx</p>
-        <p><span class="strong">Registration number</span> xx</p>
-        <p><span class="strong">VAT number</span> xx</p>
-
-        <h3>LOGISTIC CENTER</h3>
-        <address>COVER GmbH</address>
-        <address>Düsseldorfer Str. 6-8</address>
-        <address>68219 Mannheim</address>
-        <address>Germany</address>
-
-        <h3>BANK ACCOUNT INFORMATION</h3>
-        <p>Volksbank Rot e.G.</p>
-        <p><span class="strong">Routing / SWIFT Code / BIC</span> xx</p>
-        <p><span class="strong">Account number / IBAN</span> xx</p>
-        <p>Please use your order number as reference.</p>
+    <main class="container | legal-notice">
+      <div class="legal-notice__content">
+        <header class="header">
+          <h1>Legal<br>Notice</h1>
+        </header>
+        <div class="legal-notice__office">
+          <h3>HEAD OFFICE</h3>
+          <div class="address">
+            <address>COVER GmbH</address>
+            <address>xxx</address>
+            <address>xxx</address>
+            <address>Germany</address>
+            <address><span class="phone | dark">Phone</span> +49 151 720 11 400</address>
+            <address>
+              <span class="dark">Email</span> hello@cover.international
+            </address>
+          </div>
+          <p><span class="represented | dark">Represented by</span> Julia Mackamul</p>
+          <p><span class="dark">Court register number</span> xx</p>
+          <p><span class="dark">Registration number</span> xx</p>
+          <p><span class="dark">VAT number</span> xx</p>
+        </div>
+    
+        <div class="legal-notice__logistic">
+          <h3>LOGISTIC CENTER</h3>
+          <div class="address">
+            <address>COVER GmbH</address>
+            <address>Düsseldorfer Str. 6-8</address>
+            <address>68219 Mannheim</address>
+            <address>Germany</address>
+          </div>
+        </div>
+    
+        <div class="legal-notice__bank">
+          <h3>BANK ACCOUNT INFORMATION</h3>
+          <p><span class="dark">Volksbank Rot e.G.</span></p>
+          <p><span class="dark">Routing / SWIFT Code / BIC</span> xx</p>
+          <p><span class="dark">Account number / IBAN</span> xx</p>
+          <p>Please use your order number as reference.</p>
+        </div>
       </div>
-    </section>
+    </main>
   </body>
 </html>

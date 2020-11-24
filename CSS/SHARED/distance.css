@@ -45,9 +45,9 @@
 /* SPACER */
 
 :root {
-  --spacer: 2rem;
-  --head-space: 2rem;
-  --content-space: 1rem;
+  --spacer: 2em;
+  --head-space: 2em;
+  --content-space: 1em;
 }
 
 
