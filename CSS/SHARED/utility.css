@@ -43,6 +43,10 @@ section {
 
 /* CONTENT SPACER */
 
+.head-spacer > * + * {
+  margin-top: var(--head-space);
+}
+
 .content-spacer > * + * {
   margin-top: var(--content-space);
 }

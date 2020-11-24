@@ -83,3 +83,14 @@ a:visited {
   color: var(--clr-code);
   font-weight: var(--fw-code);
 }
+
+
+/* SECTION SPECIFICS */
+
+header h1 {
+  font-size: var(--fs-h1);
+}
+
+header p {
+  font-size: var(--fs-ph1);
+}
