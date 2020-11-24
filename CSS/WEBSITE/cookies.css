@@ -4,10 +4,6 @@ h2 {
   display: none;
 }
 
-.cookies__copy h3 {
-  padding-bottom: 1.5rem;
-}
-
 .cookie__links a {
   display: block;
 }
@@ -18,7 +14,7 @@ h2 {
   font-size: var(--fs-body);
 }
 
-.marketing__link {
+.marketing__item {
   padding-top: 2rem;
 }
 

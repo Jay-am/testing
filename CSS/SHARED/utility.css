@@ -65,6 +65,14 @@ section {
   color: var(--clr-note);
 }
 
+.dark {
+  color: var(--clr-neutral-800);
+}
+
+.strong {
+  font-weight: var(--fw-medium);
+}
+
 .social {
   font-size: var(--fs-social);
 }

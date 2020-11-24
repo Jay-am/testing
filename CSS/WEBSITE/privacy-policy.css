@@ -1,0 +1,30 @@
+/* GENERAL */
+
+h2 {
+  display: none;
+}
+
+.marketing__list {
+  list-style: none;
+  padding: 0;
+  font-size: var(--fs-body);
+}
+
+.marketing__item {
+  padding-top: 2rem;
+}
+
+
+/* GRID */
+
+.privacy-policy {
+  margin-top: 16rem;
+  display: grid;
+  grid-template-columns: 6 repeat(1fr);
+  grid-template-rows: 6 repeat(auto);
+  column-gap: 1.5625rem;
+}
+
+.privacy-policy__content {
+  grid-column: 1 / 3;
+}
