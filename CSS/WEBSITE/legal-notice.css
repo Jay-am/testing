@@ -25,11 +25,11 @@
 
 @media (min-width: 600px) {
 
-.legal-notice__office,
-.legal-notice__logistic,
-.legal-notice__bank {
-  margin-top: 0;
-}
+  .legal-notice__office,
+  .legal-notice__logistic,
+  .legal-notice__bank {
+    margin-top: 0;
+  }
 
   .legal-notice__content {
     display: grid;
