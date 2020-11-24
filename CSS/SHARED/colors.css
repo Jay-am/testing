@@ -6,6 +6,7 @@
   --clr-headline: var(--clr-neutral-800);
   --clr-body: var(--clr-neutral-500);
   --clr-number: var(--clr-neutral-0);
+  --clr-note: var(--clr-yellow-200);
 
   --clr-nav: var(--clr-neutral-500);
   --clr-nav-hover: var(--clr-green-500);
