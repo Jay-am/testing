@@ -65,6 +65,11 @@ section {
   color: var(--clr-note);
 }
 
+.note {
+  width: 50%;
+  margin-left: auto;
+}
+
 .dark {
   color: var(--clr-neutral-800);
 }
