@@ -1,6 +1,6 @@
 /* NAV MOBILE */
 
-.primary-nav__container {
+.header {
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -98,22 +98,28 @@
 
 @media (min-width: 830px) {
 
-.primary-nav__container {
+.header {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   position: sticky;
   width: 100%;
+  padding-top: 1rem;
+  background-color: white;
 }
 
 .logo__nav {
-  padding: 0;
-  margin: 0;
+  font-size: 2.5rem;
+  padding-left: 1.5rem;
+  flex-basis: 10%;
   align-self: center;
+  justify-self: flex-start;
 }
 
 .primary-nav {
   flex-grow: 1;
+  align-self: center;
+  padding-right: 3rem;
   /* padding: 1.5rem 1.5rem 1.5rem 1.5rem; */
 }
 

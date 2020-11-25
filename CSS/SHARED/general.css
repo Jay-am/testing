@@ -123,6 +123,7 @@ header h1 {
   letter-spacing: var(--ls-headline);
   line-height: var(--lh-headline);
   text-align: right;
+  margin-top: 0.25em;
 }
 
 header p {
