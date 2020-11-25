@@ -107,12 +107,8 @@ a {
 
 code {
   color: var(--clr-code);
-  font-size: var(--fs-code);
+  font-size: var(--fs-body) !important;
   font-weight: var(--fw-code);
-}
-
-code:hover {
-  color: var(--clr-green-500);
 }
 
 

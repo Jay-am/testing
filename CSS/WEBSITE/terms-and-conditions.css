@@ -19,8 +19,8 @@ h2 {
 .terms-and-conditions {
   margin-top: 16rem;
   display: grid;
-  grid-template-columns: 6 repeat(1fr);
-  grid-template-rows: 6 repeat(auto);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, auto);
   column-gap: 1.5625rem;
 }
 
