@@ -105,10 +105,6 @@ a {
   color: var(--clr-link-active);
 }
 
-.link:visited {
-  color: var(--clr-link-visited);
-}
-
 code {
   color: var(--clr-code);
   font-size: var(--fs-code);

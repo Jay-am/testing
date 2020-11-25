@@ -25,9 +25,9 @@
   --clr-code-hover: var(--clr-yellow-900);
 
   --clr-link: var(--clr-blue-500);
-  --clr-link-hover: var(--clr-blue-800);
-  --clr-link-focus: var(--clr-blue-800);
-  --clr-link-active: var(--clr-blue-800);
+  --clr-link-hover: var(--clr-blue-900);
+  --clr-link-focus: var(--clr-blue-900);
+  --clr-link-active: var(--clr-blue-900);
   --clr-link-visited: var(--clr-purple-800);
  
 }
