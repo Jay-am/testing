@@ -20,8 +20,6 @@ h4,
   color: var(--clr-headline);
   font-family: var(--ff-headline);
   font-weight: var(--fw-headline);
-  line-height: var(--lh-headline);
-  letter-spacing: var(--ls-headline);
 }
 
 h1,
@@ -33,24 +31,32 @@ h3,
   text-transform: uppercase;
 }
 
-/* h1,
+h1,
 .h1 {
   font-size: var(--fs-h1);
-} */
+  line-height: var(--lh-headline);
+  letter-spacing: var(--ls-headline);
+}
 
 h2,
 .h2 {
   font-size: var(--fs-h2);
+  line-height: var(--lh-headline);
+  letter-spacing: var(--ls-headline);
 }
 
 h3,
 .h3 {
   font-size: var(--fs-h3);
+  line-height: var(--lh-body);
+  letter-spacing: var(--ls-body);
 }
 
 h4,
 .h4 {
   font-size: var(--fs-h4);
+  line-height: var(--lh-body);
+  letter-spacing: var(--ls-body);
 }
 
 p {
@@ -105,9 +111,9 @@ a {
   color: var(--clr-link-active);
 }
 
-code {
+.code {
   color: var(--clr-code);
-  font-size: var(--fs-body) !important;
+  font-size: var(--fs-body);
   font-weight: var(--fw-code);
 }
 
