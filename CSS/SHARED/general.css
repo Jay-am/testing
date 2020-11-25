@@ -141,7 +141,10 @@ header p {
 
 address {
   font-style: normal;
+  font-weight: var(--fw-body);
+  font-size: var(--fs-body);
 }
+
 
 /* CIRLES */
 
@@ -149,7 +152,8 @@ address {
   background-color: var(--clr-purple-500);
 }
 
-.step-1__content {
+.step-1__content,
+.step-1__content h3 {
   color: var(--clr-purple-900);
 }
 
@@ -157,7 +161,8 @@ address {
   background-color: var(--clr-green-500);
 }
 
-.step-2__content {
+.step-2__content,
+.step-2__content h3 {
   color: var(--clr-green-900);
 }
 
@@ -165,7 +170,8 @@ address {
   background-color: var(--clr-turquoise-500);
 }
 
-.step-3__content {
+.step-3__content,
+.step-3__content h3 {
   color: var(--clr-turquoise-900);
 }
 
@@ -173,7 +179,8 @@ address {
   background-color: var(--clr-pink-500);
 }
 
-.step-4__content {
+.step-4__content,
+.step-4__content h3 {
   color: var(--clr-pink-900);
 }
 
@@ -181,6 +188,7 @@ address {
   background-color: var(--clr-blue-500);
 }
 
-.step-5__content {
+.step-5__content,
+.step-5__content h3 {
   color: var(--clr-blue-900);
 }

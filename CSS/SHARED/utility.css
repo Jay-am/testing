@@ -63,6 +63,7 @@ section {
 
 .note h2 {
   color: var(--clr-note);
+  margin-bottom: 0.5em;
 }
 
 .note {
