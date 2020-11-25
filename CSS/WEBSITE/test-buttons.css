@@ -1,0 +1,59 @@
+.wrapper {
+  background-color: #dde1e7;
+  height: 100vh;
+}
+
+.btn {
+  margin: 15em auto;
+  display: inline-block;
+  text-decoration: none;
+  /* font-size: 16px; */
+  padding: 0.65em 1.5em;
+  text-align: center;
+  /* border: none;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px rgba(163, 177, 198, 0.05), 6px 6px 8px rgba(163, 177, 198, 0.15), -3px -3px 5px rgba(255, 255, 255, 0.2);
+  background: #dde1e7;
+  border: none; */
+
+
+  /* color: #ffffff; */
+ 
+
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  background: #dde1e7;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px #babecc,
+              -5px -5px 10px #ffffff73;
+}
+
+/* box-shadow: inset 2px 2px 5px #babecc, inset -1px -1px 2px #ffffff73; */
+
+
+
+
+
+
+/* A GOOD ONE FOR A WHITE BACKGROUND */
+
+/* .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.65em 1.5em;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  background: #dde1e7;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px #babecc,
+              -5px -5px 10px #ffffff73;
+  cursor: pointer;
+} */
