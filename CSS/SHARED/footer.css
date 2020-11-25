@@ -134,6 +134,10 @@
 
 @media (min-width: 830px) {
 
+  .footer-wrapper {
+    padding-bottom: 1.5rem;
+  }
+
   .footer__list {
     display: grid;
     grid-template-columns: 5 repeat(1fr);
