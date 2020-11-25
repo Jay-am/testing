@@ -1,8 +1,8 @@
 /* GRID LAYOUTS */
 
-.grid-container > * {
+/* .grid-container > * {
   grid-column: 1 / -1;
-}
+} */
 
 @media (min-width: 600px) {}
 
@@ -15,16 +15,16 @@
   row-gap: <line-size>;
 } */
 
-:root {
+/* :root {
   --grid-1: 1fr;
   --grid-3: 3 repeat(1fr);
   --grid-4: 4 repeat(1fr);
   --grid-5: 5 repeat(1fr);
   --grid-6: 6 repeat(1fr);
-}
+} */
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
 
   .grid-container-1 {
     display: grid;
@@ -67,7 +67,7 @@
     grid-template-rows:  auto;
     column-gap: 0;
   }
-}
+} */
 
 @media (min-width: 1800px) {
   /* .grid-container {
@@ -78,11 +78,11 @@
   row-gap: <line-size>;
 } */
 
-:root {
+/* :root {
   --grid-1: 1fr;
   --grid-3: 3 repeat(1fr);
   --grid-4: 4 repeat(1fr);
   --grid-5: 5 repeat(1fr);
   --grid-6: 6 repeat(1fr);
-}
+} */
 }
