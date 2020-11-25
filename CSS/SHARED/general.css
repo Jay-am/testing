@@ -142,3 +142,45 @@ header p {
 address {
   font-style: normal;
 }
+
+/* CIRLES */
+
+.circle-1 {
+  background-color: var(--clr-purple-500);
+}
+
+.step-1__content {
+  color: var(--clr-purple-900);
+}
+
+.circle-2 {
+  background-color: var(--clr-green-500);
+}
+
+.step-2__content {
+  color: var(--clr-green-900);
+}
+
+.circle-3 {
+  background-color: var(--clr-turquoise-500);
+}
+
+.step-3__content {
+  color: var(--clr-turquoise-900);
+}
+
+.circle-4 {
+  background-color: var(--clr-pink-500);
+}
+
+.step-4__content {
+  color: var(--clr-pink-900);
+}
+
+.circle-5 {
+  background-color: var(--clr-blue-500);
+}
+
+.step-5__content {
+  color: var(--clr-blue-900);
+}
