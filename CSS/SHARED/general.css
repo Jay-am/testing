@@ -112,6 +112,7 @@ a {
 
 .right {
   text-align: right;
+  margin-left: auto;
 }
 
 .note h2 {
