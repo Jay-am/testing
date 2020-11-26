@@ -56,10 +56,6 @@
   margin-left: auto;
 }
 
-.faq__section {
-  padding: 0;
-}
-
 .faq__content {
   margin-top: 16rem;
 }
@@ -69,5 +65,5 @@
 }
 
 .faq__content h3 {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }

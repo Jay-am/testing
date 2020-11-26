@@ -51,7 +51,7 @@ section {
 
 @media (min-width: 1200px) {
   section {
-    padding-top: calc(var(--pd-section) * 2.5);
+    padding-top: calc(var(--pd-section) * 1.5);
   }
 }
 

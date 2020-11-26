@@ -13,22 +13,57 @@ h2 {
   padding-bottom: 1rem;
 }
 
+address {
+  font-size: var(--fs-body);
+  font-style: normal;
+}
+
 .phone {
   display: inline-block;
   padding-top: 0.75rem;
 }
 
-
 /* GRID */
 
-.terms-and-conditions {
-  margin-top: 16rem;
+.terms-and-conditions{
+  margin-top: 8rem;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, auto);
-  column-gap: 1.5625rem;
+  grid-template-columns: 1fr;
 }
 
 .terms-and-conditions__content {
-  grid-column: 2 / 5;
+  grid-column: 1 / -1;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 830px) {
+  /* GRID */
+
+  .terms-and-conditions {
+    margin-top: 16rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.5625rem;
+  }
+
+  .terms-and-conditions__content {
+    grid-column: 1 / 5;
+  }
+}
+
+@media (min-width: 900px) {
+  /* GRID */
+
+  .terms-and-conditions {
+    margin-top: 16rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.5625rem;
+  }
+
+  .terms-and-conditions__content {
+    grid-column: 2 / 5;
+  }
 }
