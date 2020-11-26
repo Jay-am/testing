@@ -20,9 +20,10 @@
 /* GRID */
 
 .how-it-works {
+  margin-top: 16rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-columns: repeat(27, 1fr);
+  grid-template-rows: repeat(27, 1fr);
   column-gap: 0;
   row-gap: 0;
 }

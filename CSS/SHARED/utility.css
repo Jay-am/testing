@@ -98,32 +98,3 @@ section {
     margin: 0 0 0 var(--spacer);
   }
 }
-
-
-/* SETTINGS */
-
-.right {
-  text-align: right;
-}
-
-.note h2 {
-  color: var(--clr-note);
-  margin-bottom: 0.5em;
-}
-
-.note {
-  width: 40%;
-  margin-left: auto;
-}
-
-.dark {
-  color: var(--clr-neutral-800);
-}
-
-.strong {
-  font-weight: var(--fw-medium);
-}
-
-.social {
-  font-size: var(--fs-social);
-}
