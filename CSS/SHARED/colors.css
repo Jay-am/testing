@@ -91,3 +91,19 @@
   --clr-bg-accent-blue: var(--clr-blue-500);
   
 }
+
+
+[class*="bg-"] {
+  color: var(--fg, rgb(85, 255, 0));
+  background: var(--bg, rgb(85, 255, 0));
+}
+
+.bg-dark {
+  --fg: var(--clr-light);
+  --bg: var(--clr-bg-dark);
+}
+
+.bg-accent {
+  --fg: var(--clr-light);
+  --bg: var(--clr-bg-accent);
+}

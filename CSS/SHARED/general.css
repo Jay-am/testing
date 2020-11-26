@@ -64,16 +64,6 @@ p {
 }
 
 
-/* NUMBERS */
-
-.number {
-  color: var(--clr-number);
-  font-family: var(--ff-number);
-  font-weight: var(--fw-regular);
-  font-size: var( --fs-number);
-}
-
-
 /* GENERAL LINKS */
 
 a {
@@ -144,3 +134,4 @@ address {
   font-weight: var(--fw-body);
   font-size: var(--fs-body);
 }
+
