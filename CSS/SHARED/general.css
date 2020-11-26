@@ -120,9 +120,23 @@ a {
   margin-bottom: 0.5em;
 }
 
-.note {
+/* .note {
   width: 40%;
   margin-left: auto;
+} */
+
+@media (min-width: 850px) {
+  .note {
+    width: 40%;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .note {
+    width: 40%;
+    margin-left: auto;
+  }
 }
 
 .dark {
@@ -153,14 +167,32 @@ header p {
   letter-spacing: var(--ls-ph1);
   line-height: var(--lh-ph1);
   text-align: right;
-  width: 60%;
+  width: 100%;
   margin-left: auto;
   margin-top: 2rem;
   color: var(--clr-green-500);
+}
+
+@media (min-width: 600px) {
+  header p {
+    width: 80%;
+  }
+}
+
+@media (min-width: 850px) {
+  header p {
+    width: 70%;
+  }
+
+  @media (min-width: 1200px) {
+    header p {
+      width: 60%;
+    }
 }
 
 address {
   font-style: normal;
   font-weight: var(--fw-body);
   font-size: var(--fs-body);
+}
 }
