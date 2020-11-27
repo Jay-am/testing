@@ -61,7 +61,7 @@ header h1 {
 .sub-nav-404__link {
   text-transform: uppercase;
   color: var(--clr-yellow-500);
-  font-size: var(--fs-body);
+  font-size: var(--fs-h3);
 }
 
 .sub-nav-404__link:hover,
