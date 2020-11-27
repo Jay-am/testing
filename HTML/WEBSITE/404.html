@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Notice</title>
+    <link rel="stylesheet" href="../../CSS/WEBSITE/404.css" />
+    <link rel="stylesheet" href="../../CSS/WEBSITE/422.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/colors.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/fonts.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/distance.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/reset.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/utility.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/navigation.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
+    <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
+  </head>
+  <body>
+    <div class="error__wrapper">
+      <header class="container">
+        <h1>UN<span>COVER</span>ABLE</h1>
+        <p>Error code: 404</p>
+        <p>The page you requested cannot be found. It may have expired or been removed.</p>
+      </header>
+      
+      <main class="404">
+        <div class="container">
+          <div class="404-intro">
+            <p>If you reached this error page by typing an address into your web browser, please verify that the spelling and capitalisation are correct and reload the page.</p>
+            <p>You might also want to explore one of the links below to UN<span>COVER</span> some really interesting stuff.</p>
+          </div>
+          
+          <nav class="sub-nav-404">
+            <ul class="sub-nav-404__list">
+              <li><%= link_to "Home", root_path %></li>
+              <li><%= link_to "Why", why_path %></li>
+              <li><%= link_to "Discover", why_path %></li>
+              <li><%= link_to "Uncover", why_path %></li>
+              <li><%= link_to "Online Store", onlinestore_path %></li>
+            </ul>
+          </nav>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
