@@ -31,6 +31,7 @@
   background-color: var(--clr-yellow-500);
   box-shadow: 3px 3px 6px var(--clr-yellow-600),
               0.75px 0.75px 3px #D89800,
+              0.25px 0.25px 3px var(--clr-neutral-0),
               -0.3px -0.3px 2px var(--clr-yellow-800),
               -0.25px -0.25px 1px var(--clr-neutral-0),
               -1.5px -1.5px 4px var(--clr-yellow-100);
@@ -45,6 +46,37 @@
 
 .collaborations__list {
   color: var(--clr-green-900);
+  line-height: 1.1;
+  letter-spacing: var(--ls-headline);
+}
+
+.s {
+  font-size: 32px;
+}
+
+.m {
+  font-size: 48px;
+}
+
+.l {
+  font-size: 64px;
+}
+
+.xl {
+  font-size: 96px;
+}
+
+.xxl {
+  font-size: 128px;
+  font-weight: var(--fw-medium);
+}
+
+.you {
+  font-size: 24px;
+}
+
+.you-2 {
+  font-size: 32px;
 }
 
 .button-green-full {
@@ -62,6 +94,7 @@
   background-color: var(--clr-green-500);
   box-shadow: 3px 3px 6px var(--clr-green-600),
               0.75px 0.75px 3px var(--clr-green-900),
+              0.25px 0.25px 3px var(--clr-green-100),
               -0.3px -0.3px 2px var(--clr-green-600),
               -0.25px -0.25px 1px var(--clr-green-100),
               -1.5px -1.5px 4px var(--clr-green-200);
