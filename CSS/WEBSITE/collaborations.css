@@ -1,0 +1,68 @@
+.collaborations__intro {
+  background-color: var(--clr-yellow-500);
+  height: 100vh;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.button-yellow-full {
+  color: var(--clr-yellow-900);
+  background-color: var(--clr-yellow-500);
+  box-shadow: 2px 2px 6px var(--clr-yellow-600),
+  0.75px 0.75px 3px #D89800,
+  -0.3px -0.3px 2px var(--clr-yellow-800),
+  -0.25px -0.25px 1px var(--clr-neutral-0),
+  -1px -1px 4px var(--clr-yellow-100);
+}
+
+.button-yellow-full:hover {
+  color: var(--clr-yellow-100);
+  background-color: var(--clr-yellow-500);
+  box-shadow: 3px 3px 6px var(--clr-yellow-600),
+              0.75px 0.75px 3px #D89800,
+              -0.3px -0.3px 2px var(--clr-yellow-800),
+              -0.25px -0.25px 1px var(--clr-neutral-0),
+              -1.5px -1.5px 4px var(--clr-yellow-100);
+}
+
+/* #F2AB00 */
+
+.collaborations__you {
+  background-color: var(--clr-green-500);
+  height: 100vh;
+}
+
+.collaborations__list {
+  color: var(--clr-green-900);
+}
+
+.button-green-full {
+  color: var(--clr-green-900);
+  background-color: var(--clr-green-500);
+  box-shadow: 2px 2px 6px var(--clr-green-600),
+  0.75px 0.75px 3px var(--clr-green-900),
+  -0.3px -0.3px 2px var(--clr-green-600),
+  -0.25px -0.25px 1px var(--clr-green-100),
+  -1px -1px 4px var(--clr-green-200);
+}
+
+.button-green-full:hover {
+  color: var(--clr-fg-button-primary);
+  background-color: var(--clr-green-500);
+  box-shadow: 3px 3px 6px var(--clr-green-600),
+              0.75px 0.75px 3px var(--clr-green-900),
+              -0.3px -0.3px 2px var(--clr-green-600),
+              -0.25px -0.25px 1px var(--clr-green-100),
+              -1.5px -1.5px 4px var(--clr-green-200);
+
