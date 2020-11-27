@@ -108,8 +108,10 @@ text-transform: initial;
   border: none;
   outline: none;
   border-radius: 25px;
-  box-shadow: 2px 2px 5px #babecc,
-              -5px -5px 10px #ffffff73;
+  box-shadow: 2px 2px 6px #9576FF,
+              0.5px 0.5px 1px #5F49A9,
+              -0.5px -0.5px 2px #F9F7FF;
+              -1px -1px 4px #D6CAFF;
   cursor: pointer;
 }
 
