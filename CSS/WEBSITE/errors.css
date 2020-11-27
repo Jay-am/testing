@@ -122,6 +122,49 @@ text-transform: initial;
 
 /* SEPCIFICS 500 */
 
+.social-errors,
+.thanks-errors {
+  color: var(--clr-purple-900);
+}
+
+.social-errors {
+  margin: 2rem 0 2rem 0;
+}
+
+.social-errors__link {
+  color: var(--clr-yellow-500);
+  font-size: var(--fs-body);
+}
+
+.social-errors__link:hover,
+.social-errors__link:focus {
+ color: var(--clr-nav-hover);
+ transition: 200ms ease-in-out;
+}
+
+.social-errors__link:active {
+ color: var(--clr-nav-active);
+}
+
+
+@media (min-width: 600px) {
+  .social-errors__list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+   }
+
+  .social-errors__list li {
+    margin: 0 0 0 2rem;
+  }
+
+  .social-errors__list li:nth-of-type(1) {
+    margin-left: auto;
+  }
+}
+
+
+/* MEDIA QUERIES */
 
 @media (min-width: 600px) {
 
@@ -154,15 +197,13 @@ header h1 {
 
   .error__message {
     font-size: 4rem;
+    width: 90%;
+    margin-left: auto;
   }
   
   .error__info p {
     font-size: 1.125rem;
-  }
-
-  .error__message, 
-  .error__info p {
-  width: 70%;
-  margin-left: auto;
+    width: 50%;
+    margin-left: auto;
   }
 }

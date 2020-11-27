@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>422</title>
+    <title>500</title>
     <link rel="stylesheet" href="../../CSS/WEBSITE/errors.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
@@ -19,48 +19,45 @@
   </head>
   <body class="errors">
     <div class="error__wrapper">
-      <header>
-        <h1>Uh oh!</h1>
-        <p>Error code: 500</p>
-        <p>We’re sorry but something went wrong.</p>
+      <header class="container | right">
+        <h1 class="headline-lowercase">Uh oh!</h1>
+        <p class="error__code">Error code: 500</p>
+        <p class="error__message">We’re sorry but something went wrong.</p>
       </header>
       
-      <main class="500">
-        <div class="container">
-          <div class="500-intro">
-            <p>We’re working on fixing this.</p>
-            <p>We’ll be up and running shortly.</p>
-            <p>If you need immediate help from our customer service team about an ongoing order, please call us. If it isn’t an urgent matter, please try again later.</p>
-          </div>
+      <main class="container | right">
+        <div class="error__info | content-spacer">
+          <p>We’re working on fixing this. We’ll be up and running shortly.</p>
+          <p>If you need immediate help from our customer service team about an ongoing order, please call us. If it isn’t anurgent matter, please try again later.</p>
+          <p class="strong">Meanwhile you can check our social pages, if you want to know more about us.</p>
+        </div>
       
-          <div class="500-social">
-            <p>Meanwhile you can check our social pages, if you want to know more about us.</p>
-            <ul class="500-social__links">
-              <li class="social-item">
-                <a area-label="facebook" href="#" class="500-social__link"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-              </li>
-              <li class="500-social__item">
-                <a area-label="instagram" href="#" class="500-social__link"
-                ><i class="fab fa-instagram"></i></a>
-              </li>
-              <li class="500-social__item">
-                <a area-label="pinterest" href="#" class="500-social__link"
-                  ><i class="fab fa-pinterest-p"></i
-                ></a>
-              </li>
-              <li class="500-social__item">
-                <a area-label="youtube" href="#" class="500-social__link"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-              </li>
-            </ul>
-          </div> 
-      
-          <div class="500-thanks">
-            <p>Thanks for your patience!</p>
-          </div>
+        <div class="social-errors">
+          <ul class="social-errors__list">
+            <li class="social-errors__item">
+              <a area-label="facebook" href="#" class="social-errors__link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="social-errors__item">
+              <a area-label="instagram" href="#" class="social-errors__link"
+              ><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="social-errors__item">
+              <a area-label="pinterest" href="#" class="social-errors__link"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+            </li>
+            <li class="social-errors__item">
+              <a area-label="youtube" href="#" class="social-errors__link"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div> 
+    
+        <div class="thanks-errors">
+          <p class="strong">Thanks for your patience!</p>
         </div>
       </main>
     </div>
