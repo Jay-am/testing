@@ -131,9 +131,13 @@ text-transform: initial;
   margin: 2rem 0 2rem 0;
 }
 
+.social-errors__list {
+  align-items: baseline;
+}
+
 .social-errors__link {
   color: var(--clr-yellow-500);
-  font-size: var(--fs-body);
+  font-size: calc(var(--fs-social) / 2);
 }
 
 .social-errors__link:hover,
@@ -155,7 +159,7 @@ text-transform: initial;
    }
 
   .social-errors__list li {
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 2.5rem;
   }
 
   .social-errors__list li:nth-of-type(1) {
