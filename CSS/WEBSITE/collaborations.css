@@ -1,6 +1,22 @@
+/* INTRO */
+
 .collaborations__intro {
   background-color: var(--clr-yellow-500);
   height: 100vh;
+}
+
+.collaborations__header {
+  display: grid;
+  grid-template-columns: 4 repeat(1fr);
+  grid-template-rows: 4 repeat(1fr);
+}
+
+.collaborations__header h2 {
+  color: var(--clr-yellow-900);
+}
+
+.collaborations__header h3 {
+  color: var(--clr-yellow-100);
 }
 
 .button {
@@ -19,25 +35,55 @@
 .button-yellow-full {
   color: var(--clr-yellow-900);
   background-color: var(--clr-yellow-500);
-  box-shadow: 2px 2px 6px var(--clr-yellow-600),
+  box-shadow: -2px -2px 3px var(--clr-yellow-300), 3px 3px 5px var(--clr-yellow-800);
+  /* box-shadow: 2px 2px 6px var(--clr-yellow-600),
   0.75px 0.75px 3px #D89800,
   -0.3px -0.3px 2px var(--clr-yellow-800),
   -0.25px -0.25px 1px var(--clr-neutral-0),
-  -1px -1px 4px var(--clr-yellow-100);
+  -1px -1px 4px var(--clr-yellow-100); */
 }
 
 .button-yellow-full:hover {
   color: var(--clr-yellow-100);
   background-color: var(--clr-yellow-500);
-  box-shadow: 3px 3px 6px var(--clr-yellow-600),
+  box-shadow: -4px -4px 10px var(--clr-yellow-300), 3px 3px 7px var(--clr-yellow-800), 0.5px 0.5px 5px var(--clr-neutral-0);
+  /* box-shadow: 3px 3px 6px var(--clr-yellow-600),
               0.75px 0.75px 3px #D89800,
               0.25px 0.25px 3px var(--clr-neutral-0),
               -0.3px -0.3px 2px var(--clr-yellow-800),
               -0.25px -0.25px 1px var(--clr-neutral-0),
-              -1.5px -1.5px 4px var(--clr-yellow-100);
+              -1.5px -1.5px 4px var(--clr-yellow-100); */
+}
+
+.button-yellow-full:active {
+  box-shadow: inset -3px -3px 7px var(--clr-yellow-300), inset 3px 3px 5px var(--clr-yellow-800);
 }
 
 /* #F2AB00 */
+
+
+.intro-1 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.intro-2 {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+}
+
+.intro-3 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.btn-collaborations__intro {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+
+/* YOU */
 
 .collaborations__you {
   background-color: var(--clr-green-500);
@@ -93,7 +139,7 @@
 .button-green-full:hover {
   color: var(--clr-fg-button-primary);
   background-color: var(--clr-green-500);
-  box-shadow: -3px -3px 10px var(--clr-green-300), 3px 3px 7px var(--clr-green-700);
+  box-shadow: -4px -4px 12px var(--clr-green-300), 3px 3px 7px var(--clr-green-700);
   /* box-shadow: 3px 3px 6px var(--clr-green-600),
               0.75px 0.75px 3px var(--clr-green-900),
               0.25px 0.25px 3px var(--clr-green-100),
@@ -118,6 +164,9 @@
 .collaborations__contact  {
   font-size: 32px;
 }
+
+
+/* TYPES */
 
 .button-white-full {
   background: #ecedf1;
