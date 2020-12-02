@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: var(--mq-tablet) {
+@media (min-width: var(--mq-tablet)) {
 
   .returns {
     margin-top: 8rem;

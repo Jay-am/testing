@@ -38,7 +38,7 @@ address {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 830px) {
+@media (min-width: var(--mq-tablet)) {
   /* GRID */
 
   .terms-and-conditions {
@@ -53,7 +53,7 @@ address {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: var(--mq-desktop)) {
   /* GRID */
 
   .terms-and-conditions {
