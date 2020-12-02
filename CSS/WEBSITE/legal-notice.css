@@ -37,7 +37,7 @@ address {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: var(--mq-mobile)) {
 
   .legal-notice__office,
   .legal-notice__logistic,
@@ -76,7 +76,7 @@ address {
   }
 }
 
-@media (min-width: 830px) {
+@media (min-width: var(--mq-tablet)) {
 
   .legal.notice {
     height: 100vh;
