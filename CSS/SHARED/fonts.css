@@ -86,7 +86,7 @@
 
 /* MEDIA QUERIES */
 
-@media (min-width: 600px) {
+@media (min-width: var(--mq-mobile)) {
   /* FONT SIZE */
 
 :root {
@@ -118,7 +118,7 @@
 }
 }
 
-@media (min-width: 830px) {
+@media (min-width: var(--mq-tablet)) {
   /* FONT SIZE */
 
 :root {
@@ -150,7 +150,7 @@
 }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: var(--mq-desktop)) {
   /* FONT SIZE */
 
 :root {
@@ -183,7 +183,7 @@
 }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: var(--mq-large)) {
   /* FONT SIZE */
 
 :root {
