@@ -86,6 +86,11 @@
   row-gap: 0;
 }
 
+.how-it-works > * div {
+  margin: 0;
+  padding: 0;
+}
+
 /* ENJOY */
 
 .enjoy {
