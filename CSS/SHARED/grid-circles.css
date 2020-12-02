@@ -180,14 +180,14 @@ address {
   }
 
 
-@media (min-width: 600px) {
+@media (min-width: var(--mq-mobile)) {
 
 
 
 }
 
 
-@media (min-width: 830px) {
+@media (min-width: var(--mq-tablet)) {
 
   .step__content h3 {
     font-size: var(--fs-body);
@@ -311,7 +311,7 @@ address {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: var(--mq-desktop)) {
   .circle {
     border-radius: 50%;
     width: 650px;
