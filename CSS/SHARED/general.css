@@ -125,14 +125,14 @@ a {
   margin-left: auto;
 } */
 
-@media (min-width: 850px) {
+@media (min-width: var(--mq-tablet)) {
   .note {
     width: 40%;
     margin-left: auto;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: var(--mq-desktop)) {
   .note {
     width: 40%;
     margin-left: auto;
@@ -177,18 +177,18 @@ header p {
   color: var(--clr-green-500);
 }
 
-@media (min-width: 600px) {
+@media (min-width: var(--mq-mobile)) {
   header p {
     width: 80%;
   }
 }
 
-@media (min-width: 850px) {
+@media (min-width: var(--mq-tablet)) {
   header p {
     width: 70%;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: var(--mq-desktop)) {
     header p {
       width: 60%;
     }
