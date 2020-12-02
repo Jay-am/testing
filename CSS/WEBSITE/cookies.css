@@ -24,7 +24,7 @@ h2 {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 830px) {
+@media (min-width: var(--mq-tablet)) {
   /* GRID */
 
   .cookies {
@@ -39,7 +39,7 @@ h2 {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: var(--mq-desktop)) {
   /* GRID */
 
   .cookies {
