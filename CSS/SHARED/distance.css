@@ -33,21 +33,27 @@
   --pd-button-s: 6px 8px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: var(--mq-mobile)) {
   :root {
     --pd-right: 1.5rem;
   }
 }
 
-@media (min-width: 830px) {
+@media (min-width: var(--mq-tablet)) {
   :root {
     --pd-right: 2rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: var(--mq-desktop)) {
   :root {
     --pd-right: 2.5rem;
+  }
+}
+
+@media (min-width: var(--mq-large)) {
+  :root {
+    --pd-right: 5rem;
   }
 }
 
