@@ -75,7 +75,24 @@ section {
 .flex {
   display: flex;
   flex-direction: column;
-  /* gap: var(--spacer); */
+  /* gap: var(--spacer); not suported in Safari at the minute! */
+}
+
+/* As long as gap is not working in every browser this is a good way around */
+.flex > * + * {
+  margin: calc(var(--spacer) * 2) 0 0 0;
+}
+
+
+@media (min-width: var(--mq-mobile)) {
+  .flex {
+    flex-direction: row;
+  }
+
+  /* As long as gap is not working in every browser this is a good way around */
+  .flex > * + *  {
+    margin: 0 0 0 var(--spacer);
+  }
 }
 
 .flex > * {
@@ -96,20 +113,4 @@ section {
 
 .col-33 {
   flex-basis: 33.33%;
-}
-
-/* As long as gap is not working in every browser this is a good way around */
-.flex > * + * {
-  margin: calc(var(--spacer) * 2) 0 0 0;
-}
-
-@media (min-width: var(--mq-mobile)) {
-  .flex {
-    flex-direction: row;
-  }
-
-  /* As long as gap is not working in every browser this is a good way around */
-  .flex > * + *  {
-    margin: 0 0 0 var(--spacer);
-  }
 }
