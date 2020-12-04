@@ -33,25 +33,25 @@
   --pd-button-s: 6px 8px;
 }
 
-@media (min-width: var(--mq-mobile)) {
+@media (min-width: 600px) {
   :root {
     --pd-right: 1.5rem;
   }
 }
 
-@media (min-width: var(--mq-tablet)) {
+@media (min-width: 900px) {
   :root {
     --pd-right: 2rem;
   }
 }
 
-@media (min-width: var(--mq-desktop)) {
+@media (min-width: 1200px) {
   :root {
     --pd-right: 2.5rem;
   }
 }
 
-@media (min-width: var(--mq-large)) {
+@media (min-width: 1800px) {
   :root {
     --pd-right: 5rem;
   }
@@ -74,14 +74,4 @@
   --spacer: 2em;
   --head-space: 2em;
   --content-space: 1em;
-}
-
-
-/* BORDER RADIUS */
-
-:root {
-  --br-button-xl: 1px;
-  --br-button-l: 1px;
-  --br-button-m: 1px;
-  --br-button-s: 1px;
 }
