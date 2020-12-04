@@ -25,7 +25,7 @@ address {
 
 /* GRID */
 
-.terms-and-conditions{
+.terms-and-conditions {
   margin-top: 8rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -38,7 +38,7 @@ address {
 
 /* MEDIA QUERIES */
 
-@media (min-width: var(--mq-tablet)) {
+@media (min-width: 900px) {
   /* GRID */
 
   .terms-and-conditions {
@@ -53,7 +53,7 @@ address {
   }
 }
 
-@media (min-width: var(--mq-desktop)) {
+@media (min-width: 1200px) {
   /* GRID */
 
   .terms-and-conditions {
