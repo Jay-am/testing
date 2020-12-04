@@ -133,7 +133,7 @@
 
 /* MEDIA QUERIES */
 
-@media (min-width: 830px) {
+@media (min-width: 900px) {
 
   .footer-wrapper {
     padding-bottom: 0.5rem;
@@ -301,6 +301,6 @@
   
 }
 
-@media (min-width: var(--mq-large)) {
+@media (min-width: 1800px) {
 
 }
