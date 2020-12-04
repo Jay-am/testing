@@ -125,14 +125,14 @@ a {
   margin-left: auto;
 } */
 
-@media (min-width: var(--mq-tablet)) {
+@media (min-width: 900px) {
   .note {
     width: 40%;
     margin-left: auto;
   }
 }
 
-@media (min-width: var(--mq-desktop)) {
+@media (min-width: 1200px) {
   .note {
     width: 40%;
     margin-left: auto;
@@ -177,26 +177,26 @@ header p {
   color: var(--clr-green-500);
 }
 
-@media (min-width: var(--mq-mobile)) {
+@media (min-width: 600px) {
   header p {
     width: 80%;
   }
 }
 
-@media (min-width: var(--mq-tablet)) {
+@media (min-width: 900px) {
   header p {
     width: 70%;
   }
+}
 
-  @media (min-width: var(--mq-desktop)) {
-    header p {
-      width: 60%;
-    }
+@media (min-width: 1200px) {
+  header p {
+    width: 60%;
+  }
 }
 
 address {
   font-style: normal;
   font-weight: var(--fw-body);
   font-size: var(--fs-body);
-}
 }
