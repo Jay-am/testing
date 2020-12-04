@@ -3,6 +3,7 @@
 .footer-wrapper {
   background: var(--clr-bg-footer);
   padding-bottom: 1.5rem;
+  margin-top: 8rem;
 }
 
 .footer {
