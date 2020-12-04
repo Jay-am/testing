@@ -133,7 +133,7 @@
 
 /* MEDIA QUERIES */
 
-@media (min-width: var(--mq-tablet)) {
+@media (min-width: 830px) {
 
   .footer-wrapper {
     padding-bottom: 0.5rem;
@@ -232,7 +232,7 @@
 }
 
 
-@media (min-width: var(--mq-desktop)) {
+@media (min-width: 1200px) {
 
   .footer-wrapper {
     padding-bottom: 1.5rem;
