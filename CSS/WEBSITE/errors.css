@@ -75,19 +75,19 @@ header h1 {
 }
 
 @media (min-width: 600px) {
-.sub-nav-404__list {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
- }
+  .sub-nav-404__list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
 
- .sub-nav-404__list li {
-  margin: 0 0 0 2rem;
- }
+  .sub-nav-404__list li {
+    margin: 0 0 0 2rem;
+  }
 
- .sub-nav-404__list li:nth-of-type(1) {
-  margin-left: auto;
- }
+  .sub-nav-404__list li:nth-of-type(1) {
+    margin-left: auto;
+  }
 }
 
 /* SEPCIFICS 422 */
@@ -161,12 +161,12 @@ text-transform: initial;
 }
 
 
-@media (min-width: var(--mq-mobile)) {
+@media (min-width: 600px) {
   .social-errors__list {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-   }
+  }
 
   .social-errors__list li {
     margin: 0 0 0 2.5rem;
@@ -180,26 +180,26 @@ text-transform: initial;
 
 /* MEDIA QUERIES */
 
-@media (min-width: var(--mq-tablet)) {
+@media (min-width: 900px) {
 
-header h1 {
-  font-size: 10rem;
+  header h1 {
+    font-size: 10rem;
+  }
+
+  .error__code {
+    font-size: 2rem;
+  }
+
+  .error__message {
+    font-size: 3rem;
+  }
+
+  .error__info p {
+    font-size: 1rem;
+  }
 }
 
-.error__code {
-  font-size: 2rem;
-}
-
-.error__message {
-  font-size: 3rem;
-}
-
-.error__info p {
-  font-size: 1rem;
-}
-}
-
-@media (min-width: var(--mq-desktop)) {
+@media (min-width: 1200px) {
 
   header h1 {
     font-size: 12rem;
