@@ -87,129 +87,125 @@
 /* MEDIA QUERIES */
 
 @media (min-width: 600px) {
-  /* FONT SIZE */
 
-:root {
-  /* --fs-logo: 2rem; */
-  --fs-h1-xxl: 18rem;
-  --fs-h1-xl: 13rem;
-  --fs-h1-l: 10rem;
-  --fs-h1: 6rem;
-  --fs-h2: 2rem;
-  --fs-h3: 1.125rem;
-  --fs-h4: 1rem;
-  --fs-ph1: 1.5rem;
+  :root {
+    /* --fs-logo: 2rem; */
+    --fs-h1-xxl: 18rem;
+    --fs-h1-xl: 13rem;
+    --fs-h1-l: 10rem;
+    --fs-h1: 6rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.125rem;
+    --fs-h4: 1rem;
+    --fs-ph1: 1.5rem;
 
-  --fs-body: 1rem;
+    --fs-body: 1rem;
 
-  --fs-number-mobile: 18rem; 
+    --fs-number-mobile: 18rem; 
 
-  --fs-button: 20px;
-  --fs-button-l: 16px;
-  --fs-button-m: 14px;
-  --fs-button-s: 12px;
-  --fs-small: 0.75rem;
+    --fs-button: 20px;
+    --fs-button-l: 16px;
+    --fs-button-m: 14px;
+    --fs-button-s: 12px;
+    --fs-small: 0.75rem;
 
-  --fs-nav: 1rem;
-  --fs-footer: 1rem;
-  --fs-social: 4rem;
-  --fs-legal: 0.75rem;
-  --fs-copywright: 0.5rem;
-}
+    --fs-nav: 1rem;
+    --fs-footer: 1rem;
+    --fs-social: 4rem;
+    --fs-legal: 0.75rem;
+    --fs-copywright: 0.5rem;
+  }
 }
 
 @media (min-width: 900px) {
-  /* FONT SIZE */
 
-:root {
-  /* --fs-logo: 2rem; */
-  /* --fs-h1-xxl: 18rem;
-  --fs-h1-xl: 13rem;
-  --fs-h1-l: 10rem; */
-  --fs-h1: 8rem;
-  --fs-h2: 3rem;
-  --fs-h3: 1.25rem;
-  --fs-h4: 1rem;
-  --fs-ph1: 2rem;
+  :root {
+    /* --fs-logo: 2rem; */
+    /* --fs-h1-xxl: 18rem;
+    --fs-h1-xl: 13rem;
+    --fs-h1-l: 10rem; */
+    --fs-h1: 8rem;
+    --fs-h2: 3rem;
+    --fs-h3: 1.25rem;
+    --fs-h4: 1rem;
+    --fs-ph1: 2rem;
 
-  --fs-body: 1rem;
+    --fs-body: 1rem;
 
-  --fs-number: 31.25rem;
+    --fs-number: 31.25rem;
 
-  --fs-button: 1rem;
-  --fs-button-l: 16px;
-  --fs-button-m: 14px;
-  --fs-button-s: 12px;
-  --fs-small: 0.75rem;
+    --fs-button: 1rem;
+    --fs-button-l: 16px;
+    --fs-button-m: 14px;
+    --fs-button-s: 12px;
+    --fs-small: 0.75rem;
 
-  --fs-nav: 1rem;
-  --fs-footer: 1rem;
-  --fs-social: 5rem;
-  --fs-legal: 0.75rem;
-  --fs-copywright: 0.5rem;
-}
+    --fs-nav: 1rem;
+    --fs-footer: 1rem;
+    --fs-social: 5rem;
+    --fs-legal: 0.75rem;
+    --fs-copywright: 0.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
-  /* FONT SIZE */
 
-:root {
-  /* --fs-logo: 2rem; */
-  /* --fs-h1-xxl: 18rem;
-  --fs-h1-xl: 13rem;
-  --fs-h1-l: 10rem; */
-  --fs-h1: 12rem;
-  --fs-h2: 4rem;
-  --fs-h3: 1.5rem;
-  --fs-h4: 1.25rem;
-  --fs-ph1: 3rem;
+  :root {
+    /* --fs-logo: 2rem; */
+    /* --fs-h1-xxl: 18rem;
+    --fs-h1-xl: 13rem;
+    --fs-h1-l: 10rem; */
+    --fs-h1: 12rem;
+    --fs-h2: 4rem;
+    --fs-h3: 1.5rem;
+    --fs-h4: 1.25rem;
+    --fs-ph1: 3rem;
 
-  --fs-body: 1.125rem;
+    --fs-body: 1.125rem;
 
-  --fs-number: 40.625rem;
+    --fs-number: 40.625rem;
 
-  --fs-button: 20px;
-  --fs-button-l: 16px;
-  --fs-button-m: 14px;
-  --fs-button-s: 12px;
+    --fs-button: 20px;
+    --fs-button-l: 16px;
+    --fs-button-m: 14px;
+    --fs-button-s: 12px;
 
-  --fs-small: 0.85rem;
+    --fs-small: 0.85rem;
 
-  --fs-nav: 1rem;
-  --fs-footer: 1rem;
-  --fs-social: 6rem;
-  --fs-legal: 0.85rem;
-  --fs-copywright: 0.75rem;
+    --fs-nav: 1rem;
+    --fs-footer: 1rem;
+    --fs-social: 6rem;
+    --fs-legal: 0.85rem;
+    --fs-copywright: 0.75rem;
+  }
 }
-}
 
-@media (min-width: 1800px {
-  /* FONT SIZE */
+@media (min-width: 1800px) {
 
-:root {
-  /* --fs-logo: 2rem; */
-  /* --fs-h1-xxl: 18rem;
-  --fs-h1-xl: 13rem;
-  --fs-h1-l: 10rem; */
-  --fs-h1: 6rem;
-  --fs-h2: 4rem;
-  --fs-h3: 3rem;
-  --fs-h4: 2rem;
+  :root {
+    /* --fs-logo: 2rem; */
+    /* --fs-h1-xxl: 18rem;
+    --fs-h1-xl: 13rem;
+    --fs-h1-l: 10rem; */
+    --fs-h1: 6rem;
+    --fs-h2: 4rem;
+    --fs-h3: 3rem;
+    --fs-h4: 2rem;
 
-  --fs-body: 1.125rem;
- 
-  --fs-number: 40.625rem;
+    --fs-body: 1.125rem;
+  
+    --fs-number: 40.625rem;
 
-  --fs-button: 20px;
-  --fs-button-l: 16px;
-  --fs-button-m: 14px;
-  --fs-button-s: 12px;
-  --fs-small: 0.75rem;
+    --fs-button: 20px;
+    --fs-button-l: 16px;
+    --fs-button-m: 14px;
+    --fs-button-s: 12px;
+    --fs-small: 0.75rem;
 
-  --fs-nav: 1.125rem;
-  --fs-footer: 1.125rem;
-  --fs-social: 6rem;
-  --fs-legal: 1rem;
-  --fs-copywright: 0.75rem;
-}
+    --fs-nav: 1.125rem;
+    --fs-footer: 1.125rem;
+    --fs-social: 6rem;
+    --fs-legal: 1rem;
+    --fs-copywright: 0.75rem;
+  }
 }
