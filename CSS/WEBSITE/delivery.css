@@ -9,7 +9,7 @@
 .delivery-process {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(8, min-content);
   column-gap: 0;
   row-gap: 0;
 }

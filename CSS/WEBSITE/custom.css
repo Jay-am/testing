@@ -81,7 +81,7 @@
   margin-top: 8rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(27, 1fr);
+  grid-template-rows: repeat(27, min-content);
   column-gap: 0;
   row-gap: 0;
 }
