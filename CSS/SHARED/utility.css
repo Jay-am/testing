@@ -25,7 +25,7 @@
 } 
 
 .pd-right {
-  padding-right: var(--pd-right);
+  padding-right: calc(var(--pd-right) * 2);
 }
 
 .content {

@@ -31,24 +31,28 @@
 @media (min-width: 600px) {
   :root {
     --pd-right: 1.5rem;
+    --pd-section: 2rem;
   }
 }
 
 @media (min-width: 900px) {
   :root {
     --pd-right: 2rem;
+    --pd-section: 2rem;
   }
 }
 
 @media (min-width: 1200px) {
   :root {
     --pd-right: 2.5rem;
+    --pd-section: 2rem;
   }
 }
 
 @media (min-width: 1800px) {
   :root {
     --pd-right: 5rem;
+    --pd-section: 2rem;
   }
 }
 
@@ -66,9 +70,9 @@
 /* SPACER */
 
 :root {
-  --spacer: 2em;
-  --head-space: 2em;
-  --content-space: 1em;
+  --spacer: 2rem;
+  --head-space: 2rem;
+  --content-space: 1rem;
 }
 
 
