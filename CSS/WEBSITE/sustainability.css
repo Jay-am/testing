@@ -1,0 +1,86 @@
+.understanding {
+  margin-top: 6rem;
+}
+
+.sutainability {
+  height: 100vh;
+  align-items: flex-end;
+  padding-bottom: 4rem;
+}
+
+.production,
+.delivery,
+.care-instructions {
+  text-align: right;
+}
+
+.production__copy h3,
+.preventing-returns h3 {
+  margin-bottom: 2rem;
+}
+
+
+/* BACKGROUND IMAGES */
+
+.materials {
+  background-image: url(#);
+  background-color: var(--clr-red-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.production {
+  background-image: url(#);
+  background-color: var(--clr-blue-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.packaging {
+  background-image: url(#);
+  background-color: var(--clr-purple-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.delivery {
+  background-image: url(#);
+  background-color: var(--clr-green-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.preventing-returns {
+  background-image: url(#);
+  background-color: var(--clr-pink-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.care-instructions {
+  background-image: url(#);
+  background-color: var(--clr-turquoise-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.disposal {
+  background-image: url(#);
+  background-color: var(--clr-yellow-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
