@@ -68,12 +68,21 @@
 }
 
 .care-instructions {
-  background-image: url(#);
-  background-color: var(--clr-turquoise-500);
-  background-blend-mode: multiply;
+  background-image: url(../../IMAGES/SUSTAINABILITY/care-instructions.png);
+  /* background-color: var(--clr-turquoise-500);
+  background-blend-mode: multiply; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.care-instructions__copy h3 {
+  font-size: 4rem;
+}
+
+.care-instructions__copy p {
+  font-size: 1.5rem;
+  color: var(--clr-neutral-800)
 }
 
 .disposal {
