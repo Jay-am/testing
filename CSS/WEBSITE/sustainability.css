@@ -23,9 +23,9 @@
 /* BACKGROUND IMAGES */
 
 .materials {
-  background-image: url(#);
-  background-color: var(--clr-red-500);
-  background-blend-mode: multiply;
+  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-materials.png);
+  /* background-color: var(--clr-red-500);
+  background-blend-mode: multiply; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
