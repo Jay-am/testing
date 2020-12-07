@@ -31,28 +31,28 @@
 @media (min-width: 600px) {
   :root {
     --pd-right: 1.5rem;
-    --pd-section: 2rem;
+    --pd-section: 2.5rem;
   }
 }
 
 @media (min-width: 900px) {
   :root {
     --pd-right: 2rem;
-    --pd-section: 2rem;
+    --pd-section: 4rem;
   }
 }
 
 @media (min-width: 1200px) {
   :root {
     --pd-right: 2.5rem;
-    --pd-section: 2rem;
+    --pd-section: 6rem;
   }
 }
 
 @media (min-width: 1800px) {
   :root {
     --pd-right: 5rem;
-    --pd-section: 2rem;
+    --pd-section: 6rem;
   }
 }
 
