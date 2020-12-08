@@ -41,9 +41,9 @@
 }
 
 .packaging {
-  background-image: url(#);
-  background-color: var(--clr-purple-500);
-  background-blend-mode: multiply;
+  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-packaging.png);
+  /* background-color: var(--clr-purple-500);
+  background-blend-mode: multiply; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
