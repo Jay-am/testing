@@ -15,7 +15,7 @@
 }
 
 .production__copy h3,
-.preventing-returns h3 {
+.reverse-logistics h3 {
   margin-bottom: 2rem;
 }
 
@@ -58,7 +58,7 @@
   background-position: center;
 }
 
-.preventing-returns {
+.reverse-logistics {
   background-image: url(#);
   background-color: var(--clr-pink-500);
   background-blend-mode: multiply;
