@@ -19,7 +19,7 @@
 
 .enjoy {
   padding-top: 1rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   font-size: 24px;
 }
 
@@ -51,4 +51,33 @@
 .button-red-half:active {
   color: var(--clr-green-700);
   border: solid var(--clr-green-700) 2.5px;
+}
+
+
+/* PLANET */
+
+.source {
+  margin-top: 0;
+}
+
+.source__link {
+  font-size: var(--fs-small);
+  color: var(--clr-neutral-400);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.source__link:hover,
+.source__link:active {
+  color: var(--clr-link-hover);
+}
+
+.planet__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 6rem;
+}
+
+.planet__paragraph {
+  grid-column: 2 / 5;
 }
