@@ -81,3 +81,16 @@
 .planet__paragraph {
   grid-column: 2 / 5;
 }
+
+
+/* PAPER */
+
+.paper__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 6rem;
+}
+
+.paper__paragraph {
+  grid-column: 2 / 5;
+}
