@@ -24,6 +24,7 @@
   --pd-2: 1.5rem;
 
   --pd-right: 1rem;
+  --pd-left-right: 0 2rem 0 2rem;
 
   --pd-section: 2rem;
 }
@@ -31,6 +32,7 @@
 @media (min-width: 600px) {
   :root {
     --pd-right: 1.5rem;
+    --pd-left-right: 0 1.5rem 0 1.5rem;
     --pd-section: 2.5rem;
   }
 }
@@ -38,6 +40,7 @@
 @media (min-width: 900px) {
   :root {
     --pd-right: 2rem;
+    --pd-left-right: 0 4rem 0 4rem;
     --pd-section: 4rem;
   }
 }
@@ -45,6 +48,7 @@
 @media (min-width: 1200px) {
   :root {
     --pd-right: 2.5rem;
+    --pd-left-right: 0 5rem 0 5rem;
     --pd-section: 5rem;
   }
 }
@@ -52,6 +56,7 @@
 @media (min-width: 1800px) {
   :root {
     --pd-right: 5rem;
+    --pd-left-right: 0 10rem 0 10rem;
     --pd-section: 6rem;
   }
 }

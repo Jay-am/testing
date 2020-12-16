@@ -151,6 +151,10 @@ a {
   font-weight: var(--fw-medium);
 }
 
+.ultra-strong {
+  font-weight: var(--fw-semi-bold);
+}
+
 .social {
   font-size: var(--fs-social);
 }

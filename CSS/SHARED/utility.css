@@ -28,6 +28,10 @@
   padding-right: calc(var(--pd-right) * 2);
 }
 
+.pd-left-right {
+  padding: var(--pd-left-right);
+}
+
 .content {
   flex: 1 0 auto;
 }
