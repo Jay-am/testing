@@ -1,3 +1,5 @@
+/* GENERAL */
+
 .button {
   display: inline-block;
   text-decoration: none;
@@ -11,6 +13,9 @@
   cursor: pointer;
 }
 
+
+/* BUTTON RED HALF */
+
 .button-red-half {
   color: var(--clr-red-500);
   border: solid var(--clr-red-500) 2.5px;
@@ -19,10 +24,14 @@
   padding: 3em 1.5em;
 }
 
-.button-red-half:hover {
+.button-red-half:hover,
+.button-red-half:active {
   color: var(--clr-green-700);
   border: solid var(--clr-green-700) 2.5px;
 }
+
+
+/* BUTTON PURPLE FULL */
 
 .button-purple-full {
   color: var(--clr-purple-900);
@@ -44,6 +53,9 @@
               -1.5px -1.5px 4px var(--clr-purple-200);
 }
 
+
+/* BUTTON GREEN FULL */
+
 .button-green-full {
   color: var(--clr-green-900);
   background-color: var(--clr-green-500);
@@ -64,6 +76,8 @@
               -1.5px -1.5px 4px var(--clr-green-200);
 }
 
+
+/* BUTTON YELLOW FULL */
 
 .button-yellow-full {
   color: var(--clr-yellow-900);
