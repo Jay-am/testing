@@ -67,8 +67,8 @@
 :root {
   --mg-auto: 0 auto;
   --mg-0: 0;
-  --mg-1: 1em;
-  --mg-2: 1.5em;
+  --mg-1: 1rem;
+  --mg-2: 1.5rem;
 }
 
 

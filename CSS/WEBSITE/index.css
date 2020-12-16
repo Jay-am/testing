@@ -1,9 +1,54 @@
 /* HERO */
 
-.hero__content {
+.hero__content h1 {
   padding-bottom: 4rem;
+  font-size: 96px;
+  margin: 0;
+  line-height: 0.3;
 }
 
-.hero__content h1 {
+.hero__content h2 {
   padding-bottom: 2rem;
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero__content p {
+  width: 40%;
+}
+
+.enjoy {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  font-size: 24px;
+}
+
+
+/* BUTTON */
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.button-red-half {
+  color: var(--clr-red-500);
+  border: solid var(--clr-red-500) 2.5px;
+  border-radius: 10px;
+  background: transparent;
+  padding: 3em 1.5em;
+}
+
+.button-red-half:hover,
+.button-red-half:active {
+  color: var(--clr-green-700);
+  border: solid var(--clr-green-700) 2.5px;
 }
