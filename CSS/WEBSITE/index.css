@@ -94,3 +94,34 @@
 .paper__paragraph {
   grid-column: 2 / 5;
 }
+
+
+/* CHANGE */
+
+.change__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 6rem;
+}
+
+.change__paragraph {
+  grid-column: 2 / 5;
+}
+
+.uncover {
+  font-size: 24px;
+  padding-top: 1rem;
+}
+
+
+/* ZERO-WASTE */
+
+.zero-waste__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 6rem;
+}
+
+.zero-waste__paragraph {
+  grid-column: 2 / 5;
+}
