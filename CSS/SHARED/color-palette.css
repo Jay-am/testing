@@ -202,7 +202,10 @@
     --clr-purple-100: hsl(255, 100%, 98.4%);
     --clr-purple-100: rgb(249, 247, 255);
   
-  
+
+    --clr-yellow-1000: #f7ad00ea;
+    --clr-yellow-1000: #f0a802fb;
+
     --clr-yellow-900: #FFB607;
     --clr-yellow-900: hsl(42.3, 100%, 51.4%);
     --clr-yellow-900: rgb(255, 182, 7);

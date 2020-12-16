@@ -17,17 +17,24 @@
 /* BUTTON RED HALF */
 
 .button-red-half {
-  color: var(--clr-red-500);
-  border: solid var(--clr-red-500) 2.5px;
+  color: var(--clr-red-600);
+  border: solid var(--clr-red-600) 2px;
   border-radius: 10px;
   background: transparent;
-  padding: 3em 1.5em;
+  padding: 3.2em 1.5em;
+  /* text-shadow: 1px 1px 1px var(--clr-neutral-300),
+  0.75px 0.75px 1.5px var(--clr-neutral-500),
+  -1px -1px 4px var(--clr-neutral-200);
+  box-shadow: 2px 2px 3px var(--clr-neutral-300),
+  0.75px 0.75px 1.5px var(--clr-neutral-500),
+  -0.25px -0.25px 1px var(--clr-neutral-100),
+  -1px -1px 4px var(--clr-neutral-200); */
 }
 
 .button-red-half:hover,
 .button-red-half:active {
   color: var(--clr-green-700);
-  border: solid var(--clr-green-700) 2.5px;
+  border: solid var(--clr-green-700) 2px;
 }
 
 

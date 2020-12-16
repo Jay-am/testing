@@ -159,6 +159,18 @@ a {
   font-size: var(--fs-social);
 }
 
+.red {
+  color: var(--clr-red-700);
+}
+
+.green {
+  color: var(--clr-green-700);
+}
+
+.yellow {
+  color: var(--clr-yellow-900);
+}
+
 
 /* SECTION SPECIFICS */
 
