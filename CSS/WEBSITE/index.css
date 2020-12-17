@@ -102,8 +102,17 @@
   padding-top: 6rem;
 }
 
+.zero-waste__last {
+  padding: 2rem 0;
+}
+
 .zero-waste__paragraph {
   grid-column: 2 / 5;
+}
+
+.btn-zero-waste {
+  grid-column: 2 / 3;
+  width: 50%;
 }
 
 
@@ -207,7 +216,7 @@
 }
 
 .btn-sharing {
-  grid-column: 2 / 5;
-  min-width: min-content;
+  grid-column: 2 / 3;
+  width: 50%;
 }
 
