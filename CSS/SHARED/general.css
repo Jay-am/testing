@@ -159,6 +159,10 @@ a {
   font-size: var(--fs-social);
 }
 
+.brand {
+  font-family: var(--ff-logo);
+}
+
 .red {
   color: var(--clr-red-700);
 }
