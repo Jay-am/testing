@@ -109,7 +109,15 @@
 
 /* COVER */
 
+.cover__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 6rem 0;
+}
 
+.cover__paragraph {
+  grid-column: 2 / 5;
+}
 
 
 /* START */
@@ -181,3 +189,25 @@
   align-self: center;
   justify-self: end;
 }
+
+
+/* SHARING */
+
+.sharing__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 6rem 0 10rem 0;
+}
+
+.sharing__paragraph {
+  grid-column: 2 / 5;
+}
+.sharing__paragraph-3 {
+  padding: 2rem 0;
+}
+
+.btn-sharing {
+  grid-column: 2 / 5;
+  min-width: min-content;
+}
+
