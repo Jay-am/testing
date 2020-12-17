@@ -76,6 +76,24 @@
 }
 
 
+/* DEFORESTATION */
+
+.deforestation__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 6rem;
+}
+
+.deforestation__paragraph {
+  grid-column: 2 / 5;
+}
+
+.deforestation-why {
+  padding: 2rem 0;
+}
+
+
+
 /* CHANGE */
 
 .change__content {
