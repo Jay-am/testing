@@ -60,6 +60,10 @@ section {
 
 /* CONTENT SPACER */
 
+.spacer > * + *  {
+  padding-top: var(--spacer);
+}
+
 .head-spacer > * + * {
   margin-top: var(--head-space);
 }

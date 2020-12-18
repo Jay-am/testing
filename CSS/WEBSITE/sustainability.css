@@ -1,11 +1,18 @@
+/* UNDERSTANDING */
+
 .understanding {
-  margin-top: 6rem;
+  margin: 10rem 0;
 }
+
+.understanding h2 {
+  padding-bottom: 2rem;
+}
+
+
+/* GENERAL */
 
 .sutainability {
   height: 100vh;
-  align-items: flex-end;
-  padding-bottom: 4rem;
 }
 
 .production,
@@ -19,8 +26,29 @@
   margin-bottom: 2rem;
 }
 
+.materials__content h3,
+.production__copy h3,
+.packaging__copy h3,
+.delivery__copy h3,
+.reverse-logistics__copy h3,
+.care-instructions__copy h3,
+.disposal__copy h3 {
+  font-size: 4rem;
+}
 
-/* BACKGROUND IMAGES */
+.materials__content p,
+.production__copy p,
+.packaging__copy p,
+.delivery__copy p,
+.reverse-logistics__copy p,
+.care-instructions__copy p,
+.disposal__copy p {
+  font-size: 1.5rem;
+  color: var(--clr-neutral-800);
+}
+
+
+/* MATERIALS */
 
 .materials {
   background-image: url(../../IMAGES/SUSTAINABILITY/recycled-materials.png);
@@ -31,7 +59,11 @@
   background-position: center;
 }
 
+
+/* PRODUCTION */
+
 .production {
+  flex-direction: column;
   background-image: url(#);
   background-color: var(--clr-blue-500);
   background-blend-mode: multiply;
@@ -39,6 +71,13 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.production__copy {
+  width: 60%;
+}
+
+
+/* PACKAGING */
 
 .packaging {
   background-image: url(../../IMAGES/SUSTAINABILITY/recycled-packaging.png);
@@ -49,6 +88,9 @@
   background-position: center;
 }
 
+
+/* DELIVERY */
+
 .delivery {
   background-image: url(#);
   background-color: var(--clr-green-500);
@@ -57,6 +99,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
+/* REVERSE LOGISTICS */
 
 .reverse-logistics {
   background-image: url(#);
@@ -67,6 +112,9 @@
   background-position: center;
 }
 
+
+/* CARE INSTRUCTIONS */
+
 .care-instructions {
   background-image: url(../../IMAGES/SUSTAINABILITY/care-instructions.png);
   /* background-color: var(--clr-turquoise-500);
@@ -74,19 +122,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  align-items: flex-start;
-  padding-top: 4rem;
 }
 
-.care-instructions__copy h3 {
-  font-size: 4rem;
+.care-instructions__copy {
+  align-self: flex-start;
 }
 
 .care-instructions__copy p {
-  font-size: 1.5rem;
-  color: var(--clr-neutral-800);
   padding-bottom: 2rem;
 }
+
+
+/* DISPOSAL */
 
 .disposal {
   background-image: url(#);
@@ -95,4 +142,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.disposal__copy {
+  align-self: flex-end;
+  padding-bottom: 8rem;
 }
