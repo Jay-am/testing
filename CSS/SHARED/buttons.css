@@ -1,15 +1,21 @@
 /* GENERAL */
 
 .button {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0 0.5rem 0.75rem 0.5rem;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   text-align: left;
+  background-color: transparent;
   border: none;
   outline: none;
-  /* border-radius: 25px; */
   border-radius: 10px;
+  position: relative;
+  width: 135px;
+  height: 130px;
   cursor: pointer;
 }
 
@@ -17,17 +23,8 @@
 /* BUTTON RED HALF */
 
 .button-red-half {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding: 0 0.5rem 0.75rem 0.5rem;
   color: var(--clr-red-600);
-  background-color: transparent;
   border: solid var(--clr-red-600) 2px;
-  position: relative;
-  width: 135px;
-  height: 130px;
-  transition: 0.6s all ease;
 }
 
 .button-red-half:hover,
@@ -50,17 +47,8 @@
 /* BUTTON GREY HALF */
 
 .button-grey-half {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding: 0 0.5rem 0.75rem 0.5rem;
   color: var(--clr-neutral-800);
-  background-color: transparent;
   border: solid var(--clr-neutral-800) 2px;
-  position: relative;
-  width: 135px;
-  height: 130px;
-  transition: 0.6s all ease;
 }
 
 .button-grey-half:hover,
