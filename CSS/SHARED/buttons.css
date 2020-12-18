@@ -2,14 +2,14 @@
 
 .button {
   display: inline-block;
-  text-decoration: none;
-  padding: 0.5em 1.5em;
-  text-align: center;
   font-size: 14px;
   font-weight: 600;
+  text-decoration: none;
+  text-align: left;
   border: none;
   outline: none;
-  border-radius: 25px;
+  /* border-radius: 25px; */
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -18,16 +18,16 @@
 
 .button-red-half {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0 0.5rem 0.75rem 0.5rem;
+  color: var(--clr-red-600);
+  background-color: transparent;
+  border: solid var(--clr-red-600) 2px;
+  position: relative;
   width: 135px;
   height: 130px;
-  color: var(--clr-red-600);
-  border: solid var(--clr-red-600) 2px;
-  border-radius: 10px;
-  background-color: transparent;
   transition: 0.6s all ease;
-  position: relative;
 }
 
 .button-red-half:hover,
@@ -51,16 +51,16 @@
 
 .button-grey-half {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0 0.5rem 0.75rem 0.5rem;
+  color: var(--clr-neutral-800);
+  background-color: transparent;
+  border: solid var(--clr-neutral-800) 2px;
+  position: relative;
   width: 135px;
   height: 130px;
-  color: var(--clr-neutral-800);
-  border: solid var(--clr-neutral-800) 2px;
-  border-radius: 10px;
-  background-color: transparent;
   transition: 0.6s all ease;
-  position: relative;
 }
 
 .button-grey-half:hover,
