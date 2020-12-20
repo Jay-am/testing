@@ -171,6 +171,10 @@ a {
   color: var(--clr-green-700);
 }
 
+.dark-green {
+  color: var(--clr-green-900);
+}
+
 .yellow {
   color: var(--clr-yellow-900);
 }

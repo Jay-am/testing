@@ -148,15 +148,15 @@
 /* START */
 
 .start {
-  background-color: var(--clr-yellow-500);
+  background-color: var(--clr-green-500);
 }
 
 .start__content {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  column-gap: 2.5rem;
-  row-gap: 2.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
   padding: 0rem 5rem 6rem 5rem;
 }
 
@@ -166,10 +166,12 @@
   line-height: 100%;
   border: none;
   border-radius: 25px;
+  width: 300px;
+  height: 300px;
   cursor: pointer;
-  color: var(--clr-yellow-1000);
-  background-color: var(--clr-yellow-500);
-  box-shadow: -2px -2px 3px var(--clr-yellow-300), 3px 3px 5px var(--clr-yellow-800);
+  color: var(--clr-green-900);
+  background-color: var(--clr-green-500);
+  box-shadow: -2px -2px 3px var(--clr-green-300), 3px 3px 5px var(--clr-green-800);
 }
 
 .start__paragraph-1 {
