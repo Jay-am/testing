@@ -157,13 +157,15 @@
   grid-template-rows: repeat(5, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
-  padding: 0rem 5rem 6rem 5rem;
+  padding: 6rem 5rem 10rem 5rem;
 }
 
 .start__paragraph {
-  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  font-size: 32px;
+  text-align: left;
   padding: 2rem;
-  line-height: 100%;
   border: none;
   border-radius: 25px;
   width: 300px;
@@ -174,9 +176,15 @@
   box-shadow: -2px -2px 3px var(--clr-green-300), 3px 3px 5px var(--clr-green-800);
 }
 
+.start__paragraph h3 {
+ padding-bottom: 1rem;
+}
+
 .start__paragraph-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  text-align: left;
+  align-content: end;
 }
 
 .start__paragraph-2 {
@@ -206,9 +214,18 @@
 .start__paragraph-6 {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
+  text-align: left;
   background-color: var(--clr-green-600);
   box-shadow: -1px -1px 2px var(--clr-green-400), 3px 3px 5px var(--clr-green-800);
 }
+
+/* .start-number-paragraph-6-grid {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  align-self: end;
+  justify-self: end;
+  z-index: 1;
+} */
 
 .start__paragraph-7 {
   grid-column: 3 / 4;
@@ -220,6 +237,19 @@
   grid-row: 4 / 5;
   background-color: var(--clr-green-600);
   box-shadow: -1px -1px 2px var(--clr-green-400), 3px 3px 5px var(--clr-green-800);
+}
+
+.start__paragraph-2::before,
+.start__paragraph-4::before,
+.start__paragraph-6::before,
+.start__paragraph-8::before {
+  content: '1';
+  color: var(--clr-green-500);
+  font-size: 300px;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
 }
 
 .start__paragraph-9 {
@@ -235,17 +265,16 @@
 .start__paragraph-11 {
   grid-column: 4 / 5;
   grid-row: 5 / 6;
-  display: flex;
-  align-items: flex-end;
-  /* padding: 2rem; */
+  flex-direction: column;
+  line-height: 1;
   box-shadow: none;
+  color: var(--clr-red-700);
   border: 2px solid var(--clr-red-700);
-  font-size: 32px;
-  text-align: left;
 }
 
-.btn-start {
-  color: var(--clr-red-700);
+.start__paragraph-11:hover {
+  color: var(--clr-yellow-500);
+  border: 2px solid var(--clr-yellow-500);
 }
 
 
