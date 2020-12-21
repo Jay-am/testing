@@ -26,8 +26,8 @@ address {
   font-family: var(--ff-number);
   font-weight: var(--fw-regular);
   font-size: var( --fs-number);
-  justify-self: start;
-  align-self: center;
+  justify-self: end;
+  align-self: end;
   z-index: 1;
 }
 
@@ -206,9 +206,9 @@ address {
   }
 
   .square {
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
     align-self: center;
     justify-content: center;
   }
@@ -311,9 +311,9 @@ address {
 
 @media (min-width: 1200px) {
   .square {
-    border-radius: 50%;
-    width: 650px;
-    height: 650px;
+    border-radius: 10%;
+    width: 450px;
+    height: 450px;
     align-self: center;
     justify-content: center;
   }

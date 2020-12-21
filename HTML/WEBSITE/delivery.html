@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="../../CSS/SHARED/navigation.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
-    <link rel="stylesheet" href="../../CSS/SHARED/grid-circles.css" />
+    <!-- <link rel="stylesheet" href="../../CSS/SHARED/grid-circles.css" /> -->
+    <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/media-queries.css" />
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
@@ -46,25 +47,29 @@
     <main class="delivery">
       
         <section class="delivery-process">
-          <h2 class="headline">THE DELIVERY PROCESS</h2>
+          <header>
+            <h2 class="headline">THE DELIVERY PROCESS</h2>
+          </header>
 
-          <div class="circle | circle-1"></div>
-          <div class="step-1__number"><span class="number">1</span></div>
-          <div class="step__content | step-1__content | content-spacer">
-            <h3>ORDER CONFIRMATION</h3>
-            <p>After placing your order you will receive an order confirmation email with all details of your purchase.</p>
-            <p>All orders placed before 12pm (CET) on a working day are usually shipped within the same day. In busy saleperiods, we do our very best to dispatch your order within 1 to 2 working days from the day you place your order.<p>
-          </div>
-       
-          <div class="circle | circle-2"></div>
-          <div class="step-2__number"><span class="number">2</span></div>
-          <div class="step__content | step-2__content | content-spacer">
-            <h3>SHIPPING CONFIRMATION</h3>
-            <p>
-              Once your order has been dispatched, you will receive an e-mail
-              confirmation. On the same day, you will receive a tracking number by
-              e-mail sent directly from the courier.
-            </p>
+          <div class="delivery-process__content">
+            <div class="circle | circle-1 | square | square-1"></div>
+            <div class="step-1__number"><span class="number">1</span></div>
+            <div class="step__content | step-1__content | content-spacer">
+              <h3>ORDER CONFIRMATION</h3>
+              <p>After placing your order you will receive an order confirmation email with all details of your purchase.</p>
+              <p>All orders placed before 12pm (CET) on a working day are usually shipped within the same day. In busy saleperiods, we do our very best to dispatch your order within 1 to 2 working days from the day you place your order.<p>
+            </div>
+        
+            <div class="circle | circle-2 | square | square-2"></div>
+            <div class="step-2__number"><span class="number">2</span></div>
+            <div class="step__content | step-2__content | content-spacer">
+              <h3>SHIPPING CONFIRMATION</h3>
+              <p>
+                Once your order has been dispatched, you will receive an e-mail
+                confirmation. On the same day, you will receive a tracking number by
+                e-mail sent directly from the courier.
+              </p>
+            </div>
           </div>
         </section>
       
@@ -74,7 +79,7 @@
             <p class="right | pd-right">SHIPPING & DELIVERY WITHIN</p>
           </header>
           <div class="container | delivery-details__content | flex">
-            <div class="germany | content-spacer">
+            <div class="delivery-detail | germany | content-spacer">
               <h3>GERMANY</h3>
               <p>Free Shipping applies to all orders above 50 Euro</p>
               <p>On orders below 50 Euro, a xx Euro shipping fee will be added to your order</p>
@@ -82,7 +87,7 @@
               <p>Express option available</p>
             </div>
       
-            <div class="eu | content-spacer">
+            <div class="delivery-detail | eu | content-spacer">
               <h3>THE EU</h3>
               <p>Free shipping applies to all orders above 50 Euro</p>
               <p>On orders below 50 Euro, a xx Euro shipping fee will be added to your order</p>
@@ -90,7 +95,7 @@
               <p>Express option available</p>
             </div>
       
-            <div class="outside-eu | content-spacer">
+            <div class="delivery-detail | outside-eu | content-spacer">
               <h3>OUTSIDE THE EU</h3>
               <p>Free shipping applies to all orders above 100 Euro</p>
               <p>On orders below 100 EUR, a xx Euro shipping fee will be added to your order</p>
@@ -100,28 +105,30 @@
           </div>
         </section>
     
-        <div class="delivery-wrapper">
-        <section class="note | right | pd-right | content-spacer">
-          <header>
-            <h2>Please note</h2>
-          </header>
-    
-          <h3>DELIVERING CHARGES</h3>
-          <p>The prices in our online store do not include delivery charges.</p>
-          <p>
-            The 19% German Sales Tax/VAT is not added to orders sent to a destination
-            outside the EU, but these orders may be subject to local taxes and/or
-            import duties at your own expense. All fees regarding local customs,
-            including handling, duties and taxes, will be sent to you directly from
-            the courier.
-          </p>
-    
-          <h3>DELAYS</h3>
-          <p>
-            We cannot be held liable for any delays caused by the courier or local
-            customs.
-          </p>
+        <section class="note | flex">
+          <div class="note__content | right | pd-right | content-spacer">
+            <header>
+              <h2>Please note</h2>
+            </header>
+      
+            <h3>DELIVERING CHARGES</h3>
+            <p>The prices in our online store do not include delivery charges.</p>
+            <p>
+              The 19% German Sales Tax/VAT is not added to orders sent to a destination
+              outside the EU, but these orders may be subject to local taxes and/or
+              import duties at your own expense. All fees regarding local customs,
+              including handling, duties and taxes, will be sent to you directly from
+              the courier.
+            </p>
+      
+            <h3>DELAYS</h3>
+            <p>
+              We cannot be held liable for any delays caused by the courier or local
+              customs.
+            </p>
+          </div>
         </section>
+
       </div>
     </main>
     <div class="footer-wrapper">
