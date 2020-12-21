@@ -1,18 +1,13 @@
 /* GENEARAL */
 
-.delivery {
-  margin-top: 16rem;
-}
-
 /* GRID */
 
 .delivery-process__content {
   display: grid;
   grid-template-columns: repeat(12, min-content);
-  grid-template-rows: repeat(8, min-content);
+  grid-template-rows: repeat(6, min-content);
   column-gap: 0;
   row-gap: 0;
-  margin: 0 2.5rem;
 }
 
 /* DELIVERY DETAILS */
