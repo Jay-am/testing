@@ -13,7 +13,7 @@
   font-family: var(--ff-number);
   font-weight: var(--fw-regular);
   font-size: var( --fs-number);
-  justify-self: end;
+  justify-self: center;
   align-self: end;
   line-height: 1;
   letter-spacing: 1;
@@ -187,8 +187,8 @@ address {
   }
 
   .step__content {
-    width: 95%;
-    align-self: center;
+    width: 100%;
+    align-self: end;
     justify-content: start;
     z-index: 1;
   }
@@ -206,7 +206,7 @@ address {
   /* STEP 1 */
 
   .square-1 {
-    grid-column: 2 / 5;
+    grid-column: 2 / 6;
     grid-row: 1 / 5;
   }
 
@@ -216,7 +216,7 @@ address {
   }
 
   .step-1__content {
-    grid-column: 2 / 5;
+    grid-column: 2 / 6;
     grid-row: 1 / 5;
   }
 
@@ -245,7 +245,7 @@ address {
   }
 
   .step-3__number {
-    grid-column: 4 / 7;
+    grid-column: 4 / 6;
     grid-row: 6 / 10;
   }
 
@@ -294,7 +294,5 @@ address {
     border-radius: 25px;
     width: 450px;
     height: 450px;
-    align-self: center;
-    justify-content: center;
   }
 }

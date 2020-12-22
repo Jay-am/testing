@@ -4,8 +4,8 @@
 
 .delivery-process__content {
   display: grid;
-  grid-template-columns: repeat(12, min-content);
-  grid-template-rows: repeat(6, min-content);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   column-gap: 0;
   row-gap: 0;
 }
