@@ -1,0 +1,23 @@
+
+/* GRID */
+
+.how-to-become-a-retailer {
+  padding: 16rem 0 8rem 0;
+}
+
+.how-to-become-a-retailer__headline {
+  padding-bottom: 2rem;
+}
+
+.how-to-become-a-retailer__wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  column-gap: 0;
+  row-gap: 0;
+}
+
+.how-to-become-a-retailer > * div {
+  margin: 0;
+  padding: 0;
+}
