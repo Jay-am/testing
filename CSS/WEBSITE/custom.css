@@ -32,6 +32,8 @@
   font-size: 650px;
   color: var(--clr-pink-400);
   position: absolute;
+  top: 50;
+  left: 0;
 }
 
 /* .custom-intro {
@@ -78,10 +80,17 @@
 /* GRID */
 
 .how-it-works {
-  margin-top: 8rem;
+  padding: 16rem 0 8rem 0;
+}
+
+.how-it-works__headline {
+  padding-bottom: 2rem;
+}
+
+.how-it-works__wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(27, min-content);
+  grid-template-rows: repeat(17, 1fr);
   column-gap: 0;
   row-gap: 0;
 }
@@ -91,19 +100,20 @@
   padding: 0;
 }
 
+
 /* ENJOY */
 
 .enjoy {
-  grid-column: 1 / 8;
-  grid-row: 25 / 26;
+  grid-column: 2 / 8;
+  grid-row: 19 / 20;
   align-self: start;
   justify-self: flex-start;
-  font-size: var(--fs-h3);
+  padding-bottom: 2rem;
 }
 
 .btn-custom {
-  grid-column: 1 / 6;
-  grid-row: 26 / 27;
+  grid-column: 2 / 3;
+  grid-row: 21 / 22;
   align-self: start;
   justify-self: flex-start;
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/colors.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/buttons.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/fonts.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/distance.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/reset.css" />
@@ -15,7 +16,7 @@
     <link rel="stylesheet" href="../../CSS/SHARED/navigation.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
-    <link rel="stylesheet" href="../../CSS/SHARED/grid-circles.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/media-queries.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -85,71 +86,75 @@
       </section>
     
       <section class="how-it-works">
-        <h2 class="headline">HOW IT WORKS</h2>
+        <h2 class="how-it-works__headline | right | pd-right">HOW IT WORKS</h2>
+
+        <div class="how-it-works__wrapper">
             
-        <div class="circle | circle-1"></div>
-        <div class="step-1__number"><span class="number">1</span></div>
-        <div class="step__content | step-1__content | content-spacer">
-          <h3>SEND YOUR INQUIRY</h3>
-          <p>
-            Send us an inquiry to <span class="email"
-              >custom@cover.international</span
-            >
-            with your desired quantity and personalization preferences (logo, colors,
-            design). If you already have a design in mind feel free to include it in
-            your email.
-          </p>
-        </div>
+          <div class="square | square-1"></div>
+          <div class="step-1__number"><span class="number">1</span></div>
+          <div class="step__content | step-1__content | content-spacer">
+            <h3>SEND YOUR INQUIRY</h3>
+            <p>
+              Send us an inquiry to <span class="email"
+                >custom@cover.international</span
+              >
+              with your desired quantity and personalization preferences (logo, colors,
+              design). If you already have a design in mind feel free to include it in
+              your email.
+            </p>
+          </div>
+            
+          <div class="square | square-2"></div>
+          <div class="step | step-2__number"><span class="number | number-2">2</span></div>
+          <div class="step-2__content | content-spacer">
+            <h3>THE DESIGN PROCESS</h3>
+            <p>
+              Based on your preferences, we will create a custom preview of your
+              customized COVER so you can see how the final product will look like. We
+              are also happy to work with your agency to create your custom artwork. All
+              we want is to create something that is unique for your business and
+              communicates what matters to you.
+            </p>
+          </div>
+      
+          <div class="square | square-3"></div>
+          <div class="step | step-3__number"><span class="number | number-3">3</span></div>
+          <div class="step-3__content | content-spacer">
+            <h3>FINALIZING THE DETAILS</h3>
+            <p>
+              Once you are satisfied with the design, we’ll send you a quote for
+              approval and all the details to get the production started.
+            </p>
+          </div>
+            
+          <div class="square | square-4"></div>
+          <div class="step | step-4__number"><span class="number | number-4">4</span></div>
+          <div class="step-4__content | content-spacer">
+            <h3>GETTING SERIOUS (PRODUCTION + SHIPPING)</h3>
+            <p>
+              After your approval we will launch the production process. As soon as the
+              COVERS are ready to start their journey, we will send you a notification
+              with all the details to track your order.
+            </p>
+          </div>
           
-        <div class="circle | circle-2"></div>
-        <div class="step | step-2__number"><span class="number | number-2">2</span></div>
-        <div class="step-2__content | content-spacer">
-          <h3>THE DESIGN PROCESS</h3>
-          <p>
-            Based on your preferences, we will create a custom preview of your
-            customized COVER so you can see how the final product will look like. We
-            are also happy to work with your agency to create your custom artwork. All
-            we want is to create something that is unique for your business and
-            communicates what matters to you.
-          </p>
+          <div class="square | square-5"></div>
+          <div class="step | step-5__number"><span class="number | number-5">5</span></div>
+          <div class="step-5__content | content-spacer">
+            <h3>YOUR ENVIRONMENTAL IMPACT CERTIFICATE</h3>
+            <p>
+              As usual we will plant trees for your purchase to recover forests. And as
+              always they will get your name. As soon as these trees are planted you
+              will receive a certificate with their location as well as a picture and
+              the environmental impact these trees and purchased COVERs will have on our
+              planet.
+            </p>
+          </div>
+            
+          <p class="enjoy | h3">Let's enjoy giving even more!</p>
+          <button onclick="location.href='https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-custom | button | button-red-half">GET<br>PERSONAL</button>
         </div>
-    
-        <div class="circle | circle-3"></div>
-        <div class="step | step-3__number"><span class="number | number-3">3</span></div>
-        <div class="step-3__content | content-spacer">
-          <h3>FINALIZING THE DETAILS</h3>
-          <p>
-            Once you are satisfied with the design, we’ll send you a quote for
-            approval and all the details to get the production started.
-          </p>
-        </div>
-           
-        <div class="circle | circle-4"></div>
-        <div class="step | step-4__number"><span class="number | number-4">4</span></div>
-        <div class="step-4__content | content-spacer">
-          <h3>GETTING SERIOUS (PRODUCTION + SHIPPING)</h3>
-          <p>
-            After your approval we will launch the production process. As soon as the
-            COVERS are ready to start their journey, we will send you a notification
-            with all the details to track your order.
-          </p>
-        </div>
-        
-        <div class="circle | circle-5"></div>
-        <div class="step | step-5__number"><span class="number | number-5">5</span></div>
-        <div class="step-5__content | content-spacer">
-          <h3>YOUR ENVIRONMENTAL IMPACT CERTIFICATE</h3>
-          <p>
-            As usual we will plant trees for your purchase to recover forests. And as
-            always they will get your name. As soon as these trees are planted you
-            will receive a certificate with their location as well as a picture and
-            the environmental impact these trees and purchased COVERs will have on our
-            planet.
-          </p>
-        </div>
-           
-        <p class="enjoy">Let's enjoy giving even more!</p>
-        <button onclick="location.href='https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-custom | button | button-red-half">Get Personal</button>
+
       </section>
     </main>
 

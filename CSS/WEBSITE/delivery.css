@@ -2,12 +2,14 @@
 
 /* GRID */
 
+.delivery-process {
+  padding: 16rem 0 8rem 0;
+}
+
 .delivery-process__content {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  column-gap: 0;
-  row-gap: 0;
 }
 
 /* DELIVERY DETAILS */
@@ -21,14 +23,6 @@
   height: 100vh;
   padding-top: 6em;
   padding-bottom: 6em;
-}
-
-.delivery-details__header {
-  flex-basis: 100%;
-  flex-grow: 1;
-  margin-left: auto;
-  margin-right: 0;
-  padding: 0;
 }
 
 .delivery-details__header h2 {
