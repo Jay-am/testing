@@ -44,11 +44,26 @@
 }
 
 
+/* BUTTON DARK GREY HALF */
+
+.button-dark-grey-half {
+  color: var(--clr-neutral-800);
+  border: solid var(--clr-neutral-800) 2px;
+}
+
+.button-dark-grey-half:hover,
+.button-dark-grey-half:active {
+  color: var(--clr-blue-900);
+  border: solid var(--clr-blue-900) 2px;
+  transition: 0.6s ease;
+}
+
+
 /* BUTTON GREY HALF */
 
 .button-grey-half {
-  color: var(--clr-neutral-800);
-  border: solid var(--clr-neutral-800) 2px;
+  color: var(--clr-neutral-500);
+  border: solid var(--clr-neutral-500) 2px;
 }
 
 .button-grey-half:hover,

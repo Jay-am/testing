@@ -122,7 +122,7 @@
   grid-template-rows: repeat(2, min-content);
   align-content: end;
   background-image: url(#);
-  background-color: var(--clr-purple-200);
+  /* background-color: var(--clr-purple-200); */
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
