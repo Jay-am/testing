@@ -1,14 +1,16 @@
 
-/* GRID */
-
 /* WHY OUR PARTNERS CHOOSE TO WORK WITH US */
 
 .wholesale {
-  padding: 8rem 0;
+  padding: 16rem 0;
 }
 
 .wholesale__headline {
   padding: 8rem 0 6rem 0;
+}
+
+.big {
+  font-size: 120px;
 }
 
 .be-the-first h1 {
@@ -37,7 +39,7 @@
 }
 
 .wholesale__content--p {
-  grid-column: 3 / 6;
+  grid-column: 3 / 5;
 }
 
 .wholesale__content--p1 {
@@ -52,13 +54,13 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, min-content) 1fr;
   height: 100vh;
-  align-content: center;
+  background: var(--clr-red-100);
 }
 
 .be-the-first__h1 {
-  grid-column: 2 / 7;
+  grid-column: 2 / 6;
   grid-row: 1 / 2;
-  font-size: 150px;
+  font-size: 120px;
   justify-self: end;
 }
 
