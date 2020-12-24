@@ -1,6 +1,42 @@
 
 /* GRID */
 
+/* WHY OUR PARTNERS CHOOSE TO WORK WITH US */
+
+.wholesale {
+  padding: 8rem 0;
+}
+
+.wholesale__headline {
+  padding: 8rem 0 6rem 0;
+}
+
+.wholesale__content--h3 {
+  flex-basis: 25%;
+}
+
+.wholesale__content {
+  margin-bottom: 8rem;
+  flex-basis: 70%;
+}
+
+.be-the-first h1 {
+  line-height: 1;
+  padding-bottom: 0;
+}
+
+.be-the-first h2 {
+  line-height: 1;
+  padding-bottom: 4rem;
+}
+
+.movement {
+  padding-bottom: 6rem;
+}
+
+
+/* HOW TO BECOME A RETAILER */
+
 .how-to-become-a-retailer {
   padding: 16rem 0 8rem 0;
 }
