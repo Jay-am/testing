@@ -49,12 +49,18 @@
 
 /* BE THE FIRST */
 
-.be-the-first {
+.panel {
+  min-height: 100vh;
+}
+
+.color-red-scroll {
+  background: var(--clr-red-100);
+}
+
+.be-the-first__content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, min-content) 1fr;
-  height: 100vh;
-  background: var(--clr-red-100);
 }
 
 .be-the-first__h1 {
