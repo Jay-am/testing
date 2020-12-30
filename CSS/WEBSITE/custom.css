@@ -1,86 +1,70 @@
 /* INTRO */
 
 .custom-intro {
-  margin-top: 16rem;
+  margin-top: 8rem;
   height: 100vh;
-  /* background-color: var(--clr-pink-500); */
-  display: flex;
-  flex-direction: row-reverse;
-  align-content: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr min-content 1fr;
 }
 
 .custom__header {
   color: var(--clr-pink-800);
+  grid-column: 4 / 7;
+  grid-row: 2 / 3;
+  z-index: 1;
+  align-self: start;
 }
 
-.custom__content h3 {
+.ampersand {
+  grid-column: 4 / 7;
+  grid-row: 1 / 4;
+  align-self: center;
+  font-size: 650px;
+  color: var(--clr-pink-400);
+}
+
+.custom__content--h3 {
   padding: 2em 0;
   color: var(--clr-pink-800);
 }
 
-.custom__content p {
+.custom__content--p {
   color: var(--clr-pink-100);
 }
 
-.ampersand {
-  position: relative;
-}
-
-.ampersand:before {
-  content: '&';
-  font-size: 650px;
-  color: var(--clr-pink-400);
-  position: absolute;
-  top: 50;
-  left: 0;
-}
-
-/* .custom-intro {
-  margin-top: 16rem;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  column-gap: 1.25rem;
-  row-gap: 0;
-}
-
-.custom__header {
-  grid-column: 2 / 6;
-  grid-row: 5 / 6;
-  align-self: start;
-  justify-content: end;
-  z-index: 1;
-}
-
-.ampersand {
-  font-size: 650px;
-  grid-column: 4 / 6;
-  grid-row: 3 / 7;
-  align-self: end;
-  justify-content: end;
-}
-
 .custom__content-1 {
-  grid-column: 1 / 2;
-  grid-row: 1 / 4;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  align-self: end;
 }
 
 .custom__content-2 {
-  grid-column: 2 / 3;
-  grid-row: 1 / 4;
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  align-self: center;
 }
 
 .custom__content-3 {
-  grid-column: 3 / 4;
-  grid-row: 1 / 4;
-} */
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+} 
 
+
+/* NOTE */
+
+.note {
+  padding: 24rem 0 0rem 0;
+}
+
+.no-custom {
+  padding: 4rem 0 0rem 0;
+}
 
 /* GRID */
 
 .how-it-works {
-  padding: 16rem 0 8rem 0;
+  padding: 16rem 0 0rem 0;
 }
 
 .how-it-works__headline {
@@ -103,17 +87,11 @@
 
 /* ENJOY */
 
-.enjoy {
-  grid-column: 2 / 8;
-  grid-row: 19 / 20;
-  align-self: start;
-  justify-self: flex-start;
-  padding-bottom: 2rem;
+.enjoy__wrapper {
+  padding: 2rem 0 10rem 0;
 }
 
-.btn-custom {
-  grid-column: 2 / 3;
-  grid-row: 21 / 22;
-  align-self: start;
-  justify-self: flex-start;
+.enjoy {
+  padding: 0 0 4rem 0;
+  font-weight: var(--fw-light);
 }
