@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/media-queries.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/scroll-function.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
@@ -39,7 +40,7 @@
     </header> -->
     
     <main class="custom">
-      <section class="hero | content-spacer | right">
+      <section class="hero | content-spacer | right | panel" data-color="white-scroll">
         <header class="container">
           <h1>Getting Personal</h1>
           <p>
@@ -49,31 +50,30 @@
           </p>
         </header>
       </section>
-      <section class="custom-intro">
+      <section class="custom-intro | panel" data-color="pink-scroll">
         <header>
           <h2 class="custom__header | right">CORPORATE GIFTS<br>CUSTOMISATION</h2>
           <div class="ampersand | right"></div>
         </header>
         <div class="custom__content | col-33">
-        <p class="custom__content-1">
-          Then let us celebrate the ‘Art of Giving’. while not only making the
-          presentee happy but also make the world and future generations a present
-          of reducing, reusing and recycling waste and also recovering forests and
-          thus working against climate change.
-        </p>
-        <p>Our eco-friendly custom gift wrappings are perfect for corporate gifts, in-store gift packages, wedding or shower favors, or promotional giveaways.</p>
-        <h3 class="custom__content-2 | strong">
-          And the best thing? 
-        </h3>
-        <p class="custom__content-3">
-          The reusable nature of the product provides a powerful
-          advertising opportunity for your brand. Instead of spending money on paper gift wrapping that goes directly into a landfill, and being responsible for cutting down trees, you can now send your customers off with something that will be passed on again and again, putting even more eyes on your identity and brand.
-        </p>
-        <p>Don’t need custom? Check our wholesale info.</p>
-      </div>
+          <p class="custom__content-1">
+            Then let us celebrate the ‘Art of Giving’. while not only making the
+            presentee happy but also make the world and future generations a present
+            of reducing, reusing and recycling waste and also recovering forests and
+            thus working against climate change.
+          </p>
+          <p>Our eco-friendly custom gift wrappings are perfect for corporate gifts, in-store gift packages, wedding or shower favors, or promotional giveaways.</p>
+          <h3 class="custom__content-2 | strong">
+            And the best thing? 
+          </h3>
+          <p class="custom__content-3">
+            The reusable nature of the product provides a powerful
+            advertising opportunity for your brand. Instead of spending money on paper gift wrapping that goes directly into a landfill, and being responsible for cutting down trees, you can now send your customers off with something that will be passed on again and again, putting even more eyes on your identity and brand.
+          </p>
+        </div>
       </section>
     
-      <section class="note | right | content-spacer">
+      <section class="note | right | content-spacer | panel" data-color="white-scroll">
         <header>
           <h2>Please note</h2>
         </header>
@@ -83,9 +83,13 @@
           we’re getting through the design process and where the order has to get
           shipped to.
         </p>
+        <p>Don’t need custom? Check our wholesale info.</p>
+        <div class="pd-right">
+          <button onclick="location.href='https://stackoverflow.com/questions/2906582how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-wholesale | button | button-red-half | right">BECOME<br>A RETAILER</button>
+        </div>
       </section>
     
-      <section class="how-it-works">
+      <section class="how-it-works | panel" data-color="white-scroll">
         <header>
           <h2 class="how-it-works__headline | right | pd-right">HOW IT WORKS</h2>
         </header>
@@ -215,5 +219,10 @@
       
       </footer>
     </div>
+
+    <!-- SCROLL FUNCTION -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="../../JS/scroll-function.js"></script>
+
   </body>
 </html>
