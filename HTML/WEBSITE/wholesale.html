@@ -19,6 +19,7 @@
     <!-- <link rel="stylesheet" href="../../CSS/SHARED/grid-circles.css" /> -->
     <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/media-queries.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/scroll-function.css" />
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
   <body>
@@ -37,17 +38,21 @@
         </ul>
       </nav>  
     </header> -->
-    <header class="container">
+    <header class="container | panel" data-color="white-scroll">
       <h1>Wholesale</h1>
       <p>Join the movement and change the world with us</p>
       <p>ONE GIFT AT A TIME!</p>
     </header>
 
     <main>
-    <section class="wholesale">
+
+    <section class="wholesale__header | panel" data-color="purple-scroll">
       <header>
         <h2 class="wholesale__headline | right | pd-right">WHY OUR PARTNERS<br><span class="big">CHOOSE TO WORK WITH US</span></h2>
       </header>
+    </section>
+    
+    <section class="wholesale | panel" data-color="white-scroll">
 
       <div class="wholesale__content">
         <h3 class="wholesale__content--h3 | right">BEING PART OF THE MOVEMENT</h3>
@@ -97,7 +102,7 @@
       </div>
     </section>
 
-    <section class="be-the-first | panel" data-color="red-scroll">
+    <section class="be-the-first | panel" data-color="yellow-scroll">
       <div class="container | be-the-first__content">
         <h1 class="be-the-first__h1 | right">Be the first</h1>
         <h2 class="be-the-first__h2 | right">To sell <span class="brand">COVER</span> in your city!</h2>
@@ -105,7 +110,7 @@
       </div>
     </section>
 
-    <section  class="how-to-become-a-retailer">
+    <section  class="how-to-become-a-retailer | panel" data-color="white-scroll">
       <header>
         <h2 class="how-to-become-a-retailer__headline | right | pd-right">HOW TO BECOME A RETAILER</h2>
       </header>
@@ -163,12 +168,13 @@
       </div>
     </section>
 
-    <h3 class="right | pd-right">Welcome to the community</h3>
-    <h4 class="right | pd-right">We are looking forward to changing the world with you</h4>
-    <div class="pd-right">
-      <button onclick="location.href='https://stackoverflow.com/questions/2906582how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-wholesale | button | button-red-half | right">BECOME<br>A RETAILER</button>
-    </div>
-
+    <section class="welcome | panel" data-color="pink-scroll">
+      <h3 class="right | pd-right">Welcome to the community</h3>
+      <h4 class="right | pd-right">We are looking forward to changing the world with you</h4>
+      <div class="pd-right">
+        <button onclick="location.href='https://stackoverflow.com/questions/2906582how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-wholesale | button | button-red-half | right">BECOME<br>A RETAILER</button>
+      </div>
+    </section>
   </main>
 
     <div class="footer-wrapper">
@@ -229,7 +235,9 @@
     </div>
 
     <!-- SCROLL FUNCTION -->
-    <script src="../../JS/scroll-function.js"></script>
 
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="../../JS/scroll-function.js"></script>
+  
   </body>
 </html>

@@ -1,0 +1,23 @@
+.panel {
+  min-height: 100vh;
+}
+
+.color-white-scroll {
+  background: #ffffff;
+}
+
+.color-yellow-scroll {
+  background: var(--clr-yellow-500);
+}
+
+.color-pink-scroll {
+  background: var(--clr-pink-500);
+}
+
+.turquoise-scroll {
+  background: var(--clr-turquoise-500);
+}
+
+.purple-scroll {
+  background: var(--clr-purple-500);
+}

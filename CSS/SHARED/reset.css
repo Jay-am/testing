@@ -55,6 +55,7 @@ body {
 }
 
 body {
+  background-color: #ffffff;
   transition: background-color 1s ease;
 }
 

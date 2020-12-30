@@ -2,11 +2,11 @@
 /* WHY OUR PARTNERS CHOOSE TO WORK WITH US */
 
 .wholesale {
-  padding: 16rem 0;
+  padding: 0rem 0;
 }
 
 .wholesale__headline {
-  padding: 8rem 0 6rem 0;
+  /* padding: 8rem 0 6rem 0; */
 }
 
 .big {
@@ -28,7 +28,7 @@
   grid-template-columns: repeat(6, 1fr);
   column-gap: 4rem;
   row-gap: 6rem;
-  padding: 8rem 0 0 0;
+  /* padding: 8rem 0 0 0; */
 }
 
 .wholesale__content--h3 {
@@ -49,12 +49,8 @@
 
 /* BE THE FIRST */
 
-.panel {
-  min-height: 100vh;
-}
-
-.color-red-scroll {
-  background: var(--clr-red-100);
+.be-the-first {
+  padding-top: 20rem;
 }
 
 .be-the-first__content {
