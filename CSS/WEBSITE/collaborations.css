@@ -8,7 +8,6 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  overflow-x: hidden;
   position: relative;
 }
 
@@ -82,17 +81,34 @@
 
 .you {
   font-size: 24px;
+  padding: 0 0 1.5rem 0;
 }
 
 .you-2 {
   font-size: 32px;
+  padding: 2rem 0 2rem 0;
 }
 
+.collaborations__item--1 {
+  padding: 0 0 1.5rem 0;
+}
+
+.collaborations__item--2 {
+  padding: 0 0 1.5rem 0;
+}
+
+.collaborations__item--3 {
+  padding: 0 0 1.5rem 0;
+}
 
 /* TYPES */
 
-.collaborations__types h2 {
+.collaborations__types {
   padding: 16rem 0 16rem 0;
+}
+
+.collaborations__types h2 {
+  padding: 8rem 0 16rem 0;
 }
 
 .collaborations__contact p {
@@ -113,13 +129,15 @@
   grid-column: 2 / 6;
 }
 
+.collaborations__contact--p1 {
+  padding: 4rem 0 0 0;
+}
 .collaborations__contact--p3 {
-  font-size: var(--fs-h2);
   font-weight: var(--fw-medium);
+  padding: 4rem 0 2rem 0;
 }
 
 .collaborations__type {
-  overflow-x: hidden;
   position: relative;
 }
 

@@ -268,7 +268,7 @@
 } */
 
 
-.button {
+/* .button {
   display: inline-block;
   text-decoration: none;
   padding: 0.5em 2em;
@@ -279,7 +279,7 @@
   outline: none;
   border-radius: 25px;
   cursor: pointer;
-}
+} */
 
 .button-yellow-full {
   color: var(--clr-yellow-900);
