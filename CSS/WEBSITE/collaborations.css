@@ -104,7 +104,7 @@
 /* TYPES */
 
 .collaborations__types {
-  padding: 16rem 0 16rem 0;
+  padding: 24rem 0 16rem 0;
 }
 
 .collaborations__types h2 {
@@ -139,6 +139,14 @@
 
 .collaborations__type {
   position: relative;
+}
+
+.collaborations__type--1,
+.collaborations__type--2,
+.collaborations__type--3,
+.collaborations__type--4,
+.collaborations__type--5 {
+  font-size: 32px;
 }
 
 .collaborations__type--1 {
