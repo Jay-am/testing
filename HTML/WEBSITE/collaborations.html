@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Collaborations</title>
-    <link rel="stylesheet" href="../../CSS/SHARED/media-queries.css" />
-    <link rel="stylesheet" href="../../CSS/WEBSITE/buttons.css" />
     <link rel="stylesheet" href="../../CSS/WEBSITE/collaborations.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/colors.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/buttons.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/fonts.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/distance.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/reset.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/utility.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/navigation.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
-    <link rel="stylesheet" href="../../CSS/SHARED/distance.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/media-queries.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/scroll-function.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -39,25 +40,26 @@
     
     <main class="collaborations">
 
-      <header class="container">
+      <header class="container | panel" data-color="white-scroll">
         <h1>Collaborations</h1>
-        <p>Interested in teaming up and building meaningful partnerships that will change the world - ONE GIFT AT A TIME?</p>
+        <p>Interested in teaming up and building meaningful partnerships that will change the world<br>ONE GIFT AT A TIME?</p>
       </header>
 
-      <div class="collaborations-wrapper">
+      <div class="collaborations-wrapper | panel" data-color="yellow-scroll">
+        
         <section class="collaborations__intro">
           <header class="collaborations__header">
             <h3 class="intro-1">That’s awesome!<br>We're looking for partners who share similar values and
               want to make this world a better place.</h3>
             <h2 class="intro-2">Because our planet matters!</h2>
             <h3 class="intro-3">Not only for every one of us but also our future generations.</h3>
-            <div class="btn-collaborations__intro">
-              <button class="button | button-yellow-full">CONNECT</button>
+            <div class="btn-collaborations__intro | right | pd-right">
+              <button onclick="location.href='https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-collaborations | button | button-red-half | right">CONNECT</button>
             </div>
           </header>
         </section>
-    
-        <section class="collaborations__you">
+
+        <section class="collaborations__you | panel" data-color="green-scroll">
           <header  class="pd-right | right">
             <p class="you | pd-right | light">If you are</p>
           </header>
@@ -69,29 +71,27 @@
             <li class="collaborations__item | xxl">striving for zero waste</li>
           </ul>
           <p  class="you-2 | light | container | right">we would love you to get in contact with us!</p>
-          <div class="btn-collaborations__you | container | right">
-            <button class="button | button-green-full">CONNECT</button>
+          <div class="btn-collaborations__you | right | pd-right">
+            <button onclick="location.href='https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-collaborations | button | button-red-half | right">GET<br>PERSONAL</button>
           </div>
         </section>
     
-        <section class="collaborations__types">
+        <section class="collaborations__types | panel" data-color="purple-scroll">
           <header class="pd-right | right">
             <h2>WE’RE INTERESTED IN FOLLOWING TYPES OF COLLABORATIONS</h2>
           </header>
-          <ul>
-            <li>Events</li>
-            <li>Giveaways</li>
-            <li>Co-brandings</li>
-            <li>Instagram Cross-Promotions</li>
-            <li>Limited Edition Designer Collaborations</li>
-          </ul>
-          <div class="collaborations__contact | container | content-spacer">
-            <p>Do you have an even better idea on how to collaborate?</p>
-            <p>Please send a message to <span class="email">collaboration@cover.international</span> so we can get our happy and meaningful future started.</p>
-            <p>We’re looking forward to hearing from you!</p>
+          <div class="container | collaborations__type">
+            <p class="collaborations__type--1">Events</p>
+            <p class="collaborations__type--2">Giveaways</p>
+            <p class="collaborations__type--3">Co-brandings</p>
+            <p class="collaborations__type--4">Instagram Cross-Promotions</p>
+            <p class="collaborations__type--5">Limited Edition Designer Collaborations</p>
           </div>
-          <div class="btn-collaborations__you">
-            <button class="button | button-white-full">COLLABORATE</button>
+          <div class="collaborations__contact | content-spacer">
+            <p class="collaborations__contact--p1">Do you have an even better idea on how to collaborate?</p>
+            <p class="collaborations__contact--p2">Please send a message to <span class="email">collaboration@cover.international</span> so we can get our happy and meaningful future started.</p>
+            <p class="collaborations__contact--p3">We’re looking forward to hearing from you!</p>
+            <button onclick="location.href='https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-collaborations__types | button | button-red-half">COLLABORATE</button>
           </div>
         </section>
       </div>
@@ -152,5 +152,18 @@
       
       </footer>
     </div>
+
+    <!-- SCROLL FUNCTION BACKGROUND COLOR-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="../../JS/scroll-function.js"></script>
+
+    <!-- SCROLL FUNCTION FONT-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).on('scroll', function() {
+        $('intro-2').css("left", Math.max(500 - 0.35*window.scrollY) + "px");
+        $('collaborations__type--1').css("left", Math.max(500 - 0.35*window.scrollY, 100) + "px");
+      })
+    </script>
   </body>
 </html>
