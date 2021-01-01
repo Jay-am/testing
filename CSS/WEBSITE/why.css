@@ -99,14 +99,14 @@
 
 /* EVERYONE */
 
-.everyone {
+/* .everyone {
   background-image: url(#);
   background-color: var(--clr-green-200);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .everyone__content {
   align-items: flex-end;
