@@ -34,18 +34,20 @@
 /* CLIMATE CHANGE */
 
 .climate-change {
-  background-image: url(#);
+  /* background-image: url(#);
   background-color: var(--clr-pink-200);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   padding: 10rem 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
-.climate-change__content {
-  align-items: flex-end;
-  padding-bottom: 4rem;
+.climate-change p {
+  grid-column: 2 / 5;
+  align-self: center;
 }
 
 
