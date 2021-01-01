@@ -52,17 +52,19 @@
 /* VISION */
 
 .vision {
-  background-image: url(#);
+  /* background-image: url(#);
   background-color: var(--clr-blue-200);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
-.vision__content {
-  align-items: flex-end;
-  padding-bottom: 4rem;
+.vision p {
+  grid-column: 2 / 5;
+  align-self: center;
 }
 
 
@@ -99,14 +101,15 @@
 
 /* EVERYONE */
 
-/* .everyone {
-  background-image: url(#);
+.everyone {
+  /* background-image: url(#);
   background-color: var(--clr-green-200);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-} */
+  background-position: center; */
+  padding: 16rem 0 20rem 0;
+}
 
 .everyone__content {
   align-items: flex-end;
