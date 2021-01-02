@@ -12,7 +12,7 @@
 /* GENERAL */
 
 .sutainability {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .production,
@@ -50,79 +50,73 @@
 
 /* MATERIALS */
 
-.materials {
+/* .materials {
   background-image: url(../../IMAGES/SUSTAINABILITY/recycled-materials.png);
-  /* background-color: var(--clr-red-500);
-  background-blend-mode: multiply; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 
 /* PRODUCTION */
 
 .production {
   flex-direction: column;
-  background-image: url(#);
+  /* background-image: url(#);
   background-color: var(--clr-blue-500);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
-.production__copy {
+/* .production__copy {
   width: 60%;
-}
+} */
 
 
 /* PACKAGING */
 
-.packaging {
+/* .packaging {
   background-image: url(../../IMAGES/SUSTAINABILITY/recycled-packaging.png);
-  /* background-color: var(--clr-purple-500);
-  background-blend-mode: multiply; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 
 /* DELIVERY */
 
-.delivery {
+/* .delivery {
   background-image: url(#);
   background-color: var(--clr-green-500);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 
 /* REVERSE LOGISTICS */
 
-.reverse-logistics {
+/* .reverse-logistics {
   background-image: url(#);
   background-color: var(--clr-pink-500);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 
 /* CARE INSTRUCTIONS */
 
-.care-instructions {
+/* .care-instructions {
   background-image: url(../../IMAGES/SUSTAINABILITY/care-instructions.png);
-  /* background-color: var(--clr-turquoise-500);
-  background-blend-mode: multiply; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .care-instructions__copy {
   align-self: flex-start;
@@ -135,14 +129,14 @@
 
 /* DISPOSAL */
 
-.disposal {
+/* .disposal {
   background-image: url(#);
   background-color: var(--clr-yellow-500);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .disposal__copy {
   align-self: flex-end;
@@ -152,10 +146,6 @@
 
 /* PARALLAX */
 
-/* html, body {
-  overflow: hidden;
-} */
-
 .background {
   background-size: cover;
   background-repeat: no-repeat;
@@ -163,7 +153,7 @@
   overflow: hidden;
   will-change: transform;
   backface-visibility: hidden;
-  height: 130vh;
+  min-height: 130vh;
   position: fixed;
   width: 100%;
   transform: translateY(30vh);
@@ -185,6 +175,7 @@
 .background:first-child {
   background-image: url(https://i.postimg.cc/kXq9Qmnj/bgd1.jpg);
   transform: translateY(-15vh);
+  z-index: 3;
 }
 
 .background:first-child .content-wrapper {
@@ -193,22 +184,46 @@
 
 .background:nth-child(2) {
   background-image: url(https://i.postimg.cc/W14vywqg/photo-1424746219973-8fe3bd07d8e3.jpg);
-}
-
-.background:nth-child(3) {
-  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-}
-
-/* Set stacking context of slides */
-.background:nth-child(1) {
-  z-index: 3;
-}
-
-.background:nth-child(2) {
   z-index: 2;
 }
 
 .background:nth-child(3) {
+  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
+  z-index: 1;
+}
+
+.background:nth-child(4) {
+  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
+  z-index: 1;
+}
+
+.background:nth-child(5) {
+  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
+  z-index: 1;
+}
+
+.background:nth-child(6) {
+  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
+  z-index: 1;
+}
+
+.background:nth-child(7) {
+  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
+  z-index: 1;
+}
+
+.background:nth-child(8) {
+  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
+  z-index: 1;
+}
+
+.background:nth-child(9) {
+  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
+  z-index: 1;
+}
+
+.background:nth-child(10) {
+  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
   z-index: 1;
 }
 
@@ -217,7 +232,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  flex-flow: column nowrap;
+  /* flex-flow: column nowrap; */
   color: #fff;
   transform: translateY(40vh);
   will-change: transform;
@@ -225,10 +240,6 @@
   transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
 }
 
-.content-title {
-  font-size: 12vh;
-  line-height: 1.4;
-}
 
 .background.up-scroll {
   transform: translate3d(0, -15vh, 0);

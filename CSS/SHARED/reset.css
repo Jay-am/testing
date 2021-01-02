@@ -52,11 +52,11 @@ html {
 html,
 body {
   height: 100%;
+  overflow: hidden;
 }
 
 body {
   background-color: #ffffff;
-  overflow-x: hidden;
   transition: background-color 1s ease;
 }
 
