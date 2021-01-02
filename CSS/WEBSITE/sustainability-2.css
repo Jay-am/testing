@@ -1,0 +1,294 @@
+/* UNDERSTANDING */
+
+.understanding {
+  margin: 10rem 0;
+}
+
+.understanding h2 {
+  padding-bottom: 2rem;
+}
+
+
+/* GENERAL */
+
+.sutainability {
+  min-height: 100vh;
+}
+
+.production,
+.delivery,
+.care-instructions {
+  text-align: right;
+}
+
+.production__copy h3,
+.reverse-logistics h3 {
+  margin-bottom: 2rem;
+}
+
+.materials__content h3,
+.production__copy h3,
+.packaging__copy h3,
+.delivery__copy h3,
+.reverse-logistics__copy h3,
+.care-instructions__copy h3,
+.disposal__copy h3 {
+  font-size: 4rem;
+}
+
+.materials__content p,
+.production__copy p,
+.packaging__copy p,
+.delivery__copy p,
+.reverse-logistics__copy p,
+.care-instructions__copy p,
+.disposal__copy p {
+  font-size: 1.5rem;
+  /* color: var(--clr-neutral-800); */
+}
+
+
+/* MATERIALS */
+
+/* .materials {
+  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-materials.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+
+/* PRODUCTION */
+
+/* .production {
+  flex-direction: column;
+  background-image: url(#);
+  background-color: var(--clr-blue-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+/* .production__copy {
+  width: 60%;
+} */
+
+
+/* PACKAGING */
+
+/* .packaging {
+  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-packaging.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+
+/* DELIVERY */
+
+/* .delivery {
+  background-image: url(#);
+  background-color: var(--clr-green-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+
+/* REVERSE LOGISTICS */
+
+/* .reverse-logistics {
+  background-image: url(#);
+  background-color: var(--clr-pink-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+
+/* CARE INSTRUCTIONS */
+
+/* .care-instructions {
+  background-image: url(../../IMAGES/SUSTAINABILITY/care-instructions.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.care-instructions__copy {
+  align-self: flex-start;
+}
+
+.care-instructions__copy p {
+  padding-bottom: 2rem;
+} */
+
+
+/* DISPOSAL */
+
+/* .disposal {
+  background-image: url(#);
+  background-color: var(--clr-yellow-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+/* .disposal__copy {
+  align-self: flex-end;
+  padding-bottom: 8rem;
+} */
+
+
+/* SECTIONS */
+
+.section {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  clip: rect(0, auto, auto, 0);
+}
+.section .fixed {
+  overflow: hidden;
+  position: fixed;
+  top: 20%;
+  left: 80%;
+}
+.section .white {
+  color: #fff;
+}
+
+.section:nth-child(1) {
+  background-color: var(--clr-purple-500);
+  color: #000;
+  top: 200vh;
+  z-index: 1;
+}
+.section:nth-child(1) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+/* Materials */
+
+.section:nth-child(2) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-materials.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  top: 300vh;
+  z-index: 2;
+}
+.section:nth-child(2) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+/* Production */
+
+.section:nth-child(3) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: var(--clr-blue-500);
+  color: #fff;
+  top: 400vh;
+  z-index: 3;
+}
+.section:nth-child(3) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+/* Packaging */
+
+.section:nth-child(4) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-packaging.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  top: 500vh;
+  z-index: 4;
+}
+.section:nth-child(4) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+/* Delivery */
+
+.section:nth-child(5) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: var(--clr-purple-500);
+  color: #fff;
+  top: 600vh;
+  z-index: 5;
+}
+.section:nth-child(5) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+/* Reverse Logistics */
+
+.section:nth-child(6) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: var(--clr-green-500);
+  color: #fff;
+  top: 700vh;
+  z-index: 6;
+}
+.section:nth-child(6) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+/* Care Instructions */
+
+.section:nth-child(7) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-image: url(../../IMAGES/SUSTAINABILITY/care-instructions.png);
+  color: #fff;
+  top: 800vh;
+  z-index: 7;
+}
+.section:nth-child(7) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+/* Disposal */
+
+.section:nth-child(8) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: var(--clr-red-500);;
+  color: #fff;
+  top: 900vh;
+  z-index: 8;
+}
+.section:nth-child(8) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.section:nth-child(9) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  background-color: #c20a0a;
+  color: #fff;
+  top: 1000vh;
+  z-index: 9;
+}
+.section:nth-child(9) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+/* Footer */
+
+.section:nth-child(10) {
+  background-color: #000;
+  color: #fff;
+  top: 1100vh;
+  z-index: 10;
+}
+.section:nth-child(10) .fixed {
+  transform: translate(-50%, -50%);
+}
