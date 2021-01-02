@@ -155,15 +155,10 @@
 
     <!-- SCROLL FUNCTION BACKGROUND COLOR-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="../../JS/scroll-function.js"></script>
+    <script src="../../JS/scroll-function-background-color.js"></script>
 
-    <!-- SCROLL FUNCTION FONT-->
+    <!-- SCROLL FUNCTION TEXT-->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script type="text/javascript">
-      $(document).on('scroll', function() {
-        $('intro-2').css("left", Math.max(500 - 0.35*window.scrollY) + "px");
-        $('collaborations__type--1').css("left", Math.max(500 - 0.35*window.scrollY, 100) + "px");
-      })
-    </script>
+    <script src="../../JS/moving-text-on-scroll.js"></script>
   </body>
 </html>
