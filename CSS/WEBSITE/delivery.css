@@ -20,7 +20,7 @@
   justify-content: space-between;
   align-content: flex-end;
   background-color: var(--clr-turquoise-500);
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 6em;
   padding-bottom: 6em;
 }
@@ -63,7 +63,7 @@
 /* NOTE */
 
 .note {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 6rem;
   padding-bottom: 6rem;
   align-items: flex-end;
