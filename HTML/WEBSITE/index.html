@@ -303,5 +303,15 @@
       
       </footer>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="JS/nav.js"></script>
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
   </body>
 </html>

@@ -92,6 +92,20 @@
  color: var(--clr-nav-active);
 }
 
+.active {
+  position: relative;
+  line-height: 1.2em;
+}
+
+.active::before {
+  position: absolute;
+  top: 1.5rem;
+  left: 40%;
+  height: 0;
+  width: 2rem;
+  content: '';
+  border-top: 2px solid var(--clr-green-500);
+}
 
 /* MEDIA QUERIES */
 
