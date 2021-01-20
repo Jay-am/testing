@@ -13,6 +13,7 @@
 
 .sutainability {
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .production,
@@ -44,7 +45,7 @@
 .care-instructions__copy p,
 .disposal__copy p {
   font-size: 1.5rem;
-  /* color: var(--clr-neutral-800); */
+  color: var(--clr-neutral-800);
 }
 
 
@@ -111,37 +112,8 @@
 
 /* CARE INSTRUCTIONS */
 
-/* .care-instructions {
-  background-image: url(../../IMAGES/SUSTAINABILITY/care-instructions.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.care-instructions__copy {
-  align-self: flex-start;
-}
-
-.care-instructions__copy p {
-  padding-bottom: 2rem;
-} */
 
 
-/* DISPOSAL */
-
-/* .disposal {
-  background-image: url(#);
-  background-color: var(--clr-yellow-500);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
-/* .disposal__copy {
-  align-self: flex-end;
-  padding-bottom: 8rem;
-} */
 
 
 /* SECTIONS */
@@ -206,7 +178,7 @@
 
 .section:nth-child(4) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-packaging.png);
+  background-image: url("../../IMAGES/SUSTAINABILITY/recycled-packaging.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -247,21 +219,41 @@
 /* Care Instructions */
 
 .section:nth-child(7) {
-  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-image: url(../../IMAGES/SUSTAINABILITY/care-instructions.png);
-  color: #fff;
+  /* box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14); */
+  background-image: url("../../IMAGES/SUSTAINABILITY/care-instructions.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   top: 800vh;
   z-index: 7;
 }
+
 .section:nth-child(7) .fixed {
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);
 }
+
+.care-instructions__copy {
+  align-self: flex-start;
+}
+
+.care-instructions__copy h3 {
+  line-height: 1;
+}
+
+.care-instructions__copy p {
+  padding-bottom: 2rem;
+} 
+
 
 /* Disposal */
 
 .section:nth-child(8) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: var(--clr-red-500);;
+  background-color: var(--clr-red-500);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff;
   top: 900vh;
   z-index: 8;
@@ -279,6 +271,11 @@
 }
 .section:nth-child(9) .fixed {
   transform: translate(-50%, -50%);
+}
+
+.disposal__copy {
+  align-self: flex-end;
+  padding-bottom: 8rem;
 }
 
 /* Footer */
