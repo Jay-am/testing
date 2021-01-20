@@ -47,7 +47,7 @@ $(function () {
   var direction = 0;
   var prevDirection = 0;
 
-  var header = document.getElementById('header__nav');
+  var header = document.getElementById('primary-nav');
 
   var checkScroll = function() {
 
