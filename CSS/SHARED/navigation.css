@@ -100,7 +100,7 @@
 .active::before {
   position: absolute;
   top: 1.5rem;
-  left: 40%;
+  right: -5%;
   height: 0;
   width: 2rem;
   content: '';
