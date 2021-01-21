@@ -26,6 +26,10 @@
 
 /* PLANET */
 
+.planet__intro h1 {
+  padding: 6rem 0 26rem 0;
+}
+
 .source {
   margin-top: 0;
 }

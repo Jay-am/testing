@@ -12,29 +12,6 @@
 }
 
 
-/* PARALLAX */
-
-.parallax-container{
-  min-height: 50vh;
-  position: relative;
-}
-
-.parallax-container.alt{
-  background-color: #FFCDD2;
-}
-
-.parallax-item{
-  position: absolute;
-}
-
-.fade {
-  opacity: 1;
-  transition: 200ms ease-in-out;
-  cursor: pointer;
-}
-
-
-
 /* HEADER */
 
 .source {
