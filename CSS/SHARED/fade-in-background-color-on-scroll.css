@@ -29,3 +29,7 @@
 .color-grey-scroll {
   background: var(--clr-neutral-900);
 }
+
+.color-green-scroll {
+  background: var(--clr-green-500);
+}

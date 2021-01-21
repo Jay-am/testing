@@ -125,7 +125,7 @@
     height: 52px;
     top: 0;
     padding: 2rem 0rem;
-    background-color: #ffffff;
+    background-color: transparent;
     transition: all .3s ease;
   }
 

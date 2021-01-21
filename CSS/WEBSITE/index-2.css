@@ -49,7 +49,6 @@
 .planet__content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  /* padding-top: 6rem; */
   color: var(--clr-neutral-0);
   font-size: var(--fs-h3);
 }
@@ -82,6 +81,27 @@
 
 
 /* DEFORESTATION */
+
+.deforestation h2 {
+  font-size: 192px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #fff, #2CD5C4, #fff);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(44, 213, 196,0.1);
+  padding: 22rem 0 16rem 0;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -1%;
+  }
+  100% {
+    background-position: 1%;
+  }   
+}
 
 .deforestation__content {
   display: grid;
