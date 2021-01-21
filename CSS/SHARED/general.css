@@ -182,14 +182,14 @@ a {
 
 /* SECTION SPECIFICS */
 
-header h1 {
+.hero h1 {
   font-size: var(--fs-h1);
   letter-spacing: var(--ls-headline);
   line-height: var(--lh-headline);
   text-align: right;
 }
 
-header p {
+.hero p {
   font-size: var(--fs-ph1);
   letter-spacing: var(--ls-ph1);
   line-height: var(--lh-ph1);
@@ -201,19 +201,19 @@ header p {
 }
 
 @media (min-width: 600px) {
-  header p {
+  .hero p {
     width: 80%;
   }
 }
 
 @media (min-width: 900px) {
-  header p {
+  .hero p {
     width: 70%;
   }
 }
 
 @media (min-width: 1200px) {
-  header p {
+  .hero p {
     width: 60%;
   }
 }

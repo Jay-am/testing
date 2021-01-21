@@ -1,9 +1,5 @@
 /* GENERAL */
 
-.returns {
-  margin-top: 6rem;
-}
-
 .headline {
   margin-bottom: 2rem;
 }
@@ -17,7 +13,7 @@
 
 /* GRID */
 
-.how-to-return {
+.how-to-return__content {
   display: grid;
   grid-template-columns: 1fr, 2fr;
   grid-template-rows: auto;
@@ -39,10 +35,10 @@
     margin-top: 8rem;
   }
 
-  .how-to-return {
+  .how-to-return__content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(13, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     column-gap: 0;
     row-gap: 0;
   }
@@ -54,13 +50,18 @@
 
 @media (min-width: 1200px) {
 
+  .headline {
+    margin-top: 12rem;
+    margin-bottom: 0;
+  }
+
   .returns {
     margin-top: 16rem;
   }
 
   .note {
     margin-top: 0;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
     padding-right: 2.5rem;
   }
 }

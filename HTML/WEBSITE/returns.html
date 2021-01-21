@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="../../CSS/SHARED/navigation.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/fade-in-background-color-on-scroll.css" />
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
+
   <body>
     <header class="header__nav">
       <p class="logo__nav">COVER</p>
@@ -34,22 +36,24 @@
         </ul>
       </nav>  
     </header>
-    <header class="container">
-      <h1>Returns</h1>
-      <p>
-        We gladly accept returns - on both new arrivals and sale items - and offer
-        you 14 days of return from the day you receive your package. If you wish
-        to return your item(s), please follow the guideline below. Please note
-        that returns are at your own expense.
-      </p>
-    </header>
     
     <main class="returns">
+
+      <section class="hero | container">
+        <h1>Returns</h1>
+        <p>
+          We gladly accept returns - on both new arrivals and sale items - and offer
+          you 14 days of return from the day you receive your package. If you wish
+          to return your item(s), please follow the guideline below. Please note
+          that returns are at your own expense.
+        </p>
+      </section>
       
       <section class="how-to-return">
-        <h2 class="container | headline">How to return items</h2>
+        <h2 class="headline | right | pd-right">How to return items</h2>
 
-        <div class="circle | circle-1"></div>
+        <div class="how-to-return__content">
+        <div class="square | square-1"></div>
         <div class="step-1__number"><span class="number">1</span></div>
         <div class="step__content | step-1__content | content-spacer">
           <h3>GET IN CONTACT (SAY HI)</h3>
@@ -60,7 +64,7 @@
           </p>
         </div>
 
-        <div class="circle | circle-2"></div>
+        <div class="square | square-2"></div>
         <div class="step-2__number"><span class="number">2</span></div>
         <div class="step__content | step-2__content | content-spacer">
           <h3>RETURN YOUR ORDER (SAY BYE)</h3>
@@ -75,7 +79,7 @@
           <p>Please note that all items must be returned unused and in original packaging.</p>
         </div>
     
-        <div class="circle | circle-3"></div>
+        <div class="square | square-3"></div>
         <div class="step-3__number"><span class="number">3</span></div>
         <div class="step__content | step-3__content | content-spacer">
           <h3>GET A REFUND (COMPENSATION)</h3>
@@ -89,9 +93,10 @@
             takes 1 to 3 business days before the amount is available on your account.
           </p>
         </div>
+      </div>
       </section>
 
-      <section class="note | right | content-spacer">
+      <section class="note | right | pd-right | content-spacer">
         <header>
           <h2>Please note</h2>
         </header>
@@ -112,50 +117,63 @@
         </p>
       </section>
     </main>
+
     <div class="footer-wrapper">
       <footer class="container | footer">
         <div class="footer__list">
             <dl class="footer__customer-care">
               <dt class="footer__header">CUSTOMER CARE</dt>
-                <dd class="footer__link"><a href="#">FAQ</a></dd>
-                <dd class="footer__link"><a href="#">Delivery</a></dd>
-                <dd class="footer__link"><a href="#">Returns</a></dd>
+                <dd class="footer__link"><a href="../WEBSITE/faq.html">FAQ</a></dd>
+                <dd class="footer__link"><a href="../WEBSITE/delivery.html">Delivery</a></dd>
+                <dd class="footer__link"><a href="../WEBSITE/returns.html">Returns</a></dd>
+                <dd class="footer__link"><a href="../WEBSITE/care-instructions.html">Care Instructions</a></dd>
+                <!-- <dd>Email <span class="email">hello@cover.international</span></dd>
+                <dd>Phone <span class="phone"> +49 151 720 11 400</span></dd> -->
             </dl>
             <dl class="footer__company">
               <dt class="footer__header">COMPANY</dt>
-                <dd class="footer__link"><a href="#">Wholesale</a></dd>
-                <dd class="footer__link"><a href="#">Collaborations</a></dd>
-                <dd class="footer__link"><a href="#">Sustainability</a></dd>
+                <dd class="footer__link"><a href="../WEBSITE/wholesale.html">Wholesale</a></dd>
+                <dd class="footer__link"><a href="../WEBSITE/custom.html">Custom</a></dd>
+                <dd class="footer__link"><a href="../WEBSITE/collaborations.html">Collaborations</a></dd>
+                <dd class="footer__link"><a href="../WEBSITE/sustainability.html">Sustainability</a></dd>
             </dl>
           <div class="footer__social">
             <ul class="footer__social-links">
+              <!-- <li>LET'S CONNECT</li> -->
               <li class="footer__social-item">
                 <a area-label="facebook" href="#" class="footer__social-link"
-                  ><i class="fab fa-facebook-f"></i
+                  ><i class="fa fa-facebook-f"></i
                 ></a>
               </li>
               <li class="footer__social-item">
                 <a area-label="instagram" href="#" class="footer__social-link"
-                ><i class="fab fa-instagram"></i></a>
+                ><i class="fa fa-instagram"></i></a>
               </li>
               <li class="footer__social-item">
                 <a area-label="pinterest" href="#" class="footer__social-link"
-                  ><i class="fab fa-pinterest-p"></i
+                  ><i class="fa fa-pinterest-p"></i
                 ></a>
               </li>
               <li class="footer__social-item">
                 <a area-label="youtube" href="#" class="footer__social-link"
-                  ><i class="fab fa-youtube"></i
+                  ><i class="fa fa-youtube"></i
                 ></a>
               </li>
             </ul>
           </div>
+          <!-- <ul class="community">
+            <li>JOIN THE COMMUNITY AND GET EXCLUSIVE ACCESS</li>
+            <p>
+              Members receive newsletter-only sales heads up, access to limited
+              edition projects and exclusive behind the scenes with our team.
+            </p>
+          </ul> -->
           <sub-footer class="container | sub-footer | legal">
             <ul class="sub-footer__list">
-              <li class="sub-footer__item"><a href="#">Legal Notice</a></li>
-              <li class="sub-footer__item"><a href="#">Privacy Policy</a></li>
-              <li class="sub-footer__item"><a href="#">Cookies</a></li>
-              <li class="sub-footer__item"><a href="#">Terms and Conditions</a></li>
+              <li class="sub-footer__item"><a href="../WEBSITE/legal-notice.html">Legal Notice</a></li>
+              <li class="sub-footer__item"><a href="../WEBSITE/privacy-policy.html">Privacy Policy</a></li>
+              <li class="sub-footer__item"><a href="../WEBSITE/cookies.html">Cookies</a></li>
+              <li class="sub-footer__item"><a href="../WEBSITE/terms-and-conditions.html">Terms and Conditions</a></li>
             </ul>
           </sub-footer>
             <p class="copywright">&copy; 2020 COVER. All Rights Reserved.</p>
