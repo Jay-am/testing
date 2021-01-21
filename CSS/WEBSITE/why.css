@@ -30,6 +30,7 @@
 .fade {
   opacity: 1;
   transition: 200ms ease-in-out;
+  cursor: pointer;
 }
 
 
