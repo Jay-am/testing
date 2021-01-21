@@ -1,6 +1,52 @@
 /* GENERAL */
 
-.hero h1 {
+.headline-section {
+  padding: 16rem 0 0 0;
+  width: 60%;
+}
 
-  padding-top: 16rem;
+
+/* GRID */
+
+.care-instructions__wrapper {
+  margin: 8rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.care-instructions__content {
+  grid-column: 1 / -1;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 900px) {
+  /* GRID */
+
+  .care-instructions__wrapper {
+    margin: 8rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.5625rem;
+  }
+
+  .care-instructions__content {
+    grid-column: 1 / 5;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* GRID */
+
+  .care-instructions__wrapper {
+    margin: 4rem 0 16rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.5625rem;
+  }
+
+  .care-instructions__content {
+    grid-column: 2 / 5;
+  }
 }

@@ -182,14 +182,15 @@ a {
 
 /* SECTION SPECIFICS */
 
-.hero h1 {
+.headline-hero {
   font-size: var(--fs-h1);
   letter-spacing: var(--ls-headline);
   line-height: var(--lh-headline);
   text-align: right;
+  padding-top: 16rem;
 }
 
-.hero p {
+.paragraph-hero {
   font-size: var(--fs-ph1);
   letter-spacing: var(--ls-ph1);
   line-height: var(--lh-ph1);
@@ -201,19 +202,19 @@ a {
 }
 
 @media (min-width: 600px) {
-  .hero p {
+  .paragraph-hero {
     width: 80%;
   }
 }
 
 @media (min-width: 900px) {
-  .hero p {
+  .paragraph-hero {
     width: 70%;
   }
 }
 
 @media (min-width: 1200px) {
-  .hero p {
+  .paragraph-hero {
     width: 60%;
   }
 }
