@@ -42,10 +42,16 @@
   color: var(--clr-link-hover);
 }
 
+.resources {
+  padding-top: 18rem;
+}
+
 .planet__content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  padding-top: 6rem;
+  /* padding-top: 6rem; */
+  color: var(--clr-neutral-0);
+  font-size: var(--fs-h3);
 }
 
 .planet__paragraph {

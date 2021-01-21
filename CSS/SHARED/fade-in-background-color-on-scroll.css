@@ -25,3 +25,7 @@
 .color-red-scroll {
   background: var(--clr-red-200);
 }
+
+.color-grey-scroll {
+  background: var(--clr-neutral-900);
+}
