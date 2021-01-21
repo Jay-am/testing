@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
-    <link rel="stylesheet" href="../../CSS/SHARED/media-queries.css" />
-    <link rel="stylesheet" href="../../CSS/SHARED/scroll-function-background-color.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/fade-in-background-color-on-scroll.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
@@ -221,9 +220,25 @@
       </footer>
     </div>
 
-    <!-- SCROLL FUNCTION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../../JS/navigation.js"></script>
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+
+    <!-- FADE IN BACKGROUND COLOR ON SCROLL-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="../../JS/scroll-function-background-color.js"></script>
+    <script src="../../JS/fade-in-background-color-on-scroll.js"></script>
+
+    <!-- FADE TEXT / ELEMENTS IN / OUT ON SCROLL -->
+    <script src="../../JS/fade-in-elements-on scroll.js"></script>
+
+    <!-- PARALLAX MOUSE AND SCROLL -->
+    <script src="../../JS/parallax-mouse-and-scroll-effect.js"></script>
 
   </body>
 </html>
