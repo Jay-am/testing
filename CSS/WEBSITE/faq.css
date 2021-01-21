@@ -56,7 +56,6 @@
 
 .faq__wrapper {
   width: 60%;
-  margin-left: auto;
 }
 
 .faq__content {
@@ -66,6 +65,7 @@
 
 .faq__content h2 {
   color: var(--clr-green-500);
+  margin-top: 0rem;
 }
 
 .faq__content h3 {
