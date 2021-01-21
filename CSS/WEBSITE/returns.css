@@ -27,10 +27,6 @@
 
 @media (min-width: 900px) {
 
-  .returns {
-    margin-top: 8rem;
-  }
-
   .how-to-return__content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -45,10 +41,6 @@
 }
 
 @media (min-width: 1200px) {
-
-  .returns {
-    margin-top: 16rem;
-  }
 
   .note {
     margin-top: 0;

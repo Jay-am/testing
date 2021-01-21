@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign-in</title>
-    <link rel="stylesheet" href="../CSS/discover.css" />
+    <title>Discover</title>
+    <link rel="stylesheet" href="../../CSS/WEBSITE/discover.css" />
+    <link rel="stylesheet" href="../../CSS/WEBSITE/uncover.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/colors.css" />
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="../../CSS/SHARED/navigation.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/fade-in-background-color-on-scroll.css" />
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
@@ -36,42 +38,30 @@
         </ul>
       </nav>  
     </header>
-    <main>
-      <header>
-        <h1>Get inspired</h1>
-        <h2>#reuse, #reduce and #recycle</h2>
-      </header>
 
-      <section class="cover">
-        <h2>25 different ways to use your Cover</h2>
+    <main class="discover">
+      <section class="hero | container | content-spacer">
+        <h1 class="headline-hero">Get inspired</h1>
+        <p class="paragraph-hero">We absolutely adore our gift wrapps, but we offer so much more! We extended our values into an actual lifestyle, offering DIY inspirations to help you get ideas on how to #reuse, #reduce and #recycle products you have at home. Mostly to wrap your gifts but not just.</p>
+        <p class="paragraph-hero">Let's show the world how beautyful eco-friendly gift wrappings can be!</p>
+      </section>
+
+      <section class="discover__cover | container | content-spacer">
+        <h2>How to use your Cover</h2>
         <article>xx Fold</article>
         <article>The Slim Fit Method</article>
         <article>The Loose Fit Method</article>
         <article>Using Ecofriendly Decoration</article>
         <p>How To Videos</p>
-        <p>
-          You found a great way to use it? Please show us. Tag us on Instagram.
-        </p>
-        <p>
-          Let's show the world how beautyful eco-friendly gift wrapping can be!
-        </p>
+        <p>You found a great way to use it? Please show us. Tag us on Instagram.</p>
       </section>
 
-      <section class="diy">
-        <h2>Inspiration</h2>
-        <p>
-          We absolutely adore our gift wrapps, but we offer so much more! We
-          extend our values into an actual lifestyle, offering DIY inspirations
-          to help you get ideas how to #reuse, #reduce and #recycle products you
-          have at home. Mostly to wrap your gifts but not just.
-        </p>
-        <p>Alternatives</p>
-        <p>
-          We're also trying to inspire on Instagram, Facebook and Pinterest in
-          case you want to connect with us.
-        </p>
+      <section class="discover__diy | container | content-spacer"></section>
+        <h2>DISCOVER Alternatives</h2>
+        <p>We also have loads of inspiration on Instagram, Facebook, Pinterest and Youtube in case you want to connect with us.</p>
       </section>
     </main>
+
     <div class="footer-wrapper">
       <footer class="container | footer">
         <div class="footer__list">
@@ -129,9 +119,9 @@
       </footer>
     </div>
 
+    <!-- NAVIGATION -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="../../JS/navigation.js"></script>
-
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var nav = document.querySelector("nav");
@@ -148,5 +138,6 @@
 
     <!-- PARALLAX MOUSE AND SCROLL -->
     <script src="../../JS/parallax-mouse-and-scroll-effect.js"></script>
+
   </body>
 </html>
