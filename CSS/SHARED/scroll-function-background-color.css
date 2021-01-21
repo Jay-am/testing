@@ -14,10 +14,14 @@
   background: var(--clr-pink-500);
 }
 
-.turquoise-scroll {
+.color-turquoise-scroll {
   background: var(--clr-turquoise-500);
 }
 
-.purple-scroll {
+.color-purple-scroll {
   background: var(--clr-purple-500);
+}
+
+.color-red-scroll {
+  background: var(--clr-red-200);
 }

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-circles.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/media-queries.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/scroll-function-background-color.css" />
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
   <body>
@@ -37,7 +38,7 @@
       </nav>  
     </header>
     <main>
-      <section class="hero">
+      <section class="hero | panel" data-color="white-scroll">
         <div class="container | hero__content | content-spacer">
           <h2>CHANGING THE WORLD</h2>
           <h1>ONE GIFT AT A TIME!</h1>
@@ -51,22 +52,22 @@
         </div>
       </section>
 
-      <section class="planet">
-        <header class="container | content-spacer | right">
-          <h1>OUR PLANET MATTERS</h1>
-          <p>If Earth’s history is squeezed into one year, modern human has existed for 37 minutes and used up a third of Earth’s natural resources in the last 0.2 seconds.</p>
+      <section class="planet | panel" data-color="red-scroll">
+        <header class="container | parallax-container | content-spacer | right">
+          <h1 class="parallax-item" data-depth="0.1">OUR PLANET MATTERS</h1>
+          <p class="parallax-item" data-depth="0.1">If Earth’s history is squeezed into one year, modern human has existed for 37 minutes and used up a third of Earth’s natural resources in the last 0.2 seconds.</p>
           <p class="source | right"><a href="http://www.theworldcounts.com" class="source__link">Source: The World Counts</a></p>
         </header>
-        <div class="planet__content | content-spacer">
+        <div class="planet__content | parallax-container | content-spacer">
           <p class="planet__paragraph">We are turning the Earth's resources into waste faster and faster. By 2030, the demands from 5.6 billion consumers will be draining the Earth for resources so fast that we need two planets to support us. If everyone lived like western consumers, we would even need five.</p>
-          <p class="planet__paragraph">Through our actions we are destroying habitats and endangering the lives of future generations in alarming speed. Globally, carbon dioxide emissions and temperatures continue to grow, which leads the ice in Antarctica and Greenland melting at record speed and sea levels are rising. We are approaching a critical tipping point after which global warming will be impossible to stop or reverse. Real change is needed - not just from politicians and businesses - but from every single one of us.</p>
-          <p class="planet__paragraph">We want to help develop a deeper awareness about the consequences our lifestyle has on the environment and make some urgently needed changes possible in a very convenient way. Because conscious choices today matter more than ever before.</p>
-          <p class="planet__paragraph | p-4 | dark | strong">If you are frustrated by these developments as well and are looking for a way to gorgeously wrap your gifts while not producing more trash, harming our planet or the ones you're making a present but don’t want to use a newspaper because your gift should look premium - this is the right place for you to be. We create a reusable, high quality gift wrap collection that is not only beautiful, but also fair and sustainable.</p>
-          <button onclick="location.href='https://stackoverflow.com/questions/2906582how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-planet | button | button-red-half">VIEW<br>COLLECTION</button>
+          <p class="planet__paragraph | parallax-item" data-depth="0.1">Through our actions we are destroying habitats and endangering the lives of future generations in alarming speed. Globally, carbon dioxide emissions and temperatures continue to grow, which leads the ice in Antarctica and Greenland melting at record speed and sea levels are rising. We are approaching a critical tipping point after which global warming will be impossible to stop or reverse. Real change is needed - not just from politicians and businesses - but from every single one of us.</p>
+          <p class="planet__paragraph | parallax-item" data-depth="0.1">We want to help develop a deeper awareness about the consequences our lifestyle has on the environment and make some urgently needed changes possible in a very convenient way. Because conscious choices today matter more than ever before.</p>
+          <p class="planet__paragraph | parallax-item | p-4 | dark | strong" data-depth="0.1">If you are frustrated by these developments as well and are looking for a way to gorgeously wrap your gifts while not producing more trash, harming our planet or the ones you're making a present but don’t want to use a newspaper because your gift should look premium - this is the right place for you to be. We create a reusable, high quality gift wrap collection that is not only beautiful, but also fair and sustainable.</p>
+          <button onclick="location.href='https://stackoverflow.com/questions/2906582how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-planet | button | button-red-half | parallax-item" data-depth="0.1">VIEW<br>COLLECTION</button>
         </div>
       </section>
 
-      <section class="paper">
+      <section class="paper | panel" data-color="white-scroll">
         <header class="container">
           <h2 class="right">PAPER VS. PLASTIC</h2>
         </header>
@@ -78,7 +79,7 @@
         </div>
       </section>
 
-      <section class="deforestation">
+      <section class="deforestation | panel" data-color="white-scroll">
         <header class="container">
           <h2 class="right">DEFORESTATION</h2>
         </header>
@@ -313,5 +314,9 @@
         nav.classList.toggle("sticky", window.scrollY > 0);
       });
     </script>
+
+    <!-- SCROLL FUNCTION BACKGROUND COLOR-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="../../JS/scroll-function-background-color.js"></script>
   </body>
 </html>
