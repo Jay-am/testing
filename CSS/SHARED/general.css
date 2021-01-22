@@ -175,6 +175,14 @@ a {
   color: var(--clr-green-900);
 }
 
+.blue {
+  color: var(--clr-blue-500);
+}
+
+.grey {
+  color: var(--clr-neutral-500);
+}
+
 .yellow {
   color: var(--clr-yellow-900);
 }

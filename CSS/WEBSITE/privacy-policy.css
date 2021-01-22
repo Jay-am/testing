@@ -6,13 +6,13 @@ h2 {
 
 /* GRID */
 
-.privacy-policy {
-  margin-top: 8rem;
+.privacy-policy__content {
+  margin: 8rem 0;
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.privacy-policy__content {
+.privacy-policy__copy {
   grid-column: 1 / -1;
 }
 
@@ -22,29 +22,34 @@ h2 {
 @media (min-width: 900px) {
   /* GRID */
 
-  .privacy-policy {
-    margin-top: 16rem;
+  .privacy-policy__content {
+    margin: 16rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
   }
 
-  .privacy-policy__content {
+  .privacy-policy__copy {
     grid-column: 1 / 5;
   }
 }
 
 @media (min-width: 1200px) {
+
+  .hero p {
+    padding-bottom: 16rem;
+  }
+
   /* GRID */
 
-  .privacy-policy {
-    margin-top: 16rem;
+  .privacy-policy__content {
+    margin: 16rem 0 16rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
   }
 
-  .privacy-policy__content {
+  .privacy-policy__copy {
     grid-column: 2 / 5;
   }
 }
