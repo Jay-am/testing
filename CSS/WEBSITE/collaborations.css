@@ -1,14 +1,14 @@
 /* INTRO */
 
 .collaborations__intro {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 24rem 0 16rem 0;
 }
 
 .collaborations__header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  position: relative;
 }
 
 .collaborations__header h2 {
@@ -25,14 +25,11 @@
 }
 
 .intro-2 {
-  /* grid-column: 1 / -1;
-  grid-row: 2 / 3; */
-  position: absolute;
-  position: fixed; 
-  top: 50%;
-  transform: translateY(-50%);
+  grid-column: 1 / 6;
+  grid-row: 2 / 3;
+  align-self: center;
+  justify-self: center;
   white-space: nowrap;
-  left: 500;
 }
 
 .intro-3 {
@@ -49,7 +46,8 @@
 /* YOU */
 
 .collaborations__you {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 16rem 0 16rem 0;
 }
 
 .collaborations__list {
@@ -101,40 +99,15 @@
   padding: 0 0 1.5rem 0;
 }
 
+
 /* TYPES */
 
 .collaborations__types {
-  padding: 24rem 0 16rem 0;
+  padding: 16rem 0 16rem 0;
 }
 
 .collaborations__types h2 {
   padding: 8rem 0 16rem 0;
-}
-
-.collaborations__contact p {
-  font-size: var(--fs-h4);
-  width: 60%;
-}
-
-.collaborations__contact  {
-  font-size: 32px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-}
-
-.collaborations__contact--p1,
-.collaborations__contact--p2,
-.collaborations__contact--p3,
-.btn-collaborations__types {
-  grid-column: 2 / 6;
-}
-
-.collaborations__contact--p1 {
-  padding: 4rem 0 0 0;
-}
-.collaborations__contact--p3 {
-  font-weight: var(--fw-medium);
-  padding: 4rem 0 2rem 0;
 }
 
 .collaborations__type {
@@ -149,9 +122,39 @@
   font-size: 32px;
 }
 
-.collaborations__type--1 {
+/* .collaborations__type--1 {
   position: absolute;
   top: 10%;
   white-space: nowrap;
   left: 500;
+} */
+
+
+/* CONTACT */
+
+.collaborations__contact-content  {
+  font-size: 32px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.collaborations__contact p {
+  font-size: var(--fs-h4);
+  width: 60%;
+}
+
+.collaborations__contact--p1,
+.collaborations__contact--p2,
+.collaborations__contact--p3,
+.btn-collaborations__types {
+  grid-column: 2 / 6;
+}
+
+.collaborations__contact--p1 {
+  padding: 4rem 0 0 0;
+}
+.collaborations__contact--p3 {
+  width: 70%;
+  font-size: var(--fs-h2);
+  padding: 4rem 0 2rem 0;
 }
