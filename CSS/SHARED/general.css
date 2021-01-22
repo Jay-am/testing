@@ -63,6 +63,11 @@ p {
   font-size: var(--fs-body);
 }
 
+.brand {
+  color: var(--clr-neutral-1000);
+  font-family: var(--ff-brand);
+}
+
 
 /* GENERAL LINKS */
 

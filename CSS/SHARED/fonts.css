@@ -19,8 +19,10 @@
 /* font-family: 'Rationale', sans-serif; */
 /* just one style available -> regular: 400 */
 
+
 :root {
   --ff-logo: "Bai Jamjuree", helvetica, sans-serif;
+  --ff-brand: "Bai Jamjuree", helvetica, sans-serif;
   --ff-headline: "Bai Jamjuree", helvetica, sans-serif;
   --ff-body: "Bai Jamjuree", helvetica, sans-serif;
   --ff-number: "Rationale", sans-serif;
