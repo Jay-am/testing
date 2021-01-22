@@ -1,7 +1,7 @@
 /* GENERAL */
 
 .cookies {
-  padding-bottom: 6rem;
+  padding: 6rem 0;
 }
 
 h2 {
@@ -15,13 +15,13 @@ h2 {
 
 /* GRID */
 
-.cookies {
-  margin-top: 8rem;
+.cookies__content {
+  margin: 8rem 0;
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.cookies__content {
+.cookies__copy {
   grid-column: 1 / -1;
 }
 
@@ -31,14 +31,14 @@ h2 {
 @media (min-width: 900px) {
   /* GRID */
 
-  .cookies {
-    margin-top: 16rem;
+  .cookies__content {
+    margin: 16rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
   }
 
-  .cookies__content {
+  .cookies__copy {
     grid-column: 1 / 5;
   }
 }
@@ -46,14 +46,14 @@ h2 {
 @media (min-width: 1200px) {
   /* GRID */
 
-  .cookies {
-    margin-top: 16rem;
+  .cookies__content {
+    margin: 16rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
   }
 
-  .cookies__content {
+  .cookies__copy {
     grid-column: 2 / 5;
   }
 }
