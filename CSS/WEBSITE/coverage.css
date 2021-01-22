@@ -1,0 +1,33 @@
+.coverage__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 2rem;
+  align-content: end;
+  margin: 0;
+  padding: 16rem 0 8rem 0;
+}
+
+.coverage__saved-trees {
+  grid-column: 1 / 2;
+  justify-self: start;
+}
+
+.coverage__paper {
+  grid-column: 2 / 3;
+  justify-self: start;
+}
+
+.coverage__co2 {
+  grid-column: 3 / 4;
+  justify-self: start;
+}
+
+.coverage__waste {
+  grid-column: 4 / 5;
+  justify-self: start;
+}
+
+.coverage__new-trees {
+  grid-column: 6 / 7;
+  justify-self: end;
+}
