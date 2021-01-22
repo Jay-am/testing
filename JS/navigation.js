@@ -26,6 +26,7 @@
   }); // end DOM ready
 })(jQuery); // end jQuery
 
+
 // ACTIVE NAV LINK
 
 $(function () {
@@ -49,7 +50,7 @@ $(function () {
 
   var header = document.getElementsByClassName('header__nav');
 
-  var checkScroll = function() {
+  var checkScroll = function(){
 
     /*
     ** Find the direction of scroll
@@ -65,19 +66,15 @@ $(function () {
       //scrolled down
       direction = 1;
     }
-
     if (direction !== prevDirection) {
       toggleHeader(direction, curScroll);
     }
-    
     prevScroll = curScroll;
   };
 
   var toggleHeader = function(direction, curScroll) {
     if (direction === 2 && curScroll > 52) { 
-      
       //replace 52 with the height of your header in px
-
       header.classList.add('hide');
       prevDirection = direction;
     }
@@ -89,4 +86,4 @@ $(function () {
   
   window.addEventListener('scroll', checkScroll);
 
-})();
+});
