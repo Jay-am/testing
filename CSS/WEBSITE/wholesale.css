@@ -1,12 +1,8 @@
 
 /* WHY OUR PARTNERS CHOOSE TO WORK WITH US */
 
-.wholesale {
-  padding: 0rem 0;
-}
-
 .wholesale__headline {
-  padding: 8rem 0 0 0;
+  padding: 30rem 0 16rem 0;
 }
 
 .big {
@@ -50,7 +46,7 @@
 /* BE THE FIRST */
 
 .be-the-first {
-  padding-top: 20rem;
+  padding-top: 30rem;
 }
 
 .be-the-first__content {
@@ -83,7 +79,7 @@
 /* HOW TO BECOME A RETAILER */
 
 .how-to-become-a-retailer {
-  padding: 16rem 0 8rem 0;
+  padding: 36rem 0 8rem 0;
 }
 
 .how-to-become-a-retailer__headline {
@@ -101,4 +97,11 @@
 .how-to-become-a-retailer > * div {
   margin: 0;
   padding: 0;
+}
+
+/* WELCOME */
+
+.welcome h2 {
+  width: 70%;
+  padding-bottom: 4rem;
 }
