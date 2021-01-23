@@ -40,10 +40,14 @@ h2 {
     padding-bottom: 8rem;
   }
 
+  main {
+    margin: 0rem 0 8rem 0;
+  }
+
   /* GRID */
 
   .privacy-policy__content {
-    margin: 16rem 0 16rem 0;
+    margin: 16rem 0 0rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;

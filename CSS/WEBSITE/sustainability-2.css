@@ -1,15 +1,3 @@
-/* UNDERSTANDING */
-
-.understanding {
-  min-height: 50vh;
-  margin: 10rem 0;
-}
-
-.understanding h2 {
-  padding-bottom: 2rem;
-}
-
-
 /* GENERAL */
 
 .sutainability {
@@ -69,10 +57,17 @@
 /* Understanding */
 
 .understanding {
+  min-height: 50vh;
+  margin: 10rem 0;
   background-color: var(--clr-blue-500);
   top: 200vh;
   z-index: 2;
 }
+
+.understanding h2 {
+  padding-bottom: 2rem;
+}
+
 .understanding .fixed {
   transform: translate(-50%, -50%);
 }

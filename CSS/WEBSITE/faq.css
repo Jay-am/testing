@@ -59,8 +59,8 @@
 }
 
 .faq__content {
-  margin-top: 0rem;
-  padding-bottom: 8rem;
+  margin-top: -40rem;
+  padding-bottom: 12rem;
 }
 
 .faq__content h2 {
@@ -89,4 +89,13 @@
 .faq__content {
   grid-column: 3 / 7;
   grid-row: 1 / 2;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1200px) {
+  .faq__section {
+    margin-top: 4rem;
+  }
 }

@@ -1,8 +1,8 @@
 /* GENERAL */
 
-.cookies {
+/* .cookies {
   padding: 6rem 0;
-}
+} */
 
 h2 {
   display: none;
@@ -32,7 +32,7 @@ h2 {
   /* GRID */
 
   .cookies__content {
-    margin: 16rem 0;
+    margin: 12rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
@@ -47,7 +47,7 @@ h2 {
   /* GRID */
 
   .cookies__content {
-    margin: 16rem 0;
+    margin: 12rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
