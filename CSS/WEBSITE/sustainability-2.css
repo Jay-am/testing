@@ -44,8 +44,8 @@
 /* Hero */
 
 .hero {
-  min-height: 150vh;
-  top: 150vh;
+  min-height: 120vh;
+  top: 120vh;
   z-index: 1;
 }
 
@@ -57,7 +57,7 @@
 /* Understanding */
 
 .understanding {
-  min-height: 50vh;
+  min-height: 80vh;
   margin: 10rem 0;
   background-color: var(--clr-blue-500);
   top: 200vh;
@@ -85,7 +85,7 @@
 }
 
 .materials .fixed {
-  transform: translate(0%, 40%);
+  transform: translate(0%, 15%);
 }
 
 
@@ -200,7 +200,7 @@
 
 /* Footer */
 
-.footer {
+.footer-wrapper {
   min-height: 30vh;
   top: 1000vh;
   z-index: 10;
