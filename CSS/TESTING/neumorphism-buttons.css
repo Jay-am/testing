@@ -1,0 +1,237 @@
+
+
+/* NEUMORPHISM */
+
+.button-neumorphism {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 130px;
+  color: var(--clr-neutral-500);
+  text-shadow:   
+  -1px -1px 2px  rgba(255,255,255,1),
+  1px 1px 2px  rgba(0,0,0,.5) ;
+  border: solid var(--clr-neutral-500) 2px;
+  border-radius: 10px;
+  background-color: transparent;
+  /* box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288); */
+  box-shadow:
+  -2px -2px 6px  rgba(255,255,255,1),
+  2px 2px 6px  rgba(0,0,0,.5) ;
+  transition:.5s all ease;
+  position: relative;
+  /* text-shadow: 1px 1px 1px var(--clr-neutral-300),
+  0.75px 0.75px 1.5px var(--clr-neutral-500),
+  -1px -1px 4px var(--clr-neutral-200);
+  box-shadow: 2px 2px 3px var(--clr-neutral-300),
+  0.75px 0.75px 1.5px var(--clr-neutral-500),
+  -0.25px -0.25px 1px var(--clr-neutral-100),
+  -1px -1px 4px var(--clr-neutral-200); */
+}
+
+.button-neumorphism:after {
+  content: '';
+  position: absolute; 
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.button-neumorphism:active{
+  box-shadow:
+  2px 2px 6px rgba(255,255,255,1) inset,
+  2px 2px 6px rgba(0,0,0,.5) inset;
+  text-shadow: 0px 0px 2px rgba(94, 104, 121, .288);
+  transition:.5s all ease;
+}
+
+.button-neumorphism:after:active{
+  content: '';
+  position: absolute; 
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+/* BUTTON PURPLE FULL */
+
+.button-purple-full {
+  color: var(--clr-purple-900);
+  background-color: var(--clr-purple-500);
+  box-shadow: 2px 2px 6px var(--clr-purple-600),
+  0.75px 0.75px 3px var(--clr-purple-900),
+  -0.3px -0.3px 2px var(--clr-purple-600),
+  -0.25px -0.25px 1px var(--clr-purple-100),
+  -1px -1px 4px var(--clr-purple-200);
+}
+
+.button-purple-full:hover {
+  color: var(--clr-fg-button-primary);
+  background-color: var(--clr-purple-500);
+  box-shadow: 3px 3px 6px var(--clr-purple-600),
+              0.75px 0.75px 3px var(--clr-purple-900),
+              -0.3px -0.3px 2px var(--clr-purple-600),
+              -0.25px -0.25px 1px var(--clr-purple-100),
+              -1.5px -1.5px 4px var(--clr-purple-200);
+}
+
+
+/* BUTTON GREEN FULL */
+
+.button-green-full {
+  color: var(--clr-green-900);
+  background-color: var(--clr-green-500);
+  box-shadow: 2px 2px 6px var(--clr-green-600),
+  0.75px 0.75px 3px var(--clr-green-900),
+  -0.3px -0.3px 2px var(--clr-green-600),
+  -0.25px -0.25px 1px var(--clr-green-100),
+  -1px -1px 4px var(--clr-green-200);
+}
+
+.button-green-full:hover {
+  color: var(--clr-fg-button-primary);
+  background-color: var(--clr-green-500);
+  box-shadow: 3px 3px 6px var(--clr-green-600),
+              0.75px 0.75px 3px var(--clr-green-900),
+              -0.3px -0.3px 2px var(--clr-green-600),
+              -0.25px -0.25px 1px var(--clr-green-100),
+              -1.5px -1.5px 4px var(--clr-green-200);
+}
+
+
+/* BUTTON YELLOW FULL */
+
+.button-yellow-full {
+  color: var(--clr-yellow-900);
+  background-color: var(--clr-yellow-500);
+  box-shadow: 2px 2px 6px var(--clr-yellow-600),
+  0.75px 0.75px 3px var(--clr-yellow-900),
+  -0.3px -0.3px 2px var(--clr-yellow-600),
+  -0.25px -0.25px 1px var(--clr-yellow-100),
+  -1px -1px 4px var(--clr-yellow-200);
+}
+
+.button-yellow-full:hover {
+  color: var(--clr-fg-button-primary);
+  background-color: var(--clr-yellow-500);
+  box-shadow: 3px 3px 6px var(--clr-yellow-600),
+              0.75px 0.75px 3px var(--clr-yellow-900),
+              -0.3px -0.3px 2px var(--clr-yellow-600),
+              -0.25px -0.25px 1px var(--clr-yellow-100),
+              -1.5px -1.5px 4px var(--clr-yellow-200);
+}
+
+.button-green-full {
+  color: var(--clr-green-900);
+  background-color: var(--clr-green-500);
+  box-shadow: -3px -3px 7px var(--clr-green-300), 3px 3px 5px var(--clr-green-700);
+  /* box-shadow: 2px 2px 6px var(--clr-green-600),
+  0.75px 0.75px 3px var(--clr-green-900),
+  -0.3px -0.3px 2px var(--clr-green-600),
+  -0.25px -0.25px 1px var(--clr-green-100),
+  -1px -1px 4px var(--clr-green-200); */
+}
+
+.button-green-full:hover {
+  color: var(--clr-fg-button-primary);
+  background-color: var(--clr-green-500);
+  box-shadow: -4px -4px 12px var(--clr-green-300), 3px 3px 7px var(--clr-green-700);
+  /* box-shadow: 3px 3px 6px var(--clr-green-600),
+              0.75px 0.75px 3px var(--clr-green-900),
+              0.25px 0.25px 3px var(--clr-green-100),
+              -0.3px -0.3px 2px var(--clr-green-600),
+              -0.25px -0.25px 1px var(--clr-green-100),
+              -1.5px -1.5px 4px var(--clr-green-200); */
+}
+
+.button-green-full:active {
+  box-shadow: inset -3px -3px 7px var(--clr-green-300), inset 3px 3px 5px var(--clr-green-700);
+}
+
+.button-white-full {
+  background: #ecedf1;
+  color: var(--clr-neutral-700);
+  /* box-shadow: -3px -3px 7px rgb(255, 255, 255), 3px 3px 5px rgba(94, 104, 121, .288); */
+  box-shadow: -0.5em -0.5em 1em #fafbff,
+              0.5em 0.5em 1em #a6abbd;
+}
+
+.button-white-full:click {
+  background: #ecedf1;
+  border-radius: 105px;
+  box-shadow: inset -3px -3px 7px #ffffffff, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+/* .button-white-full {
+  color: var(--clr-neutral-700);
+  background-color: var(--clr-neutral-0);
+  box-shadow: 2px 2px 6px var(--clr-neutral-200),
+  0.75px 0.75px 3px var(--clr-neutral-100),
+  -0.3px -0.3px 2px var(--clr-neutral-300),
+  -0.25px -0.25px 1px var(--clr-neutral-200),
+  -1px -1px 4px var(--clr-neutral-100);
+}
+
+.button-white-full:hover {
+  color: var(--clr-neutral-400);
+  background-color: var(--clr-neutral-0);
+  box-shadow: 3px 3px 6px var(--clr-neutral-200),
+              0.75px 0.75px 3px var(--clr-neutral-100),
+              0.25px 0.25px 3px var(--clr-neutral-300),
+              -0.3px -0.3px 2px var(--clr-neutral-300),
+              -0.25px -0.25px 1px var(--clr-neutral-200),
+              -1.5px -1.5px 4px var(--clr-neutral-100);
+} */
+
+
+/* .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+} */
+
+.button-yellow-full {
+  color: var(--clr-yellow-900);
+  background-color: var(--clr-yellow-500);
+  box-shadow: -2px -2px 3px var(--clr-yellow-300), 3px 3px 5px var(--clr-yellow-800);
+  /* box-shadow: 2px 2px 6px var(--clr-yellow-600),
+  0.75px 0.75px 3px #D89800,
+  -0.3px -0.3px 2px var(--clr-yellow-800),
+  -0.25px -0.25px 1px var(--clr-neutral-0),
+  -1px -1px 4px var(--clr-yellow-100); */
+}
+
+.button-yellow-full:hover {
+  color: var(--clr-yellow-100);
+  background-color: var(--clr-yellow-500);
+  box-shadow: -4px -4px 10px var(--clr-yellow-300), 3px 3px 7px var(--clr-yellow-800), 0.5px 0.5px 5px var(--clr-neutral-0);
+  /* box-shadow: 3px 3px 6px var(--clr-yellow-600),
+              0.75px 0.75px 3px #D89800,
+              0.25px 0.25px 3px var(--clr-neutral-0),
+              -0.3px -0.3px 2px var(--clr-yellow-800),
+              -0.25px -0.25px 1px var(--clr-neutral-0),
+              -1.5px -1.5px 4px var(--clr-yellow-100); */
+}
+
+.button-yellow-full:active {
+  box-shadow: inset -3px -3px 7px var(--clr-yellow-300), inset 3px 3px 5px var(--clr-yellow-800);
+}
+
+/* #F2AB00 */
