@@ -42,9 +42,15 @@
 
 @media (min-width: 1200px) {
 
+  .how-to-return h2 {
+    padding-top: 16rem;
+  }
+
+  address {
+    padding: 0 2rem;
+  }
+
   .note {
-    margin-top: 0;
-    margin-bottom: 8rem;
-    padding-right: 2.5rem;
+    padding-bottom: 8rem;
   }
 }
