@@ -47,8 +47,8 @@
 /* BUTTON DARK GREY HALF */
 
 .button-dark-grey-half {
-  color: var(--clr-neutral-800);
-  border: solid var(--clr-neutral-800) 2px;
+  color: var(--clr-neutral-900);
+  border: solid var(--clr-neutral-900) 2px;
 }
 
 .button-dark-grey-half:hover,
