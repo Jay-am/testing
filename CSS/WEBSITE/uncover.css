@@ -1,0 +1,27 @@
+
+
+.uncover__blog-posts h2 {
+  padding: 16rem 0 8rem 0;
+}
+.img-placeholder {
+  width: 350px;
+  height: 350px;
+  border-radius: 10%;
+  background-image: url("../../IMAGES/SUSTAINABILITY/climate-change.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* GRID */
+
+.article-wrapper {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  column-gap: 2rem;
+}
+
+.uncover__blog-post {
+  grid-column: span 1;
+}
