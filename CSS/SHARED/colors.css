@@ -8,9 +8,9 @@
   --clr-number: var(--clr-neutral-0);
   --clr-note: var(--clr-yellow-200);
 
-  --clr-nav: var(--clr-neutral-900);
-  --clr-nav-hover: var(--clr-green-500);
-  --clr-nav-active: var(--clr-green-500);
+  --clr-nav: var(--clr-neutral-500);
+  --clr-nav-hover: var(--clr-neutral-1000);
+  --clr-nav-active: var(--clr-neutral-1000);
 
   --clr-footer-header: var(--clr-green-900);
   --clr-footer-link: var(--clr-green-200);
