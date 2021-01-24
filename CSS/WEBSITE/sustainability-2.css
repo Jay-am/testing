@@ -44,8 +44,8 @@
 /* Hero */
 
 .hero {
-  min-height: 120vh;
-  top: 120vh;
+  min-height: 100vh;
+  top: 100vh;
   z-index: 1;
 }
 
@@ -57,8 +57,8 @@
 /* Understanding */
 
 .understanding {
-  min-height: 80vh;
-  margin: 10rem 0;
+  min-height: 100vh;
+  margin-top: -15rem;
   background-color: var(--clr-blue-500);
   top: 200vh;
   z-index: 2;
