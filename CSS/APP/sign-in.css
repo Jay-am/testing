@@ -1,3 +1,28 @@
+/* GRID */
+
+.sign-in {
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15% 55% 30%;
+}
+
+.header__sign-in {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+.form__sign-in {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+}
+
+.sign-in-third-party {
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+}
+
+
 /* FORM */
 
 .form__sign-in {
@@ -20,15 +45,27 @@
 }
 
 .btn__sign-in-form {
-  width: 100%;
+  /* width: 100%;
   color: white;
   font-family: inherit;
-  /* font-size: var(--fs-btn-s); */
+  font-size: var(--fs-btn-s);
   text-transform: uppercase;
   background: var(--clr-green-500);
   border: 1px solid var(--clr-green-500);
-  border-radius: 1em;
+  border-radius: 10px;
+  padding: 0.5em 0.75em; */
+
+  width: 100%;
+  display: block;
+  color: var(--clr-green-500);
+  font-family: inherit;
+  /* font-size: var(--fs-btn-s); */
+  text-transform: uppercase;
+  background: white;
+  border: 1.75px solid var(--clr-green-500);
+  border-radius: 10px;
   padding: 0.5em 0.75em;
+  margin-bottom: 1rem;
 }
 
 
@@ -48,7 +85,7 @@
   text-transform: uppercase;
   background: white;
   border: 1px solid white;
-  border-radius: 1em;
+  border-radius: 10px;
   padding: 0.5em 0.75em;
   margin-bottom: 1rem;
 }
@@ -62,7 +99,7 @@
   text-transform: uppercase;
   background: white;
   border: 1px solid white;
-  border-radius: 1em;
+  border-radius: 10px;
   padding: 0.5em 0.75em;
   margin-bottom: 2rem;
 }
@@ -78,26 +115,3 @@
   color: var(--clr-blue-800);
   font-weight: 500;
 }
-
-
-/* GRID */
-
-.sign-in {
-  width: 100vw;
-  height: 100vh;
-  grid-template-columns: 1fr;
-  grid-template-rows: 15%, 55%, 30%;
-}
-
-.header__sign-in {
-  grid-row: 1 / 2;
-}
-
-.form__sign-in {
-  grid-row: 2 / 3;
-}
-
-.sign-in-third-party {
-  grid-row: 3 / 4;
-}
-

@@ -1,31 +1,44 @@
-h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+/* GRID */
+
+.sign-up {
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15% 85%;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
+.header__sign-up {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
 }
 
 .form__sign-up {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  align-self: end;
   width: 100%;
-  height: 50vh;
-  padding: 15em 0 0 0;
+  margin: 16rem 0 4rem 0;
 }
-.sign-up-form {
+
+
+/* FORM */
+
+.e-mail {
+  padding-bottom: 0.5rem;
 }
-.name {
-}
+
 .password {
+  padding-bottom: 0.5rem;
 }
+
 .btn__sign-up-form {
   width: 100%;
-  background: grey;
-  border: coral;
-  border-radius: 1em;
+  color: var(--clr-green-500);
+  font-family: inherit;
+  /* font-size: var(--fs-btn-s); */
+  text-transform: uppercase;
+  background: white;
+  border: 1.75px solid var(--clr-green-500);
+  border-radius: 10px;
   padding: 0.5em 0.75em;
 }
