@@ -69,11 +69,13 @@
 
   --fs-number: 25rem; 
  
-  --fs-button: 20px;
-  --fs-button-l: 16px;
-  --fs-button-m: 14px;
-  --fs-button-s: 12px;
+  --fs-btn: 20px;
+  --fs-btn-l: 16px;
+  --fs-btn-m: 14px;
+  --fs-btn-s: 12px;
+
   --fs-small: 0.75rem;
+  --fs-xs: 0.6rem;
 
   --fs-nav-small: 0.8rem;
   --fs-nav: 1rem;

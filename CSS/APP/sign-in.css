@@ -1,46 +1,70 @@
+/* FORM */
+
 .form__sign-in {
-  width: 100%;
-  height: 30vh;
-  padding: 5em 0 0 0;
+  padding: 4rem 0 4rem 0;
 }
-.sign-in-form {
+
+.e-mail {
+  padding-bottom: 0.5rem;
 }
-.name {
-}
+
 .password {
+  padding-bottom: 0.5rem;
+}
+
+.forgot {
+  color: var(--clr-red-500);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  padding: 0 0.5rem 1rem 0;
 }
 
 .btn__sign-in-form {
   width: 100%;
-  background: grey;
-  border: coral;
+  color: white;
+  font-family: inherit;
+  /* font-size: var(--fs-btn-s); */
+  text-transform: uppercase;
+  background: var(--clr-green-500);
+  border: 1px solid var(--clr-green-500);
   border-radius: 1em;
   padding: 0.5em 0.75em;
 }
 
-.sign-in-3rd-party {
-  background: lightblue;
-  width: 100%;
-  height: 30vh;
-  padding: 5em 0 0 0;
+
+/* 3RD PARTY */
+
+.third-party {
+  background: var(--clr-green-500);
+  padding: 4rem 0 2rem 0;
 }
 
 .btn__sign-in-fb {
-  /* display: block; */
   width: 100%;
-  background: grey;
-  border: coral;
+  display: block;
+  color: var(--clr-green-500);
+  font-family: inherit;
+  /* font-size: var(--fs-btn-s); */
+  text-transform: uppercase;
+  background: white;
+  border: 1px solid white;
   border-radius: 1em;
   padding: 0.5em 0.75em;
+  margin-bottom: 1rem;
 }
 
 .btn__sign-in-gmail {
-  /* display: block; */
   width: 100%;
-  background: grey;
-  border: coral;
+  display: block;
+  color: var(--clr-green-500);
+  font-family: inherit;
+  /* font-size: var(--fs-btn-s); */
+  text-transform: uppercase;
+  background: white;
+  border: 1px solid white;
   border-radius: 1em;
   padding: 0.5em 0.75em;
+  margin-bottom: 2rem;
 }
 
 .no-account {
@@ -51,6 +75,29 @@
 
 .sign-up {
   text-decoration: none;
-  color: blue;
+  color: var(--clr-blue-800);
   font-weight: 500;
 }
+
+
+/* GRID */
+
+.sign-in {
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15%, 55%, 30%;
+}
+
+.header__sign-in {
+  grid-row: 1 / 2;
+}
+
+.form__sign-in {
+  grid-row: 2 / 3;
+}
+
+.sign-in-third-party {
+  grid-row: 3 / 4;
+}
+
