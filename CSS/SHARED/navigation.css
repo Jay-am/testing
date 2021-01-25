@@ -55,7 +55,7 @@
 }
 
 .primary-nav__list li:nth-of-type(6)  .shop {
-  color: var(--clr-red-500);
+  /* color: var(--clr-red-500); */
   margin-top: 1.5em;
 }
 

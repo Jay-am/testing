@@ -2,10 +2,6 @@
 
 :root {
 
-  --clr-neutral-1000: #000000;
-  --clr-neutral-1000: hsl(0°, 0%, 0%);
-  --clr-neutral-1000: rgb(0, 0, 0);
-
   --clr-neutral-900: #4e4e4e;
   --clr-neutral-900: hsl(0, 0%, 31%);
   --clr-neutral-900: rgb(78, 78, 78);
@@ -42,12 +38,59 @@
   --clr-neutral-100: hsl(0, 0%, 97%);
   --clr-neutral-100: rgb(248,248,249);
   
-  --clr-neutral-0: #ffffff;
-  --clr-neutral-0: hsl(0, 0%, 100%);
-  --clr-neutral-0: rgb(255,255,255);
-  
   }
   
+
+  /* SHADES OF BLACK */
+
+  :root {
+
+    --clr-neutral-1000: #000000;
+    --clr-neutral-1000: hsl(0°, 0%, 0%);
+    --clr-neutral-1000: rgb(0, 0, 0);
+  
+    --clr-black-900: #191919;
+    --clr-black-900: hsl(0°, 0%, 10%);
+    --clr-black-900: rgb(25, 25, 25);
+
+    --clr-black-800: #323232;
+    --clr-black-800: hsl(0°, 0%, 20%);
+    --clr-black-800: rgb(50, 50, 50);
+
+    --clr-black-700: #4c4c4c;
+    --clr-black-700: hsl(0°, 0%, 30%);
+    --clr-black-700: rgb(76, 76, 76);
+
+    --clr-black-600: #666666;
+    --clr-black-600: hsl(0°, 0%, 40%);
+    --clr-black-600: rgb(102, 102, 102);
+
+    --clr-black-500: #7f7f7f;
+    --clr-black-500: hsl(0°, 0%, 50%);
+    --clr-black-500: rgb(127, 127, 127);
+
+    --clr-black-400: #999999;
+    --clr-black-400: hsl(0°, 0%, 60%);
+    --clr-black-400: rgb(153, 153, 153);
+
+    --clr-black-300: #b2b2b2;
+    --clr-black-300: hsl(0°, 0%, 70%);
+    --clr-black-300: rgb(178, 178, 178);
+
+    --clr-black-200: #cccccc;
+    --clr-black-200: hsl(0°, 0%, 80%);
+    --clr-black-200: rgb(204, 204, 204);
+
+    --clr-black-100: #e5e5e5;
+    --clr-black-400: hsl(0°, 0%, 90%);
+    --clr-black-100: rgb(229,229,229);
+
+    --clr-neutral-0: #ffffff;
+    --clr-neutral-0: hsl(0, 0%, 100%);
+    --clr-neutral-0: rgb(255,255,255);
+
+  }
+
   
   /* BRAND COLORS */
   
