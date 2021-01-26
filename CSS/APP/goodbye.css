@@ -113,9 +113,13 @@ input:checked + .radio__control::before {
 }
 
 .goodbye__text {
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
 }
 
 .goodbye__text h3 {
   padding-bottom: 1rem;
+}
+
+.comment {
+  color: var(--clr-neutral-400);
 }

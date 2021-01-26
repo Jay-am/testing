@@ -31,82 +31,50 @@
       <section class="goodbye__forms">
         <form class="goodbye__radio">
           <h3>What happend?</h3>
-          <!-- <fieldset>
-            <input type="radio" id="wm" name="reason" value="washing-machine">
-            <label for="wm"> I swear it wasn’t my fault - the washing machine killed it!</label><br>
-            <input type="radio" id="dog" name="reason" value="dog">
-            <label for="dog"> The dog ate it!</label><br>
-            <input type="radio" id="clr" name="reason" value="color">
-            <label for="clr"> It lost it’s colourfulness. The good days are over!</label><br>
-            <input type="radio" id="shape" name="reason" value="shape">
-            <label for="shape"> It lost it’s shape.</label><br>
-            <input type="radio" id="ripped" name="reason" value="ripped">
-            <label for="ripped"> It ripped. It’s falling appart, ……</label>
-          </fieldset> -->
-   
+          <label class="radio">
+            <span class="radio__input">
+              <input type="radio" name="radio">
+              <span class="radio__control"></span>
+            </span>
+            <span class="radio__label">I swear it wasn’t my fault - the washing machine killed it!</span>
+          </label>
 
-        <label class="radio">
-          <span class="radio__input">
-            <input type="radio" name="radio">
-            <span class="radio__control"></span>
-          </span>
-          <span class="radio__label">I swear it wasn’t my fault - the washing machine killed it!</span>
-        </label>
+          <label class="radio">
+            <span class="radio__input">
+              <input type="radio" name="radio">
+              <span class="radio__control"></span>
+            </span>
+            <span class="radio__label">The dog ate it!</span>
+          </label>
 
-        <label class="radio">
-          <span class="radio__input">
-            <input type="radio" name="radio">
-            <span class="radio__control"></span>
-          </span>
-          <span class="radio__label">The dog ate it!</span>
-        </label>
+          <label class="radio">
+            <span class="radio__input">
+              <input type="radio" name="radio">
+              <span class="radio__control"></span>
+            </span>
+            <span class="radio__label">It lost it’s colourfulness. The good days are over!</span>
+          </label>
 
-        <label class="radio">
-          <span class="radio__input">
-            <input type="radio" name="radio">
-            <span class="radio__control"></span>
-          </span>
-          <span class="radio__label">It lost it’s colourfulness. The good days are over!</span>
-        </label>
+          <label class="radio">
+            <span class="radio__input">
+              <input type="radio" name="radio">
+              <span class="radio__control"></span>
+            </span>
+            <span class="radio__label">It lost it’s shape.</span>
+          </label>
 
-        <label class="radio">
-          <span class="radio__input">
-            <input type="radio" name="radio">
-            <span class="radio__control"></span>
-          </span>
-          <span class="radio__label">It lost it’s shape.</span>
-        </label>
-
-        <label class="radio">
-          <span class="radio__input">
-            <input type="radio" name="radio">
-            <span class="radio__control"></span>
-          </span>
-          <span class="radio__label">It ripped. It’s falling appart, ……</span>
-        </label>
-
-      </form>
-<!-- 
-          <fieldset>What happend?</fieldset>
-          <select name="reason-1" id="washing-machine">
-            I swear it wasn’t my fault - the washing machine killed it!
-          </select>
-          <select name="reason-2" id="dog">
-            The dog ate it!
-          </select>
-          <select name="reason-3" id="color">
-            It lost it’s colourfulness. The good days are over!
-          </select>
-          <select name="reason-3" id="shape">
-            It lost it’s shape. 
-          </select>
-          <select name="reason-4" id="ripped">
-            It ripped. It’s falling appart, ……
-          </select> -->
+          <label class="radio">
+            <span class="radio__input">
+              <input type="radio" name="radio">
+              <span class="radio__control"></span>
+            </span>
+            <span class="radio__label">It ripped. It’s falling appart, ……</span>
+          </label>
+        </form>
 
         <form action="/action_page.php" class="goodbye__text" id="userform">
-          <h3>No! Honestly you will not believe it!</h3>
-          <textarea name="comment" form="userform" cols="1" rows="5">Here's what really happend!</textarea>
+          <h3>None from the above.<br>Honestly you will not believe it!</h3>
+          <textarea name="comment" form="userform" class="comment" cols="1" rows="5">Here's what really happend!</textarea>
         </form>
 
         <button class="btn__regtangle | btn__regtangle--grey | btn__goodbye">Say Goodbye</button>
