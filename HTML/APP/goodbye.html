@@ -4,35 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-in</title>
-    <link rel="stylesheet" href="../CSS/goodbye.css" />
-    <link rel="stylesheet" href="../CSS/shared.css" />
+    <link rel="stylesheet" href="../../CSS/APP/goodbye.css" />
+    <link rel="stylesheet" href="../../CSS/APP/sign-up.css" />
+    <link rel="stylesheet" href="../../CSS/WEBSITE/index-2.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/colors.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/buttons.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/fonts.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/distance.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/reset.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/utility.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/navigation.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/fade-in-background-color-on-scroll.css" />
+    <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
-  <body>
-    <header class="container">
-      <h1>Say Goodbye</h1>
-    </header>
 
-    <section class="radio_goodbye">
-      <div class="container goodbye-selection">
-        <fieldset>What happend?</fieldset>
-        <select name="reason-1" id="#">
-          I swear it wasn’t my fault - the washing machine killed it!
-        </select>
-        <select name="reason-1" id="#">
-          The dog ate it!
-        </select>
-        <select name="reason-1" id="#">
-          It lost it’s colourfulness. The good days are over!
-        </select>
-        <select name="reason-1" id="#">
-          It ripped. It’s falling appart, ……
-        </select>
-      </div>
-      <div>
-        <fieldset>No! Honestly you will not believe it!</fieldset>
-        <textarea>Here's what really happend!</textarea>
-      </div>
-      <button class="btn__goodbye">Say Goodbye</button>
-    </section>
+  <body>
+    <main class="goodbye | container">
+      <section class="headline__goodbye">
+        <h1>Say Goodbye</h1>
+      </section>
+
+      <section class="goodbye__forms">
+        <form class="goodbye__radio">
+          <h3>What happend?</h3>
+          <fieldset>
+            <input type="radio" id="wm" name="reason" value="washing-machine">
+            <label for="wm"> I swear it wasn’t my fault - the washing machine killed it!</label><br>
+            <input type="radio" id="dog" name="reason" value="dog">
+            <label for="dog"> The dog ate it!</label><br>
+            <input type="radio" id="clr" name="reason" value="color">
+            <label for="clr"> It lost it’s colourfulness. The good days are over!</label><br>
+            <input type="radio" id="shape" name="reason" value="shape">
+            <label for="shape"> It lost it’s shape.</label><br>
+            <input type="radio" id="ripped" name="reason" value="ripped">
+            <label for="ripped"> It ripped. It’s falling appart, ……</label>
+          </fieldset>
+        </form>
+<!-- 
+          <fieldset>What happend?</fieldset>
+          <select name="reason-1" id="washing-machine">
+            I swear it wasn’t my fault - the washing machine killed it!
+          </select>
+          <select name="reason-2" id="dog">
+            The dog ate it!
+          </select>
+          <select name="reason-3" id="color">
+            It lost it’s colourfulness. The good days are over!
+          </select>
+          <select name="reason-3" id="shape">
+            It lost it’s shape. 
+          </select>
+          <select name="reason-4" id="ripped">
+            It ripped. It’s falling appart, ……
+          </select> -->
+
+        <form action="/action_page.php" class="goodbye__text" id="userform">
+          <h3>No! Honestly you will not believe it!</h3>
+          <textarea name="comment" form="userform" cols="1" rows="5">Here's what really happend!</textarea>
+        </form>
+
+        <button class="btn__regtangle | btn__regtangle--grey | btn__goodbye">Say Goodbye</button>
+      </section>
+    </main>
   </body>
 </html>
