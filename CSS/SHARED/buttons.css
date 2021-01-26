@@ -87,3 +87,28 @@
   border: none;
   transition: 0.6s ease;
 }
+
+
+/* BUTTON REGTANGLE */
+
+.btn__regtangle {
+  width: 100%;
+  display: block;
+  font-family: inherit;
+  /* font-size: var(--fs-btn-s); */
+  text-transform: uppercase;
+  background: transparent;
+  border-radius: 10px;
+  padding: 0.5em 0.75em;
+}
+
+.btn__regtangle--green {
+  color: var(--clr-green-500);
+  border: 1.75px solid var(--clr-green-500);
+}
+
+.btn__regtangle--grey {
+  color: var(--clr-neutral-800);
+  border: 1.75px solid var(--clr-neutral-800);
+}
+
