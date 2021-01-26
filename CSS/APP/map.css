@@ -1,0 +1,15 @@
+.map__content {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  padding: 4rem 0 2rem 0;
+}
+
+.number-small {
+  justify-self: end;
+}
+
+.map__world {
+  width: 100%;
+  height: 300px;
+  background: var(--clr-neutral-200);
+}
