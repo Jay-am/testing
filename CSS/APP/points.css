@@ -4,3 +4,32 @@
   border-radius: 50%;
   background: var(--clr-red-200);
 }
+
+.points__content {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  padding: 4rem 0 2rem 0;
+}
+
+.action {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--clr-neutral-300);
+  border-radius: 5px;
+  color: var(--clr-neutral-900);
+  padding: 0.25rem;
+}
+
+.go {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--clr-red-500);
+  border-radius: 5px;
+  color: var(--clr-red-500);
+  justify-self: end;
+  padding: 0.25rem;
+}
+
+.points__content > * + *  {
+  margin: 0 0 1.5rem 0;
+}
