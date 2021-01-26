@@ -22,28 +22,25 @@
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
   <body>
-    <main>
-      <div class="scanner">
-        <svg viewBox="0 0 100 100" width="150px">
-          <path d="M25,2 L2,2 L2,25" fill="none" stroke="red" stroke-width="3" />
-          <path d="M2,75 L2,98 L25,98" fill="none" stroke="red" stroke-width="3" />
-          <path d="M75,98 L98,98 L98,75" fill="none" stroke="red" stroke-width="3" />
-          <path d="M98,25 L98,2 L75,2" fill="none" stroke="red" stroke-width="3" />
+    <main class="scanner | container">
+      <div class="scanner__space">
+        <svg viewBox="0 0 100 100" width="250px">
+          <path d="M25,2 L2,2 L2,25" fill="none" stroke="red" stroke-width="1" />
+          <path d="M2,75 L2,98 L25,98" fill="none" stroke="red" stroke-width="1" />
+          <path d="M75,98 L98,98 L98,75" fill="none" stroke="red" stroke-width="1" />
+          <path d="M98,25 L98,2 L75,2" fill="none" stroke="red" stroke-width="1" />
         </svg>
       </div>
 
-      <section class="container">
+      <section class="headline__scanner">
         <h1>Uncover your potential</h1>
       </section>
 
-      <section class="scanner__check-in">
-        <div class="container check-in-scanner">
+      <section class="scanner__task">
+        <div class="check-in-scanner">
           <button class="btn__regtangle | btn__regtangle--grey | btn__check-in-scanner">Check-in</button>
         </div>
-      </section>
-
-      <section class="scanner__check-out">
-        <div class="container check-out-scanner">
+        <div class="check-out-scanner">
           <button class="btn__regtangle | btn__regtangle--grey | btn__check-out-scanner">Check-out</button>
         </div>
       </section>
