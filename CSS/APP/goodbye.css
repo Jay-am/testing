@@ -20,7 +20,14 @@ textarea {
 textarea:focus {
   background: var(--clr-neutral-100);
   border: 1px solid var(--clr-red-500);
+  outline-style: solid;
+  outline-color: transparent;
+  outline-width: thin;
   border-radius: 10px;
+}
+
+input {
+  outline-color: #719ECE;
 }
 
 
