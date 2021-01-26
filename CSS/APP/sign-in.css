@@ -79,12 +79,12 @@
 .btn__sign-in-fb {
   width: 100%;
   display: block;
-  color: var(--clr-green-500);
+  color: var(--clr-neutral-800);
   font-family: inherit;
   /* font-size: var(--fs-btn-s); */
   text-transform: uppercase;
-  background: white;
-  border: 1px solid white;
+  background: transparent;
+  border: 1px solid var(--clr-neutral-800);
   border-radius: 10px;
   padding: 0.5em 0.75em;
   margin-bottom: 1rem;
@@ -93,12 +93,12 @@
 .btn__sign-in-gmail {
   width: 100%;
   display: block;
-  color: var(--clr-green-500);
+  color: var(--clr-neutral-800);
   font-family: inherit;
   /* font-size: var(--fs-btn-s); */
   text-transform: uppercase;
-  background: white;
-  border: 1px solid white;
+  background: transparent;
+  border: 1px solid var(--clr-neutral-800);
   border-radius: 10px;
   padding: 0.5em 0.75em;
   margin-bottom: 2rem;
