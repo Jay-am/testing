@@ -65,7 +65,7 @@
   border: 1.75px solid var(--clr-green-500);
   border-radius: 10px;
   padding: 0.5em 0.75em;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 
@@ -110,8 +110,7 @@
   padding: 1em 0 2em 0;
 }
 
-.sign-up {
+/* .sign-up {
   text-decoration: none;
-  color: var(--clr-blue-800);
   font-weight: 500;
-}
+} */
