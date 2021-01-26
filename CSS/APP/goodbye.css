@@ -47,9 +47,9 @@ input + .radio__control::before {
 .radio__input input:checked + .radio__control {
   /* background: radial-gradient(currentcolor 50%, rgba(255, 0, 0, 0) 51%); */
   border: 1px solid var(--clr-red-500);
-  width: 0.75rem;
+  /* width: 0.75rem;
   height: 0.75rem;
-  border-radius: 2.5px;
+  border-radius: 2.5px; */
 }
 
 input:checked + .radio__control::before {
