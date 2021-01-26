@@ -7,12 +7,12 @@
   grid-template-rows: 15% 85%;
 }
 
-.header__sign-up {
+.sign-up__headline {
   grid-column: 1 / -1;
   grid-row: 1 / 2;
 }
 
-.form__sign-up {
+.sign-up__form {
   grid-column: 1 / -1;
   grid-row: 2 / 3;
   align-self: end;
