@@ -1,0 +1,6 @@
+.points__collection--circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--clr-red-200);
+}

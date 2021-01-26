@@ -1,0 +1,73 @@
+ /* NAV MAIN SETTINGS */
+
+ .profile-nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--clr-nav);
+  font-size: var(--fs-nav);
+}
+
+.profile-nav__link:hover,
+.profile-nav__link:focus {
+ color: var(--clr-nav-hover);
+ transition: 200ms ease-in-out;
+}
+
+.profile-nav__link:active {
+ color: var(--clr-nav-active);
+}
+
+.active {
+  color: var(--clr-nav-active);
+}
+
+.profile-home__header {
+  background-image: url("../../IMAGES/SUSTAINABILITY/climate-change.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 30vh;
+}
+
+.profile-nav {
+  background: var(--green-500);
+  width: 100vw;
+  height: 50px;
+  flex-grow: 1;
+  align-self: center;
+  padding-right: 3rem;
+}
+
+.profile-nav__list {
+  display: flex;
+  flex-direction: row;
+  font-size: var(--fs-nav);
+  list-style: none;
+}
+
+.profile-nav__list li:nth-of-type(1) {
+  margin-top: 0;
+  margin-left: auto;
+}
+
+.profile-nav__list li:nth-of-type(2) {
+  margin-top: 0;
+  margin-left: 1.5rem;
+}
+
+.profile-nav__list li:nth-of-type(3) {
+  margin-top: 0;
+  margin-left: 1.5rem;
+}
+
+
+/* CONTENT */
+
+.profile-home__content {
+  padding: 4rem 0 2rem 0;
+}
+
+.profile-home__content > * + *  {
+  margin: 0 0 1.5rem 0;
+}
