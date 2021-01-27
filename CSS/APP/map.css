@@ -1,15 +1,20 @@
-.map__content {
-  display: grid;
-  grid-template-columns: 5fr 1fr;
-  padding: 4rem 0 2rem 0;
+.map {
+  background-image: url("../../IMAGES/maps_dotted.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.initiated {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--clr-red-500);
+  border-radius: 5px;
+  background-color: transparent;
 }
 
 .number-small {
-  justify-self: end;
-}
-
-.map__world {
-  width: 100%;
-  height: 300px;
-  background: var(--clr-neutral-200);
+  font-size: var(--fs-small);
 }
