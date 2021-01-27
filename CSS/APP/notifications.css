@@ -1,0 +1,26 @@
+.notifications__content {
+  margin: 4rem 0 2rem 0;
+}
+
+.notification__container {
+  display: flex;
+}
+
+.notification__container > * + *  {
+  margin: 0 0 2.5rem 0;
+}
+
+.notifications__content img {
+  border: 1px solid var(--clr-red-500);
+  color: var(--clr-red-500);
+  display: block;
+  flex-basis: 10%;
+}
+
+.notification__content {
+  flex-basis: 90%;
+  padding-left: 1.5rem;
+  line-height: 1;
+  align-self: center;
+}
+
