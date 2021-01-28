@@ -111,7 +111,9 @@
     --fs-button-l: 16px;
     --fs-button-m: 14px;
     --fs-button-s: 12px;
+
     --fs-small: 0.75rem;
+    --fs-xs: 0.6rem;
 
     --fs-nav: 1rem;
     --fs-footer: 1rem;
@@ -142,7 +144,9 @@
     --fs-button-l: 16px;
     --fs-button-m: 14px;
     --fs-button-s: 12px;
+
     --fs-small: 0.75rem;
+    --fs-xs: 0.6rem;
 
     --fs-nav: 1rem;
     --fs-footer: 1rem;
@@ -175,6 +179,7 @@
     --fs-button-s: 12px;
 
     --fs-small: 0.85rem;
+    --fs-xs: 0.6rem;
 
     --fs-nav: 1rem;
     --fs-footer: 1rem;
@@ -204,7 +209,9 @@
     --fs-button-l: 16px;
     --fs-button-m: 14px;
     --fs-button-s: 12px;
+
     --fs-small: 0.75rem;
+    --fs-xs: 0.6rem;
 
     --fs-nav: 1.125rem;
     --fs-footer: 1.125rem;
