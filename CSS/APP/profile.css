@@ -21,13 +21,16 @@
   color: var(--clr-nav-active);
 }
 
-.profile-home__header {
-  background-image: url("../../IMAGES/SUSTAINABILITY/climate-change.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vw;
-  height: 30vh;
+.profile__header {
+  display: flex;
+  padding: 2rem 0 4rem 0;
+}
+
+.profile__header img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid var(--clr-neutral-200);
+  border-radius: 5px;
 }
 
 .profile-nav {
@@ -64,10 +67,31 @@
 
 /* CONTENT */
 
-.profile-home__content {
+.profile__content {
   padding: 4rem 0 2rem 0;
 }
 
-.profile-home__content > * + *  {
+.profile__content > * + *  {
   margin: 0 0 1.5rem 0;
 }
+
+.profile__details {
+  padding: 0 0 0 1rem;
+}
+
+.info {
+  padding-top: 0.75rem;
+}
+
+
+/* GRID */
+
+.profile__content {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.result-number {
+  justify-self: end;
+}
+
