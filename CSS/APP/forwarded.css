@@ -1,3 +1,40 @@
+ .forwarded__content {
+   display: grid;
+   grid-template-columns: 1fr 5fr;
+ }
+ 
+ /* TABS */
+
+ .tab-list-vertical__items {
+   display: flex;
+   flex-basis: 100%;
+   flex-grow: 1;
+   text-transform: uppercase;
+   transform: rotate(-90deg);
+   /* -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); */
+ }
+
+ .tab-details {
+   padding-right: 2rem;
+   width: min-content;
+ }
+
+ .tab-map {
+  width: min-content;
+ }
+
+ .tab-list-vertical__link {
+   display: block;
+   width: min-content;
+ }
+ 
+ 
+ /* ACCORDION */
+ 
  .accordion {
  	width: 100%;
  	max-width: 360px;

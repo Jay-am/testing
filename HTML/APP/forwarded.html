@@ -27,8 +27,14 @@
         <h1>COVERs</h1>
         <h1 class="right">Forwarded</h1>
       </section>
-
-      <section class="forwarded__content">
+    <div class="forwarded__content | container">
+      <div class="tab-list-vertical">
+        <ul class="tab-list-vertical__items">
+          <li class="tab-list-vertical__item | tab-details"><a href="#" class="tab-list-vertical__link">Show Details</a></li>
+          <li class="tab-list-vertical__item | tab-map"><a href="#" class="tab-list-vertical__link">Show on Maps</a></li>
+        </ul>
+      </div>
+      <section class="forwarded__accordion">
         <ul id="accordion" class="accordion">
           <li>
             <div class="link"><i class="xx"></i>COVER-xx<i class="fa fa-chevron-down"></i></div>
@@ -268,9 +274,10 @@
           </li>
         </ul>
       </section>
+    </div>
     </main>
 
-    <section class="app__navigation">
+    <!-- <section class="app__navigation">
       <footer class="app-footer | container">
         <ul class="app-footer__list">
           <li class="app-footer__item"><a href="#" class="app-footer__link">Scanner</a></li>
@@ -280,7 +287,7 @@
           <li class="app-footer__item"><a href="#" class="app-footer__link">Friends</a></li>
         </ul>
       </footer>  
-    </section>
+    </section> -->
 
     <!-- ACCORDION -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
