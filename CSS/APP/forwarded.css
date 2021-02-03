@@ -1,9 +1,15 @@
  .forwarded__content {
    display: grid;
-   grid-template-columns: 1fr 5fr;
+	 grid-template-columns: 10% 90%;
+	 grid-template-rows: 1fr;
  }
  
  /* TABS */
+
+ .tab-list-vertical {
+	grid-column: 1 / 2;
+	align-self: end;
+ }
 
  .tab-list-vertical__items {
    display: flex;
@@ -15,21 +21,27 @@
    -moz-transform: rotate(-90deg);
    -ms-transform: rotate(-90deg);
    -o-transform: rotate(-90deg);
-   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); */
+	 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); */
  }
 
  .tab-details {
-   padding-right: 2rem;
-   width: min-content;
+   padding: 0 2.5rem;
+	 min-width: 12ch;
  }
 
  .tab-map {
-  width: min-content;
+	min-width: 12ch;
+	padding: 0 2.5rem;
  }
 
  .tab-list-vertical__link {
    display: block;
-   width: min-content;
+	 min-width: 12ch;
+	 color: inherit;
+ }
+
+ .forwarded__accordion {
+	 align-self: end;
  }
  
  
