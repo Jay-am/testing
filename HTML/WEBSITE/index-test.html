@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
     <link rel="stylesheet" href="../../CSS/WEBSITE/index-2.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/index-test.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/colors.css" />
@@ -51,32 +52,32 @@
           </div>
         </div>
       </section>
-
-      <section class="planet__intro--header | parallax-container | fade-in-elements | content-spacer | panel" data-color="white-scroll">
+      
+      <section class="planet__intro--header | fade-in-elements | content-spacer | panel" data-color="white-scroll">
         <header class="container | right">
-          <h1 class="parallax-item | fade-in" data-depth="0.1">OUR PLANET MATTERS</h1>
+          <h1 class="fade-in" data-rate="2" | data-direction="horizontal">OUR PLANET MATTERS</h1>
         </header>
       </section>
-      <section  class="planet__intro | parallax-container | fade-in-elements | content-spacer | panel" data-color="grey-scroll">
-        <div class="planet__intro | parallax-container | content-spacer">
-          <div class="hero | container right">
-            <h2 class="parallax-item | green | fade-in" data-depth="0.1">If Earth’s history is squeezed into one year, modern human has existed for 37 minutes and used up a third of Earth’s natural resources in the last 0.2 seconds.</h2>
-            <p class="source | fade-in | right"><a href="http://www.theworldcounts.com" class="source__link">Source: The World Counts</a></p>
-          </div>
+      <section  class="planet__intro | fade-in-elements | content-spacer | panel" data-color="grey-scroll">
+        <div class="fade-in | right | content-spacer" data-rate="2" | data-direction="vertical">
+          <p class="paragraph-hero">If Earth’s history is squeezed into one year, modern human has existed for 37 minutes and used up a third of Earth’s natural resources in the last 0.2 seconds.</p>
+          <p class="source"><a href="http://www.theworldcounts.com" class="source__link">Source: The World Counts</a></p>
         </div>
-        <div class="planet__content | resources | parallax-container | content-spacer">
-          <p class="planet__paragraph | fade-in">We are turning the Earth's resources into waste faster and faster.</p>
-          <p class="planet__paragraph | fade-in">By 2030, the demands from 5.6 billion consumers will be draining the Earth for resources so fast that we need two planets to support us. If everyone lived like western consumers, we would even need five.</p>
+        <div class="planet__content | resources | content-spacer">
+          <p class="planet__paragraph | fade-in" data-rate="2" | data-direction="vertical">We are turning the Earth's resources into waste faster and faster.</p>
         </div>
-        <div class="planet__content | parallax-container | content-spacer">
-          <p class="planet__paragraph | fade-in | parallax-item" data-depth="0.1">Through our actions we are destroying habitats and endangering the lives of future generations in alarming speed. Globally, carbon dioxide emissions and temperatures continue to grow, which leads the ice in Antarctica and Greenland melting at record speed and sea levels are rising. We are approaching a critical tipping point after which global warming will be impossible to stop or reverse. Real change is needed - not just from politicians and businesses - but from every single one of us.</p>
+        <div class="planet__content | resources | content-spacer">
+          <p class="planet__paragraph | fade-in" data-rate="2" | data-direction="vertical">By 2030, the demands from 5.6 billion consumers will be draining the Earth for resources so fast that we need two planets to support us. If everyone lived like western consumers, we would even need five.</p>
         </div>
-        <div class="planet__content | parallax-container | content-spacer">
-          <p class="planet__paragraph | fade-in | parallax-item" data-depth="0.1">We want to help develop a deeper awareness about the consequences our lifestyle has on the environment and make some urgently needed changes possible in a very convenient way. Because conscious choices today matter more than ever before.</p>
+        <div class="planet__content | content-spacer">
+          <p class="planet__paragraph | fade-in" data-rate="2" | data-direction="vertical">Through our actions we are destroying habitats and endangering the lives of future generations in alarming speed. Globally, carbon dioxide emissions and temperatures continue to grow, which leads the ice in Antarctica and Greenland melting at record speed and sea levels are rising. We are approaching a critical tipping point after which global warming will be impossible to stop or reverse. Real change is needed - not just from politicians and businesses - but from every single one of us.</p>
         </div>
-        <div class="planet__content | parallax-container | content-spacer">
-          <p class="planet__paragraph | fade-in | parallax-item | p-4 | strong" data-depth="0.1">If you are frustrated by these developments as well and are looking for a way to gorgeously wrap your gifts while not producing more trash, harming our planet or the ones you're making a present but don’t want to use a newspaper because your gift should look premium - this is the right place for you to be. We create a reusable, high quality gift wrap collection that is not only beautiful, but also fair and sustainable.</p>
-          <button onclick="location.href='https://stackoverflow.com/questions/2906582how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-planet | button | button-red-half | parallax-item | fade-in" data-depth="0.1">VIEW<br>COLLECTION</button>
+        <div class="planet__content | content-spacer">
+          <p class="planet__paragraph | fade-in" data-rate="2" | data-direction="vertical">We want to help develop a deeper awareness about the consequences our lifestyle has on the environment and make some urgently needed changes possible in a very convenient way. Because conscious choices today matter more than ever before.</p>
+        </div>
+        <div class="planet__content | content-spacer">
+          <p class="planet__paragraph | fade-in | p-4 | strong" data-rate="2" | data-direction="vertical">If you are frustrated by these developments as well and are looking for a way to gorgeously wrap your gifts while not producing more trash, harming our planet or the ones you're making a present but don’t want to use a newspaper because your gift should look premium - this is the right place for you to be. We create a reusable, high quality gift wrap collection that is not only beautiful, but also fair and sustainable.</p>
+          <button onclick="location.href='https://stackoverflow.com/questions/2906582how-to-create-an-html-button-that-acts-like-a-link'" type="button" class="btn-planet | button | button-red-half">VIEW<br>COLLECTION</button>
         </div>
       </section>
 
@@ -357,10 +358,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="../../JS/navigation.js"></script>
 
-    <!-- FADE IN BACKGROUND COLOR ON SCROLL-->
+    <!-- FADE IN BACKGROUND COLOR ON SCROLL -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="../../JS/fade-in-background-color-on-scroll.js"></script>
 
+    <!-- INDEX TEST -->
+    <script src="../../JS/index-test.js"></script>
 
   </body>
 </html>
