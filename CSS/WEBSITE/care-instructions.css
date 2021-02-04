@@ -1,15 +1,19 @@
 /* GENERAL */
 
-.headline-section {
-  padding: 16rem 0 0 0;
-  width: 60%;
+.hero-care {
+  padding-bottom: 16rem;
+}
+
+.fade-in-elements {
+  min-height: 100vh;
+  padding: 16rem 0;
 }
 
 
 /* GRID */
 
 .care-instructions__wrapper {
-  margin: 8rem 0;
+  margin: 16rem 0 8rem 0;
   display: grid;
   grid-template-columns: 1fr;
 }
