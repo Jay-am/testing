@@ -14,7 +14,7 @@ body {
 }
 
 .come-in:nth-child() {
-  animation-delay: come-in 2s;
+  animation-delay: come-in 1s;
 }
 
 .already-visible {
