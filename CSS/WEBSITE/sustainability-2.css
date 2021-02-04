@@ -76,7 +76,7 @@
 /* Materials */
 
 .materials {
-  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-materials.png);
+  background-image: var(--clr-yellow-500);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -112,7 +112,7 @@
 /* Packaging */
 
 .packaging {
-  background-image: url("../../IMAGES/SUSTAINABILITY/recycled-packaging.png");
+  background-image: var(--clr-blue-500);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -164,7 +164,7 @@
 /* Care Instructions */
 
 .care-instructions {
-  background-image: url("../../IMAGES/SUSTAINABILITY/care-instructions.png");
+  background-image: url("../../IMAGES/care-instructions.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -180,7 +180,7 @@
 /* Disposal */
 
 .disposal {
-  background-color: #c20a0a;
+  background-color: var(--clr-red-500);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,7 +201,7 @@
 /* Footer */
 
 .footer-wrapper {
-  min-height: 30vh;
+  min-height: 50vh;
   top: 1000vh;
   z-index: 10;
 }
