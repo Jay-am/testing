@@ -51,11 +51,33 @@
   background-position: 30% 50%;
 }
 
+.cover__headline {
+  background-image: url("../../IMAGES/Trash-Economy-2.jpeg");
+  /* Image of a Cover */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.benefits__headline {
+  background-image: url("../../IMAGES/Caring-1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 90%;
+}
+
 .sharing__headline {
   background-image: url("../../IMAGES/Caring-1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 90%;
+}
+
+.start__headline {
+  background-image: url("../../IMAGES/No-Planet-B-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 20%;
 }
 
 
