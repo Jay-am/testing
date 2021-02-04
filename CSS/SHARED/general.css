@@ -197,6 +197,10 @@ a {
   color: var(--clr-neutral-500);
 }
 
+.mid-grey {
+  color: var(--clr-neutral-600);
+}
+
 .yellow {
   color: var(--clr-yellow-900);
 }
