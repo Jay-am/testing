@@ -24,31 +24,38 @@
 }
 
 .paper__headline {
-  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-image: url("../../IMAGES/Paper-Plastic-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 30% 50%;
+  background-position: 30% 40%;
 }
 
 .deforestation__headline {
-  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-image: url("../../IMAGES/Deforestation-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .change__headline {
-  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-image: url("../../IMAGES/Planting-a-Tree.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+
+.zero-waste__headline {
+  background-image: url("../../IMAGES/Trash-Economy-2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
-.zero-waste__headline {
-  background-image: url("../../IMAGES/planet-earth.jpg");
+.sharing__headline {
+  background-image: url("../../IMAGES/Caring-1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 30% 50%;
+  background-position: 30% 90%;
 }
 
 
