@@ -1,3 +1,57 @@
+/* GENERAL */
+
+/* .main-index p {
+  font-size: 24px;
+} */
+
+
+/* CLIPPING MASK HEADLINES */
+
+.clipping-mask-font h1 {
+  font-weight: 900;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+  padding: 24rem 0 12rem 0;
+}
+
+.planet__intro--headline {
+  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.paper__headline {
+  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.deforestation__headline {
+  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.change__headline {
+  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.zero-waste__headline {
+  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+
 /* HERO */
 
 .hero__index {
@@ -55,16 +109,16 @@
 /* PLANET */
 
 .planet__intro {
-  padding: 100px;
+  /* padding: 100px; */
   color: #ffffff;
 }
 
-.planet__intro h1 {
-  padding: 6rem 0 26rem 0;
-}
+/* .planet__intro--headline {
+  padding: 24rem 0 12rem 0;
+} */
 
 .source {
-  margin-top: 0;
+  margin: 0 0 32rem 0;
 }
 
 .source__link {
@@ -77,10 +131,6 @@
 .source__link:hover,
 .source__link:active {
   color: var(--clr-link-hover);
-}
-
-.resources {
-  padding-top: 18rem;
 }
 
 .planet__content {
@@ -106,10 +156,14 @@
 
 /* PAPER */
 
+/* .paper__header {
+  padding: 24rem 0 0 0;
+  margin: 0;
+} */
+
 .paper__content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  padding-top: 6rem;
 }
 
 .paper__paragraph {

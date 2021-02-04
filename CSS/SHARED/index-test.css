@@ -1,4 +1,4 @@
-/* @import "compass/css3";
+@import "compass/css3";
 
 body {
   background-size: cover;
@@ -24,14 +24,14 @@ body {
 
 @keyframes come-in {
   to { transform: translateY(0);}
-} */
+}
 
 
 
-.fade-in-elements {
+/* .fade-in-elements {
   height: 100%;
 }
 
 .fade-in-elements div {
   height: 100vh;
-}
+} */
