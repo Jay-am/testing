@@ -1,20 +1,131 @@
+/* GENERAL */
+
+/* .main-index p {
+  font-size: 24px;
+} */
+
+
+/* CLIPPING MASK HEADLINES */
+
+.clipping-mask-font h1 {
+  font-weight: 900;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+  padding: 24rem 0;
+}
+
+.planet__intro--headline {
+  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.paper__headline {
+  background-image: url("../../IMAGES/Paper-Plastic-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 40%;
+}
+
+.deforestation__headline {
+  background-image: url("../../IMAGES/Deforestation-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.change__headline {
+  background-image: url("../../IMAGES/Planting-a-Tree.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+
+.zero-waste__headline {
+  background-image: url("../../IMAGES/Trash-Economy-2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.cover__headline {
+  background-image: url("../../IMAGES/Trash-Economy-2.jpeg");
+  /* Image of a Cover */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.benefits__headline {
+  background-image: url("../../IMAGES/Caring-1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 90%;
+}
+
+.sharing__headline {
+  background-image: url("../../IMAGES/Caring-1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 90%;
+}
+
+.start__headline {
+  background-image: url("../../IMAGES/No-Planet-B-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 20%;
+}
+
+
 /* HERO */
 
-.hero__content h1 {
+.hero__index {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.hero__index #hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../IMAGES/climate-change.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__index--content {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+}
+  
+.hero__index--content h1 {
   padding-bottom: 4rem;
   font-size: 96px;
   margin: 0;
   line-height: 0.3;
 }
 
-.hero__content h2 {
+.hero__index--content h2 {
   padding-bottom: 2rem;
   font-size: 48px;
   margin: 0;
 }
 
-.hero__content p {
-  width: 40%;
+.hero__index--content p {
+  width: 45%;
 }
 
 .enjoy {
@@ -26,13 +137,22 @@
 
 /* PLANET */
 
+.planet__intro {
+  /* padding: 100px; */
+  color: #ffffff;
+}
+
+/* .planet__intro--headline {
+  padding: 24rem 0 12rem 0;
+} */
+
 .source {
-  margin-top: 0;
+  margin: 0 0 32rem 0;
 }
 
 .source__link {
   font-size: var(--fs-small);
-  color: var(--clr-neutral-400);
+  color: var(--clr-neutral-700);
   text-decoration: none;
   font-style: normal;
 }
@@ -42,14 +162,9 @@
   color: var(--clr-link-hover);
 }
 
-.resources {
-  padding-top: 18rem;
-}
-
 .planet__content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  /* padding-top: 6rem; */
   color: var(--clr-neutral-0);
   font-size: var(--fs-h3);
 }
@@ -59,7 +174,7 @@
 }
 
 .p-4 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .btn-planet {
@@ -70,10 +185,14 @@
 
 /* PAPER */
 
+/* .paper__header {
+  padding: 24rem 0 0 0;
+  margin: 0;
+} */
+
 .paper__content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  padding-top: 6rem;
 }
 
 .paper__paragraph {
@@ -151,6 +270,41 @@
 }
 
 
+/* BENEFITS */
+
+.benefits__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 6rem 0 10rem 0;
+}
+
+.benefits__paragraph {
+  grid-column: 2 / 5;
+}
+
+
+/* SHARING */
+
+.sharing__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 6rem 0 10rem 0;
+}
+
+.sharing__paragraph {
+  grid-column: 2 / 5;
+}
+
+.sharing__paragraph-3 {
+  padding: 2rem 0;
+}
+
+.btn-sharing {
+  grid-column: 2 / 3;
+}
+
+
+
 /* START */
 
 /* .start {
@@ -164,7 +318,6 @@
   column-gap: 2rem;
   row-gap: 2rem;
   padding: 6rem 5rem 10rem 5rem;
-  margin: 0;
 }
 
 .start__paragraph {
@@ -174,9 +327,7 @@
   border: none;
   border-radius: 25px;
   box-shadow: -2px -2px 3px var(--clr-green-300), 3px 3px 5px var(--clr-green-800);
-  margin: 0;
   cursor: pointer;
-  display: block;
   align-content: start;
 }
 
@@ -193,18 +344,18 @@
   font-weight: var(--fw-regular);
   line-height: 1;
   justify-self: start;
+  align-self: center;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
 }
 
 .paragraph {
-  width: 100%;
+  width: 75%;
   color: var(--clr-green-900);
   font-size: 32px;
   text-align: left;
   padding: 2rem;
-  margin: 0;
   z-index: 1;
-  align-self: start;
-  display: block;
 }
 
 .start__paragraph-1 {
@@ -232,6 +383,7 @@
 .start-number-paragraph-2-grid {
   grid-column: 4 / 5;
   grid-row: 1 / 3;
+  justify-self: center;
 }
 
 .start__paragraph-3 {
@@ -328,43 +480,19 @@
 .start__paragraph-10 {
   grid-column: 7 / 9;
   grid-row: 7 / 9;
-}
-
-.start__paragraph-11 {
-  grid-column: 7 / 9;
-  grid-row: 9 / 11;
-  color: var(--clr-red-700);
-  font-size: 32px;
-  text-align: left;
-  padding: 2rem;
-  line-height: 1;
   box-shadow: none;
   border: 2px solid var(--clr-red-700);
 }
 
-.start__paragraph-11:hover {
+.start__paragraph-10 a {
+  color: var(--clr-red-700);
+  font-size: 32px;
+  text-align: left;
+  line-height: 1;
+}
+
+.start__paragraph-10:hover {
   color: var(--clr-yellow-500);
   border: 2px solid var(--clr-yellow-500);
   transition: 0.6s ease-in-out;
 }
-
-
-/* SHARING */
-
-.sharing__content {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  padding: 6rem 0 10rem 0;
-}
-
-.sharing__paragraph {
-  grid-column: 2 / 5;
-}
-.sharing__paragraph-3 {
-  padding: 2rem 0;
-}
-
-.btn-sharing {
-  grid-column: 2 / 3;
-}
-

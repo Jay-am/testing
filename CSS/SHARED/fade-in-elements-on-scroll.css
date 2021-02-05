@@ -1,15 +1,37 @@
-.fade-in-elements {
-  min-height: 100vh;    
-}
+@import "compass/css3";
 
-.fade-in-elements DIV { 
-  -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out;
+body {
+  background-size: cover;
 }
 
 .fade-in {
-  opacity:0;
+  position: relative;
+}
+ 
+.come-in {
+  transform: translateY(500px);
+  animation: come-in 5s ease-in-out both;
 }
 
-.fade-out {
-  opacity:1!important;
+.come-in:nth-child() {
+  animation-delay: come-in 1s;
 }
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0);}
+}
+
+
+
+/* .fade-in-elements {
+  height: 100%;
+}
+
+.fade-in-elements div {
+  height: 100vh;
+} */
