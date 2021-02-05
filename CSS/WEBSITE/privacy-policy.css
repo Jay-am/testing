@@ -4,6 +4,7 @@ h2 {
   display: none;
 }
 
+
 /* GRID */
 
 .privacy-policy__content {
@@ -20,6 +21,7 @@ h2 {
 /* MEDIA QUERIES */
 
 @media (min-width: 900px) {
+
   /* GRID */
 
   .privacy-policy__content {
