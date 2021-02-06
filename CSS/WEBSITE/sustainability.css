@@ -76,7 +76,7 @@
 /* Materials */
 
 .materials {
-  background-image: var(--clr-yellow-500);
+  background-image: url(../../IMAGES/farbric-recycled.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -128,7 +128,7 @@
 /* Delivery */
 
 .delivery {
-  background-color: url(../../IMAGES/DHL-GoGreen.jpg);
+  background-image: url("../../IMAGES/DHL-GREEN-LUXE.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
