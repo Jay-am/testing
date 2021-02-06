@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Care Instructions</title>
     <link rel="stylesheet" href="../../CSS/WEBSITE/care-instructions.css" />
-    <link rel="stylesheet" href="../../CSS/SHARED/index-test.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/fade-in-elements-on-scroll.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/colors.css" />
@@ -45,11 +45,11 @@
         </p>
       </section>
    
-      <section class="care-instructions__headlines | container | fade-in-elements | panel" data-color="turquoise-scroll">
-        <h2 class="care-instructions__headline | right | h1 | fade-in" data-rateY="1" data-rateX="2" data-direction="horizontal">Wash less</h2>
-        <h2 class="care-instructions__headline | right | h1 | fade-in" data-rateY="1" data-rateX="2" data-direction="horizontal">Wash right</h2>
-        <h2 class="care-instructions__headline | right | h1 | fade-in" data-rateY="1" data-rateX="2" data-direction="horizontal">Pass it on</h2>
-        <h2 class="care-instructions__headline | right | h1 | fade-in" data-rateY="1" data-rateX="2" data-direction="horizontal">And recycle</h2>
+      <section class="care-instructions__headlines | container | panel" data-color="turquoise-scroll">
+        <h2 class="care-instructions__headline | care-instructions__headline-1 | right | h1">Wash less</h2>
+        <h2 class="care-instructions__headline | care-instructions__headline-2 | right | h1">Wash right</h2>
+        <h2 class="care-instructions__headline | care-instructions__headline-3 | right | h1">Pass it on</h2>
+        <h2 class="care-instructions__headline | care-instructions__headline-4 | right | h1">And recycle</h2>
       </section>
 
       <div class="care-instructions__wrapper | panel" data-color="white-scroll">
@@ -170,20 +170,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="../../JS/navigation.js"></script>
 
-    <script type="text/javascript">
-      window.addEventListener("scroll", function () {
-        var nav = document.querySelector("nav");
-        nav.classList.toggle("sticky", window.scrollY > 0);
-      });
-    </script>
-
     <!-- FADE IN BACKGROUND COLOR ON SCROLL-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="../../JS/fade-in-background-color-on-scroll.js"></script>
 
 
-    <!-- INDEX TEST -->
-    <script src="../../JS/index-test.js"></script>
+    <!-- FADE IN ELEMENTS ON SCROLL -->
+    <script src="../../JS/fade-in-elemets-on-scroll.js"></script>
+
+    <!-- MOVE TEXT ON SCROLL -->
+    <script type="text/javascript">
+      $(document).on('scroll', function(){
+      $('.care-instructions__headline-1').css('left', Math.max(500-0.15*window.scrollY) + 'px');
+      $('.care-instructions__headline-2').css('right', Math.max(600-0.35*window.scrollY) + 'px');
+      $('.care-instructions__headline-3').css('left', Math.max(200-0.25*window.scrollY) + 'px');
+      $('.care-instructions__headline-1').css('right', Math.max(300-0.15*window.scrollY) + 'px');
+      })
+    </script>
+
 
   </body>
 </html>

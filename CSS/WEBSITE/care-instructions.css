@@ -4,10 +4,36 @@
   padding-bottom: 16rem;
 }
 
-.fade-in-elements {
+.care-instructions__headlines {
+  overflow-x: hidden;
   min-height: 100vh;
-  padding: 16rem 0;
 }
+
+.care-instructions__headline {
+  position: fixed;
+  transform: translateY(10%);
+  white-space: nowrap;
+}
+
+.care-instructions__headline-1 {
+  top: 60%;
+  left: 500px;
+} 
+/* 
+.care-instructions__headline-2 {
+  top: 50%;
+  right: 100px;
+}
+
+.care-instructions__headline-3 {
+  top: 60%;
+  left: 1000px;
+}
+
+.care-instructions__headline-4 {
+  top: 80%;
+  right: 800px;
+}  */
 
 
 /* GRID */

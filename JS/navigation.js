@@ -7,9 +7,7 @@
 // ACTIVE NAV LINK
 
 $(function () {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass(
-    "active"
-  );
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
 });
 
 
@@ -34,7 +32,7 @@ $(function(){
     ** 0 - initial, 1 - up, 2 - down
     */
 
-    curScroll = w.scrollY || doc.scrollTop;
+    curScroll = w.scrollY || doc.scrollTop();
     if (curScroll > prevScroll) { 
       //scrolled up
       direction = 2;

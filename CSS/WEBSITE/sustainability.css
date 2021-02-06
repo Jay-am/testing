@@ -1,142 +1,196 @@
-/* UNDERSTANDING */
+/* GENERAL */
+
+.sutainability {
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: right;
+}
+
+.sustainability__copy {
+  align-self: flex-start;
+  width: 50%;
+}
+
+.sustainability__copy  h3 {
+  font-size: 4rem;
+  line-height: 1;
+  padding-bottom: 2rem;
+}
+
+.sustainability__copy  p {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+
+/* SECTIONS */
+
+.section {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  clip: rect(0, auto, auto, 0);
+}
+
+.section .fixed {
+  overflow: hidden;
+  position: fixed;
+  top: 20%;
+  right: 2.5%;
+}
+
+
+/* Hero */
+
+.hero {
+  min-height: 100vh;
+  top: 100vh;
+  z-index: 1;
+}
+
+/* .hero .fixed {
+  transform: translate(-50%, -50%);
+} */
+
+
+/* Understanding */
 
 .understanding {
-  margin: 10rem 0;
+  min-height: 100vh;
+  margin-top: -15rem;
+  background-color: var(--clr-blue-500);
+  top: 200vh;
+  z-index: 2;
 }
 
 .understanding h2 {
   padding-bottom: 2rem;
 }
 
-
-/* GENERAL */
-
-.sutainability {
-  min-height: 100vh;
-}
-
-.production,
-.delivery,
-.care-instructions {
-  text-align: right;
-}
-
-.production__copy h3,
-.reverse-logistics h3 {
-  margin-bottom: 2rem;
-}
-
-.materials__content h3,
-.production__copy h3,
-.packaging__copy h3,
-.delivery__copy h3,
-.reverse-logistics__copy h3,
-.care-instructions__copy h3,
-.disposal__copy h3 {
-  font-size: 4rem;
-}
-
-.materials__content p,
-.production__copy p,
-.packaging__copy p,
-.delivery__copy p,
-.reverse-logistics__copy p,
-.care-instructions__copy p,
-.disposal__copy p {
-  font-size: 1.5rem;
-  color: var(--clr-neutral-800);
+.understanding .fixed {
+  transform: translate(-50%, -50%);
 }
 
 
-/* MATERIALS */
+/* Materials */
 
-/* .materials {
-  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-materials.png);
+.materials {
+  background-image: var(--clr-yellow-500);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-} */
+  top: 300vh;
+  z-index: 3;
+}
+
+.materials .fixed {
+  transform: translate(0%, 15%);
+}
 
 
-/* PRODUCTION */
+/* Production */
 
 .production {
-  flex-direction: column;
-  /* background-image: url(#);
-  background-color: var(--clr-blue-500);
-  background-blend-mode: multiply;
+  background-color: var(--clr-purple-500);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; */
+  background-position: center;
+  top: 400vh;
+  z-index: 4;
 }
 
-/* .production__copy {
+.production .fixed {
+  transform: translate(0%, -10%);
+}
+
+.production__copy {
   width: 60%;
-} */
-
-
-/* PACKAGING */
-
-/* .packaging {
-  background-image: url(../../IMAGES/SUSTAINABILITY/recycled-packaging.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
-
-/* DELIVERY */
-
-/* .delivery {
-  background-image: url(#);
-  background-color: var(--clr-green-500);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
-
-/* REVERSE LOGISTICS */
-
-/* .reverse-logistics {
-  background-image: url(#);
-  background-color: var(--clr-pink-500);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
-
-/* CARE INSTRUCTIONS */
-
-/* .care-instructions {
-  background-image: url(../../IMAGES/SUSTAINABILITY/care-instructions.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
-.care-instructions__copy {
-  align-self: flex-start;
-}
-
-.care-instructions__copy p {
-  padding-bottom: 2rem;
 }
 
 
-/* DISPOSAL */
+/* Packaging */
 
-/* .disposal {
-  background-image: url(#);
-  background-color: var(--clr-yellow-500);
-  background-blend-mode: multiply;
+.packaging {
+  background-image: var(--clr-blue-500);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-} */
+  top: 500vh;
+  z-index: 5;
+}
+
+.packaging .fixed {
+  transform: translate(0%, 0%);
+}
+
+
+/* Delivery */
+
+.delivery {
+  background-color: url(../../IMAGES/DHL-GoGreen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 600vh;
+  z-index: 6;
+}
+
+.delivery .fixed {
+  transform: translate(0%, 0%);
+}
+
+
+/* Reverse Logistics */
+
+.reverse-logistics {
+  background-color: var(--clr-purple-500);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 700vh;
+  z-index: 7;
+}
+
+.reverse-logistics .fixed {
+  transform: translate(0%, -10%);
+}
+
+.reverse-logistics__copy h3 {
+  padding-bottom: 4rem;
+}
+
+
+/* Care Instructions */
+
+.care-instructions {
+  background-image: url("../../IMAGES/care-instructions.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 800vh;
+  z-index: 8;
+}
+
+.care-instructions .fixed {
+  transform: translate(0%, 0%);
+}
+
+
+/* Disposal */
+
+.disposal {
+  background-color: var(--clr-red-500);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 900vh;
+  z-index: 9;
+}
+
+.disposal .fixed {
+  transform: translate(0%, 0%);
+}
 
 .disposal__copy {
   align-self: flex-end;
@@ -144,131 +198,14 @@
 }
 
 
-/* PARALLAX */
+/* Footer */
 
-.background {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  overflow: hidden;
-  will-change: transform;
-  backface-visibility: hidden;
-  min-height: 130vh;
-  position: fixed;
-  width: 100%;
-  transform: translateY(30vh);
-  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+.footer-wrapper {
+  min-height: 50vh;
+  top: 1000vh;
+  z-index: 10;
 }
 
-.background:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.background:first-child {
-  background-image: url(https://i.postimg.cc/kXq9Qmnj/bgd1.jpg);
-  transform: translateY(-15vh);
-  z-index: 3;
-}
-
-.background:first-child .content-wrapper {
-  transform: translateY(15vh);
-}
-
-.background:nth-child(2) {
-  background-image: url(https://i.postimg.cc/W14vywqg/photo-1424746219973-8fe3bd07d8e3.jpg);
-  z-index: 2;
-}
-
-.background:nth-child(3) {
-  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-  z-index: 1;
-}
-
-.background:nth-child(4) {
-  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-  z-index: 1;
-}
-
-.background:nth-child(5) {
-  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-  z-index: 1;
-}
-
-.background:nth-child(6) {
-  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-  z-index: 1;
-}
-
-.background:nth-child(7) {
-  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-  z-index: 1;
-}
-
-.background:nth-child(8) {
-  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-  z-index: 1;
-}
-
-.background:nth-child(9) {
-  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-  z-index: 1;
-}
-
-.background:nth-child(10) {
-  background-image: url(https://i.postimg.cc/TY0xQ41T/photo-1433840496881-cbd845929862.jpg);
-  z-index: 1;
-}
-
-.content-wrapper {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  /* flex-flow: column nowrap; */
-  color: #fff;
-  transform: translateY(40vh);
-  will-change: transform;
-  backface-visibility: hidden;
-  transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
-}
-
-
-.background.up-scroll {
-  transform: translate3d(0, -15vh, 0);
-}
-
-.background.up-scroll .content-wrapper {
-  transform: translateY(15vh);
-}
-
-.background.up-scroll + .background {
-  transform: translate3d(0, 30vh, 0);
-}
-
-.background.up-scroll + .background .content-wrapper {
-  transform: translateY(30vh);
-}
-
-.background.down-scroll {
-  transform: translate3d(0, -130vh, 0);
-}
-
-.background.down-scroll .content-wrapper {
-  transform: translateY(40vh);
-}
-
-.background.down-scroll + .background:not(.down-scroll) {
-  transform: translate3d(0, -15vh, 0);
-}
-
-.background.down-scroll + .background:not(.down-scroll) .content-wrapper {
-  transform: translateY(15vh);
-}
+/* .footer .fixed {
+  transform: translate(0%, 0%);
+} */
