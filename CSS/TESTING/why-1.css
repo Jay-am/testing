@@ -77,23 +77,23 @@
   grid-column: 2 / 5;
 }
 
-.purpose h1 {
+.purpose h2 {
   grid-column: 1 / -1;
   text-align: right;
-  padding: 16rem 0 8rem 0;
+  padding-bottom: 8rem;
 }
 
-.purpose h2 {
-  padding: 12rem 0 2rem 0;
+.purpose h4 {
+  padding-top: 2rem;
 }
 
-.purpose h3 {
-  line-height: 1;
-  padding: 2rem 0 0.15rem 0;
+.purpose-2,
+.purpose-3 {
+  padding-top: 4rem;
 }
 
 .purpose-3 {
-  padding-bottom: 12rem;
+  padding-bottom: 8rem;
 }
 
 
