@@ -36,6 +36,24 @@
 }  */
 
 
+/* CLIPPING MASK HEADLINES */
+
+.clipping-mask-font h2 {
+  font-weight: 900;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+  padding: 24rem 0;
+}
+
+.care-instructions__headline-1 {
+  background-image: url("../../IMAGES/Wash-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
 /* GRID */
 
 .care-instructions__wrapper {
