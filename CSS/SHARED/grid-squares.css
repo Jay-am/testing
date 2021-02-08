@@ -201,13 +201,14 @@ address {
   }
 
   .step__content h3 {
-    font-size: var(--fs-h4);
-    font-weight: var(--fw-medium);
+    font-size: var(--fs-h3);
+    line-height: 1;
     text-transform: uppercase;
     padding: 2rem 2rem 0 2rem;
   }
 
   .step__content p {
+    font-size: var(--fs-steps)!important;
     width: 90%;
     padding: 2rem;
   }
