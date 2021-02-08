@@ -44,39 +44,49 @@
 /* Hero */
 
 .hero {
-  min-height: 100vh;
+  min-height: 150vh;
   top: 100vh;
   z-index: 1;
 }
-
-/* .hero .fixed {
-  transform: translate(-50%, -50%);
-} */
 
 
 /* Understanding */
 
 .understanding {
-  min-height: 100vh;
-  margin-top: -15rem;
-  background-color: var(--clr-blue-500);
+  min-height: 80vh;
   top: 200vh;
   z-index: 2;
+  width: 100%;
 }
 
-.understanding h2 {
-  padding-bottom: 2rem;
+.clipping-mask-font h1 {
+  font-weight: 900;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+  /* padding: 2rem 0; */
 }
 
-.understanding .fixed {
-  transform: translate(-50%, -50%);
+.understanding__headline {
+  background-image: url("../../IMAGES/climate-change.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
 }
+
+.understanding__content--headline .fixed {
+  background-color: var(--clr-neutral-0);
+  width: 100%;
+  transform: translate(100%, 50%);
+}
+
 
 
 /* Materials */
 
 .materials {
-  background-image: url(../../IMAGES/farbric-recycled.jpg);
+  background-color: var(--clr-yellow-500);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,7 +211,7 @@
 /* Footer */
 
 .footer-wrapper {
-  min-height: 50vh;
+  min-height: 100vh;
   top: 1000vh;
   z-index: 10;
 }
