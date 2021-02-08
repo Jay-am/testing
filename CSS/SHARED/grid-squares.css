@@ -32,8 +32,13 @@
   z-index: 2;
 }
 
+.step__content p {
+  font-size: var(--fs-steps)!important;
+}
+
 address {
   font-style: normal;
+  font-size: var(--fs-steps)!important;
 }
 
 .square-1 {

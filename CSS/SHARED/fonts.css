@@ -104,6 +104,7 @@
     --fs-ph1: 1.5rem;
 
     --fs-body: 1rem;
+    --fs-steps: 1rem:
 
     --fs-number-mobile: 18rem; 
 
@@ -137,6 +138,7 @@
     --fs-ph1: 2rem;
 
     --fs-body: 1rem;
+    --fs-steps: 1rem:
 
     --fs-number: 31.25rem;
 
@@ -172,6 +174,7 @@
 
     /* --fs-body: 1.125rem; */
     --fs-body: 1.375rem;
+    --fs-steps: 1.125rem:
 
     --fs-number: 40.625rem;
 
@@ -206,6 +209,7 @@
 
     /* --fs-body: 1.125rem; */
     --fs-body: 1.5rem;
+    --fs-steps: 1.25rem:
   
     --fs-number: 40.625rem;
 

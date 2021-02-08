@@ -27,6 +27,11 @@ address {
  min-width: 24ch;
 }
 
+.legal-notice__bank p {
+  min-width: 49ch;
+  white-space: nowrap;
+ }
+
 
 /* MOBILE */
 
