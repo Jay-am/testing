@@ -34,7 +34,7 @@
   padding-bottom: 4rem;
   font-size: var(--fs-h1);
   margin: 0;
-  line-height: 0.3;
+  line-height: 1;
 }
 
 .hero__index--content h2 {
@@ -62,7 +62,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
-  padding: 24rem 0;
+  padding: 12rem 0 0rem 0;
 }
 
 .planet__intro--headline {
@@ -291,6 +291,10 @@
 /* MEDIA QUERIES */
 
 @media (min-width: 900px) {
+
+  .clipping-mask-font h1 {
+    padding: 24rem 0;
+  }
 
   /* PLANET */
 
