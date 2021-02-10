@@ -1,10 +1,35 @@
+/* HEADER */
+
+.headline__scanner-2 {
+  transform: translate(20%, 50%);
+}
+
+
+/* CLIPPING MASK HEADLINES */
+
+.clipping-mask-font h1 {
+  font-weight: 900;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+}
+
+.headline__scanner {
+  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+
 /* GRID */
 
 .scanner {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 45% 30% 25%;
 }
 
@@ -15,7 +40,7 @@
   align-self: center;
 }
 
-.headline__scanner {
+.header__scanner {
   grid-column: 1 / -1;
   grid-row: 2 / 3;
 }
