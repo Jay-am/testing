@@ -9,19 +9,28 @@
 }
 
 .custom__header {
-  color: var(--clr-pink-800);
   grid-column: 1 / -1;
   /* grid-row: 2 / 3; */
   z-index: 1;
   align-self: start;
 }
 
-.ampersand {
-  grid-column: 1 / -1;
-  /* grid-row: 1 / 4; */
-  align-self: center;
-  /* font-size: 650px; */
-  color: var(--clr-pink-400);
+/* CLIPPING MASK HEADLINES */
+
+.clipping-mask-font h2 {
+  font-weight: 900;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+  padding: 12rem 0 0rem 0;
+}
+
+.custom__header {
+  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
 }
 
 .custom__content--h3 {
