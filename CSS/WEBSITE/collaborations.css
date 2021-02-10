@@ -239,3 +239,14 @@
   font-size: var(--fs-h2);
   padding: 6rem 0 2rem 0;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {}
+
+@media (min-width: 900px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1800px) {}

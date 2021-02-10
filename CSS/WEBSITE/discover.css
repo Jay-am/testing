@@ -61,3 +61,14 @@
   clip-path: polygon(var(--left-side) 0, var(--right-side) 0, var(--right-side) 100%, var(--left-side) 100%);
   transition: 0.35s ease;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {}
+
+@media (min-width: 900px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1800px) {}

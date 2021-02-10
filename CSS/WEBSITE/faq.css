@@ -93,8 +93,16 @@
 
 /* MEDIA QUERIES */
 
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {}
+
+@media (min-width: 900px) {}
+
 @media (min-width: 1200px) {
   .faq__section {
     margin-top: 4rem;
   }
 }
+
+@media (min-width: 1800px) {}

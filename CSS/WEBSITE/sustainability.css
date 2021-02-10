@@ -219,3 +219,14 @@
 /* .footer .fixed {
   transform: translate(0%, 0%);
 } */
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {}
+
+@media (min-width: 900px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1800px) {}
