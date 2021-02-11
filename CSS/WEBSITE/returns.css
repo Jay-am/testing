@@ -1,13 +1,19 @@
 /* GENERAL */
 
+.paragraph-hero {
+  padding-bottom: 6rem;
+}
+
 .note {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-  padding-right: 1rem;
+  padding: 6rem 0;
 }
 
 
 /* GRID */
+
+.how-to-return {
+  padding: 6rem 0;
+}
 
 .how-to-return__content {
   display: grid;
@@ -17,10 +23,15 @@
   row-gap: 0;
 }
 
+.square-2,
+.step-2__number, 
+.step-2__content {
+  justify-self: end;
+}
+
 
 @media (min-width: 600px) {
   .note {
-    padding-right: 1.5rem;
     margin-bottom: 8rem;
   }
 }
@@ -33,10 +44,6 @@
     grid-template-rows: repeat(8, 1fr);
     column-gap: 0;
     row-gap: 0;
-  }
-
-  .note {
-    padding-right: 2rem;
   }
 }
 

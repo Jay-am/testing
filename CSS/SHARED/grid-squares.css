@@ -1,9 +1,9 @@
 /* GENERAL */
 
 .square {
-  width: 100%;
-  min-height: 50vh;
-  border-radius: none;
+  width: 300px;
+  min-height: 300px;
+  border-radius: 10px;
   align-self: center;
   justify-items: center;
 }

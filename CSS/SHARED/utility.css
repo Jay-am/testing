@@ -30,7 +30,8 @@
 }
 
 .pd-right {
-  padding-right: calc(var(--pd-right) * 2);
+  /* padding-right: calc(var(--pd-right) * 2); */
+  padding-right: var(--pd-right);
 }
 
 .pd-left-right {
