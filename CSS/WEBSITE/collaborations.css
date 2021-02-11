@@ -186,6 +186,14 @@
 }
 
 .collaboration--event {
+  -webkit-animation: animate 8s linear infinite;
+  -moz-animation: animate 8s linear infinite;
+  -ms-animation: animate 8s linear infinite;
+  -o-animation: animate 8s linear infinite;
+  animation: animate 8s linear infinite;
+}
+
+.collaboration--co-branding {
   -webkit-animation: animate 10s linear infinite;
   -moz-animation: animate 10s linear infinite;
   -ms-animation: animate 10s linear infinite;
@@ -193,28 +201,20 @@
   animation: animate 10s linear infinite;
 }
 
-.collaboration--co-branding {
-  -webkit-animation: animate 15s linear infinite;
-  -moz-animation: animate 15s linear infinite;
-  -ms-animation: animate 15s linear infinite;
-  -o-animation: animate 15s linear infinite;
-  animation: animate 15s linear infinite;
+.collaboration--cross-promotion {
+  -webkit-animation: animate 10s linear infinite;
+  -moz-animation: animate 10s linear infinite;
+  -ms-animation: animate 10s linear infinite;
+  -o-animation: animate 10s linear infinite;
+  animation: animate 10s linear infinite;
 }
 
-.collaboration--cross-promotion {
+.collaboration--designer {
   -webkit-animation: animate 20s linear infinite;
   -moz-animation: animate 20s linear infinite;
   -ms-animation: animate 20s linear infinite;
   -o-animation: animate 20s linear infinite;
   animation: animate 20s linear infinite;
-}
-
-.collaboration--designer {
-  -webkit-animation: animate 30s linear infinite;
-  -moz-animation: animate 30s linear infinite;
-  -ms-animation: animate 30s linear infinite;
-  -o-animation: animate 30s linear infinite;
-  animation: animate 30s linear infinite;
 }
 
 @-moz-keyframes animate {
