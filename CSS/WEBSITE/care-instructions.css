@@ -1,39 +1,8 @@
 /* GENERAL */
 
-.hero-care {
-  padding-bottom: 16rem;
+.paragraph-hero {
+  padding-bottom: 8rem;
 }
-
-.care-instructions__headlines {
-  overflow-x: hidden;
-  min-height: 100vh;
-}
-
-.care-instructions__headline {
-  position: fixed;
-  transform: translateY(10%);
-  white-space: nowrap;
-}
-
-.care-instructions__headline-1 {
-  top: 60%;
-  left: 500px;
-} 
-/* 
-.care-instructions__headline-2 {
-  top: 50%;
-  right: 100px;
-}
-
-.care-instructions__headline-3 {
-  top: 60%;
-  left: 1000px;
-}
-
-.care-instructions__headline-4 {
-  top: 80%;
-  right: 800px;
-}  */
 
 
 /* CLIPPING MASK HEADLINES */
@@ -44,7 +13,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
-  padding: 24rem 0;
+  padding: 0;
+  margin: 0;
 }
 
 .care-instructions__headline-1 {
@@ -54,22 +24,51 @@
   background-position: 30% 50%;
 }
 
+.care-instructions__headline-2 {
+  background-image: url("../../IMAGES/Wash-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.care-instructions__headline-3 {
+  background-image: url("../../IMAGES/Wash-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+.care-instructions__headline-4 {
+  background-image: url("../../IMAGES/Wash-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+
+
 /* GRID */
 
 .care-instructions__wrapper {
-  margin: 16rem 0 8rem 0;
   display: grid;
   grid-template-columns: 1fr;
+  margin: 8rem 0 8rem 0;
 }
 
 .care-instructions__content {
   grid-column: 1 / -1;
+  padding-bottom: 2rem;
 }
 
 
 /* MEDIA QUERIES */
 
 @media (min-width: 900px) {
+
+  .paragraph-hero {
+    padding-bottom: 8rem;
+  }
+
+
   /* GRID */
 
   .care-instructions__wrapper {
@@ -85,10 +84,15 @@
 }
 
 @media (min-width: 1200px) {
+
+  .paragraph-hero {
+    padding-bottom: 16rem;
+  }
+
   /* GRID */
 
   .care-instructions__wrapper {
-    margin: 4rem 0 16rem 0;
+    margin: 16rem 0 16rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
@@ -99,3 +103,39 @@
     grid-column: 2 / 5;
   }
 }
+
+
+
+
+/* ANNIMATION */
+
+/* .care-instructions__headlines {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.care-instructions__headline {
+  position: fixed;
+  transform: translateY(10%);
+  white-space: nowrap;
+}
+
+.care-instructions__headline-1 {
+  top: 60%;
+  left: 500px;
+}  */
+/* 
+.care-instructions__headline-2 {
+  top: 50%;
+  right: 100px;
+}
+
+.care-instructions__headline-3 {
+  top: 60%;
+  left: 1000px;
+}
+
+.care-instructions__headline-4 {
+  top: 80%;
+  right: 800px;
+}  */
