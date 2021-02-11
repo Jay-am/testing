@@ -65,3 +65,14 @@ img {
   height: auto;
   display: block;
 }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+  font-weight: var(--fw-body);
+  font-size: var(--fs-body);
+}

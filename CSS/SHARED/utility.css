@@ -24,6 +24,11 @@
   }
 } 
 
+.right {
+  text-align: right;
+  margin-left: auto;
+}
+
 .pd-right {
   padding-right: calc(var(--pd-right) * 2);
 }

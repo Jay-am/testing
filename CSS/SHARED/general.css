@@ -64,15 +64,7 @@ p {
 }
 
 
-/* GENERAL LINKS */
-
-a {
-  display: inline-block;
-  text-decoration: none;
-}
-
-
-/* SPECIFIC LINKS */
+/* LINKS */
 
 .email {
   color: var(--clr-email);
@@ -109,12 +101,6 @@ a {
 
 
 /* SETTINGS */
-
-address {
-  font-style: normal;
-  font-weight: var(--fw-body);
-  font-size: var(--fs-body);
-}
 
 .brand {
   color: var(--clr-neutral-1000);
@@ -184,6 +170,8 @@ address {
 
 /* SECTION SPECIFICS */
 
+/* HERO */
+
 .headline-hero {
   font-size: var(--fs-h1);
   letter-spacing: var(--ls-headline);
@@ -221,10 +209,8 @@ address {
   }
 }
 
-.right {
-  text-align: right;
-  margin-left: auto;
-}
+
+/* NOTE */
 
 .note h2 {
   color: var(--clr-note);
