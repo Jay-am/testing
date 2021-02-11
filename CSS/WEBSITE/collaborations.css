@@ -51,7 +51,7 @@
 
 .collaborations__you {
   min-height: 100vh;
-  padding: 16rem 0 16rem 0;
+  padding: 8rem 0 6rem 0;
 }
 
 .collaborations__list {
@@ -136,12 +136,13 @@
 
 /* TYPES */
 
-.collaborations__types {
-  padding: 16rem 0 16rem 0;
+.collaborations__types--headline {
+  padding: 8rem 0 0rem 0;
 }
 
-.collaborations__types h2 {
-  padding: 8rem 0 30rem 0;
+
+.collaborations__types {
+  padding: 0rem 0 0rem 0;
 }
 
 .collaborations__type {
@@ -269,7 +270,7 @@
 .collaborations__contact--p3 {
   width: 100%;
   font-size: var(--fs-h2);
-  padding: 6rem 0 2rem 0;
+  padding: 4rem 0 2rem 0;
 }
 
 
@@ -399,12 +400,12 @@
 
   /* TYPES */
 
-  .collaborations__types {
-    padding: 16rem 0 16rem 0;
+  .collaborations__types--headline {
+    padding: 8rem 0 0rem 0;
   }
 
-  .collaborations__types h2 {
-    padding: 8rem 0 30rem 0;
+  .collaborations__types {
+    padding: 0rem 0 16rem 0;
   }
 
   .collaborations__type {
