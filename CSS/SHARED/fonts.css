@@ -55,11 +55,13 @@
 /* FONT SIZE */
 
 :root {
-  /* --fs-logo: 2rem; */
-  /* --fs-h1-xxl: 18rem;
-  --fs-h1-xl: 13rem;
-  --fs-h1-l: 10rem; */
-  --fs-h1: 6rem;
+  --fs-logo: 2rem;
+
+  --fs-xxl: 18rem;
+  --fs-xl: 13rem;
+  --fs-l: 10rem;
+
+  --fs-h1: 5rem;
   --fs-h2: 3rem;
   --fs-h3: 1.5rem;
   --fs-h4: 1.25rem;
@@ -93,17 +95,13 @@
 @media (min-width: 600px) {
 
   :root {
-    /* --fs-logo: 2rem; */
-    --fs-h1-xxl: 18rem;
-    --fs-h1-xl: 13rem;
-    --fs-h1-l: 10rem;
-    /* --fs-h1: 6rem;
-    --fs-hm: 3rem;
-    --fs-h2: 2rem;
-    --fs-h3: 1.125rem;
-    --fs-h4: 1rem;
-    --fs-ph1: 1.5rem; */
-    --fs-h1: 6rem;
+    --fs-logo: 2rem;
+
+    --fs-xxl: 18rem;
+    --fs-xl: 13rem;
+    --fs-l: 10rem;
+ 
+    --fs-h1: 5rem;
     --fs-h2: 3rem;
     --fs-h3: 1.5rem;
     --fs-h4: 1.25rem;
@@ -133,10 +131,12 @@
 @media (min-width: 900px) {
 
   :root {
-    /* --fs-logo: 2rem; */
-    /* --fs-h1-xxl: 18rem;
-    --fs-h1-xl: 13rem;
-    --fs-h1-l: 10rem; */
+    --fs-logo: 2rem;
+
+    --fs-xxl: 18rem;
+    --fs-xl: 13rem;
+    --fs-l: 10rem;
+
     --fs-h1: 8rem;
     --fs-h2: 3rem;
     --fs-h3: 1.25rem;
@@ -167,13 +167,14 @@
 @media (min-width: 1200px) {
 
   :root {
-    /* --fs-logo: 2rem; */
-    /* --fs-h1-xxl: 18rem;
-    --fs-h1-xl: 13rem;
-    --fs-h1-l: 10rem; */
+    --fs-logo: 2rem;
+
+    --fs-xxl: 18rem;
+    --fs-xl: 13rem;
+    --fs-l: 10rem;
+
     --fs-h1: 12rem;
     --fs-h2: 4rem;
-    /* --fs-h3: 1.5rem; */
     --fs-h3: 2rem;
     --fs-h4: 1.25rem;
     --fs-ph1: 3rem;
@@ -203,10 +204,12 @@
 @media (min-width: 1800px) {
 
   :root {
-    /* --fs-logo: 2rem; */
-    /* --fs-h1-xxl: 18rem;
-    --fs-h1-xl: 13rem;
-    --fs-h1-l: 10rem; */
+    --fs-logo: 2rem;
+
+    --fs-xxl: 18rem;
+    --fs-xl: 13rem;
+    --fs-l: 10rem;
+
     --fs-h1: 12rem;
     --fs-h2: 4rem;
     --fs-h3: 3rem;
