@@ -12,7 +12,7 @@
 }
 
 .custom-intro {
-  margin-top: 8rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
@@ -32,7 +32,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
-  padding: 8rem 0 0rem 0;
+  padding: 0rem 0 0rem 0;
 }
 
 .custom__headline {
@@ -58,7 +58,7 @@
 /* NOTE */
 
 .note {
-  padding: 12rem 0 0rem 0;
+  padding: 6rem 0 0rem 0;
 }
 
 .no-custom {
@@ -69,7 +69,7 @@
 /* GRID */
 
 .how-it-works {
-  padding: 12rem 0 0rem 0;
+  padding: 6rem 0 0rem 0;
 }
 
 .how-it-works__headline {
