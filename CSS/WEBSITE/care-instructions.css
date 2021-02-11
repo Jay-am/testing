@@ -59,6 +59,14 @@
   padding-bottom: 2rem;
 }
 
+.washing {
+  padding-top: 4rem;
+}
+
+.machine-load {
+  padding-bottom: 6rem;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -81,7 +89,16 @@
   .care-instructions__content {
     grid-column: 1 / 5;
   }
+
+  .washing {
+    padding-top: 8rem;
+  }
+
+  .machine-load {
+    padding-bottom: 8rem;
+  }
 }
+
 
 @media (min-width: 1200px) {
 
@@ -92,7 +109,7 @@
   /* GRID */
 
   .care-instructions__wrapper {
-    margin: 16rem 0 16rem 0;
+    padding: 16rem 0 16rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
@@ -101,6 +118,14 @@
 
   .care-instructions__content {
     grid-column: 2 / 5;
+  }
+
+  .washing {
+    padding-top: 14rem;
+  }
+
+  .machine-load {
+    padding-bottom: 12rem;
   }
 }
 
