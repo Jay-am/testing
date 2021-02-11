@@ -13,32 +13,40 @@
   font-family: var(--ff-number);
   font-weight: var(--fw-regular);
   font-size: var( --fs-number);
-  justify-self: start;
-  align-self: end;
+  justify-self: end;
+  align-self: center;
   line-height: 1;
   letter-spacing: 1;
   width: 100%;
   height: 100%;
   z-index: 1;
-  margin: 1rem 2rem 0 0rem;
+  margin: 1rem 0rem 1rem 0rem;
 }
 
 .step__content {
   width: 100%;
   height: 100%;
   padding: 1.5rem;
-  align-self: end;
+  align-self: center;
   justify-self: start;
   z-index: 2;
 }
 
-address {
-  font-style: normal;
+.step__content h3 {
+  font-size: var(--fs-h3);
+  line-height: 1;
+  text-transform: uppercase;
+  padding: 4rem 1rem 0 1rem;
 }
 
-.step__content p,
-.step__content .address,
+.step__content p {
+  font-size: var(--fs-steps)!important;
+  width: 80%;
+  padding: 1rem 1rem 4rem 1rem;
+}
+
 address {
+  font-style: normal;
   font-size: var(--fs-steps)!important;
 }
 
@@ -181,6 +189,14 @@ address {
 
 
 @media (min-width: 600px) {
+
+  .step__content h3 {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+  }
+
+  .step__content p {
+    padding: 1.5rem;
+  }
 }
 
 
