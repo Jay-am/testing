@@ -14,35 +14,38 @@
   font-weight: var(--fw-regular);
   font-size: var( --fs-number);
   justify-self: end;
-  align-self: center;
+  align-self: end;
   line-height: 1;
   letter-spacing: 1;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+  width: 300px;
+  min-height: 300px;
   z-index: 1;
-  /* margin: 1rem 0rem 1rem 0rem; */
-  margin: auto 0;
+  padding: 2rem 2rem 0 0;
 }
 
 .step__content {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+  width: 300px;
+  min-height: 300px;
   align-self: center;
   justify-self: start;
   z-index: 2;
+  padding: 1rem;
 }
 
 .step__content h3 {
   font-size: var(--fs-h3);
   line-height: 1;
   text-transform: uppercase;
-  padding: 4rem 1rem 0 1rem;
+  padding: 0rem 0rem 0.5rem 0rem;
 }
 
 .step__content p {
   font-size: var(--fs-steps)!important;
-  width: 80%;
-  padding: 1rem 1rem 4rem 1rem;
+  width: 92%;
 }
 
 address {
@@ -111,7 +114,7 @@ address {
 .step-1__number {
   grid-column: 7 / -1;
   grid-row: 1 / 2;
-  justify-self: center;
+  justify-self: end;
 }
 
 .step-1__content {
@@ -124,16 +127,19 @@ address {
 .square-2 {
   grid-column: 1 / -1;
   grid-row: 2 / 3;
+  justify-self: end;
 }
 
 .step-2__number {
   grid-column: 7 / -1;
   grid-row: 2 / 3;
+  justify-self: end;
 }
 
 .step-2__content {
   grid-column: 1 / -1;
   grid-row: 2 / 3;
+  justify-self: end;
 }
 
 /* STEP 3 */
@@ -158,16 +164,19 @@ address {
 .square-4 {
   grid-column: 1 / -1;
   grid-row: 4 / 5;
+  justify-self: end;
 }
 
 .step-4__number {
   grid-column: 7 / -1;
   grid-row: 4 / 5;
+  justify-self: end;
 }
 
 .step-4__content {
   grid-column: 1 / -1;
   grid-row: 4 / 5;
+  justify-self: end;
 }
 
 /* STEP 5 */
@@ -175,58 +184,71 @@ address {
 .square-5 {
   grid-column: 1 / -1;
   grid-row: 5 / 6;
+  justify-self: end;
 }
 
 .step-5__number {
   grid-column: 7 / -1;
   grid-row: 5 / 6;
+  justify-self: end;
 }
 
 .step-5__content {
   grid-column: 1 / -1;
   grid-row: 5 / 6;
+  justify-self: end;
 }
 
 
 @media (min-width: 600px) {
 
-  .step__content h3 {
-    padding: 4rem 1.5rem 0 1.5rem;
+  .square {
+    width: 350px;
+    min-height: 350px;
+    border-radius: 10px;
   }
 
-  .step__content p {
-    padding: 1.5rem 1.5rem 4rem 1.5rem;
+  .step__content {
+    width: 300px;
+    min-height: 300px;
+    align-self: center;
+    justify-self: start;
+    z-index: 1;
+    padding: 1.5rem;
   }
+
+  .step__content h3 {
+    padding: 0rem 0rem 0.5rem 0rem;
+  }
+
 }
 
 
 @media (min-width: 900px) {
 
   .square {
-    border-radius: 10%;
     width: 400px;
-    height: 400px;
-    align-self: center;
-    justify-content: center;
+    min-height: 400px;
+    border-radius: 10%;
   }
 
   .step__content {
     align-self: end;
     justify-content: start;
     z-index: 1;
+    padding: 2rem;
   }
 
   .step__content h3 {
     font-size: var(--fs-h3);
     line-height: 1;
     text-transform: uppercase;
-    padding: 2rem 2rem 0 2rem;
+    padding: 0rem 0rem 1rem 0rem;
   }
 
   .step__content p {
     font-size: var(--fs-steps)!important;
     width: 90%;
-    padding: 2rem;
   }
   
 
@@ -320,9 +342,9 @@ address {
 
 @media (min-width: 1200px) {
   .square {
-    border-radius: 25px;
     width: 450px;
-    height: 450px;
+    min-height: 450px;
+    border-radius: 25px;
   }
 
   .number {
@@ -336,8 +358,8 @@ address {
   .step__content {
     width: 450px;
     height: 450px;
-    padding: 2rem;
     justify-self: center;
     align-self: center;
+    padding: 2rem;
   }
 }
