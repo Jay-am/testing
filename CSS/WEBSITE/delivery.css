@@ -12,7 +12,7 @@
 }
 
 .delivery-process__headline {
- padding-top: 6rem;
+ padding-top: 10rem;
 }
 
 .delivery-process__content {
@@ -39,9 +39,9 @@
 
   /* GENEARAL */
 
-  .delivery h1 {
+  /* .delivery h1 {
     padding-top: 8rem;
-  }
+  } */
   
   
   /* GRID */
@@ -116,6 +116,10 @@
     padding: 16rem 0 8rem 0;
   }
 
+  .delivery-process__headline {
+    padding: 16rem 0 8rem 0;
+   }
+
   .delivery-process__content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -127,9 +131,8 @@
 
   .note {
     min-height: 100vh;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
     align-items: flex-end;
+    padding: 12rem 0 6rem 0;
   }
 
 }
