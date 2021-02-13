@@ -156,11 +156,11 @@ p {
 }
 
 .grey {
-  color: var(--clr-neutral-500);
+  color: var(--clr-grey-800);
 }
 
 .mid-grey {
-  color: var(--clr-neutral-600);
+  color: var(--clr-grey-500);
 }
 
 .yellow {

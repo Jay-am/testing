@@ -2,13 +2,13 @@
 
 :root {
 
-  --clr-logo: var(--clr-neutral-900);
+  --clr-logo: var(--clr-neutral-1000);
   --clr-headline: var(--clr-neutral-1000);
   --clr-body: var(--clr-neutral-900);
   --clr-number: var(--clr-neutral-0);
   --clr-note: var(--clr-yellow-200);
 
-  --clr-nav: var(--clr-neutral-500);
+  --clr-nav: var(--clr-neutral-300);
   --clr-nav-hover: var(--clr-neutral-1000);
   --clr-nav-active: var(--clr-neutral-1000);
 
@@ -35,11 +35,11 @@
 
 /* GRADIENTS */
 
-:root { 
+/* :root { 
   --clr-horizontal-gradient: rgb(58, 58, 58);
   --clr-vertical-gradient: rgb(58, 58, 58);
   --clr-glow-gradient: rgb(58, 58, 58);
-}
+} */
 
 
 /* BUTTONS */
@@ -93,17 +93,17 @@
 }
 
 
-[class*="bg-"] {
+/* [class*="bg-"] {
   color: var(--fg, rgb(85, 255, 0));
   background: var(--bg, rgb(85, 255, 0));
-}
+} */
 
-.bg-dark {
+/* .bg-dark {
   --fg: var(--clr-light);
   --bg: var(--clr-bg-dark);
-}
+} */
 
-.bg-accent {
+/* .bg-accent {
   --fg: var(--clr-light);
   --bg: var(--clr-bg-accent);
-}
+} */
