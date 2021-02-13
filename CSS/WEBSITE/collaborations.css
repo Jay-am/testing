@@ -169,7 +169,7 @@
 
 .collaborations__typeface--1 {
   -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-color: var(--clr-red-500);
   -webkit-text-fill-color: transparent;
   left: 100%;
 }
@@ -431,7 +431,7 @@
 
   .collaborations__typeface--1 {
     -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: red;
+    -webkit-text-stroke-color: var(--clr-red-500);
     -webkit-text-fill-color: transparent;
     left: 100%;
   }

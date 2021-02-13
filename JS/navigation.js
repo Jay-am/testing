@@ -1,7 +1,7 @@
-// window.addEventListener("scroll", function () {
-//   var nav = document.querySelector("nav");
-//   nav.classList.toggle("sticky", window.scrollY > 0);
-// });
+window.addEventListener("scroll", function () {
+  var nav = document.querySelector("nav");
+  nav.classList.toggle("sticky", window.scrollY > 0);
+});
 
 
 // ACTIVE NAV LINK
@@ -48,8 +48,7 @@ $(function(){
   };
 
   var toggleHeader = function(direction, curScroll) {
-    if (direction === 2 && curScroll > 52) { 
-      //replace 52 with the height of your header in px
+    if (direction === 2 && curScroll > 60) { 
       header.classList.add('hide');
       prevDirection = direction;
     }

@@ -1,0 +1,90 @@
+/* NAVIGATION (MOBILE) */
+
+.nav__bar {
+  padding: 0 0 1em 0;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.nav__logo {
+  width: 5em;
+  margin: 15% 0em 15% 2em;
+}
+
+.nav__logo:hover,
+.nav__logo:active {
+  transform: scale(0.99);
+  transition: ease-in-out 600ms;
+}
+
+.nav__text {
+  text-align: center;
+  list-style: none;
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
+  padding: 1em 0 5% 0;
+}
+
+.nav__list--primary {
+  list-style: none;
+  text-align: left;
+  margin: 0 auto;
+  padding: 2% 0 2% 2em;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #94979b;
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
+}
+
+.nav__item {
+  margin: 0 auto 0.5em auto;
+  padding: 0.375em 0 0 0;
+  padding-bottom: 0.5em;
+}
+
+.nav__btn,
+.nav__btn a,
+.nav__btn--link,
+.nav__item,
+.nav__link:link,
+.nav__link:visited,
+.nav__btn--link:link,
+.nav__btn--link:visited {
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: var(--clr-nav-hover);
+  transition: ease-in-out 300ms;
+  text-shadow: none;
+}
+
+.nav__link:active,
+.nav__link.active,
+.nav__link a:active,
+.nav__item a:active,
+.nav__item a.active,
+a.active {
+  color: var(--clr-nav-active) !important;
+}
+
+.nav__item a:hover,
+.nav__item a:active,
+.nav__link:active,
+.nav__link.active,
+.a:active,
+.active {
+  color: var(--clr-nav-active);
+  text-shadow: none;
+  transition: ease-in-out 300ms;
+}
+
+
+
+.nav__btn--link:hover,
+.nav__btn--link:active {
+  color: var(--clr-nav-active);
+}
+
+

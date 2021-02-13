@@ -12,9 +12,9 @@
   --clr-nav-hover: var(--clr-neutral-1000);
   --clr-nav-active: var(--clr-neutral-1000);
 
-  --clr-footer-header: var(--clr-green-900);
+  --clr-footer-header: var(--clr-green-1000);
   --clr-footer-link: var(--clr-green-200);
-  --clr-footer-legal: var(--clr-green-900);
+  --clr-footer-legal: var(--clr-green-1000);
   --clr-footer-link-hover: var(--clr-yellow-500);
   --clr-footer-link-active: var(--clr-yellow-500);
   
@@ -82,7 +82,7 @@
 :root {
 
   --clr-bg-nav: var(--clr-neutral-0);
-  --clr-bg-footer: var(--clr-green-600);
+  --clr-bg-footer: var(--clr-green-700);
 
   --clr-bg-accent-purple: var(--clr-purple-500);
   --clr-bg-accent-green: var(--clr-green-500);
