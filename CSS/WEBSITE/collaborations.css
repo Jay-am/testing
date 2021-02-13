@@ -285,16 +285,13 @@
   .collaborations__intro {
     min-height: 100vh;
     padding: 24rem 0 16rem 0;
-  }
-
-  .collaborations__header {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
   }
 
   .intro-1 {
     grid-column: 2 / 5;
-    padding-top: 16rem;
+    padding: 20rem 0 8rem 0;
   }
   
   .intro-2 {
@@ -303,7 +300,7 @@
   
   .intro-3 {
     grid-column: 2 / 5;
-    padding-top: 8rem;
+    padding: 8rem 0 12rem 0;
   }
   
   .btn-collaborations__intro {
