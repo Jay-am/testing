@@ -8,18 +8,16 @@
 
 .sustainability__copy {
   align-self: flex-start;
-  width: 50%;
+  width: 95%;
 }
 
-.sustainability__copy  h3 {
-  font-size: 4rem;
+.sustainability__copy h2 {
   line-height: 1;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
-.sustainability__copy  p {
-  font-size: 1.5rem;
-  padding-bottom: 2rem;
+.sustainability__copy p {
+  padding-bottom: 1rem;
 }
 
 
@@ -53,13 +51,13 @@
 /* Understanding */
 
 .understanding {
-  min-height: 80vh;
+  min-height: 50vh;
   top: 200vh;
   z-index: 2;
   width: 100%;
 }
 
-.clipping-mask-font h1 {
+.clipping-mask-font h2 {
   font-weight: 900;
   position: relative;
   -webkit-background-clip: text;
@@ -95,7 +93,7 @@
 }
 
 .materials .fixed {
-  transform: translate(0%, 15%);
+  transform: translate(0%, 45%);
 }
 
 
@@ -111,11 +109,7 @@
 }
 
 .production .fixed {
-  transform: translate(0%, -10%);
-}
-
-.production__copy {
-  width: 60%;
+  transform: translate(0%, -5%);
 }
 
 
@@ -131,7 +125,7 @@
 }
 
 .packaging .fixed {
-  transform: translate(0%, 0%);
+  transform: translate(0%, 45%);
 }
 
 
@@ -139,6 +133,8 @@
 
 .delivery {
   background-image: url("../../IMAGES/DHL-GREEN-LUXE.jpg");
+  background-color: rgba(0,0,0,0.25);
+  background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -146,8 +142,13 @@
   z-index: 6;
 }
 
+.delivery img {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
 .delivery .fixed {
-  transform: translate(0%, 0%);
+  transform: translate(0%, 45%);
 }
 
 
@@ -163,11 +164,7 @@
 }
 
 .reverse-logistics .fixed {
-  transform: translate(0%, -10%);
-}
-
-.reverse-logistics__copy h3 {
-  padding-bottom: 4rem;
+  transform: translate(0%, 5%);
 }
 
 
@@ -177,13 +174,13 @@
   background-image: url("../../IMAGES/care-instructions.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 30% 50%;
   top: 800vh;
   z-index: 8;
 }
 
 .care-instructions .fixed {
-  transform: translate(0%, 0%);
+  transform: translate(0%, 25%);
 }
 
 
@@ -199,12 +196,7 @@
 }
 
 .disposal .fixed {
-  transform: translate(0%, 0%);
-}
-
-.disposal__copy {
-  align-self: flex-end;
-  padding-bottom: 8rem;
+  transform: translate(0%, 45%);
 }
 
 
@@ -214,18 +206,256 @@
   min-height: 100vh;
   top: 1000vh;
   z-index: 10;
+  width: 100%;
 }
 
-/* .footer .fixed {
+.footer .fixed {
   transform: translate(0%, 0%);
-} */
+}
 
 
 /* MEDIA QUERIES */
 
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
 
-@media (min-width: 900px) {}
+  
+}
+
+@media (min-width: 900px) {
+
+    /* GENERAL */
+
+  .sutainability {
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: right;
+  }
+
+  .sustainability__copy {
+    align-self: flex-start;
+    width: 50%;
+  }
+
+  .sustainability__copy h2 {
+    line-height: 1;
+    padding-bottom: 2rem;
+  }
+
+  .sustainability__copy h3 {
+    line-height: 1;
+    padding-bottom: 1rem;
+  }
+
+  .sustainability__copy p {
+    padding-bottom: 1rem;
+  }
+
+
+  /* SECTIONS */
+
+  .section {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    clip: rect(0, auto, auto, 0);
+  }
+
+  .section .fixed {
+    overflow: hidden;
+    position: fixed;
+    top: 20%;
+    right: 2.5%;
+  }
+
+
+  /* Hero */
+
+  .hero {
+    min-height: 150vh;
+    top: 100vh;
+    z-index: 1;
+  }
+
+
+  /* Understanding */
+
+  .understanding {
+    min-height: 80vh;
+    top: 200vh;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .clipping-mask-font h1 {
+    font-weight: 900;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+    /* padding: 2rem 0; */
+  }
+
+  .understanding__headline {
+    background-image: url("../../IMAGES/climate-change.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+  }
+
+  .understanding__content--headline .fixed {
+    background-color: var(--clr-neutral-0);
+    width: 100%;
+    transform: translate(100%, 50%);
+  }
+
+
+
+  /* Materials */
+
+  .materials {
+    background-color: var(--clr-yellow-500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 300vh;
+    z-index: 3;
+  }
+
+  .materials .fixed {
+    transform: translate(0%, 15%);
+  }
+
+
+  /* Production */
+
+  .production {
+    background-color: var(--clr-purple-500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 400vh;
+    z-index: 4;
+  }
+
+  .production .fixed {
+    transform: translate(0%, -10%);
+  }
+
+  .production__copy {
+    width: 60%;
+  }
+
+  .sutainability__production--headline {
+    padding-bottom: 2rem;
+  }
+
+  .sutainability__production--paragraph {
+    padding-bottom: 2rem;
+  }
+
+
+  /* Packaging */
+
+  .packaging {
+    background-image: var(--clr-blue-500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 500vh;
+    z-index: 5;
+  }
+
+  .packaging .fixed {
+    transform: translate(0%, 0%);
+  }
+
+
+  /* Delivery */
+
+  .delivery {
+    background-image: url("../../IMAGES/DHL-GREEN-LUXE.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 600vh;
+    z-index: 6;
+  }
+
+  .delivery .fixed {
+    transform: translate(0%, 0%);
+  }
+
+
+  /* Reverse Logistics */
+
+  .reverse-logistics {
+    background-color: var(--clr-purple-500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 700vh;
+    z-index: 7;
+  }
+
+  .reverse-logistics .fixed {
+    transform: translate(0%, -10%);
+  }
+
+  .sutainability__reverse-logistics--headline {
+    padding-bottom: 2rem;
+  }
+
+  .sutainability__reverse-logistics--paragraph {
+    padding-bottom: 2rem;
+  }
+
+
+  /* Care Instructions */
+
+  .care-instructions {
+    background-image: url("../../IMAGES/care-instructions.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 800vh;
+    z-index: 8;
+  }
+
+  .care-instructions .fixed {
+    transform: translate(0%, 0%);
+  }
+
+
+  /* Disposal */
+
+  .disposal {
+    background-color: var(--clr-red-500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 900vh;
+    z-index: 9;
+  }
+
+  .disposal .fixed {
+    transform: translate(0%, 0%);
+  }
+
+
+  /* Footer */
+
+  .footer-wrapper {
+    min-height: 100vh;
+    top: 1000vh;
+    z-index: 10;
+  }
+
+  .footer .fixed {
+    transform: translate(0%, 0%);
+  }
+
+}
 
 @media (min-width: 1200px) {}
 
