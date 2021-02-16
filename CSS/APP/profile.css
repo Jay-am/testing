@@ -138,6 +138,18 @@
   justify-self: end;
 }
 
+/* FOOTER */
+
+.app-footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-footer__link {
+  color: var(--clr-neutral-1000);
+  font-size: var(--fs-h3);
+}
+
 
 
 @media (min-width: 600px) {}
