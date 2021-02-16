@@ -163,6 +163,10 @@ p {
   color: var(--clr-grey-500);
 }
 
+.light-grey {
+  color: var(--clr-grey-300);
+}
+
 .yellow {
   color: var(--clr-yellow-900);
 }
