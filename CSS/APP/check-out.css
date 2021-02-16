@@ -1,11 +1,15 @@
 .form__check-out h3 {
-  padding: 2rem 0 1rem 0;
+  padding: 4rem 0 2rem 0;
 }
 
 .email__check-out {
-  padding: 0rem 0 1rem 0;
+  padding: 1rem 0 2rem 0;
 }
 
-.btn__check-out {
-  margin: 0rem 0 2rem 0;
+.problems h3 {
+  margin-top: 6rem;
+}
+
+.problems a {
+  font-size: var(--fs-h3);
 }
