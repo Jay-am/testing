@@ -11,8 +11,7 @@
 }
 
 .notifications__content img {
-  border: 1px solid var(--clr-red-500);
-  color: var(--clr-red-500);
+  border: 1px solid var(--clr-neutral-500);
   display: block;
   flex-basis: 10%;
 }
