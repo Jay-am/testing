@@ -1,12 +1,41 @@
-.new-contacts p {
-  margin: 0rem 0 1.5rem 0;
+.new-contact--search {
+  padding: 4rem 0rem 1rem 0rem;
+}
+
+.new-contact--invite {
+  padding: 0rem 0rem 4rem 0rem;
+}
+
+.new-contact {
   color: var(--clr-grey-500);
+  border: 1px solid var(--clr-grey-500);
+  border-radius: 5px;
   font-weight: 100;
+  padding: 0.25rem 0.75rem;
+  margin: 0rem 0 0.5rem 0;
+}
+
+.contacts__content--list {
+  display: flex;
+  flex-direction: column;
 }
 
 .profile-image {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 3rem;
+  height: 3rem;
   border: 1px solid var(--clr-grey-500);
   border-radius: 5px;
+}
+
+.contacts__content--list img,
+.contacts__content--list a {
+  display: inline;
+}
+
+.contacts__content--list a {
+  line-height: 1;
+  text-decoration: none;
+  color: var(--clr-neutral-900);
+  padding-left: 1rem;
+  justify-self: center;
 }
