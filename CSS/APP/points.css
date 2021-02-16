@@ -33,3 +33,12 @@
 .points__content > * + *  {
   margin: 0 0 1.5rem 0;
 }
+
+
+@media (min-width: 600px) {}
+
+@media (min-width: 900px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1800px) {}

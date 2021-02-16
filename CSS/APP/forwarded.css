@@ -123,3 +123,12 @@
  	-o-transition: all 0.25s ease;
  	transition: all 0.25s ease;
 }
+
+
+@media (min-width: 600px) {}
+
+@media (min-width: 900px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1800px) {}
