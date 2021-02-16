@@ -1,0 +1,12 @@
+.new-contacts p {
+  margin: 0rem 0 1.5rem 0;
+  color: var(--clr-grey-500);
+  font-weight: 100;
+}
+
+.profile-image {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid var(--clr-grey-500);
+  border-radius: 5px;
+}

@@ -140,6 +140,10 @@
 
 /* FOOTER */
 
+.app-footer {
+  background-color: var(--clr-bg-footer);
+}
+
 .app-footer__list {
   display: flex;
   justify-content: space-between;
