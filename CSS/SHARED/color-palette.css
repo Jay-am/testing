@@ -2,6 +2,9 @@
 
 :root {
 
+
+  --clr-test: #crimsom;
+
   --clr-neutral-1000: #000000;
   --clr-neutral-1000: hsl(0°, 0%, 0%);
   --clr-neutral-1000: rgb(0, 0, 0);
