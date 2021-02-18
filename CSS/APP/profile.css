@@ -140,6 +140,14 @@
 
 /* FOOTER */
 
+.app__navigation {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* height: 60px; */
+  z-index: 1000;
+}
+
 .app-footer {
   background-color: var(--clr-bg-footer);
   padding: 0;
@@ -154,7 +162,6 @@
 .app-footer__link {
   color: var(--clr-neutral-1000);
   font-size: var(--fs-footer-app);
-  padding: 0;
 }
 
 
