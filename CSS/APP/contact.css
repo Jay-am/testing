@@ -1,5 +1,11 @@
+/* NEW CONTACTS */
+
+.contacts__headline h1 {
+  padding: 0rem 0 1rem 0;
+}
+
 .new-contact--search {
-  padding: 4rem 0rem 1rem 0rem;
+  padding: 0rem 0rem 1rem 0rem;
 }
 
 .new-contact--invite {
@@ -7,35 +13,40 @@
 }
 
 .new-contact {
-  color: var(--clr-grey-500);
-  border: 1px solid var(--clr-grey-500);
+  color: var(--clr-neutral-300);
+  border: 1px solid var(--clr-neutral-100);
   border-radius: 5px;
   font-weight: 100;
   padding: 0.25rem 0.75rem;
   margin: 0rem 0 0.5rem 0;
 }
 
-.contacts__content--list {
+
+/* CONTACTS CONTENT */
+
+.contacts__content--list > * + *  {
+  margin: 1rem 0 0 0;
+}
+
+.contacts__content--link {
   display: flex;
-  flex-direction: column;
-}
-
-.profile-image {
-  width: 3rem;
-  height: 3rem;
-  border: 1px solid var(--clr-grey-500);
-  border-radius: 5px;
-}
-
-.contacts__content--list img,
-.contacts__content--list a {
-  display: inline;
-}
-
-.contacts__content--list a {
   line-height: 1;
   text-decoration: none;
   color: var(--clr-neutral-900);
-  padding-left: 1rem;
   justify-self: center;
+  align-self: center;
+}
+
+.profile-image {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--clr-neutral-100);
+  border-radius: 5px;
+}
+
+.contact-names {
+  line-height: 1.2;
+  padding-left: 1rem;
+  align-self: center;
 }
