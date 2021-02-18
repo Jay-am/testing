@@ -142,16 +142,19 @@
 
 .app-footer {
   background-color: var(--clr-bg-footer);
+  padding: 0;
 }
 
 .app-footer__list {
   display: flex;
   justify-content: space-between;
+  padding: 0.25rem 0;
 }
 
 .app-footer__link {
   color: var(--clr-neutral-1000);
-  font-size: var(--fs-h3);
+  font-size: var(--fs-footer-app);
+  padding: 0;
 }
 
 
