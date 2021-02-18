@@ -23,20 +23,22 @@
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
   <body>
-    <main class="select | container">
-      <!-- <section class="select__headline"> -->
-        <h1 class="select__headline-1">Select</h1>
-        <h1 class="select__headline-2">the one</h1>
-      <!-- </section> -->
+    <main class="select">
+      <section class="select__header | container">
+        <h1 class="select__headline | right"><span class="green | h2">Select</span><br>the one</h1>
+      </section>
 
-      <section class="form__select">
+      <section class="form__select | container">
         <form class="goodbye__radio">
           <label class="radio">
             <span class="radio__input">
               <input type="radio" name="radio">
               <span class="radio__control | radio__control--select"></span>
             </span>
-            <span class="radio__label | radio__label--select">Friend-1</span>
+            <div>
+              <span class="radio__label | radio__label--select">Username</span>
+              <span class="radio__label | radio__label--select">Name</span>
+            </div>
           </label>
 
           <label class="radio">
@@ -71,17 +73,23 @@
             <span class="radio__label | radio__label--select">Friend-5</span>
           </label>
         </form>
+
+        <button class="btn__regtangle | btn__regtangle--grey | btn__select">Change User</button>
+
       </section>
-      <button class="btn__regtangle | btn__regtangle--grey | btn__select">Change User</button>
     </main>
-    <footer class="app-footer | container">
-      <ul class="app-footer__list">
-        <li class="app-footer__item"><a area-label="scanner" href="#" class="app-footer__link"><i class="fa fa-calendar"></i></a></li>
-        <li class="app-footer__item"><a area-label="maps" href="#" class="app-footer__link"><i class="fa fa-globe"></i></a></li>
-        <li class="app-footer__item"><a area-label="scanner" href="#" class="app-footer__link"><i class="fa fa-qrcode"></i></a></li>
-        <li class="app-footer__item"><a area-label="messages" href="#" class="app-footer__link"><i class="fa fa-envelope"></i></a></li>
-        <li class="app-footer__item"><a area-label="profile" href="#" class="app-footer__link"><i class="fa fa-user"></i></a></li>
-      </ul>
-    </footer>  
+
+    <section class="app__navigation">
+      <footer class="app-footer | pd-left-right">
+        <ul class="app-footer__list">
+          <li class="app-footer__item"><a area-label="scanner" href="#" class="app-footer__link"><i class="fa fa-calendar"></i></a></li>
+          <li class="app-footer__item"><a area-label="maps" href="#" class="app-footer__link"><i class="fa fa-globe"></i></a></li>
+          <li class="app-footer__item"><a area-label="scanner" href="../APP/scanner.html" class="app-footer__link"><i class="fa fa-qrcode"></i></a></li>
+          <li class="app-footer__item"><a area-label="messages" href="../APP/messages.html" class="app-footer__link"><i class="fa fa-envelope"></i></a></li>
+          <li class="app-footer__item"><a area-label="profile" href="../APP/profile.html" class="app-footer__link"><i class="fa fa-user"></i></a></li>
+        </ul>
+      </footer> 
+    </section> 
+    
   </body>
 </html>
