@@ -1,10 +1,6 @@
-.bye {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  /* align-items: center;
-  justify-content: center; */
-  margin: 36rem 0;
+.bye__content h2 {
+  line-height: 1;
+  padding-bottom: 1rem;
 }
 
 
