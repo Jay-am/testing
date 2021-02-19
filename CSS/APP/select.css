@@ -6,9 +6,9 @@
 
 .radio__input span {
   display: block;
-  width: 3.5rem;
-  height: 3.5rem;
-  border-radius: 2.5px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5px;
   border: 0.1em solid currentColor;
   transform: translateY(-1rem);
 }
@@ -23,9 +23,9 @@
 
 .radio__control--select span {
   display: block;
-  width: 3.5rem;
-  height: 3.5rem;
-  border-radius: 2.5px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5px;
   border: 0.1em solid currentColor;
   transform: translateY(-1rem);
   display: grid;
@@ -40,6 +40,12 @@
   line-height: 1;
   transition: 180ms all ease-in-out;
   opacity: 0.6;
+}
+
+.select__names {
+  display: flex;
+  flex-direction: column;
+  align-self: top;
 }
 
 
