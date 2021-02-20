@@ -128,8 +128,8 @@
 }
 
 .btn__regtangle--grey:hover {
-  color: var(--clr-red-500);
-  border: 1.75px solid var(--clr-red-500);
+  color: var(--clr-green-500);
+  border: 1.75px solid var(--clr-green-500);
 }
 
 .btn__regtangle--grey:active {
