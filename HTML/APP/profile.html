@@ -20,17 +20,17 @@
     <link rel="stylesheet" href="../../CSS/SHARED/fade-in-background-color-on-scroll.css" />
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
-  <body>
-    <main class="profile">
+  <body  class="profile">
+    <!-- <main class="profile-container"> -->
       <section class="profile__header | container">
-        <img src="../../IMAGES/profile-pic.jpeg" alt="profile-image">
         <div class="profile__details">
           <div>
-            <h3>Name</h3>
-            <p class="profile-location | grey">Berlin | Germany</p>
+            <h3 class="right">Name</h3>
+            <p class="profile-location | right | grey">Berlin | Germany</p>
           </div>
-          <p  class="profile-contacts | strong">xx Contacts</p>
+          <p  class="profile-contacts | right | strong">xx Contacts</p>
         </div>
+        <img src="../../IMAGES/profile-pic.jpeg" alt="profile-image">
       </section>
       <section class="info | container">
         <p class="info-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod ullam corrupti labore numquam at, ad, id alias quidem, amet eaque qui voluptate maiores earumdor.</p>
@@ -51,20 +51,36 @@
       </section>
 
       <section class="profile__content | container">
-       <p class="result | h4">COVERs initiated</p><p class="result-number">xx</p>
-       <p class="result | h4">COVERs forwarded</p><p class="result-number">xx</p>
-       <p class="result | h4">COVERAGE</p><p class="result-number">xx</p>
-       <p class="result | h4">FORESTCOVER</p><p class="result-number">xx</p>
+        <div class="profile__item | h4">
+          <p class="result">COVERs initiated</p>
+          <p class="result-number">xx</p>
+        </div>
+       <div class="profile__item | h4">
+        <p class="result | h4">COVERs forwarded</p>
+        <p class="result-number">xx</p>
+       </div>
+      <div class="profile__item | h4">
+        <p class="result | h4">COVERAGE</p>
+        <p class="result-number">xx</p>
+      </div>
+      <div class="profile__item | h4">
+        <p class="result | h4">FORESTCOVER</p>
+        <p class="result-number">xx</p>
+      </div>
        <!-- <p class="result | h4">Safed Trees</p><p class="result-number">xx</p>
        <p class="result | h4">Safed Paper</p><p class="result-number">xx</p>
        <p class="result | h4">Safed CO2</p><p class="result-number">xx</p> -->
-       <p class="result | h4">POINTS</p><p class="result-number">xx</p>
+       <div class="profile__item | h4">
+        <p class="result | h4">POINTS</p>
+        <p class="result-number">xx</p>
+       </div>
+
        <!-- <p class="result | h3">GOOD DEEDS</p><p class="result-number">xx</p>
        <p class="result | h3">EVENTS</p><p class="result-number">xx</p>
        <p class="result | h3">DESIGNS</p><p class="result-number">xx</p> -->
       </section>
 
-    </main>
+    <!-- </main> -->
 
     <section class="app__navigation">
       <footer class="app-footer | pd-left-right">

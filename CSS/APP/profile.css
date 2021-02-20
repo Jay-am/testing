@@ -68,7 +68,7 @@
 /* PROFILE INFO */
 
 .profile__details {
-  padding: 0 0 0.25rem 1rem;
+  padding: 0 1rem 0.25rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -82,6 +82,11 @@
   padding: 0.25rem 0 0.5rem 0;
   line-height: 1.2;
   font-size: 1rem;
+}
+
+.profile__header img {
+  align-self: flex-end;
+  margin-right: 0;
 }
 
 /* EDIT BUTTON */
@@ -129,13 +134,36 @@
 
 /* GRID */
 
-.profile__content {
+.profile {
   display: grid;
-  grid-template-columns: 5fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
 }
 
-.result-number {
+.profile__header {
+  grid-column: 1 / -1;
+}
+
+.edit-profile {
+  grid-column: 1 / -1;
+}
+
+.profile__content {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 80%, 20%;
+}
+
+.profile__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .result-number {
   justify-self: end;
+} */
+
+.app__navigation {
+  grid-column: 1 / -1;
 }
 
 /* FOOTER */
