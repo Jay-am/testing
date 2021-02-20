@@ -132,12 +132,7 @@
 /* Delivery */
 
 .delivery {
-  background-image: url("../../IMAGES/DHL-GREEN-LUXE.jpg");
-  background-color: rgba(0,0,0,0.25);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: var(--clr-yellow-500);
   top: 600vh;
   z-index: 6;
 }
@@ -374,10 +369,10 @@
   /* Delivery */
 
   .delivery {
-    background-image: url("../../IMAGES/DHL-GREEN-LUXE.jpg");
+    /* background-image: url("../../IMAGES/DHL-GREEN-LUXE.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     top: 600vh;
     z-index: 6;
   }

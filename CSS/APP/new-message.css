@@ -1,4 +1,8 @@
-/* MESSAGES NEW */
+.new-messages {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 6rem 0 4rem 0;
+}
 
 .new-message {
   color: var(--clr-grey-300);
@@ -11,7 +15,15 @@
 }
 
 .p-new {
+  grid-column: 1 / -1;
   margin: 0rem 0rem 1.5rem 0rem;
+}
+
+.btn__new-message {
+  width: 100%;
+  grid-column: 1 / -1;
+  text-align: left;
+  justify-self: stretch;
 }
 
 .new-messages h2 {
@@ -33,11 +45,11 @@
   margin: 0rem 0 2rem 0;
 }
 
-.message__container {
+.messages__container {
   display: flex;
 }
 
-.message__container > * + *  {
+.messages__container > * + *  {
   margin: 0 0 1rem 0;
 }
 
@@ -76,14 +88,6 @@
       background-position: center;
     }
 
-    .messages-container {
-      grid-column: 2 / 6;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      background-color: rgba(255,255,255,1);
-      padding: 0 2rem;
-    }
-  
     .messages__headline {
       grid-column: 1 / 5;
       justify-self: end;
@@ -97,6 +101,13 @@
     .messages__headline .h2 {
       font-size: var(--fs-h3);
     }
+
+    .messages-container {
+      grid-column: 2 / 6;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background-color: rgba(255,255,255,1);
+    }
     
     .new-messages {
       grid-column: 1 / 4;
@@ -106,6 +117,13 @@
 
     .new-messages h2 {
       padding: 0rem 0 0.75rem 0;
+    }
+
+    .btn__new-message {
+      width: 100%;
+      grid-column: 1 / 4;
+      text-align: left;
+      justify-self: stretch;
     }
 
     .messages__content {
@@ -139,7 +157,6 @@
       border-radius: 15px;
       /* background: var(--clr-bg-footer); */
       background-color: var(--clr-yellow-700);
-      padding: 0.5rem 0rem;
     }
 
     .app-footer__item {
@@ -169,7 +186,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgba(255,255,255,1);
-    padding: 0 2rem;
   }
 
   .messages__headline {
@@ -227,7 +243,6 @@
     border-radius: 15px;
     /* background: var(--clr-bg-footer); */
     background-color: var(--clr-green-800);
-    padding: 0.5rem 0rem;
   }
 
   .app-footer__item {
