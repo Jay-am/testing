@@ -5,40 +5,310 @@
   background: var(--clr-red-200);
 }
 
-.points__content {
-  display: grid;
-  grid-template-columns: 5fr 1fr;
-  padding: 4rem 0 2rem 0;
-}
-
 .action {
   width: 100%;
   height: 40px;
-  border: 1px solid var(--clr-neutral-300);
+  border: 1px solid var(--clr-neutral-100);
   border-radius: 5px;
   color: var(--clr-neutral-900);
-  padding: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 1rem;
 }
 
 .go {
   width: 40px;
   height: 40px;
-  border: 1px solid var(--clr-red-500);
+  border: 1px solid var(--clr-green-500);
   border-radius: 5px;
-  color: var(--clr-red-500);
+  color: var(--clr-green-500);
   justify-self: end;
   padding: 0.25rem;
 }
 
 .points__content > * + *  {
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 0 0;
+}
+
+/* GRID */
+
+.points {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  min-height: 100vh;
+}
+
+.points-container {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: rgba(255,255,255,1);
+  padding: 0 2rem;
+}
+
+.points__collection {
+  grid-column: 1 / -1;
+  justify-content: end;
+}
+
+.points__header {
+  grid-column: 1 / -1;
+  justify-content: end;
+}
+
+.points__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.points__content {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 80%, 20%;
+}  
+  
+.app__navigation {
+  grid-column: 1 / -1;
 }
 
 
-@media (min-width: 600px) {}
 
-@media (min-width: 900px) {}
+@media (min-width: 600px) {
 
-@media (min-width: 1200px) {}
+  .points__collection--circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--clr-red-200);
+  }
+  
+  .action {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--clr-neutral-100);
+    border-radius: 5px;
+    color: var(--clr-neutral-900);
+    padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .go {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--clr-green-500);
+    border-radius: 5px;
+    color: var(--clr-green-500);
+    justify-self: end;
+    padding: 0.25rem;
+  }
+  
+  .points__content > * + *  {
+    margin: 1rem 0 0 0;
+  }
+  
+  /* GRID */
+  
+  .points {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    min-height: 100vh;
+    /* background-image: url(../../IMAGES/Forest-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+  }
+  
+  .points-container {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255,255,255,1);
+    padding: 0 2rem;
+  }
+  
+  .points__collection {
+    grid-column: 1 / -1;
+    justify-content: end;
+  }
+  
+  .points__header {
+    grid-column: 1 / -1;
+    justify-content: end;
+  }
+  
+  .points__item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .points__content {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 80%, 20%;
+  }  
+    
+  .app__navigation {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .points__collection--circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--clr-red-200);
+  }
+  
+  .action {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--clr-neutral-100);
+    border-radius: 5px;
+    color: var(--clr-neutral-900);
+    padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .go {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--clr-green-500);
+    border-radius: 5px;
+    color: var(--clr-green-500);
+    justify-self: end;
+    padding: 0.25rem;
+  }
+  
+  .points__content > * + *  {
+    margin: 1rem 0 0 0;
+  }
+  
+  /* GRID */
+  
+  .points {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    min-height: 100vh;
+    background-image: url(../../IMAGES/Forest-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .points-container {
+    grid-column: 2 / 5;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(255,255,255,1);
+    padding: 0 2rem;
+  }
+  
+  .points__collection {
+    grid-column: 1 / -1;
+    justify-content: end;
+    text-align: right;
+  }
+  
+  .points__header {
+    grid-column: 1 / -1;
+    justify-content: end;
+  }
+  
+  .points__item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .points__content {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: 80%, 20%;
+  }  
+    
+  .app__navigation {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .points__collection--circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--clr-red-200);
+  }
+  
+  .action {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--clr-neutral-100);
+    border-radius: 5px;
+    color: var(--clr-neutral-900);
+    padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .go {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--clr-green-500);
+    border-radius: 5px;
+    color: var(--clr-green-500);
+    justify-self: end;
+    padding: 0.25rem;
+  }
+  
+  .points__content > * + *  {
+    margin: 1rem 0 0 0;
+  }
+  
+  /* GRID */
+  
+  .points {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    min-height: 100vh;
+    /* background-image: url(../../IMAGES/Forest-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+  }
+  
+  .points-container {
+    grid-column: 2 / 5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255,255,255,1);
+    padding: 0 2rem;
+  }
+  
+  .points__collection {
+    grid-column: 1 / 4;
+    justify-content: end;
+    text-align: right;
+  }
+  
+  .points__header {
+    grid-column: 1 / 4;
+    justify-content: end;
+  }
+  
+  .points__item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .points__content {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 80%, 20%;
+  }  
+    
+  .app__navigation {
+    grid-column: 6 / 7;
+  }
+}
 
 @media (min-width: 1800px) {}
