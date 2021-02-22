@@ -29,6 +29,10 @@
   margin: 0 0 0 0;
 }
 
+.points__converted {
+  height: min-content;
+}
+
 /* GRID */
 
 .points {
@@ -71,6 +75,7 @@
 }
 
 
+/* MEDIA QUERIES */
 
 @media (min-width: 600px) {
 
