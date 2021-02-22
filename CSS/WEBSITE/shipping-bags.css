@@ -31,6 +31,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
+  line-height: 1.5;
+}
+
+.bracket {
+  font-size: var(--fs-l);
+  line-height: 1.5;
 }
 
 
