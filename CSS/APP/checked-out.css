@@ -5,3 +5,146 @@
 .success__check-out {
   padding: 0 0 1rem 0;
 }
+
+
+/* GRID */
+
+.checked-out {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  min-height: 100vh;
+}
+  
+.checked-out-container {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba(255,255,255,1);
+  padding: 0 2rem;
+}
+  
+.checked-out__header {
+  grid-column: 1 / -1;
+  justify-content: end;
+}
+
+.checked-out__content {
+  grid-column: 1 / -1;
+}
+
+.app__navigation {
+  grid-column: 1 / -1;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {
+
+  /* GRID */
+
+  .checked-out {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    min-height: 100vh;
+    background-image: url(../../IMAGES/Forest-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+    
+  .checked-out-container {
+    grid-column: 2 / 6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255,255,255,1);
+    padding: 0 2rem;
+  }
+    
+  .checked-out__header {
+    grid-column: 1 / -1;
+    justify-content: end;
+  }
+
+  .checked-out__content {
+    grid-column: 1 / 3;
+  }
+
+  .app__navigation {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 900px) {
+
+  /* GRID */
+
+  .checked-out {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    min-height: 100vh;
+    background-image: url(../../IMAGES/Forest-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+    
+  .checked-out-container {
+    grid-column: 2 / 5;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(255,255,255,1);
+    padding: 0 2rem;
+  }
+    
+  .checked-out__header {
+    grid-column: 1 / -1;
+    justify-content: end;
+  }
+
+  .checked-out__content {
+    grid-column: 1 / 4;
+  }
+
+  .app__navigation {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  /* GRID */
+
+  .checked-out {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    min-height: 100vh;
+    background-image: url(../../IMAGES/Forest-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+    
+  .checked-out-container {
+    grid-column: 2 / 5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255,255,255,1);
+    padding: 0 2rem;
+  }
+    
+  .checked-out__header {
+    grid-column: 1 / -1;
+    justify-content: end;
+  }
+
+  .checked-out__content {
+    grid-column: 1 / 3;
+  }
+
+  .app__navigation {
+    grid-column: 6 / 7;
+  }
+}
+
+@media (min-width: 1800px) {}
