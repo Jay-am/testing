@@ -92,7 +92,7 @@
   
 .sign-in__header {
   grid-column: 1 / -1;
-  justify-content: end;
+  justify-self: end;
 }
 
 .sign-in__form {

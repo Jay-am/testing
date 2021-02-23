@@ -53,12 +53,10 @@
 
 .sign-up__header {
   grid-column: 1 / -1;
-  grid-row: 1 / 2;
 }
 
 .sign-up__form {
   grid-column: 1 / -1;
-  grid-row: 2 / 3;
   align-self: end;
   width: 100%;
   /* margin: 16rem 0 4rem 0; */
