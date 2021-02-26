@@ -1,0 +1,38 @@
+.quote-good-on-you {
+  background-color: var(--clr-yellow-100);
+  font-size: 30px;
+  margin: 0 auto;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+.quote-good-on-you h2 {
+  padding: 4rem 0 1rem 0;
+}
+
+.quote-good-on-you::before {
+  content: open-quote;
+  position: relative;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  top: 15px;
+  font-size: 3em;
+}
+.quote-good-on-you::after {
+  content: close-quote;
+  position: relative;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 100px;
+  bottom: -15px;
+  font-size: 3em;
+}
+
+.source {
+  padding-top: 2rem;
+  font-style: italic;
+}
