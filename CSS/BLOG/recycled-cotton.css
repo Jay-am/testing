@@ -1,3 +1,15 @@
+.recycled-cotton__headline {
+  padding-top: 16rem;
+}
+
+section p {
+  padding: 0 0 2rem 0;
+}
+
+.intelligence {
+  padding-top: 4rem;
+}
+
 .quote-good-on-you {
   background-color: var(--clr-yellow-100);
   font-size: 30px;
@@ -8,7 +20,7 @@
 }
 
 .quote-good-on-you h2 {
-  padding: 4rem 0 1rem 0;
+  padding: 0rem 0 1rem 0;
 }
 
 .quote-good-on-you::before {
@@ -36,3 +48,54 @@
   padding-top: 2rem;
   font-style: italic;
 }
+
+.article {
+  padding: 2rem 0;
+}
+
+
+/* GRID */
+
+.recycled-cotton__content {
+  margin: 8rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.recycled-cotton__copy {
+  grid-column: 1 / -1;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 900px) {
+  /* GRID */
+
+  .recycled-cotton__content {
+    margin: 12rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.5625rem;
+  }
+
+  .recycled-cotton__copy {
+    grid-column: 1 / 5;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* GRID */
+
+  .recycled-cotton__content {
+    margin: 12rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.5625rem;
+  }
+
+  .recycled-cotton__copy {
+    grid-column: 2 / 5;
+  }
+}
+
