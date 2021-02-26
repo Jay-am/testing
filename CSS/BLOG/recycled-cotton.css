@@ -2,20 +2,21 @@
   padding-top: 16rem;
 }
 
-section p {
-  padding: 0 0 2rem 0;
-}
-
 .intelligence {
   padding-top: 4rem;
 }
 
+.last {
+  padding-bottom: 4rem;
+}
+
 .quote-good-on-you {
-  background-color: var(--clr-yellow-100);
+  background-color: var(--clr-green-500);
   font-size: 30px;
   margin: 0 auto;
   quotes: "\201C""\201D""\2018""\2019";
-  padding: 10px 20px;
+  padding: 4rem 0;
+  margin: 4rem 0;
   line-height: 1.4;
 }
 
@@ -23,29 +24,36 @@ section p {
   padding: 0rem 0 1rem 0;
 }
 
-.quote-good-on-you::before {
+.space {
+  padding: 0rem 0 4rem 0;
+}
+
+.quote-content::before {
   content: open-quote;
   position: relative;
   display: inline;
   height: 0;
   line-height: 0;
-  left: -10px;
-  top: 15px;
-  font-size: 3em;
+  font-family: sans-serif;
+  left: -100px;
+  top: 80px;
+  font-size: 5em;
 }
-.quote-good-on-you::after {
+.quote-content::after {
   content: close-quote;
   position: relative;
   display: inline;
   height: 0;
   line-height: 0;
-  left: 100px;
-  bottom: -15px;
-  font-size: 3em;
+  font-family: sans-serif;
+  right: -860px;
+  bottom: 50px;
+  font-size: 5em;
 }
 
 .source {
-  padding-top: 2rem;
+  padding: 4rem 0 0 0;
+  margin: 0;
   font-style: italic;
 }
 
@@ -53,11 +61,15 @@ section p {
   padding: 2rem 0;
 }
 
+.recommendations { 
+  padding:  0 0 4rem 0;
+}
+
 
 /* GRID */
 
 .recycled-cotton__content {
-  margin: 8rem 0;
+  margin: 4rem 0;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -73,7 +85,7 @@ section p {
   /* GRID */
 
   .recycled-cotton__content {
-    margin: 12rem 0;
+    margin: 6rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
@@ -88,7 +100,7 @@ section p {
   /* GRID */
 
   .recycled-cotton__content {
-    margin: 12rem 0;
+    margin: 6rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
