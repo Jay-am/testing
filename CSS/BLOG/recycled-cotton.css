@@ -3,7 +3,30 @@
 }
 
 .intelligence {
-  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: var(--clr-yellow-100);
+  margin: 8rem 0 4rem 0;
+  padding: 0;
+}
+
+.intelligence__content {
+  grid-column: 4 / 5;
+  justify-self: end;
+  align-self: center;
+  display: flex;
+  padding: 2rem 0;
+}
+
+.intelligence-headlines {
+  text-align: right;
+  padding-right: 1rem;
+  border-right: 1px solid black;
+
+}
+
+.intelligence-input {
+  padding-left: 1rem;
 }
 
 .last {
@@ -36,10 +59,11 @@
   line-height: 0;
   font-family: sans-serif;
   left: -100px;
-  top: 80px;
-  font-size: 5em;
+  top: 100px;
+  font-size: 8em;
 }
-.quote-content::after {
+
+/* .quote-content::after {
   content: close-quote;
   position: relative;
   display: inline;
@@ -49,7 +73,7 @@
   right: -860px;
   bottom: 50px;
   font-size: 5em;
-}
+} */
 
 .source {
   padding: 4rem 0 0 0;
