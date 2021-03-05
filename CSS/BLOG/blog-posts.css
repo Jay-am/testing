@@ -3,7 +3,7 @@
 .intelligence {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  background-color: var(--clr-yellow-100);
+  background-color: var(--clr-green-100);
   margin: 8rem 0 4rem 0;
   padding: 0;
 }
