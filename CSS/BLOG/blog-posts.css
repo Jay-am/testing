@@ -1,0 +1,70 @@
+/* INTELLIGENCE */
+
+.intelligence {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: var(--clr-yellow-100);
+  margin: 8rem 0 4rem 0;
+  padding: 0;
+}
+
+.intelligence__content {
+  grid-column: 1 / -1;
+  justify-self: end;
+  align-self: center;
+  display: flex;
+  padding: 2rem 0;
+}
+
+.intelligence-headlines {
+  text-align: right;
+  padding-right: 1rem;
+  border-right: 1px solid black;
+}
+
+.intelligence-input {
+  padding-left: 1rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 900px) {
+
+  /* GRID */
+
+  .intelligence {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 8rem 0 4rem 0;
+    padding: 0;
+  }
+
+  .intelligence__content {
+    grid-column: 4 / 5;
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    padding: 2rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  /* GRID */
+
+  .intelligence {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 8rem 0 4rem 0;
+    padding: 0;
+  }
+
+  .intelligence__content {
+    grid-column: 4 / 5;
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    padding: 2rem 0;
+  }
+}
