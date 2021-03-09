@@ -39,6 +39,24 @@
   padding-right: 4rem;
 }
 
+.blog-post__navigation a {
+  color: var(--clr-green-500);
+}
+
+.blog-post__navigation a:hover,
+.blog-post__navigation a:active {
+  color: var(--clr-green-900);
+}
+
+.blog-post__content h2 {
+  padding: 6rem 0 1.5rem 0;
+}
+
+.blog-post__content img {
+  padding: 2rem 0 2rem 0;
+  width: 100%;
+}
+
 
 /* MEDIA QUERIES */
 
