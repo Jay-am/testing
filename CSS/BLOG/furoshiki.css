@@ -1,3 +1,32 @@
 .furoshiki__headline {
   padding-top: 16rem;
 }
+
+.japanese-patterns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 0;
+}
+
+.japanese-pattern {
+  grid-column: span 1;
+  grid-row: span 1;
+  margin: 0;
+  padding: 0
+}
+
+.mottainai-big {
+  width: 66%;
+  flex-basis: 66%;
+  flex-grow: 3;
+}
+
+.mottainai-small {
+  width: 33%;
+  flex-basis: 33%;
+}
+
+.different-ways {
+  padding: 1.5rem 0 0 0;
+}
