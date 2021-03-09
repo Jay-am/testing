@@ -7,13 +7,15 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   row-gap: 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .japanese-pattern {
   grid-column: span 1;
   grid-row: span 1;
-  margin: 0;
-  padding: 0
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .mottainai-big {
@@ -27,6 +29,10 @@
   flex-basis: 33%;
 }
 
+.available-sizes {
+  padding: 2rem 0;
+}
+
 .different-ways {
-  padding: 1.5rem 0 0 0;
+  padding: 2rem 0 0 0;
 }
