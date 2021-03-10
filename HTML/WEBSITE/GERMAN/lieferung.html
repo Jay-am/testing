@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <meta name="description" content=""/> -->
+    <meta name="description" content="Alle Bestellungen werden in unseren nachhaltigen und wiederverwenbaren Versandtaschen aus recycelten Materialien mit DHL GoGreen umweltfreundlich versendet. Wenn du deine Bestellung zurücksenden möchtest, verwende diese Verpackung bitte wieder."/>
     <meta name="author" content="COVER" />  
     <meta name="copyright" content="COVER" />
     <meta name="robots" content="index,follow" />
@@ -15,9 +15,9 @@
     <!-- <meta http-equiv="expires" content="43200"/> -->
     <!-- <meta http-equiv="expires" content="Sat, 07 Feb 2016 00:00:00 GMT"/>  -->
     <!-- <meta http-equiv="refresh" content="10; url=https://www.cover.earth/"/> -->
-    <title>Legal Notice</title>
+    <title>Lieferungen</title>
 
-    <link rel="stylesheet" href="../../CSS/WEBSITE/legal-notice.css" />
+    <link rel="stylesheet" href="../../CSS/WEBSITE/delivery.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/general.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/color-palette.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/colors.css" />
@@ -28,11 +28,12 @@
     <link rel="stylesheet" href="../../CSS/SHARED/navigation.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/footer.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
+    <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/fade-in-background-color-on-scroll.css" />
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
   <body>
-    <header class="header__nav">
+    <!-- <header class="header__nav">
       <p class="logo__nav">COVER</p>
       <nav class="primary-nav">
         <ul class="primary-nav__list">
@@ -46,48 +47,95 @@
           <li class="primary-nav__item"><a href="../APP/HTML/sign-up.html" class="primary-nav__link">Sign up</a></li>
         </ul>
       </nav>  
-    </header>
+    </header> -->
     
-    <main class="container | legal-notice">
-      <div class="legal-notice__content">
-        <header class="header | right">
-          <h1>Legal<br>Notice</h1>
-        </header>
-        <div class="legal-notice__office">
-          <h3>HEAD OFFICE</h3>
-          <div class="address">
-            <address>COVER</address>
-            <address>Düsseldorfer Str. 6-8</address>
-            <address>68219 Mannheim</address>
-            <address>Germany</address>
-            <address><span class="phone | mid-grey">Phone</span> +49 151 720 11 400</address>
-            <address>
-              <span class="mid-grey">Email</span> hello@cover.earth
-            </address>
+    <main class="delivery">
+      <section class="hero | container | content-spacer | panel" data-color="white-scroll">
+        <h1 class="headline-hero">Lieferungen</h1>
+        <p class="paragraph-hero">
+          Alle Bestellungen werden in unseren nachhaltigen und wiederverwenbaren Versandtaschen aus recycelten Materialien mit DHL GoGreen umweltfreundlich versendet. Wenn du deine Bestellung zurücksenden möchtest, verwende diese Verpackung bitte wieder.
+        </p>
+
+        <!-- <p>If not, please dispose of the pack&shy;ag&shy;ing thought&shy;fully in ap&shy;pro&shy;pri&shy;ate recycling bins in order for the material to be recycled again and again.</p> -->
+      </section>
+      
+        <section class="delivery-process | container | panel" data-color="white-scroll">
+          <header>
+            <h2 class="delivery-process__headline | right">DER BESTELLPROZESS</h2>
+          </header>
+
+          <div class="delivery-process__content">
+            <div class="square | square-1"></div>
+            <div class="step-1__number"><span class="number">1</span></div>
+            <div class="step__content | step-1__content | content-spacer">
+              <h3>BESTELLBESTÄTIGUNG</h3>
+              <p>Nach der Bestellung erhälst du eine Auftragsbestätigung mit allen Details zu deinem Kauf.<br>Alle Bestellungen, die werktags vor 12 Uhr (MEZ) eingehen, werden in der Regel noch am selben Tag versendet. In geschäftigen Verkaufsperioden bemühen wir uns, deine Bestellung innerhalb von 1 bis 2 Werktagen zu versenden.<p>
+            </div>
+            
+            <div class="square | square-2"></div>
+            <div class="step-2__number"><span class="number">2</span></div>
+            <div class="step__content | step-2__content | content-spacer">
+              <h3>VERSANDBESTÄTIGUNG</h3>
+              <p>
+                Sobald deine Bestellung verpackt wurde, informieren wir dich per E-Mail. Am selben Tag erhälst du auch vom Kurierdienst eine E-Mail mit den Angaben zur Sendungsverfolgung.
+              </p>
+
+            </div>
           </div>
-          <p class="represented"><span style="white-space: nowrap;" class="mid-grey">Represented by</span> Julia Mackamul</p>
-          <p><span class="mid-grey">Court register number</span> xx</p>
-          <p><span class="mid-grey">Registration number</span> xx</p>
-          <p><span class="mid-grey">VAT number</span> xx</p>
-        </div>
-    
-        <div class="legal-notice__logistic">
-          <h3>LOGISTIC CENTER</h3>
-          <div class="address">
-            <address>COVER</address>
-            <address>Düsseldorfer Str. 6-8</address>
-            <address>68219 Mannheim</address>
-            <address>Germany</address>
+        </section>
+      
+        <!-- <section class="delivery-details">
+          <header class="delivery-details__header">
+            <h2 class="right | pd-right">DELIVERY DETAILS</h2>
+            <p class="right | pd-right">SHIPPING & DELIVERY WITHIN</p>
+          </header>
+          <div class="delivery-details__content | flex | pd-left-right">
+            <div class="delivery-detail | germany | content-spacer">
+              <h3>GERMANY</h3>
+              <p>Free Shipping applies to all orders above 50 Euro</p>
+              <p>On orders below 50 Euro, a xx Euro shipping fee will be added to your order</p>
+              <p>Standard delivery time: 1 to 2 working days</p>
+              <p>Express option available</p>
+            </div>
+      
+            <div class="delivery-detail | eu | content-spacer">
+              <h3>THE EU</h3>
+              <p>Free shipping applies to all orders above 50 Euro</p>
+              <p>On orders below 50 Euro, a xx Euro shipping fee will be added to your order</p>
+              <p>Standard delivery time: 2 to 4 working days</p>
+              <p>Express option available</p>
+            </div>
+      
+            <div class="delivery-detail | outside-eu | content-spacer">
+              <h3>OUTSIDE THE EU</h3>
+              <p>Free shipping applies to all orders above 100 Euro</p>
+              <p>On orders below 100 EUR, a xx Euro shipping fee will be added to your order</p>
+              <p>Standard delivery time: 2 to 3 working days</p>
+              <p>Express option available</p>
+            </div>
           </div>
-        </div>
+        </section> -->
     
-        <div class="legal-notice__bank">
-          <h3>BANK ACCOUNT INFORMATION</h3>
-          <p>Commerzbank</p>
-          <p><span class="mid-grey">Routing | SWIFT Code | BIC</span> COBADEFFXXX</p>
-          <p><span class="mid-grey">Account number | IBAN</span> DE 7167 0400 3103 2154 8000</p>
-          <p>Please use your order number as reference.</p>
-        </div>
+        <section class="note | panel" data-color="white-scroll">
+          <div class="note__content | right | container | content-spacer">
+            <header>
+              <h2>Bitte beachte</h2>
+            </header>
+      
+            <h3>LIEFERGEBÜHREN</h3>
+            <p>Die Preise in unserem Online-Store enthalten keine Versandkosten.</p>
+            <p>
+              Die Umsatzsteuer in Höhe von 19% wird nicht zur Bestellung hinzugefügt, wenn die Bestellung an einen Bestimmungsort außerhalb der EU gesendet wird. Diese Bestellungen können jedoch lokalen Steuern und / oder Einfuhrzöllen unterliegen. Alle Gebühren in Bezug auf örtliche Gepflogenheiten, einschließlich Bearbeitungsgebühren, Zöllen und Steuern, werden direkt vom Kurierdienst zugesandt und geschehen auf eigene Kosten.
+            </p>
+      
+            <h3>LIEFERVERZÖGERUNGEN</h3>
+            <p>
+              Wir können nicht für Verzögerungen haftbar gemacht werden, die durch den Kurier oder den örtlichen Zoll verursacht werden.
+            </p>
+
+          </div>
+        </section>
+
       </div>
     </main>
     <div class="footer-wrapper">
@@ -166,5 +214,6 @@
 
     <!-- PARALLAX MOUSE AND SCROLL -->
     <script src="../../JS/parallax-mouse-and-scroll-effect.js"></script>
+
   </body>
 </html>
