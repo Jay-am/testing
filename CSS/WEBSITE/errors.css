@@ -66,12 +66,12 @@ header h1 {
 
 .sub-nav-404__link:hover,
 .sub-nav-404__link:focus {
- color: var(--clr-nav-hover);
+ color: var(--clr-green-900);
  transition: 200ms ease-in-out;
 }
 
 .sub-nav-404__link:active {
- color: var(--clr-nav-active);
+ color: var(--clr-green-900);
 }
 
 @media (min-width: 600px) {
@@ -119,12 +119,12 @@ text-transform: initial;
 
 .social-errors__link:hover,
 .social-errors__link:focus {
- color: var(--clr-nav-hover);
+ color: var(--clr-green-900);
  transition: 200ms ease-in-out;
 }
 
 .social-errors__link:active {
- color: var(--clr-nav-active);
+ color: var(--clr-green-900);
 }
 
 
