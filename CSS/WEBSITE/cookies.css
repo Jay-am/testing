@@ -12,6 +12,10 @@ h2 {
   display: block;
 }
 
+.google-analytics li {
+  padding: 1rem 0 0 0;
+}
+
 
 /* GRID */
 
