@@ -1,5 +1,5 @@
 .errors {
-  background-color: var(--clr-purple-500);
+  background-color: var(--clr-green-500);
 }
 
 .error__wrapper {
@@ -17,12 +17,12 @@ header h1 {
 }
 
 .error__message {
-  color: var(--clr-purple-900);
+  color: var(--clr-green-900);
   font-size: 3rem;
 }
 
 .error__info p {
-  color: var(--clr-purple-900);
+  color: var(--clr-green-900);
   font-size: 1rem;
 }
 
@@ -101,7 +101,7 @@ text-transform: initial;
 
 .social-errors,
 .thanks-errors {
-  color: var(--clr-purple-900);
+  color: var(--clr-green-900);
 }
 
 .social-errors {
@@ -180,6 +180,8 @@ text-transform: initial;
     font-size: 4rem;
     width: 90%;
     margin-left: auto;
+    line-height: 1;
+    padding: 6rem 0 0 0;
   }
   
   .error__info p {

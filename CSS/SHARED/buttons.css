@@ -28,8 +28,8 @@
 }
 
 .button-red-half:hover {
-  color: var(--clr-green-500);
-  border: solid var(--clr-green-500) 2px;
+  color: var(--clr-green-800);
+  border: solid var(--clr-green-800) 2px;
   transition: 0.6s ease;
 }
 
