@@ -1,7 +1,7 @@
 /* GENERAL */
 
 .paragraph-hero {
-  padding-bottom: 8rem;
+  padding-bottom: 16rem;
 }
 
 
@@ -51,7 +51,7 @@
 .care-instructions__wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 8rem 0 8rem 0;
+  margin: 0rem 0 8rem 0;
 }
 
 .care-instructions__content {
@@ -60,11 +60,11 @@
 }
 
 .washing {
-  padding-top: 4rem;
+  padding-top: 0rem;
 }
 
 .machine-load {
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -73,14 +73,14 @@
 @media (min-width: 900px) {
 
   .paragraph-hero {
-    padding-bottom: 8rem;
+    padding-bottom: 16rem;
   }
 
 
   /* GRID */
 
   .care-instructions__wrapper {
-    margin: 8rem 0;
+    margin: 0rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.5625rem;
@@ -91,7 +91,7 @@
   }
 
   .washing {
-    padding-top: 8rem;
+    padding-top: 0rem;
   }
 
   .machine-load {
