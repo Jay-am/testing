@@ -29,7 +29,7 @@ section h2 {
   padding-bottom: 1rem;
 }
 
-.shell,
+.the-bag,
 .afterwards,
 .benefits,
 .always {
@@ -48,7 +48,7 @@ section h2 {
   grid-template-columns: repeat(6, 1fr);
 }
 
-.shell {
+.the-bag {
   grid-column: 1 / -1;
 }
 
@@ -77,7 +77,7 @@ section h2 {
     grid-template-columns: repeat(6, 1fr);
   }
 
-  .shell {
+  .the-bag {
     grid-column: 2 / 5;
   }
 
@@ -100,14 +100,14 @@ section h2 {
     padding-bottom: 1.5rem;
   }
 
-  .shell,
+  .the-bag,
   .afterwards,
   .benefits,
   .always {
     padding: 8rem 0rem;
   }
 
-  .shell {
+  .the-bag {
     padding-top: 24rem;
   }
 
