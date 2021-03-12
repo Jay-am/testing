@@ -75,7 +75,8 @@ p {
   color: var(--clr-green-500);
 }
 
-.link {
+.link,
+.link:visited {
   color: var(--clr-link);
   font-size: var(--fs-body);
   font-weight: var(--fw-link);
@@ -92,6 +93,10 @@ p {
 .link:active {
   color: var(--clr-link-active);
 }
+
+/* .link:visited {
+  color: var(--clr-link);
+} */
 
 .code {
   color: var(--clr-code);
