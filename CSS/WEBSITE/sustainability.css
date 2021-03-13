@@ -340,6 +340,9 @@
   .production__copy {
     width: 60%;
   }
+  .production__copy h3 {
+    padding-bottom: 0rem;
+  }
 
   .sutainability__production--headline {
     padding-bottom: 2rem;
@@ -395,6 +398,14 @@
 
   .reverse-logistics .fixed {
     transform: translate(0%, -10%);
+  }
+
+  .reverse-logistics__copy {
+    width: 60%;
+  }
+
+  .reverse-logistics__copy h3 {
+    padding-bottom: 0rem;
   }
 
   .sutainability__reverse-logistics--headline {
