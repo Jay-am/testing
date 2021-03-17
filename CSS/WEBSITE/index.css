@@ -53,6 +53,20 @@
   font-size: var(--fs-ph1);
 }
 
+/* COVER */
+
+.cover__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  color: var(--clr-neutral-0);
+  font-size: var(--fs-h3);
+  padding-bottom: 1rem;
+}
+
+.cover__paragraph {
+  grid-column: 1 / -1;
+}
+
 
 /* CLIPPING MASK HEADLINES */
 
