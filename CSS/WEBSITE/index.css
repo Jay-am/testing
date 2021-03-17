@@ -24,8 +24,8 @@
 
 .hero__index--content {
   position: absolute;
-  top: 15%;
-  left: 5%;
+  top: 25%;
+  left: 2.5%;
   width: 100%;
   height: 100%;
 }
@@ -37,46 +37,47 @@
   line-height: 1;
 }
 
-.hero__index--content h2 {
-  padding-bottom: 2rem;
-  font-size: var(--fs-hm);
-  margin: 0;
+
+/* COVER INTRO */
+
+.cover-intro {
+  padding-top: 16rem;
 }
 
-.hero__index--content p {
-  width: 50%;
+.last {
+  padding-bottom: 2rem;
 }
 
 .enjoy {
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
-  font-size: var(--fs-ph1);
 }
-
-/* COVER INTRO */
 
 .cover-intro__content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  color: var(--clr-neutral-0);
-  font-size: var(--fs-h3);
-  padding-bottom: 1rem;
 }
 
 .cover-intro__paragraph {
   grid-column: 1 / -1;
 }
 
+.cover-intro__btn {
+  grid-column: 1 / -1;
+}
+
 
 /* CLIPPING MASK HEADLINES */
 
-.clipping-mask-font h1 {
+.clipping-mask-font h2 {
   font-weight: 900;
   position: relative;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
   padding: 12rem 0 0rem 0;
+  font-size: var(--fs-xxl);
+  line-height: 0.8;
 }
 
 .planet__intro--headline {
@@ -136,6 +137,13 @@
   background-position: 30% 50%;
 }
 
+.how-it-works__headline {
+  background-image: url("../../IMAGES/Forest-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 90%;
+}
+
 .benefits__headline {
   background-image: url("../../IMAGES/Forest-2.jpg");
   background-size: cover;
@@ -157,8 +165,9 @@
   color: #ffffff;
 }
 
-.source {
-  margin: 0 0 8rem 0;
+.planet__intro blockquote {
+  margin-right: 0;
+  font-size: 4rem;
 }
 
 .source__link {
@@ -166,6 +175,8 @@
   color: var(--clr-neutral-500);
   text-decoration: none;
   font-style: normal;
+  margin: 0;
+  padding: 0 0 16rem 0;
 }
 
 .source__link:hover,
@@ -177,7 +188,6 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   color: var(--clr-neutral-0);
-  font-size: var(--fs-h3);
   padding-bottom: 1rem;
 }
 
@@ -185,14 +195,14 @@
   grid-column: 1 / -1;
 }
 
-.p-4 {
+/* .p-4 {
   padding-bottom: 1rem;
 }
 
 .btn-planet {
   grid-column: 1 / 2;
   width: min-content;
-}
+} */
 
 
 /* PAPER */
@@ -212,6 +222,7 @@
 .deforestation__content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  color: var(--clr-neutral-0);
   padding-top: 3rem;
 }
 

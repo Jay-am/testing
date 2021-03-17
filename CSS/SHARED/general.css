@@ -63,6 +63,29 @@ p {
   font-size: var(--fs-body);
 }
 
+.l,
+.xl,
+.xxl {
+  color: var(--clr-headline);
+  font-family: var(--ff-headline);
+  font-weight: var(--fw-headline);
+  line-height: var(--lh-headline);
+  letter-spacing: var(--ls-headline);
+  text-transform: uppercase;
+}
+
+.l {
+  font-size: var(--fs-l);
+}
+
+.xl {
+  font-size: var(--fs-xl);
+}
+
+.xxl {
+  font-size: var(--fs-xxl);
+}
+
 
 /* LINKS */
 
