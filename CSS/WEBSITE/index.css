@@ -53,9 +53,9 @@
   font-size: var(--fs-ph1);
 }
 
-/* COVER */
+/* COVER INTRO */
 
-.cover__content {
+.cover-intro__content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   color: var(--clr-neutral-0);
@@ -63,7 +63,7 @@
   padding-bottom: 1rem;
 }
 
-.cover__paragraph {
+.cover-intro__paragraph {
   grid-column: 1 / -1;
 }
 
@@ -163,7 +163,7 @@
 
 .source__link {
   font-size: var(--fs-small);
-  color: var(--clr-neutral-700);
+  color: var(--clr-neutral-500);
   text-decoration: none;
   font-style: normal;
 }
@@ -335,6 +335,13 @@
   .clipping-mask-font h1 {
     padding: 24rem 0;
   }
+
+  /* COVER INTRO */
+
+  .cover-intro__paragraph {
+    grid-column: 2 / 5;
+  }
+
 
   /* PLANET */
 
