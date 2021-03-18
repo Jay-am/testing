@@ -38,6 +38,10 @@
   padding: var(--pd-left-right);
 }
 
+.mg-left-right {
+  margin: var(--mg-left-right);
+}
+
 .content {
   flex: 1 0 auto;
 }

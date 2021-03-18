@@ -25,6 +25,7 @@
 
   --pd-right: 1rem;
   --pd-left-right: 0 1rem 0 1rem;
+  --mg-left-right: 0 1rem 0 1rem;
 
   --pd-section: 1rem;
 }
@@ -33,6 +34,7 @@
   :root {
     --pd-right: 1.5rem;
     --pd-left-right: 0 1.5rem 0 1.5rem;
+    --mg-left-right: 0 1.5rem 0 1.5rem;
     --pd-section: 1.5rem;
   }
 }
@@ -41,6 +43,7 @@
   :root {
     --pd-right: 2rem;
     --pd-left-right: 0 4rem 0 4rem;
+    --mg-left-right: 0 4rem 0 4rem;
     --pd-section: 2rem;
   }
 }
@@ -49,6 +52,7 @@
   :root {
     --pd-right: 2.5rem;
     --pd-left-right: 0 5rem 0 5rem;
+    --mg-left-right: 0 5rem 0 5rem;
     --pd-section: 2.5rem;
   }
 }
@@ -57,6 +61,7 @@
   :root {
     --pd-right: 5rem;
     --pd-left-right: 0 10rem 0 10rem;
+    --mg-left-right: 0 10rem 0 10rem;
     --pd-section: 3rem;
   }
 }
