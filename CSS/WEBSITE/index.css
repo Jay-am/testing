@@ -195,15 +195,6 @@
   grid-column: 1 / -1;
 }
 
-/* .p-4 {
-  padding-bottom: 1rem;
-}
-
-.btn-planet {
-  grid-column: 1 / 2;
-  width: min-content;
-} */
-
 
 /* PAPER */
 
@@ -288,32 +279,6 @@
 }
 
 
-/* COVER */
-
-.cover__content {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  padding: 2rem 0;
-}
-
-.cover__paragraph {
-  grid-column: 1 / -1;
-}
-
-
-/* BENEFITS */
-
-.benefits__content {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  padding: 3rem 0 5rem 0;
-}
-
-.benefits__paragraph {
-  grid-column: 1 / -1;
-}
-
-
 /* SHARING */
 
 .sharing__content {
@@ -337,6 +302,20 @@
 .start__content p {
   font-size: var(--fs-medium);
 }
+
+
+/* BENEFITS */
+
+.benefits__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 3rem 0 5rem 0;
+}
+
+.benefits__paragraph {
+  grid-column: 1 / -1;
+}
+
 
 
 /* MEDIA QUERIES */
@@ -449,25 +428,6 @@
     grid-column: 2 / 3;
   }
 
-  /* COVER */
-
-  .cover__content {
-    padding: 6rem 0;
-  }
-
-  .cover__paragraph {
-    grid-column: 2 / 5;
-  }
-
-  /* BENEFITS */
-
-  .benefits__content {
-    padding: 6rem 0 10rem 0;
-  }
-
-  .benefits__paragraph {
-    grid-column: 2 / 5;
-  }
 
   /* SHARING */
 
@@ -488,7 +448,7 @@
   }
 
 
-  /* START */
+  /* HOW IT WORKS */
 
   .start__content {
     display: grid;
@@ -720,6 +680,20 @@
     color: var(--clr-green-700);
     transition: 0.6s ease-in-out;
   }
+
+
+  /* BENEFITS */
+
+  .benefits__content {
+    padding: 16rem 0 10rem 0;
+  }
+  
+  .benefits__paragraph {
+    grid-column: 2 / 5;
+  }
+
+
+  /* START NOW */
 
   .btn-start {
     margin: 8rem 0rem 16rem 0rem;
