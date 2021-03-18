@@ -200,9 +200,13 @@
     z-index: 1000;
   }  */
   
+  .header__nav img {
+    width: 2rem;
+  }
+
   .logo__nav {
-    font-size: 2.5rem;
-    flex-basis: 10%;
+    /* width: 2rem; */
+    flex-basis: 8%;
     align-self: center;
     justify-self: flex-start;
     padding: 1rem 0rem 1rem 2rem;
