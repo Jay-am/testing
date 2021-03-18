@@ -13,33 +13,34 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
+  font-size: var(--fs-h1);
   padding: 0;
   margin: 0;
 }
 
 .care-instructions__headline-1 {
-  background-image: url("../../IMAGES/Wash-2.jpg");
+  background-image: url("../../IMAGES/test.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .care-instructions__headline-2 {
-  background-image: url("../../IMAGES/Wash-2.jpg");
+  background-image: url("../../IMAGES/test.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .care-instructions__headline-3 {
-  background-image: url("../../IMAGES/Wash-2.jpg");
+  background-image: url("../../IMAGES/test.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .care-instructions__headline-4 {
-  background-image: url("../../IMAGES/Wash-2.jpg");
+  background-image: url("../../IMAGES/test.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
