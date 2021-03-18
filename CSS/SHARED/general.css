@@ -199,6 +199,10 @@ p {
   color: var(--clr-yellow-900);
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 
 /* SECTION SPECIFICS */
 
