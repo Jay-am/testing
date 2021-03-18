@@ -81,7 +81,7 @@
 }
 
 .planet__intro--headline {
-  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-image: url("../../IMAGES/planet_earth_free.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
@@ -350,6 +350,14 @@
   /* COVER INTRO */
 
   .cover-intro__paragraph {
+    grid-column: 2 / 5;
+  }
+
+  .cover-intro button {
+    padding-top: 4rem;
+  }
+
+  .cover-intro__btn {
     grid-column: 2 / 5;
   }
 
