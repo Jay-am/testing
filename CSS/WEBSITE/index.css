@@ -95,28 +95,28 @@
 }
 
 .deforestation__headline {
-  background-image: url("../../IMAGES/WEBSITE/INDEX/Deforestation-3.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Deforestation_schlecht.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .change__headline {
-  background-image: url("../../IMAGES/WEBSITE/INDEX/Planting_a_Tree_schlecht_1.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Planting_a_Tree_schlecht.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 50%;
 }
 
 .our-covers__headline {
-  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash-Economy.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash_Economy_Unsplash_Jasmin_Sessler.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .zero-waste__headline {
-  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash-Economy.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash_Economy_Unsplash_Jasmin_Sessler.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
@@ -126,11 +126,11 @@
   background-image: url("../../IMAGES/WEBSITE/INDEX/Caring_schlecht.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 30% 90%;
+  background-position: 10% 90%;
 }
 
 .cover__headline {
-  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash-Economy.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash_Economy_Unsplash_Jasmin_Sessler.jpg");
   /* Image of a Cover */
   background-size: cover;
   background-repeat: no-repeat;
@@ -138,7 +138,7 @@
 }
 
 .how-it-works__headline {
-  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash-Economy.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash_Economy_Unsplash_Jasmin_Sessler.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 90%;
@@ -155,7 +155,7 @@
   background-image: url("../../IMAGES/WEBSITE/INDEX/No_Planet_B_schlecht.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 30% 20%;
+  background-position: 30% 90%;
 }
 
 
