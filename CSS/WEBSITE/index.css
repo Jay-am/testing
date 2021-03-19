@@ -81,56 +81,56 @@
 }
 
 .planet__intro--headline {
-  background-image: url("../../IMAGES/planet_earth_free.png");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Earth.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .paper__headline {
-  background-image: url("../../IMAGES/Paper-Plastic-1.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Paper_vs_Plastic_1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 40%;
 }
 
 .deforestation__headline {
-  background-image: url("../../IMAGES/Deforestation-3.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Deforestation-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .change__headline {
-  background-image: url("../../IMAGES/Planting-a-Tree.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Planting_a_Tree_schlecht_1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 50%;
 }
 
 .our-covers__headline {
-  background-image: url("../../IMAGES/Trash-Economy-2-2.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash-Economy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .zero-waste__headline {
-  background-image: url("../../IMAGES/Trash-Economy-2-2.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash-Economy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
 }
 
 .sharing__headline {
-  background-image: url("../../IMAGES/Caring-1.jpeg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Caring_schlecht.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 90%;
 }
 
 .cover__headline {
-  background-image: url("../../IMAGES/Trash-Economy-2.jpeg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash-Economy.jpg");
   /* Image of a Cover */
   background-size: cover;
   background-repeat: no-repeat;
@@ -138,21 +138,21 @@
 }
 
 .how-it-works__headline {
-  background-image: url("../../IMAGES/Forest-2.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Trash-Economy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 90%;
 }
 
 .benefits__headline {
-  background-image: url("../../IMAGES/Forest-2.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Forest_1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 90%;
 }
 
 .start__headline {
-  background-image: url("../../IMAGES/No-Planet-B-4.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/No_Planet_B_schlecht.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 20%;
