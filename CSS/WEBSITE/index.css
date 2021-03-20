@@ -72,6 +72,7 @@
 .clipping-mask-font h2 {
   font-weight: 900;
   position: relative;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
