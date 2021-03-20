@@ -1,5 +1,9 @@
 /* GENERAL */
 
+.article-wrapper {
+  padding-bottom: 8rem;
+}
+
 .discover__blog-post--card {
   display: flex;
   width: 450px;
