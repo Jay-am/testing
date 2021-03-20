@@ -109,6 +109,7 @@
 .clipping-mask-font div {
   font-weight: 900;
   position: relative;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
@@ -116,7 +117,7 @@
 }
 
 .everyone__content {
-  background-image: url("../../IMAGES/Together-3.jpeg");
+  background-image: url("../../IMAGES/WEBSITE/WHY/Together_Unsplash_Joel_Muniz.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 20%;
