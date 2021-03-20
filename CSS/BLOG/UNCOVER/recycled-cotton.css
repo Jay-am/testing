@@ -10,16 +10,6 @@
 
 .blockquote-good-on-you {
   background-color: var(--clr-green-500);
-  font-size: 30px;
-  /* margin: 0 auto; */
-  quotes: "\201C""\201D""\2018""\2019";
-  padding: 4rem 0;
-  line-height: 1.4;
-}
-
-.blockquote {
-  background-color: var(--clr-green-500);
-  margin: 0;
 }
 
 .blockquote-good-on-you h2 {
@@ -30,8 +20,16 @@
   padding: 0rem 0 4rem 0;
 }
 
+.blockquote {
+  background: var(--clr-green-500);
+  border-left: none;
+  margin: 0;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
 .blockquote::before {
-  content: open-quote;
+  /* content: open-quote;
   position: relative;
   display: inline;
   height: 0;
@@ -39,7 +37,13 @@
   font-family: sans-serif;
   left: -100px;
   top: 100px;
-  font-size: 8em;
+  font-size: 8em; */
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  /* margin-right: 0.25em; */
+  vertical-align: -0.4em;
 }
 
 .recycled-cotton__source {

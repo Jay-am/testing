@@ -109,6 +109,11 @@ address {
 .square-1 {
   grid-column: 1 / -1;
   grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  column-gap: 0;
+  row-gap: 0;
 }
 
 .step-1__number {
@@ -128,6 +133,11 @@ address {
   grid-column: 1 / -1;
   grid-row: 2 / 3;
   justify-self: end;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  column-gap: 0;
+  row-gap: 0;
 }
 
 .step-2__number {
@@ -147,6 +157,11 @@ address {
 .square-3 {
   grid-column: 1 / -1;
   grid-row: 3 / 4;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  column-gap: 0;
+  row-gap: 0;
 }
 
 .step-3__number {
@@ -165,6 +180,11 @@ address {
   grid-column: 1 / -1;
   grid-row: 4 / 5;
   justify-self: end;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  column-gap: 0;
+  row-gap: 0;
 }
 
 .step-4__number {
@@ -185,6 +205,11 @@ address {
   grid-column: 1 / -1;
   grid-row: 5 / 6;
   justify-self: end;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  column-gap: 0;
+  row-gap: 0;
 }
 
 .step-5__number {
