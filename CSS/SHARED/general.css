@@ -82,8 +82,18 @@ p {
   font-size: var(--fs-s);
 }
 
+.s-col {
+  font-size: var(--fs-s-col);
+  text-transform: uppercase;
+}
+
 .m {
   font-size: var(--fs-m);
+}
+
+.m-col {
+  font-size: var(--fs-m-col);
+  text-transform: uppercase;
 }
 
 .med {
@@ -100,6 +110,15 @@ p {
 
 .xxl {
   font-size: var(--fs-xxl);
+}
+
+.xxl-col {
+  font-size: var(--fs-xxl-col);
+  font-family: var(--ff-headline);
+  font-weight: var(--fw-headline);
+  line-height: var(--lh-headline);
+  letter-spacing: var(--ls-headline);
+  text-transform: uppercase;
 }
 
 .social {

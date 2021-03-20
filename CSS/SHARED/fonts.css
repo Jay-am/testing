@@ -181,11 +181,14 @@
     --fs-ph1: 3rem;
 
     --fs-xxl: 18rem;
+    --fs-xxl-col: 16rem;
     --fs-xl: 10rem;
     --fs-l: 6rem;
     --fs-med: 2rem;
     --fs-m: 1.15rem;
+    --fs-m-col: 4rem;
     --fs-s: 0.85rem;
+    --fs-s-col: 3rem;
     --fs-xs: 0.6rem;
 
     /* --fs-body: 1.125rem; */

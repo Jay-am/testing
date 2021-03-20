@@ -33,14 +33,17 @@
 .clipping-mask-font h2 {
   font-weight: 900;
   position: relative;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
+  font-size: var(--fs-xxl-col);
+  line-height: 0.8;
   padding: 12rem 0 0rem 0;
 }
 
 .intro-2 {
-  background-image: url("../../IMAGES/Happy-1.jpg");
+  background-image: url("../../IMAGES/WEBSITE/COLLABORATIONS/Happy_Kids_schlecht.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
@@ -316,13 +319,8 @@
   }
 
   .collaborations__list {
-    color: var(--clr-green-900);
     line-height: 1.1;
     letter-spacing: var(--ls-headline);
-  }
-
-  .s {
-    font-size: 32px;
   }
 
   .collaborations__item--1 {
@@ -336,10 +334,6 @@
     100% {transform-origin: 32px;}
   }
 
-  .m {
-    font-size: 48px;
-  }
-
   .collaborations__item--2 {
     padding: 0 0 30rem 0;
     animation: sized-m 600ms ease-in-out;
@@ -349,19 +343,6 @@
     0% {transform-origin: 0px;}
     100% {transform-origin: 96px;}
     100% {transform-origin: 48px;}
-  }
-
-  .l {
-    font-size: 64px;
-  }
-
-  .xl {
-    font-size: 96px;
-  }
-
-  .xxl {
-    font-size: 128px;
-    font-weight: var(--fw-medium);
   }
 
   .you {
