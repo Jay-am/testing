@@ -1,30 +1,28 @@
+/* GENERAL */
+
 .recycled-cotton__headline {
   padding-top: 16rem;
 }
-
-/* .blog-navigation {
-  text-align: right;
-} */
 
 .last {
   padding-bottom: 4rem;
 }
 
-.quote-good-on-you {
+.blockquote-good-on-you {
   background-color: var(--clr-green-500);
   font-size: 30px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   quotes: "\201C""\201D""\2018""\2019";
   padding: 4rem 0;
-  margin: 4rem 0;
   line-height: 1.4;
 }
 
 .blockquote {
+  background-color: var(--clr-green-500);
   margin: 0;
 }
 
-.quote-good-on-you h2 {
+.blockquote-good-on-you h2 {
   padding: 0rem 0 1rem 0;
 }
 
@@ -32,7 +30,7 @@
   padding: 0rem 0 4rem 0;
 }
 
-.quote-content::before {
+.blockquote::before {
   content: open-quote;
   position: relative;
   display: inline;
@@ -44,22 +42,11 @@
   font-size: 8em;
 }
 
-/* .quote-content::after {
-  content: close-quote;
-  position: relative;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  font-family: sans-serif;
-  right: -860px;
-  bottom: 50px;
-  font-size: 5em;
-} */
-
-.source {
-  padding: 4rem 0 0 0;
+.recycled-cotton__source {
+  padding: 4rem 0 6rem 0;
   margin: 0;
   font-style: italic;
+  color: var(--clr-neutral-300);
 }
 
 .article {
@@ -67,6 +54,10 @@
 }
 
 .recommendations { 
+  padding:  0 0 4rem 0;
+}
+
+.enjoy {
   padding:  0 0 4rem 0;
 }
 
