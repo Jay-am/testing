@@ -20,6 +20,10 @@
   line-height: 1.4;
 }
 
+.blockquote {
+  margin: 0;
+}
+
 .quote-good-on-you h2 {
   padding: 0rem 0 1rem 0;
 }
