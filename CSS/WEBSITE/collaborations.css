@@ -37,7 +37,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
-  font-size: var(--fs-xxl-col);
+  font-size: var(--fs-xxl);
   line-height: 0.8;
   padding: 12rem 0 0rem 0;
 }
