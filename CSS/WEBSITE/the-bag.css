@@ -6,11 +6,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
-  padding: 24rem 0 0rem 0;
+  font-size: var(--fs-xxxl);
+  line-height: 0.8;
+  padding: 16rem 0 0rem 0;
 }
 
 .shipping-bags__headline {
-  background-image: url("../../IMAGES/Forest-2.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Forest_schlecht.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
@@ -21,7 +23,7 @@
 /* GENERAL */
 
 .bracket {
-  font-size: var(--fs-l);
+  font-size: var(--fs-xxxl);
   line-height: 1.5;
 }
 
