@@ -8,7 +8,7 @@
   display: flex;
   width: 450px;
   height: 450px;
-  border: 1px solid lightgrey;
+  border: 1px solid var(--clr-grey-200);
   border-radius: 1rem;
 }
 
