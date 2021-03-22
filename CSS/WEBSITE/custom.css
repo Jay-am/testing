@@ -1,6 +1,10 @@
-/* INTRO */
+/* INTRODUCTION */
 
-.custom-introduction {
+.paragraph-hero {
+  padding-bottom: 4rem;
+}
+
+/* .custom-introduction {
   margin-top: 8rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -9,44 +13,43 @@
 .custom-introduction--p {
   grid-column: 1 / -1;
   padding-top: 8rem;
-}
-
-.custom-intro {
-  margin-top: 4rem;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-}
-
-.custom__header {
-  grid-column: 1 / -1;
-  z-index: 1;
-  align-self: start;
-}
+} */
 
 
 /* CLIPPING MASK HEADLINES */
 
-.clipping-mask-font h2 {
+/* .clipping-mask-font h2 {
   font-weight: 900;
   position: relative;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
+  font-size: var(--fs-xxxl);
+  line-height: 0.8;
   padding: 0rem 0 0rem 0;
 }
 
 .custom__headline {
-  background-image: url("../../IMAGES/planet-earth.jpg");
+  background-image: url("../../IMAGES/WEBSITE/INDEX/Earth.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
+} */
+
+
+/* INTRO */
+
+.custom-intro {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.custom__content-1 {
+  grid-column: 1 / -1;
 }
 
 .custom__content--h2 {
   padding: 2em 0;
-}
-
-.custom__content-1 {
   grid-column: 1 / -1;
 }
 
@@ -59,10 +62,6 @@
 
 .note {
   padding: 6rem 0 0rem 0;
-}
-
-.no-custom {
-  padding: 4rem 0 0rem 0;
 }
 
 
@@ -84,10 +83,10 @@
   row-gap: 0;
 }
 
-.how-it-works > * div {
+/* .how-it-works > * div {
   margin: 0;
   padding: 0;
-}
+} */
 
 
 /* ENJOY */
@@ -108,9 +107,9 @@
 
 @media (min-width: 900px) {
 
-  /* INTRO */
+  /* INTRODUCTION */
 
-  .custom-introduction {
+  /* .custom-introduction {
     margin-top: 16rem;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -119,35 +118,37 @@
   .custom-introduction--p {
     grid-column: 2 / 5;
     padding-top: 16rem;
-  }
+  } */
+
+  /* CLIPPING MASK HEADLINES */
+
+  /* .clipping-mask-font h2 {
+    padding: 12rem 0 4rem 0;
+  } */
+
+  /* INTRO */
     
   .custom-intro {
-    margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    column-gap: 0;
+    row-gap: 0;
   }
 
   .custom__content-1 {
     grid-column: 2 / 5;  
-    padding-top: 24rem;
+    padding-top: 12rem;
+  }
+
+  .custom__content--h2 {
+    padding-bottom: 1.5rem;
+    grid-column: 2 / 5;
   }
 
   .custom__content-2 {
     grid-column: 2 / 5;
     padding-top: 6rem;
   }
-
-  .custom__content--h2 {
-    padding-bottom: 1.5rem;
-  }
-
-  
-  /* CLIPPING MASK HEADLINES */
-
-  .clipping-mask-font h2 {
-    padding: 12rem 0 4rem 0;
-  }
-
 
 
   /* NOTE */
@@ -183,11 +184,10 @@
   /* ENJOY */
 
   .enjoy__wrapper {
-    padding: 16rem 0;
+    padding: 16rem 0 4rem 0;
   }
 
   .enjoy {
-    padding: 0 0 4rem 0;
     font-weight: var(--fw-light);
   }
 }
