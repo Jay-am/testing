@@ -25,10 +25,8 @@
 /* NOTE */
 
 .note {
-  min-height: 100vh;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  align-items: flex-end;
+  padding: 6rem 0 6rem 0;
+  margin: var(--mg-left-right);
 }
 
 
@@ -55,15 +53,34 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+
+
+  /* DELIVERY DETAILS */
+
+  .delivery-details__content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .delivery-heading {
+    grid-column: 1 / -1;
+    padding: 16rem 0 4rem 0;
+  }
+  
+  .delivery-detail {
+    grid-column: 1 / -1;
+    line-height: 1.1;
+  }
+
+  .eu {
+    padding: 4rem 0 4rem 0;
+  }
   
   
   /* NOTE */
   
   .note {
-    min-height: 100vh;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    align-items: flex-end;
+    padding: 6rem 0 6rem 0;
   }
 }
 
@@ -80,7 +97,7 @@
   /* GRID */
 
   .delivery-process {
-    padding: 12rem 0 6rem 0;
+    padding: 24rem 0 6rem 0;
   }
 
   .delivery-process__content {
@@ -90,13 +107,27 @@
   }
 
 
+  /* DELIVERY DETAILS */
+
+  .delivery-details__content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .delivery-heading {
+    padding: 16rem 0 4rem 0;
+    grid-column: 2 / 5;  
+  }
+
+  .delivery-detail {
+    grid-column: 2 / 5;  
+  }
+
+
   /* NOTE */
 
   .note {
-    min-height: 100vh;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    align-items: flex-end;
+    padding: 16rem 0 16rem 0;
   }
 
 }
@@ -113,7 +144,7 @@
   /* GRID */
 
   .delivery-process {
-    padding: 16rem 0 8rem 0;
+    padding: 16rem 0 16rem 0;
   }
 
   .delivery-process__headline {
@@ -124,15 +155,31 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
+    padding-bottom: 16rem;
+  }
+
+
+  /* DELIVERY DETAILS */
+
+  .delivery-details__content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .delivery-heading {
+    padding: 12rem 0 4rem 0;
+    grid-column: 2 / 5;  
+  }
+  
+  .delivery-detail {
+    grid-column: 2 / 5;  
   }
 
 
   /* NOTE */
 
   .note {
-    min-height: 100vh;
-    align-items: flex-end;
-    padding: 12rem 0 6rem 0;
+    padding: 24rem 0 16rem 0;
   }
 
 }
@@ -142,7 +189,7 @@
 
 
 
-/* DELIVERY DETAILS */
+
 
 /* .delivery-details {
   display: flex;
