@@ -172,7 +172,7 @@
 }
 
 .source__link {
-  font-size: var(--fs-s);
+  font-size: var(--fs-xxs);
   color: var(--clr-neutral-500);
   text-decoration: none;
   font-style: normal;
