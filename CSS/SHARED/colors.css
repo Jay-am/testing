@@ -33,50 +33,6 @@
 }
 
 
-/* GRADIENTS */
-
-/* :root { 
-  --clr-horizontal-gradient: rgb(58, 58, 58);
-  --clr-vertical-gradient: rgb(58, 58, 58);
-  --clr-glow-gradient: rgb(58, 58, 58);
-} */
-
-
-/* BUTTONS */
-
-:root {
-
-  --clr-fg-button-primary: var(--clr-neutral-0);
-
-  --clr-bg-button-primary-yellow: var(--clr-yellow-500);
-  --clr-bg-button-primary-purple: var(--clr-purple-500);
-  --clr-bg-button-primary-green: var(--clr-green-500);
-
-  --clr-br-button-primary: none;
-
-  
-  --clr-fg-button-secondary-yellow: var(--clr-yellow-500);
-  --clr-fg-button-secondary-purple: var(--clr-purple-500);
-  --clr-fg-button-secondary-green: var(--clr-green-500);
-  --clr-fg-button-secondary-red: var(--clr-red-500);
-
-  --clr-bg-button-secondary: none;
-
-  --clr-br-button-secondary-yellow: var(--clr-yellow-500);
-  --clr-br-button-secondary-purple: var(--clr-purple-500);
-  --clr-br-button-secondary-green: var(--clr-green-500);
-
-
-  --clr-fg-button-tertiary: var(--clr-red-500);
-
-  --clr-bg-button-tertiary: none;
-
-  --clr-br-button-tertiary: var(--clr-red-500);
-
- 
-}
-
-
 /* BACKGROUNDS */
 
 :root {
@@ -107,3 +63,42 @@
   --fg: var(--clr-light);
   --bg: var(--clr-bg-accent);
 } */
+
+
+
+/* BUTTONS */
+
+/* :root {
+
+  --clr-fg-button-primary: var(--clr-neutral-0);
+
+  --clr-bg-button-primary-yellow: var(--clr-yellow-500);
+  --clr-bg-button-primary-purple: var(--clr-purple-500);
+  --clr-bg-button-primary-green: var(--clr-green-500);
+
+  --clr-br-button-primary: none;
+
+  
+  --clr-fg-button-secondary-yellow: var(--clr-yellow-500);
+  --clr-fg-button-secondary-purple: var(--clr-purple-500);
+  --clr-fg-button-secondary-green: var(--clr-green-500);
+  --clr-fg-button-secondary-red: var(--clr-red-500);
+
+  --clr-bg-button-secondary: none;
+
+  --clr-br-button-secondary-yellow: var(--clr-yellow-500);
+  --clr-br-button-secondary-purple: var(--clr-purple-500);
+  --clr-br-button-secondary-green: var(--clr-green-500);
+
+
+  --clr-fg-button-tertiary: var(--clr-red-500);
+
+  --clr-bg-button-tertiary: none;
+
+  --clr-br-button-tertiary: var(--clr-red-500);
+
+ 
+} */
+
+
+
