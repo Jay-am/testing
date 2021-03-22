@@ -120,22 +120,8 @@
 
   /* WHY OUR PARTNERS CHOOSE TO WORK WITH US */
 
-  .wholesale__headline {
-    padding: 24rem 0 16rem 0;
-  }
-
-  .big {
-    font-size: 120px;
-  }
-
-  .be-the-first h1 {
-    line-height: 1;
-    padding-bottom: 0;
-  }
-
-  .be-the-first h2 {
-    line-height: 1;
-    padding-bottom: 4rem;
+  .wholesale__header {
+    padding: 16rem 0 0rem 0;
   }
 
   .wholesale__content {
@@ -144,7 +130,7 @@
     column-gap: 4rem;
     row-gap: 6rem;
     text-align: left;
-    /* padding: 8rem 0 0 0; */
+    padding: 0;
   }
 
   .wholesale__content--h3 {
@@ -176,11 +162,21 @@
     grid-template-rows: repeat(2, min-content) 1fr;
   }
 
+  .be-the-first h1 {
+    line-height: 1;
+    padding-bottom: 0;
+  }
+
   .be-the-first__h1 {
     grid-column: 2 / 6;
     grid-row: 1 / 2;
     font-size: 120px;
     justify-self: end;
+  }
+
+  .be-the-first h2 {
+    line-height: 1;
+    padding-bottom: 4rem;
   }
 
   .be-the-first__h2 {
@@ -201,25 +197,18 @@
   /* HOW TO BECOME A RETAILER */
 
   .how-to-become-a-retailer {
-    padding: 36rem 0 8rem 0;
-  }
-
-  .how-to-become-a-retailer__headline {
-    padding-bottom: 4rem;
+    padding: 24rem 0 12rem 0;
   }
 
   .how-to-become-a-retailer__wrapper {
+    margin: 8rem 0 0 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(11, 1fr);
-    column-gap: 0;
-    row-gap: 0;
+    /* column-gap: 0;
+    row-gap: 0; */
   }
 
-  .how-to-become-a-retailer > * div {
-    margin: 0;
-    padding: 0;
-  }
 
   /* WELCOME */
 
@@ -229,7 +218,7 @@
 
   .welcome h2 {
     width: 70%;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
   }
 }
 
