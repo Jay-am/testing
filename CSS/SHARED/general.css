@@ -63,15 +63,21 @@ p {
   font-size: var(--fs-body);
 }
 
+.m,
 .l,
 .xl,
-.xxl {
+.xxl,
+.xxxl {
   color: var(--clr-headline);
   font-family: var(--ff-headline);
   font-weight: var(--fw-headline);
   line-height: var(--lh-headline);
   letter-spacing: var(--ls-headline);
   text-transform: uppercase;
+}
+
+.xxs {
+  font-size: var(--fs-xxs);
 }
 
 .xs {
@@ -82,22 +88,8 @@ p {
   font-size: var(--fs-s);
 }
 
-.s-col {
-  font-size: var(--fs-s-col);
-  text-transform: uppercase;
-}
-
 .m {
   font-size: var(--fs-m);
-}
-
-.m-col {
-  font-size: var(--fs-m-col);
-  text-transform: uppercase;
-}
-
-.med {
-  font-size: var(--fs-med);
 }
 
 .l {
@@ -112,13 +104,8 @@ p {
   font-size: var(--fs-xxl);
 }
 
-.xxl-col {
-  font-size: var(--fs-xxl-col);
-  font-family: var(--ff-headline);
-  font-weight: var(--fw-headline);
-  line-height: var(--lh-headline);
-  letter-spacing: var(--ls-headline);
-  text-transform: uppercase;
+.xxxl {
+  font-size: var(--fs-xxxl);
 }
 
 .social {

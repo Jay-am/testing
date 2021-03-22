@@ -180,15 +180,14 @@
     --fs-h4: 1.25rem;
     --fs-ph1: 3rem;
 
-    --fs-xxl: 16rem;
-    --fs-xl: 12rem;
+    --fs-xxxl: 16rem;
+    --fs-xxl: 12rem;
+    --fs-xl: 8rem;
     --fs-l: 6rem;
-    --fs-med: 2rem;
-    --fs-m: 1.15rem;
-    --fs-m-col: 4rem;
-    --fs-s: 0.85rem;
-    --fs-s-col: 3rem;
-    --fs-xs: 0.6rem;
+    --fs-m: 4rem;
+    --fs-s: 2rem;
+    --fs-xs: 1.5rem;
+    --fs-xxs: 0.5rem;
 
     /* --fs-body: 1.125rem; */
     --fs-body: 1.275rem;

@@ -21,6 +21,10 @@
 
 .intro-3 {
   grid-column: 1 / -1;
+}
+
+.intro-4 {
+  grid-column: 1 / -1;
   padding-top: 8rem;
 }
 
@@ -37,12 +41,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: fixed;
-  font-size: var(--fs-xxl);
+  font-size: var(--fs-xxxl);
   line-height: 0.8;
   padding: 12rem 0 0rem 0;
 }
 
-.intro-2 {
+.intro-3 {
   background-image: url("../../IMAGES/WEBSITE/COLLABORATIONS/Happy_Kids_schlecht.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,11 +76,11 @@
   animation: sized-s 600ms ease-in-out;
 }
 
-@keyframes sized-s {
+/* @keyframes sized-s {
   0% {transform-origin: 0px;}
   100% {transform-origin: 64px;}
   100% {transform-origin: 32px;}
-}
+} */
 
 .m {
   font-size: 48px;
@@ -87,11 +91,11 @@
   animation: sized-m 600ms ease-in-out;
 }
 
-@keyframes sized-m {
+/* @keyframes sized-m {
   0% {transform-origin: 0px;}
   100% {transform-origin: 96px;}
   100% {transform-origin: 48px;}
-}
+} */
 
 .l {
   font-size: 64px;
@@ -130,11 +134,11 @@
   animation: sized 600ms ease-in-out;
 }
 
-@keyframes sized-s {
+/* @keyframes sized-s {
   0% {transform-origin: 0px;}
   100% {transform-origin: 64px;}
   100% {transform-origin: 32px;}
-}
+} */
 
 
 /* TYPES */
