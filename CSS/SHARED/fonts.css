@@ -62,24 +62,26 @@
   --fs-h3: 1.5rem;
   --fs-h4: 1.25rem;
   --fs-ph1: 2rem;
+
+  --fs-xxxl: 6rem;
+  --fs-xxl: 4rem;
+  --fs-xl: 3.5rem;
+  --fs-l: 3rem;
+  --fs-m: 3rem;
+  --fs-s: 1.5rem;
+  --fs-xs: 1.25rem;
+  --fs-xxs: 1rem;
+  --fs-xxxs: 0.5rem;
   
   --fs-body: 1rem;
   --fs-logo: 2rem;
   --fs-steps: 1rem;
   --fs-number: 25rem; 
 
-  --fs-xxl: 12rem;
-  --fs-xl: 5rem;
-  --fs-l: 3.5rem;
-  --fs-med: 1.5rem;
-  --fs-m: 0.85rem;
-  --fs-s: 0.75rem;
-  --fs-xs: 0.6rem;
-
   --fs-nav: 1rem;
   --fs-nav-small: 0.8rem;
   --fs-footer: 1rem;
-  --fs-social: 5rem;
+  --fs-social: 3rem;
   --fs-legal: 0.75rem;
   --fs-copywright: 0.5rem;
   --fs-footer-app: 2rem;
@@ -104,13 +106,15 @@
     --fs-h4: 1.25rem;
     --fs-ph1: 2rem;
 
-    --fs-xxl: 14rem;
+    --fs-xxxl: 14rem;
+    --fs-xxl: 6rem;
     --fs-xl: 5rem;
     --fs-l: 4rem;
-    --fs-med: 1.5rem;
-    --fs-m: 0.85rem;
-    --fs-s: 0.75rem;
-    --fs-xs: 0.6rem;
+    --fs-m: 3rem;
+    --fs-s: 1.5rem;
+    --fs-xs: 1.25rem;
+    --fs-xxs: 0.75rem;
+    --fs-xxxs: 0.5rem;
 
     --fs-body: 1rem;
     --fs-logo: 2rem;
@@ -142,13 +146,15 @@
     --fs-h4: 1rem;
     --fs-ph1: 2rem;
 
-    --fs-xxl: 16rem;
+    --fs-xxxl: 12rem;
+    --fs-xxl: 8rem;
     --fs-xl: 6rem;
-    --fs-l: 4rem;
-    --fs-med: 1.5rem;
-    --fs-m: 0.85rem;
-    --fs-s: 0.75rem;
-    --fs-xs: 0.6rem;
+    --fs-l: 5rem;
+    --fs-m: 3rem;
+    --fs-s: 1.5rem;
+    --fs-xs: 1.25rem;
+    --fs-xxs: 0.75rem;
+    --fs-xxxs: 0.5rem;
 
     --fs-body: 1rem;
     --fs-logo: 2rem;
@@ -177,7 +183,7 @@
     --fs-h1: 12rem;
     --fs-h2: 4rem;
     --fs-h3: 2rem;
-    --fs-h4: 1.25rem;
+    --fs-h4: 1.275rem;
     --fs-ph1: 3rem;
 
     --fs-xxxl: 16rem;
@@ -188,6 +194,7 @@
     --fs-s: 2rem;
     --fs-xs: 1.5rem;
     --fs-xxs: 1rem;
+    --fs-xxxs: 0.75rem;
 
     /* --fs-body: 1.125rem; */
     --fs-body: 1.275rem;
