@@ -1,7 +1,7 @@
 /* INTRODUCTION */
 
 .paragraph-hero {
-  padding-bottom: 4rem;
+  padding-bottom: 12rem;
 }
 
 /* .custom-introduction {
@@ -42,6 +42,7 @@
 .custom-intro {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  row-gap: 0;
 }
 
 .custom__content-1 {
@@ -49,7 +50,7 @@
 }
 
 .custom__content--h2 {
-  padding: 2em 0;
+  padding: 0em 0;
   grid-column: 1 / -1;
 }
 
@@ -61,14 +62,14 @@
 /* NOTE */
 
 .note {
-  padding: 6rem 0 0rem 0;
+  padding: 12rem 0 0rem 0;
 }
 
 
 /* GRID */
 
 .how-it-works {
-  padding: 6rem 0 0rem 0;
+  padding: 0rem 0 0rem 0;
 }
 
 .how-it-works__headline {
@@ -77,27 +78,22 @@
 
 .how-it-works__wrapper {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
   column-gap: 0;
-  row-gap: 0;
+  row-gap: 2rem;
+  padding-top: 4rem;
 }
-
-/* .how-it-works > * div {
-  margin: 0;
-  padding: 0;
-} */
 
 
 /* ENJOY */
 
 .enjoy__wrapper {
-  padding: 8rem 0;
+  padding: 0rem 0 0rem 0;
 }
 
 .enjoy {
-  padding: 0 0 4rem 0;
-  font-weight: var(--fw-light);
+  padding: 12rem 0 4rem 0;
 }
 
 
@@ -137,11 +133,10 @@
 
   .custom__content-1 {
     grid-column: 2 / 5;  
-    padding-top: 12rem;
+    padding: 10rem 0 6rem 0;
   }
 
   .custom__content--h2 {
-    padding-bottom: 1.5rem;
     grid-column: 2 / 5;
   }
 
@@ -154,7 +149,7 @@
   /* NOTE */
 
   .note {
-    padding: 24rem 0 0rem 0;
+    padding: 20rem 0 0rem 0;
   }
 
   .note-p {
@@ -165,19 +160,20 @@
   /* GRID */
 
   .how-it-works {
-    padding: 24rem 0 12rem 0;
+    padding: 0rem 0 0rem 0;
   }
 
   .how-it-works__headline {
-    padding-bottom: 2rem;
+    padding: 12rem 0 2rem 0;
   }
 
   .how-it-works__wrapper {
+    padding-top: 6rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(17, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     column-gap: 0;
-    row-gap: 0;
+    row-gap: 4rem;
   }
 
 
@@ -186,12 +182,19 @@
   .enjoy__wrapper {
     padding: 16rem 0 4rem 0;
   }
-
-  .enjoy {
-    font-weight: var(--fw-light);
-  }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+  .how-it-works__wrapper {
+    padding-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 0;
+    row-gap: 4rem;
+  }
+
+}
 
 @media (min-width: 1800px) {}
