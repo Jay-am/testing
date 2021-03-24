@@ -8,7 +8,7 @@
 
 header h1 {
   color: var(--clr-neutral-0);
-  font-size: 10rem;
+  font-size: var(--fs-xxxl);
   line-height: 0.8;
 }
 
@@ -78,12 +78,6 @@ header h1 {
  color: var(--clr-green-900);
 }
 
-@media (min-width: 600px) {
-  .error__message {
-    padding-top: 3rem;
-  }
-}
-
 @media (min-width: 900px) {
   .sub-nav-404__list {
     display: flex;
@@ -104,6 +98,10 @@ header h1 {
 
 .headline-lowercase {
 text-transform: initial;
+}
+
+.button-422 {
+  margin-top: 2rem;
 }
 
 
@@ -138,7 +136,16 @@ text-transform: initial;
 }
 
 
+/* MEDIA QUERIES */
+
 @media (min-width: 600px) {
+
+  .error__info {
+    width: 70%;
+    margin-left: auto;
+    padding: 2rem 0 0 0;
+  }
+
   .social-errors__list {
     display: flex;
     flex-direction: row;
@@ -155,13 +162,7 @@ text-transform: initial;
 }
 
 
-/* MEDIA QUERIES */
-
 @media (min-width: 900px) {
-
-  header h1 {
-    font-size: 10rem;
-  }
 
   .error__code {
     font-size: 2rem;
@@ -169,18 +170,28 @@ text-transform: initial;
 
   .error__message {
     font-size: 3rem;
+    width: 90%;
+    margin-left: auto;
+    line-height: 1;
+    padding: 6rem 0 0 0;
+  }
+
+  .error__info {
+    width: 100%;
+    margin-left: auto;
+    padding: 1rem 0 0 0;
   }
 
   .error__info p {
     font-size: 1rem;
   }
+
+  .button-422 {
+    margin-top: 2rem;
+  }
 }
 
 @media (min-width: 1200px) {
-
-  header h1 {
-    font-size: 12rem;
-  }
   
   .error__code {
     font-size: 3rem;
@@ -191,12 +202,22 @@ text-transform: initial;
     width: 90%;
     margin-left: auto;
     line-height: 1;
-    padding: 6rem 0 0 0;
+    padding: 4rem 0 0 0;
+  }
+
+  .error__info {
+    width: 100%;
+    margin-left: auto;
+    padding: 1rem 0 0 0;
   }
   
   .error__info p {
     font-size: 1.125rem;
     width: 50%;
     margin-left: auto;
+  }
+
+  .button-422 {
+    margin-top: 1rem;
   }
 }
