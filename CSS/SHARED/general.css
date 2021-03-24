@@ -267,16 +267,23 @@ p {
   margin-bottom: 0.5em;
 }
 
+@media (min-width: 600px) {
+  .note {
+    width: 80%;
+    margin-left: auto;
+  }
+}
+
 @media (min-width: 900px) {
   .note {
-    width: 40%;
+    width: 70%;
     margin-left: auto;
   }
 }
 
 @media (min-width: 1200px) {
   .note {
-    width: 40%;
+    width: 60%;
     margin-left: auto;
   }
 }

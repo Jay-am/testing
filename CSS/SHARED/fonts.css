@@ -57,14 +57,14 @@
 :root {
 
   /* --fs-h1: 5rem; */
-  --fs-h1: 4rem;
+  --fs-h1: 5rem;
   --fs-h2: 3rem;
   --fs-h3: 1.5rem;
   --fs-h4: 1.25rem;
   --fs-ph1: 2rem;
 
   --fs-xxxl: 7rem;
-  --fs-xxl: 4rem;
+  --fs-xxl: 5rem;
   --fs-xl: 3.5rem;
   --fs-l: 3rem;
   --fs-m: 3rem;
@@ -76,7 +76,7 @@
   --fs-body: 1rem;
   --fs-logo: 2rem;
   --fs-steps: 1rem;
-  --fs-number: 25rem; 
+  --fs-number: 30rem; 
 
   --fs-nav: 1rem;
   --fs-nav-small: 0.8rem;
@@ -102,7 +102,7 @@
     
     --fs-h1: 6rem;
     --fs-h2: 3rem;
-    --fs-h3: 1.5rem;
+    --fs-h3: 1.75rem;
     --fs-h4: 1.25rem;
     --fs-ph1: 2rem;
 
@@ -116,10 +116,10 @@
     --fs-xxs: 0.75rem;
     --fs-xxxs: 0.5rem;
 
-    --fs-body: 1rem;
+    --fs-body: 1.15rem;
     --fs-logo: 2rem;
     --fs-steps: 1rem;
-    --fs-number: 18rem; 
+    --fs-number: 35rem; 
 
     --fs-nav: 1rem;
     /* --fs-nav-small: 0.8rem; */
@@ -142,7 +142,7 @@
    
     --fs-h1: 8rem;
     --fs-h2: 3rem;
-    --fs-h3: 1.5rem;
+    --fs-h3: 1.75rem;
     --fs-h4: 1rem;
     --fs-ph1: 2rem;
 
@@ -156,10 +156,10 @@
     --fs-xxs: 0.75rem;
     --fs-xxxs: 0.5rem;
 
-    --fs-body: 1rem;
+    --fs-body: 1.15rem;
     --fs-logo: 2rem;
     --fs-steps: 1rem;
-    --fs-number: 31.25rem;
+    --fs-number: 40.625rem;
 
     --fs-nav: 1rem;
      /* --fs-nav-small: 0.8rem; */
