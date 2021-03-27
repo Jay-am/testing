@@ -118,9 +118,10 @@
 
   /* WHY OUR PARTNERS CHOOSE TO WORK WITH US */
 
-  .wholesale__header {
+  .wholesale__headline {
     padding: 8rem 0 0rem 0;
     margin: 0;
+    width: 80%;
   }
 
   .wholesale__content {
@@ -230,8 +231,9 @@
 
   /* WHY OUR PARTNERS CHOOSE TO WORK WITH US */
 
-  .wholesale__header {
-    padding: 8rem 0 0rem 0;
+  .wholesale__headline {
+    padding: 16rem 0 0rem 0;
+    width: 70%;
   }
 
   .wholesale__content {
