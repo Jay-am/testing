@@ -32,7 +32,9 @@
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/fade-in-background-color-on-scroll.css" />
-    <link rel="stylesheet" href="../../CSS/SHARED/fade-in-elements-on-scroll.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -80,7 +82,7 @@
         </header>
       </section>
 
-      <section class="collaborations__list | panel" data-color="green-scroll">
+      <!-- <section class="collaborations__list | panel" data-color="green-scroll">
         <ul class="collaboration__list | container | right">
           <li class="collaboration__item | collaboration__item--1 | m  | dark-green">an ad<wbr>vo<wbr>cate for mind<wbr>fulliving</li>
           <li class="collaboration__item | collaboration__item--2 | l | dark-green">love nature and all beings</li>
@@ -88,6 +90,78 @@
           <li class="collaboration__item | collaboration__item--4 | xxl | dark-green">environ&shy;men&shy;tally conscious</li>
           <li class="collaboration__item | collaboration__item--5 | xxxl | dark-green">striv<wbr>ing for zero waste</li>
         </ul>
+      </section> -->
+
+      <section class="collaborations__list | panel" data-color="green-scroll">
+        <div 
+        class="collaboration__list | container | rightcollaboration__list | container | right | reveal" 
+        data-aos="zoom-in"
+        data-aos-offset="50"
+        data-aos-delay="50"
+        data-aos-duration="3000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <p class="collaboration__item | collaboration__item--1 | m | dark-green">an ad<wbr>vo<wbr>cate for mind<wbr>fulliving</p>
+        </div>
+
+        <div 
+        class="collaboration__list | container | rightcollaboration__list | container | right | reveal" 
+        data-aos="zoom-in"
+        data-aos-offset="50"
+        data-aos-delay="50"
+        data-aos-duration="3000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <p class="collaboration__item | collaboration__item--2 | l | dark-green">love nature and all beings</p>
+        </div>
+
+        <div 
+        class="collaboration__list | container | rightcollaboration__list | container | right | reveal" 
+        data-aos="zoom-in"
+        data-aos-offset="50"
+        data-aos-delay="50"
+        data-aos-duration="3000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <p class="collaboration__item | collaboration__item--3 | xl | dark-green">always trying to be a better version of yourself</p>
+        </div>
+
+        <div 
+        class="collaboration__list | container | rightcollaboration__list | container | right | reveal" 
+        data-aos="zoom-in"
+        data-aos-offset="50"
+        data-aos-delay="50"
+        data-aos-duration="3000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <p class="collaboration__item | collaboration__item--4 | xxl | dark-green">environ&shy;men&shy;tally conscious</p>
+        </div>
+
+        <div 
+        class="collaboration__list | container | rightcollaboration__list | container | right | reveal" 
+        data-aos="zoom-in"
+        data-aos-offset="50"
+        data-aos-delay="50"
+        data-aos-duration="3000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <p class="collaboration__item | collaboration__item--5 | xxxl | dark-green">striv<wbr>ing for zero waste</p>
+          </div>
       </section>
 
       <section class="collaborations__we | container | panel" data-color="white-scroll">
@@ -224,10 +298,13 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="../../JS/fade-in-background-color-on-scroll.js"></script>
 
-    <!-- FADE IN ELEMENTS ON SCROLL -->
-    <script src="../../JS/fade-in-elemets-on-scroll.js"></script>
-
-
+    <!-- REVEAL TEXT ON SCROLL -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
    
   </body>
 </html>
