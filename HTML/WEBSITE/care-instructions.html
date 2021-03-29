@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="../../CSS/SHARED/grid-layouts.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/grid-squares.css" />
     <link rel="stylesheet" href="../../CSS/SHARED/fade-in-background-color-on-scroll.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
   <body>
@@ -66,9 +68,20 @@
         <h2 class="care-instructions__headline | care-instructions__headline-4 | right | h1">And recycle</h2>
       </section>
 
+
       <div class="care-instructions__wrapper | container | panel" data-color="white-scroll">
         <section class="care-instructions__content">
-          <div class="care-instructions__item | washing | content-spacer">
+          <div 
+          class="care-instructions__item | washing | content-spacer | reveal" 
+          data-aos="fade-in"
+          data-aos-offset="50"
+          data-aos-delay="50"
+          data-aos-duration="3000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          >
             <h2 class="x">WASHING</h2>
             <p class="x">
               Wash your COVER only if necessary on low temperatures (lukewarm or cold water) in a gentle cycle, low spin washing programme.
@@ -83,7 +96,17 @@
         </section>
 
         <section class="care-instructions__content">
-          <div class="care-instructions__item | drying | content-spacer">
+          <div 
+          class="care-instructions__item | drying | content-spacer | reveal" 
+          data-aos="fade-in"
+          data-aos-offset="50"
+          data-aos-delay="50"
+          data-aos-duration="3000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          >
             <h2 class="x">DRYING</h2>
             <p class="x">
               Air dry your <span class="brand">COVER</span> instead of putting it in the dryer – not only is this less rough on the fabric, it also uses less energy.
@@ -95,7 +118,17 @@
         </section>
 
         <section class="care-instructions__content"> 
-          <div class="care-instructions__item | detergent | content-spacer">
+          <div 
+          class="care-instructions__item | detergent | content-spacer | reveal" 
+          data-aos="fade-in"
+          data-aos-offset="50"
+          data-aos-delay="50"
+          data-aos-duration="3000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          >
             <h2 class="x">DETERGENT</h2>
             <p class="x">
               Choose a mild environmentally friendly detergent to protect the integrity of the fibers and our planet.
@@ -104,7 +137,17 @@
         </section>
 
         <section class="care-instructions__content">
-          <div class="care-instructions__item | machine-load | content-spacer">
+          <div 
+          class="care-instructions__item | machine-load | content-spacer | reveal" 
+          data-aos="fade-in"
+          data-aos-offset="50"
+          data-aos-delay="50"
+          data-aos-duration="3000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          >
             <h2 class="x">MACHINE LOAD</h2>
             <p class="x">
               Try not to overcrowd the washing machine with too many items at once as this can cause the fabric to lose its shape. In addition, the garments may not get properly clean, if the washing machine is too full.
@@ -178,6 +221,7 @@
       </footer>
     </div>
 
+    <!-- NAVIGATION -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="../../JS/navigation.js"></script>
 
@@ -185,20 +229,13 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="../../JS/fade-in-background-color-on-scroll.js"></script>
 
-
-    <!-- FADE IN ELEMENTS ON SCROLL -->
-    <!-- <script src="../../JS/fade-in-elemets-on-scroll.js"></script> -->
-
-    <!-- MOVE TEXT ON SCROLL -->
-    <!-- <script type="text/javascript">
-      $(document).on('scroll', function(){
-      $('.care-instructions__headline-1').css('left', Math.max(500-0.15*window.scrollY) + 'px');
-      $('.care-instructions__headline-2').css('right', Math.max(600-0.35*window.scrollY) + 'px');
-      $('.care-instructions__headline-3').css('left', Math.max(200-0.25*window.scrollY) + 'px');
-      $('.care-instructions__headline-1').css('right', Math.max(300-0.15*window.scrollY) + 'px');
-      })
-    </script> -->
-
+    <!-- REVEAL TEXT ON SCROLL -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>

@@ -141,14 +141,16 @@
   
   .care-instructions__content {
     grid-column: 2 / 5;
+    padding: 12rem 0;
+
   }
   
-  .washing {
+  /* .washing {
      padding-top: 14rem;
-  }
+  } */
   
   .machine-load {
-    padding-bottom: 12rem;
+    padding-bottom: 0rem;
   }
 }
 
