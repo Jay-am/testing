@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+html {
+  height: 11000px;
+}
+
+body {
+  font-family: sans-serif;
+  background: #0d0d0d;
+}
+
+.page {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  padding: 80px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.page h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+.page h1 .red {
+  color: #ff4c4c;
+}
+
+.page h1 .emphasis {
+  color: #ffc168;
+  text-decoration: underline;
+}
+
+.page h1 .strike {
+  text-decoration: underline line-through !important;
+}
+
+.page h1 .heart {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulsate 1s ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    font-size: 120px;
+  }
+  50% {
+    font-size: 100px;
+  }
+  100% {
+    font-size: 120px;
+  }
+}
