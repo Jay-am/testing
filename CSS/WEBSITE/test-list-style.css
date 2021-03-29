@@ -1,0 +1,54 @@
+#scroll-container {
+  overflow: hidden;
+  max-width: 100%;
+  /* margin: auto; */
+  height: 60vh;
+  top: 25vh;
+  position: relative;
+  min-height: 200px;
+}
+
+.wrap-container {
+  position: relative;
+  max-height: 300px;
+  width: 100%;
+  max-width: 100%;
+  text-align: right;
+  /* margin: auto; */
+  /* background: #eee; */
+  overflow: auto;
+  padding-right: 0;
+  mask: url(#masking);
+  -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, green), color-stop(1, rgba(243, 6, 6, 0)));
+}
+.wrap-container ul {
+  list-style: none;
+  position: relative;
+  right: 0;
+  text-align: right;
+  transition: transform 1s;
+  top: 50px;
+}
+.wrap-container ul, .wrap-container ul li {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.wrap-container ul li {
+  height: 100px;
+  line-height: 100px;
+  text-align: right;
+  transition: transform 1s;
+  overflow: hidden;
+}
+.wrap-container ul li:last-of-type {
+  padding-bottom: 75px;
+}
+.wrap-container ul li.active .item {
+  transform: scale(3.5);
+}
+.wrap-container ul li .item {
+  position: relative;
+  transition: transform 1s;
+  display: inline-block;
+}
