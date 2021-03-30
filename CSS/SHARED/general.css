@@ -164,6 +164,14 @@ p {
   font-weight: var(--fw-semi-bold);
 }
 
+.fw-leight {
+  font-weight: var(--fw-light);
+}
+
+.ultra-leight {
+  font-weight: var(--fw-extra-light);
+}
+
 .uppercase {
   text-transform: uppercase;
 }
