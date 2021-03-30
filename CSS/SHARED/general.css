@@ -86,6 +86,7 @@ p {
 
 .s {
   font-size: var(--fs-s);
+  line-height: 1.2;
 }
 
 .m {
@@ -124,8 +125,7 @@ p {
   color: var(--clr-green-500);
 }
 
-.link,
-.link:visited {
+.link {
   color: var(--clr-link);
   font-size: var(--fs-body);
   font-weight: var(--fw-link);
@@ -168,11 +168,10 @@ p {
   text-transform: uppercase;
 }
 
-.brand {
+/* .brand {
   color: var(--clr-neutral-1000);
   font-family: var(--ff-brand);
-  /* font-family: var(--ff-logo); */
-}
+} */
 
 
 /* COLORS */
