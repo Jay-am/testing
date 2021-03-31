@@ -197,6 +197,10 @@ p {
 }
 
 .green {
+  color: var(--clr-green-500);
+}
+
+.med-green {
   color: var(--clr-green-700);
 }
 
@@ -206,6 +210,10 @@ p {
 
 .blue {
   color: var(--clr-blue-500);
+}
+
+.pink {
+  color: var(--clr-pink-500);
 }
 
 .yellow {

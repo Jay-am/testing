@@ -88,21 +88,16 @@
   flex-basis: 20%;
 }
 
-.blog-post__category {
-  /* padding-top: 1rem; */
-  color: var(--clr-neutral-0);
-}
-
 .folding {
-  background-color: var(--clr-blue-500);
+  border: 2px solid var(--clr-blue-500);
 }
 
 .decorating {
-  background-color: var(--clr-pink-500);
+  border: 2px solid var(--clr-pink-500);
 }
 
 .upcycling {
-  background-color: var(--clr-green-500);
+  border: 2px solid var(--clr-green-500);
 }
 
 .discover__blog-post--card img {
