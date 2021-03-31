@@ -66,7 +66,7 @@
 /* ARTICLE */
 
 .article-wrapper {
-  padding-bottom: 12rem;
+  padding: 2rem 0 8rem 0;
 }
 
 .discover__blog-post--card {
@@ -103,26 +103,11 @@
   border: 2px solid var(--clr-neutral-100);
 }
 
-.highlight-blue {
-  font-style: normal;
-  border-radius: 1em 0 1em 0;
-  text-shadow: 1px 1px 1px #fff;
-  background-image: 
-    linear-gradient(-100deg, 
-      rgba(105, 174, 255,0.15),
-      rgba(105, 174, 255,0.8) 100%, 
-      rgba(105, 174, 255,0.25)
-    );
-}
-
 .discover__blog-post--card img {
   padding: 1rem 1rem 1rem 0.5rem;
   flex-basis: 80%;
   border-radius: 1.5rem;
 }
-
-
-
 
 
 /* MEDIA QUERIES */
