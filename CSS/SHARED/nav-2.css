@@ -308,15 +308,21 @@ label a {
     align-items: center;
     background-color: green;
     /* background-color: transparent; */
-    transition: .6s ease-in-out;
+    /* transition: .6s ease-in-out; */
     z-index: 1;
+  }
+
+  img.logo__nav {
+    padding: 0.25rem 0 0 2%;
+    margin: 0;
+    align-self: center;
   }
 
   label ul {
     z-index: 200;
-    position: absolute;
+    /* position: absolute; */
     top: -10%;
-    right: 80%;
+    right: 300px;
     /* font-size: var(--fs-h2); */
     text-align: right;
     /* -webkit-transform: translate(-50%, -50%);
@@ -324,21 +330,14 @@ label a {
     opacity: 1;
     /* -webkit-transition: .25s 0s ease-in-out;
     transition: .25s 0s ease-in-out; */
-    background: purple;
-  }
-
-  img.logo__nav {
-    font-size: 2rem;
-    padding: 0.25rem 0 0 2%;
-    margin: 0;
-    align-self: center;
   }
 
   .primary-nav__list {
     position: relative;
     height: 60px;
+    width: 80%;
     top: 30px;
-    right: 20%;
+    right: 1000px;
     display: flex;
     flex-direction: row;
     align-items: center;
