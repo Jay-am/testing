@@ -57,7 +57,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background: linear-gradient(to right, var(--clr-purple-500),var(--clr-blue-500));
+  background: linear-gradient(to right, var(--clr-neutral-300), var(--clr-blue-500),var(--clr-pink-500), var(--clr-green-500));
   clip-path: polygon(var(--left-side) 0, var(--right-side) 0, var(--right-side) 100%, var(--left-side) 100%);
   transition: 0.35s ease;
 }
@@ -89,15 +89,30 @@
 }
 
 .folding {
-  border: 2px solid var(--clr-blue-500);
+  /* border: 2px solid var(--clr-blue-500); */
+  border: 2px solid var(--clr-neutral-100);
 }
 
 .decorating {
-  border: 2px solid var(--clr-pink-500);
+  /* border: 2px solid var(--clr-pink-500); */
+  border: 2px solid var(--clr-neutral-100);
 }
 
 .upcycling {
-  border: 2px solid var(--clr-green-500);
+  /* border: 2px solid var(--clr-green-500); */
+  border: 2px solid var(--clr-neutral-100);
+}
+
+.highlight-blue {
+  font-style: normal;
+  border-radius: 1em 0 1em 0;
+  text-shadow: 1px 1px 1px #fff;
+  background-image: 
+    linear-gradient(-100deg, 
+      rgba(105, 174, 255,0.15),
+      rgba(105, 174, 255,0.8) 100%, 
+      rgba(105, 174, 255,0.25)
+    );
 }
 
 .discover__blog-post--card img {

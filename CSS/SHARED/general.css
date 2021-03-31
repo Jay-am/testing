@@ -216,6 +216,10 @@ p {
   color: var(--clr-pink-500);
 }
 
+.purple {
+  color: var(--clr-purple-500);
+}
+
 .yellow {
   color: var(--clr-yellow-900);
 }
