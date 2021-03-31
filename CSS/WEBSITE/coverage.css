@@ -11,6 +11,8 @@ section.coverage {
 
 .world {
   width: 160%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .coverage__content {
