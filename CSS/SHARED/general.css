@@ -113,6 +113,18 @@ p {
   font-size: var(--fs-social);
 }
 
+.brand-s {
+  font-size: var(--fs-brand-s);
+}
+
+.brand-m {
+  font-size: var(--fs-brand-m);
+}
+
+.brand-l {
+  font-size: var(--fs-brand-l);
+}
+
 
 /* LINKS */
 
@@ -176,10 +188,15 @@ p {
   text-transform: uppercase;
 }
 
-/* .brand {
-  color: var(--clr-neutral-1000);
-  font-family: var(--ff-brand);
-} */
+.brand-extra-light {
+  font-family: var(--ff-brand-extra-light);
+  letter-spacing: var(--ls-brand);
+}
+
+.brand-bold {
+  font-family: var(--ff-brand-bold);
+  letter-spacing: var(--ls-brand);
+}
 
 
 /* COLORS */

@@ -10,6 +10,7 @@
 /* LETTERSPACING */
 
 :root {
+  --ls-brand: 0.02em;
   --ls-headline: -0.05em;
   --ls-ph1: -0.025em;
   --ls-body: 0;

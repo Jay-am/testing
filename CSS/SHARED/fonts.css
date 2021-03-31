@@ -1,5 +1,7 @@
 /* FONT FAMILIES */
 
+/* BAI JAMJUREE */
+
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap");
 /* font-family: "Bai Jamjuree", sans-serif; */
 /* extra-light: 200 */
@@ -9,9 +11,36 @@
 /* semi-bold: 600 */
 /* bold: 700 */
 
-/* VARIABLE FONTS */
-/* @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap"); */
-/* font-family: "Jura", sans-serif; */
+
+/* BITCRUSHER */
+
+@import url("//hello.myfonts.net/count/3ce57d");
+  
+@font-face {
+  font-family: 'BitcrusherCdLt-Regular';
+  src: url('webFonts/BitcrusherCdLt-Regular/font.woff2') format('woff2'), url('webFonts/BitcrusherCdLt-Regular/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BitcrusherCdRg-Regular';
+  src: url('webFonts/BitcrusherCdRg-Regular/font.woff2') format('woff2'), url('webFonts/BitcrusherCdRg-Regular/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BitcrusherCdEl-Regular';
+  src: url('webFonts/BitcrusherCdEl-Regular/font.woff2') format('woff2'), url('webFonts/BitcrusherCdEl-Regular/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BitcrusherCdHv-Regular';
+  src: url('webFonts/BitcrusherCdHv-Regular/font.woff2') format('woff2'), url('webFonts/BitcrusherCdHv-Regular/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BitcrusherCdRg-Bold';
+  src: url('webFonts/BitcrusherCdRg-Bold/font.woff2') format('woff2'), url('webFonts/BitcrusherCdRg-Bold/font.woff') format('woff');
+}
+
 
 /* FONT NUMBERS */
 
@@ -21,8 +50,8 @@
 
 
 :root {
-  --ff-logo: "Bai Jamjuree", helvetica, sans-serif;
-  --ff-brand: "Bai Jamjuree", helvetica, sans-serif;
+  --ff-brand-extra-light: "BitcrusherCdEl-Regular", helvetica, sans-serif;
+  --ff-brand-bold: "BitcrusherCdRg-Regular", helvetica, sans-serif;
   --ff-headline: "Bai Jamjuree", helvetica, sans-serif;
   --ff-body: "Bai Jamjuree", helvetica, sans-serif;
   --ff-number: "Rationale", sans-serif;
@@ -67,7 +96,7 @@
   --fs-xxl: 5rem;
   --fs-xl: 3.5rem;
   --fs-l: 3rem;
-  --fs-m: 3rem;
+  --fs-m: 2.25rem;
   --fs-s: 1.5rem;
   --fs-xs: 1.25rem;
   --fs-xxs: 1rem;
@@ -198,6 +227,9 @@
 
     /* --fs-body: 1.125rem; */
     --fs-body: 1.275rem;
+    --fs-brand-l: 5rem;  
+    --fs-brand-m: 3rem;  
+    --fs-brand-s: 1.75rem;   
     --fs-logo: 2rem;
     --fs-steps: 1.125rem;
     --fs-number: 40.625rem;
