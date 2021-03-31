@@ -26,7 +26,6 @@
 }
 
 .blog-post__intro {
-  font-size: var(--fs-m);
   line-height: 1.3;
   padding: 0 1rem 1rem 1rem;
   text-decoration: none;

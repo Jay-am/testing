@@ -732,8 +732,8 @@
     grid-column: 2 / 5;
   }
 
-  .p-4 {
-    padding-bottom: 1rem;
+  .planet__paragraph-6 {
+    padding: 4rem 0;
   }
 
   .btn-planet {
@@ -775,6 +775,10 @@
 
   .change__content {
     padding-top: 12rem;
+  }
+
+  .change__paragraph-4 {
+    padding: 4rem 0;
   }
 
   .uncover {
