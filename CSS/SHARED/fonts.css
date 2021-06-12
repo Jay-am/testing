@@ -12,6 +12,13 @@
 /* bold: 700 */
 
 
+/* FONT NUMBERS */
+
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+/* font-family: 'Rationale', sans-serif; */
+/* just one style available -> regular: 400 */
+
+
 /* BITCRUSHER */
 
 @import url("//hello.myfonts.net/count/3ce57d");
@@ -42,13 +49,6 @@
 }
 
 
-/* FONT NUMBERS */
-
-@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
-/* font-family: 'Rationale', sans-serif; */
-/* just one style available -> regular: 400 */
-
-
 :root {
   --ff-brand-extra-light: "BitcrusherCdEl-Regular", helvetica, sans-serif;
   --ff-brand-bold: "BitcrusherCdRg-Regular", helvetica, sans-serif;
@@ -56,6 +56,7 @@
   --ff-body: "Bai Jamjuree", helvetica, sans-serif;
   --ff-number: "Rationale", sans-serif;
 }
+
 
 
 /* FONT WEIGHTS */
