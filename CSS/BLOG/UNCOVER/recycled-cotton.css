@@ -1,9 +1,5 @@
 /* GENERAL */
 
-.recycled-cotton__headline {
-  padding-top: 16rem;
-}
-
 .last {
   padding-bottom: 4rem;
 }
@@ -21,7 +17,7 @@
 }
 
 .blockquote {
-  background: var(--clr-green-500);
+  background-color: var(--clr-green-500);
   border-left: none;
   margin: 0;
   padding: 0.5em 10px;
@@ -47,7 +43,7 @@
 }
 
 .recycled-cotton__source {
-  padding: 4rem 0 6rem 0;
+  padding: 4rem 0 10rem 0;
   margin: 0;
   font-style: italic;
   color: var(--clr-neutral-300);

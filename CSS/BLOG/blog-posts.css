@@ -1,5 +1,9 @@
 /* INTELLIGENCE */
 
+.blog-post__headline {
+  padding-top: 16rem;
+}
+
 .intelligence {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
