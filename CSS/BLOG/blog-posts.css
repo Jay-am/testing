@@ -24,6 +24,7 @@
 
 .intelligence__input {
   padding-left: 1rem;
+  min-width: 10ch;
 }
 
 /* BLOG POST */
